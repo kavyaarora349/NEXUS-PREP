@@ -1,0 +1,61 @@
+{
+  "subject": "High Performance and Quantum Computing",
+  "semester": 0,
+  "course_code": "B20EFS611",
+  "questions": [
+    {
+      "text": "a) What is volatile memory and non-volatile memory? State its advantages and 5 disadvantages. b) Discuss cache coherence in multiprocessor system. 5 c) Explain the architecture of distributed and shared memory computers. 5 d) Explain vector processor with 4-track pipelines. 5 e) Draw a block diagram of PRAM model. What are the components of PRAM model? 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write the differences between multiprocessing and multithreading. 5 b) How virtual memory is differed from cache memory? 5 c) Explain SIMD and MIMD architectures with suitable diagrams. 5 d) What are the major differences between Distributed and Shared memory computers? 5 Also outline the advantages and disadvantages of the two. e) Differentiate between multicore processor and multiprocessor. 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is parallel computing? Explain the types of parallel computing. 5 b) Illustrate Flynn's classification of parallel computer systems. 5 c) Discuss merits and demerits of parallel computation. 5 d) Write short notes on 5 (i) Data parallelism (ii) Pipelining e) Differentiate between minimum execution time and minimum cost-optimal execution 5 time OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Why do we need parallel computing? State applications of parallel computing. 5 b) Discuss scalability metrics in parallelism. 5 c) Explain UMA and ccNUMA. 5 d) What are the performance metrics of parallel systems? 5 e) Explain multi-programming and multitasking with suitable example. 5 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is Quantum Computing? State differences between Classical computing and 5 Quantum computing. b) What is qubit? What are X gate, Y gate and Z gate? 5 c) Explain CNOT and SWAP gates. 5 Page 1 of 3 d) Find the final state from the quantum circuit shown in figure 1. 5 Figure 1 e) Show that , where H indicates Hadamard 5 𝑛 gate, n represents qubits each in the state |01 an2d |−j1 is the computational basis state. 𝐻|0⟩⊗𝐻|0⟩⊗… ⊗𝐻|0⟩ = √2 𝑛 ∑𝑗=0 |j⟩ OR ⟩ ⟩",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain Moore’s law. 5 b) What is Hadamard gate? Why is it called as ? 5 c) What is a Quantum Circuit? Explain its properties. 5 √𝑁𝑂𝑇 d) Explain Toffoli gate. 5 e) What is the output state from the quantum circuit shown in figure 2. 5 Figure 2 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Examine the first iteration of Grover’s algorithm. 5 b) Explain Deutsch’s algorithm. 5 c) Write the properties of quantum gates arising from unitarity. 5 d) Show that a CZ gate can be implemented using a CNOT gate and Hadamard gates and 5 write down the corresponding circuit. e) Consider the quantum circuit in figure 3, find the final state if 5 (i) a=0, b=1 (ii) a=1, b=0 (iii) a=1, b=1 Figure 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss Shor’s Algorithm. 5 b) Draw schematic diagram of Grover’s algorithm and a Grover operator. 5 c) Discuss the generalization of Deutsch’s algorithm. 5 Page 2 of 3 d) Examine the states of the quantum system in figure 4 prior to measurement. 5 Figure 4 e) Determine the output state from the quantum circuit shown in figure 5. 5 Figure 5. *** Page 3 of 3 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {
+    "sectiona": {
+      "marks": 5,
+      "count": 1
+    }
+  }
+}

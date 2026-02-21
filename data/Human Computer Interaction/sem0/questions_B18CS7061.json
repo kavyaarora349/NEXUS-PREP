@@ -1,0 +1,56 @@
+{
+  "subject": "Human Computer Interaction",
+  "semester": 0,
+  "course_code": "B18CS7061",
+  "questions": [
+    {
+      "text": "a) Summarize the model of the structure of human memory with diagrammatic 9 illustration? b) State Gestalt theory. 4 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List out the devices used for virtual reality and 3d interaction in computer. Discuss 9 any two in detail. b) Illustrate the basic assumptions of the Fitts' Law model 4 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The designer does not begin with some preconceived idea. Rather, the idea is the 8 result of careful study and observation, and the design a product of that idea. Illustrate the various steps for Interaction design process? b) Explain the concept of Ergonomics with suitable examples. 4 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain in detail about interaction design process using block diagram 8 b) Explain in detail the Global structure hierarchical organization? 4 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the Principles to support usability. Consider the following usability objective. 9 Theatre booking clerks with low motivation, no computing experience and no previous training, working in a small and hectic box office, are able to learn to reserve or book seats within a one hour period. What measure could be taken and which techniques would you consider appropriate to test whether this objective was met? b) List out and Shneiderman’s eight Golden rules of interface design 4 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain Norman’s seven principle for transferring difficult task to simple one in design 9 b) Discuss in detail about the activities in waterfall model of software life cycle? 4 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe Nielen's Heuristic Evaluation method: What steps comprise it, how and 8 where is it used, how many evaluators are recommended, and where do the heuristics come from?\" b) Indicate the tradeoffs between Heuristic Evaluation and traditional user testing? 4 OR Page 1 of 2",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain about the factors that influence for choosing evaluation techniques. Outline 8 the approaches used for evaluating through expert analysis? b) Discuss the concept of goal of evaluation. 4 ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

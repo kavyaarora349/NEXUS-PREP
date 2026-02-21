@@ -1,0 +1,31 @@
+{
+  "subject": "Open Elective-Smart Materials",
+  "semester": 2,
+  "course_code": "B20MEO501",
+  "questions": [
+    {
+      "text": "(i) Piezo electric materials (ii) List the properties & characteristics of MR/ER fluids UNIT II Answer 1 out of 2 questions. 3  a     What are Smart Actuators? With schematic briefly explain the internal and external amplifications. b     Explain the Joule effect and Wiedemann effect with applicable diagrams. c 4  a     Define Smart Actuators? Give practical examples of smart actuators. b     Explain the Joule effect and Wiedemann effect with applicable diagrams. c UNIT III Answer 1 out of 2 questions. 5  a     Define composite material. How the composite materials can be classified and explain them in brief with necessary sketch? b     Give the governing equation of motion. Illustrate the effect of shear deformation in smart composites. c     Give your thought on the dynamics of smart composite in the application of beam Page #1 d     Briefly explain about the energy harvesting materials, illustrate them with examples 6  a     Explain briefly about the Micro and Macro-mechanics. Bring out the differences between Micro and Macro-mechanics b     Explain the principle of sensing Piezoelectric transducers. Also mention the practical usage of sensing Piezoelectric transducers in various applications c     With necessary sketch/diagrams, equations write short notes on",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "(i) Smart composites, micro and macro-mechanics (ii) Laminated plate theory applicable to laminated composites (iii) Energy Harvesting Materials UNIT IV Answer 1 out of 2 questions. 7  a     Briefly explain about smart corrosion protection coatings. Comment on the facts related to smart corrosion protection coatings and Self-healing materials. b     With practical examples explain the role of smart sensors in structural health monitoring c 8  a     Mention the differences between 'corrosion protection coatings' and 'self-healing materials' b     Briefly explain the role of accelerometers in sensing devices c     With necessary sketch/diagrams, equations write short notes on",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "(i) Effect of Electrode Pattern and Active Fibre Sensing (ii) MEMS product development and deployment devices (iii) Elastic memory composites -----End----- Page #2 Exam Date & Time: 28-Dec-2022 (09:30 AM - 12:30 PM)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {
+    "sectiona": {
+      "marks": 7,
+      "count": 1
+    }
+  }
+}

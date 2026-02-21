@@ -1,0 +1,68 @@
+{
+  "subject": "Introduction to Data Science",
+  "semester": 0,
+  "course_code": "B22CS0104",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data visualization is the process of turning the data into graphical representation. List and 10 explain any 4 different visualization charts with suitable example. b) Explain the following functions in excel with syntax and example. 10 i) count ii) concatenate iii) find iv) exact v) if c) XML is a form of semi-structured data which has tags and text. Sachin wants to import the 5 data from XML file to excel file. Help him to do the task by giving detailed steps to import. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Indian Team head coach Rahul Dravid was very frustrated because India lost the match against 10 Sri Lanka. Dravid wants to analyse the reason for defeat vigorously. Help Dravid to visualize the data using any two different charts in excel. Note: Assume the score report like overs, runs, wickets, etc on your own. b) Considering the marks of the student, generate the formula for displaying the grade and Pass 8 /Fail (Consider total marks 40 as pass) of a student. If student’s total marks is: i) <40 Display “F” ii) <60 Display “C” iii) <75 Display “B” iv) <90 Display “A” v) <=100 Display “O” DS PPS Total Pass/Fail Grade 25 14 94 56 79 84 59 98 85 47 98 91 20 19 c) Excel can restrict data entry to certain cells by using data validation. Explain the Data Validation 7 concept in excel with an example. Page 1 of 3 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Create a supplier database of 5 records with Supplier_Id as primary key, Supplier _Name, Products, Qty, Address, City, Phone_No and Pincode, Where Supplier _Name, Products, Qty 10 and Phone_No, should not be NULL. i) Create a database and table ii) Describe the table iii) Insert 5 records into the table iv) Display the contents in the table. b) A factory production in Bombay is manufacturing Bags using three machines, A, B and C. Of the 8 total output, machine A is responsible for 25%, machine B for 35% and machine C for the rest. It is known from previous experience with the machines that 5% of the output from machine A is defective, 4% from machine B and 2% from machine C. A bag is chosen at random from the production line and found to be defective. What is the probability that it is manufactured by: i) machine A ii) machine B iii) machine C? c) A graph G = (V, E) is a structure consisting of a set of objects called vertices V and a set of objects 7 called edges. List and explain any 3 different graphs. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) SQL is a structured query language that allows you to interact with a database. Describe the 10 DDL and DML commands with syntax and examples b) Physics teacher gave her class two tests. 35% of the class passed both tests and 62% of the 5 class passed the first test. What percent of those who passed the first test also passed the second test? c) A bag I contain 4 white and 6 black balls while another Bag II contains 4 white and 3 black 5 balls. One ball is drawn at random from one of the bags, and it is found to be black. Find the probability that it was drawn from Bag I. d) A jar contains black and white marbles. Two marbles are chosen without replacement. The 5 probability of selecting a black marble and then a white marble is 0.34, and the probability of selecting a black marble on the first draw is 0.47. What is the probability of selecting a white marble on the second draw, given that the first marble drawn was black? UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data science tools are application software or frameworks that help data science professionals 10 to perform various data science tasks. List and explain any 4 Data science tools. b) Solve this system of equations using Gaussian Elimination. x + y + z = 3 8 x + 2y + 3z = 0 x +3y + 2z = 3 c) Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to 7 become more accurate at predicting outcomes without being explicitly programmed to do so. Compare difference between AI and ML. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Machine learning provides the ability to automatically learn and improve based on experience. 8 Explain the different types of machine learning techniques with examples. b) The mean score for the population is 21, and the standard deviation is 5. Find the probability that a score falls on 8 i) Higher than 30 ii) Less than 20 Page 2 of 3 iii) Between 23 and 27 iv) Between 15 and 20 Use the following values 0.9641, 0.4207, 0.6554, 0.8849, 0.1151 for Z-Score values 1.80, -0.20, 0.40,1.20, -1.20 respectively. c) Regression analysis is a statistical method to model the relationship between a dependent 5 (target) and independent (predictor) variables. Differentiate between linear and logistic regression d) Markowitz Portfolio Optimization assists in the selection of the most efficient portfolio by 4 analysing various possible portfolios of the given securities by using simple mathematical calculation. Explain Markowitz Portfolio Optimization in detail. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data Science has emerged out as one of the most popular fields of 21st Century. Companies 10 employ Data Scientists to help them gain insights about the market and to better their products. Illustrate the life cycle of data science with neat sketch. b) Data Science has dominated almost all the industries of the todays world. There is no industry 10 in the world today that does not use data. List and explain at least 5 applications of data science. c) Find the Mean, Median and Standard Deviation for the following numbers. 5 11, 10, 12, 9, 8, 9, 11, 13,15 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the following statistical functions in excel with suitable example. 5 i. Standardization ii. Standard Normal Probability Distribution b) Descriptive statistics summarizes or describes the characteristics of a data set. Describe 5 descriptive statistics 5 c) Calculate the total interest paid on a car loan which has been availed from HDFC bank. For example, Rs.10,00,000 has been borrowed from a bank with annual interest rate of 5.2% and the customer needs to pay every month as shown in table below. Calculate the total interest rate paid for a loan availed of Rs.10,00,000 during 3 years. Sl No. A B 1 Principal Rs.10,00,000 2 Annual interest rate 5.20% 3 Year of the loan 3 4 Starting payment number 1 5 Ending payment number 36 total interest paid during 6 ? period d) In machine learning, a feature is a measurable property or attribute of a phenomenon being 5 observed. Explain Feature Engineering phase of data science life cycle e) Why Data Cleaning phase are very important in data science life cycle? Explain in detail. 5 *** Page 3 of 3 SRN 1st/2nd Semester B.Tech ME/EEE/ECE/CV/CSE/CIT Semester End Examination September 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,56 @@
+{
+  "subject": "Cryptography and Network Security",
+  "semester": 0,
+  "course_code": "B19CS7020",
+  "questions": [
+    {
+      "text": "a) Some attacks impact the system /system resources indirectly rather than directly, 10 identify the attack and Comment on any two such attacks.Suggest any five Security mechanisms to counter attack the security attack. b) Illustrate the advanced standard symmetric encryption protocol which does not 10 make use of Fiestel structure in its implementation c) Sonali and Siddhi are interns at a network company, they are to follow a document 5 to design a single key encryptions technique .Educate them on the ingredients of such a technique. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Comment on any three active attacks .Also ,List and state the parametersthat 10 influences the success of a symmetric block cipher b) Data Encryption Standard is a classic encryption algorithm with Fiestel structure, 10 discuss DES algorithm in detail. c) Zoya wants three keys and three executions of DES algorithm in her 5 implementation, Identify and suggest her the algorithm and explain UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The algorithm designed by Rivest Shamir and Aldeman from MIT is one of the most 10 used algorithm .Briefly explain the steps involved in such an algorithm ,also encrypt the text of size M=2,if the prime numbers chosen are 3 and 11, verify the resulting cipher by decrypting. b) Explain Secure Socket Layer, its salient features and benefits of SSL. 10 c) Steven and Bob wants to use two different keys for their encryption setup, they are 5 building a poster to represent the structure of public key encryption using the two different keys. Help them in creating a poster OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Nirav and Vijay want to exchange the keys which they would use in their public key 10 encryption, Suggest and explain them with Diffie Hellmann key exchange algorithm .Also, explain them the significance of the concept of Digital signature with relevant diagram. b) Briefly describe the working /structure of hash function which generates a message 10 digest of 512 bits. c) Explain the steps with formula , involved in RSA algorithm 5 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Aarti is requesting for a service from a server, illustrate through a diagram the 10 sequence that is followed for client /server authentication exchange to obtain service following a Kerberos version 4 message exchange model. b) With a neat diagram of IP security scenario,explain the applications of IPsec 10 Page 1 of 2 c) Briefly explain TLS Record Protocol Operation 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) An organization wants to restructure its email security service, they want to adopt 10 Pretty Good Privacy (PGP), convince them by explaining the “authentication only” and “confidentiality only” services of PGP with neat relevant diagrams. b) Scarlett want to use public key encryption and in this context ,she want her public 10 key to be certified, explain the X.509 format as an option to her to be used. c) Explain the five header fields defined in MIME to overcome the problems and 5 limitation in of SMTP UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A corporation wants a check on network-based security threats and also safe 10 connectivity to internet, assist them with different types of firewalls b) Ganesh has the antivirus package which implement Digital immune system and 10 behavior-blocking software, explain both briefly with diagram c) Intrusion detection serves as a second line defense when intrusion prevention 5 system fails ,present profiles of behavior of intruders and authorized users in such a system diagrammatically and also identify the approaches to intrusion detection OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Ramanujam is ethical hacker, what password selection strategies will he be aware 10 of? He also uses UNIX password scheme ,discuss how his UNIX password scheme works with relevant diagram b) In the race of virus and antivirus, an intern wants to pursue a career as antivirus 10 writer. Explain the different phases of virus in its lifetime and classification of virus according to target and concealment strategies to the intern. c) Comment on packet filtering firewall 5 *** Page 2 of 2 SRN 7th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

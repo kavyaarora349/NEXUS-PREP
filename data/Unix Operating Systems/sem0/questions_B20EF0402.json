@@ -1,0 +1,68 @@
+{
+  "subject": "Unix Operating Systems",
+  "semester": 0,
+  "course_code": "B20EF0402",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper. UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) An operating system is a program on which application programs are executed and acts as 10 a communication bridge (interface) between the user and the computer hardware. Operating system provides some typical services for its users Explain. b) Summarise Unix operating system structure. 10 c) Most of the users use Windows operating system. Compare Unix with Windows operating 5 system OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A program is an executable file while a process is an instance of the program in execution. 10 Discuss Process management in Unix. b) Operating systems are classified on various parameters viz number of users, number of 10 processes, type of operations etc. Discuss different types depending upon operations. c) Explain some of the file management system calls in Unix. 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Unix is a multi-user and multi-processing operating system. Explain Multiple processes 10 running concurrently in Unix. b) The UNIX kernel maintains a process through two key data structures, the process table, 10 and the user structure. Describe the main information included in both the data structures. c) The round robin scheduling makes the implicit assumption that all processes in the 5 system are equally important. Explain round robin scheduling algorithm with example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) As only one CPU is available in a uniprocessor system, a choice has to be made for which 10 process to run next. It is the scheduler to make the choice. Explain fundamental concepts of scheduler and scheduling algorithms. b) Transition means a change from one state or condition to another. Explain with neat 10 diagram State transition of 5 state process model c) Each process has a number of attributes that are used by UNIX for process control. 5 Explain process image and attributes in Unix. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) UNIX is a multi-user system; its scheduling algorithm was designed to provide a good 10 response to interactive processes. Explain in detail UNIX Scheduling Algorithm and Context Switch. Page 1 of 2 b) Page replacement is very important in the main memory. Explain 10 i) The optimal page replacement algorithm ii) The first-in-first-out (FIFO) page replacement algorithm c) Demonstrate Process Swapping in UNIX operating systems. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate the demand paging in Unix operating system 10 b) Operating system uses many replacement algorithms. Explain clock replacement 10 algorithm with neat diagram c) Swapping is simple and appropriate for the system with the small main memory space. 5 Illustrate the effects of swapping in detail. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) When a user logs in, the UNIX system puts the user in the home directory. Explain Home 10 and Working Directories. b) Explain file system organization considering example of Unix file system directory 10 c) Explain the physical structure of the Disk. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) UNIX operating system supports the different types of files. Illustrate Directories in Unix 10 operating system. b) Explain the role of socket files in the Unix operating system. 10 c) Path Names are used to access the files in the operating systems. Explain absolute and 5 relative pathname. *** Page 2 of 2 SRN 4th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

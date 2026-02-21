@@ -1,0 +1,140 @@
+{
+  "subject": "Object Oriented Analysis and Design",
+  "semester": 0,
+  "course_code": "B19CS5053",
+  "questions": [
+    {
+      "text": "a) Elements of object model describes the key terms that relates to any kind of the 7 object oriented system. Explain in brief the major elements of Object Model that supports all kinds of object oriented system. b) Consider the requirements for the electronic system of a Computer System, 6 Television and Mobile Phone. List and Describe the properties or attributes that are common to all of these complex systems OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Foundations of object model plays an important role in order to develop any object 6 oriented system from scratch. Describe the foundations of the object model that are necessary to develop all kinds of object oriented system. b) Topology help us to understand and identify the problem complexity in an easiest 7 way. Explain the topologies of object oriented programming languages with a neat sketch. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Quality plays a major role in determining the efficiency of any kind of object 6 oriented system. Explain the different metrics to measure the Quality of an Abstraction b) Identifying the relationships among classes are the most important challenging task 6 to determine stability of the object oriented system development. Describe any 2 relationships that are necessary to develop an object oriented system with neat sketch. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Goldberg states that the appropriate choice of objects depends of the purpose to 6 which the application will be put and the granularity of information to be manipulated. Explain the identification and refinement of key abstractions and mechanisms. b) Identifying the classes and objects under object oriented analysis is one of the major 6 task during the object oriented development. Explain CRC cards and Use Case Analysis to identify the classes and objects using object oriented analysis. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Timing diagrams show how an entity responds to various events by changing from 6 one state to another. Design the timing diagram for Reva Hostel management system with a neat sketch that starts from the student entering into the hostel until leave and justify it. Page 1 of 2 b) Consider the Air ticket reservation system. There are a number of flights and each 7 flight has a predetermined number of seats available in business class, economy class and so on. The fare between two stations is determined using the class of travel and distance. Passengers can enquire about availability of seats for any class. The reservation system should handle the queries and perform necessary reservations/cancellation operations. With a neat sketch, Construct the communication diagram for the same. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) “Use Cases Diagrams build the essential bridge between the user and the system” – 6 With a neat sketch, Construct the Use Case diagram for Library management system of REVA University and justify the statement. b) SDLC is the most important activity in developing any kind of software development 7 or application. Explain in detail about the Macro process of SDLC with a neat sketch. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Consider a web application for Reva Vacation Tracking System starts from an 12 employee applying leave until the completion by applying all the 4 different stages in the SDLC starting from the requirements gathering until the deployment. Illustrate the above mentioned scenario with suitable diagrams. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Consider a web application for Reva Student ERP Portal that supports and maintains all 12 the information of a student starts from joining the university until the completion of the degree from I to VIII semester by applying all the 4 different stages in the SDLC starting from the requirements gathering until the deployment. Illustrate the above mentioned scenario with suitable diagrams. ****** Page 2 of 2 SRN 5th Semester B.Tech Semester End Examination Feb 2022 Course Title: IoT Programming and Application Course Code: B19CS5052 – 26526 Time: 90 Minutes Max. Marks: 50 Note: Answer ONE FULL question from each section. Marks UNIT – I a) 1. Mr. Ram gets a notification on his mobile saying his refrigerator has no milk in stock. 6 a) What is IoT? Explain how IoT improve the life of a common man by considering the above example? b) What is a sketch? Explain the two functions required to build a sketch with an example. 7 OR a) Use the serial monitor in Arduino to display “Good Morning” and develop the program 6 for the same in the Arduino. b) What is MQTT protocol? What for it is used in building IoT applications? Explain with an 7 example. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "The government of India decides to provide an intrusion detection system to all the IAS officials 6 to enhance the safety and security measures. In this regard, the government has invited proposals to setup the project by private firms. Develop a complete detailed requirement and design document to setup an intrusion detection system to the houses of IAS officials. The system must monitor the house from outside and detect any person trespassing and found suspicious and report to the authority. For the above scenario, a) Give the schematic of the components used in the intrusion detection system and develop the schematic of the circuit b) Indicate the external libraries used and develop the function to read motion sensor data. 6",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "The APEX apartment has the plan to bring the smart lighting system in place in all the blocks of 5 the gated community. The requirement of the project is to get the status of the lights in a street location and if required to switch ON or OFF the light remotely. For the above problem, a) Give the schematic of the components used in lighting control system and design and explain the schematic of the circuit. b) Develop a flow in Node-RED that will receives an HTTP request and tweets a message. 7 Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "The NALANDA university have plans to setup a smart parking system at all the locations of the 6 University to bring an automated smooth parking system to enable the students and faculty to have convenient parking. The solution to this problem is to monitor whether the car is parked or not and update the information to the customer in the app. For this above project, a) Give the schematic of the components used in the smart parking system and design and explain the schematic of the circuit b) Give the PHP code for establishing database connectivity with the server and receive and store 7 data. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "The PQR organization has plans to setup a temperature monitoring system for a chemical plant. 6 The project describes to have a temperature monitoring of the plant and transmit the data to a web application where it is displayed as web-based analytic dashboard. For this project, a) Give the schematic of the components used in the temperature monitoring system and develop the schematic of the circuit. b) Develop a code to read data from the sensor and convert it into Fahrenheit 7 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "The BBMP has the plan of implementing an energy conservation system by controlling the usage 5 of electricity depending on the sunlight. The goal of the project is to understand the sunlight details in an area and automatically control the lights in the streets without any human intervention. a) Give the schematic of the components used in the energy conservation system and develop the schematic of the circuit to implement the energy conservation system. b) Develop the code for publishing an MQTT message in this project. 7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss the security requirements in IoT. 5 b) Mention the various security risks and discuss the challenges in IoT. 7 ****** Page 2 of 2 SRN 5th Semester B Tech Semester End Examination Feb 2022 Course Title: Software Testing Course Code: B19CS5053 - 26527 Time: 90 minutes Max. Marks: 50 Note: Answer ONE FULL question from each Unit. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) NextDate is a function of three variables: month, date, and year. It returns the 8 date of the day after the input date. Develop a pseudocode to represent the increased input validation. b) Much of testing literature is mired in confusing (and sometimes inconsistent) 5 terminology, probably because testing technology has evolved over decades and via scores of writers. Express any 5 Basic definitions of Software testing. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Software Testing Principle is a process of testing the result or output of a product 7 with an expected output of a client. In other words, we can say that the evaluation of systems or components to find the specified requirements. Express the characteristics of Software testing. b) Fault taxonomy is a key starting point for providing techniques and methods for 6 assessing the quality of software and in particular of component-based systems. Illustrate 5 different types of faults available in Testing. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Boundary value analysis is a software testing technique in which tests are 6 designed to include representatives of boundary values in a range. Express any two types of Boundary value analysis with a neat graphical representation. b) One of the fundamental limitations of specification-based testing is that it is 6 impossible to know either the extent of redundancy or the possibility of gaps corresponding to the way a set of functional test cases exercise a program. Test coverage metrics are a device to measure the extent to which a set of test cases cover (or exercises) a program. Illustrate Miller’s test coverage metrics with an example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The mathematical notion of a “basis” has attractive possibilities for structural 6 testing. Certain sets can have a basis; and when they do, the basis has very important properties with respect to the entire set. Mathematicians usually define a basis in terms of a structure called a “vector space,” which is a set of elements (called vectors) as well as operations that correspond to multiplication and addition defined for the vectors. Express MCabe’s basis path method with an example. Page 1 of 2 b) The important aspect of equivalence classes is that they form a partition of a set, 6 where partition refers to a collection of mutually disjoint subsets, the union of which is the entire set. This has two important implications for testing—the fact that the entire set is represented provides a form of completeness, and the disjointedness ensures a form of non-redundancy. Define Equivalence class. Express any two types of Equivalence class testing with appropriate diagrams. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Selenium IDE is a Firefox Add-on developed originally by Shinya Kasatani as a way 7 to use the original Selenium Core code without having to copy Selenium Core onto the server. Illustrate in detail the steps involved in the Recording of Selenium. b) Ramya has recorded the testing procedure of “First Test” application using 6 Selenium IDE. Express the Tools or Components used by Ramya to run the test under Selenium IDE (any 6) . OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Having readable code and introducing comments can make maintenance easier, 6 Illustrate how commenting is performed on Selenium IDE. b) John has recorded the testing procedure of “MYFIRSTTEST” application using 7 Selenium IDE. He wants to validate elements available on the application under test. Express the two mechanisms followed by John to validate the elements of application under test. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A filter is a program or section of code that is designed to examine each input or 6 output request for certain qualifying criteria and then process or forward it accordingly. A filter is \"pass-through\" code that takes input data, makes some specific decision about it and possible transformation of it, and passes it on to another program in a kind of pipeline. Express the two types of filters. b) Selenium WebDriver is a collection of open source APIs which are used to 6 automate the testing of a web application. Describe the selenium web driver with a neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Selenium is an open-source tool that automates web browsers. It provides a 8 single interface that lets you write test scripts in programming languages like Ruby, Java, NodeJS, PHP, Perl, Python, and C#, among others. Summarize the following.  Selenium WebDriver  Selenium Grid  Selenium IDE  Selenium RC b) ‘FindElement’ command is used to uniquely identify a web element within the 4 web page, whereas, ‘FindElements’ command is used to uniquely identify the list of web elements within the web page. Examine the differences between ‘FindElement’ and ‘FindElements’ ****** Page 2 of 2 SRN 5th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

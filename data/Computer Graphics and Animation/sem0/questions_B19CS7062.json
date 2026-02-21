@@ -1,0 +1,56 @@
+{
+  "subject": "Computer Graphics and Animation",
+  "semester": 0,
+  "course_code": "B19CS7062",
+  "questions": [
+    {
+      "text": "a) Computer graphics produces images of all aspects of the objects. Explain the 10 applications of computer graphics. And With an aid of a functional schematic, describe the graphics pipeline with major steps in the imaging process.Explain the elements of a graphics system, with a neat diagram. b) The plotter was the first computer output device that could print graphics as well as 10 accommodate full-size engineering and architectural drawings. Explain the concept of pen-plotter model with a diagram, using which construct a fragment of program to generate the shown figure, c) A pinhole camera is a simple camera without a lens but with a tiny aperture. Explain 5 the concept of pinhole camera which is an example of an imaging system. Derive the expression for angle of view. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Briefly explain the applications of computer graphics. And With an aid of a functional 10 schematic, describe the graphics pipeline with major steps in the imaging process. b) Sierpinski triangle is a fractal and attractive fixed set with the overall shape of an 10 equilateral triangle which subdivides recursively into smaller triangles.Develop an open GL recursive program for 2D sierpinski gasket, with relevant comments c) With a neat diagram, explain the human visual system 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Develop a program to draw a small box at each location on the screen where the 10 mouse is cursor is located and click. Also define the menu for right button to increase and decrease the size of the box. Define exit for middle button. b) The geometric transformations play a vital role in generating images of 3D objects 10 with the help of the transformations. Illustrate on 3D transformations (translation, scaling and rotation) in homogenous coordinate system c) The measure of a device can be given by various modes. Explain the various graphics 5 input modes. OR Page 1 of 2",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Develop an OpenGL code to develop a colored cube and make the cube to rotate 10 along x,y and z axis by using keyboard or mouse interaction. b) The geometric transformations play a vital role in generating images of 3D objects 10 with the help of the transformations. Explain the following i)Concatenation of transformation ii)Rotation about a fixed point iii)General rotation c) Construct an openGL program to demonstrate the use of hierarchical menus to draw 5 the rectangle, to increase the size and to decrease the size of rectangle. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the graphics (OpenGL) functions for orthogonal and perspective projections 10 with suitable examples. Also, determine the final projection matrices for the same. b) Develop an OpenGL code to clip the line using Liang Barsky line clipping algorithm. 10 Also give its advantages over cohen Sutherland line clipping algorithm c) Explain the different classical views, with neat diagrams. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Cohen Sutherland Clipping algorithm clips the line by calculating end-points and 10 deciding whether to reject or accept lines. Explain the procedure and steps involved in clipping the line using Cohen Sutherland line clipping algorithm by providing the equations for all the cases. b) Explain the graphics functions gluLookAt(), glFrustum(), gluPerspective() with suitable 10 examples. Also determine the final projection matrices for parallel and perspective viewing. c) Apply the Bresenham Line Drawing Algorithm for the line with end points (9,18) and 5 (14,22). UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Layers are transparent sheets of acetate stacked on top of each other over which the 10 objects are drawn. Explain in detail how to add or delete a layer, viewing a layer, creating texts. b) The physical movement of image parts through simple mechanics for instance moving 10 images is animation. Explain how to create animation using Flash. c) Explain how to create text boxes for user input or for dynamically updating text in 5 Flash. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Flash is Windows-based software where we can start it using the Start menu button 10 and then clicking at the Flash submenus and options. Explain in detail the flash work environment. b) Explain how to create and modify shapes for the artwork using Flash Drawing Tools 10 c) Animation is a method in which figures are manipulated to appear as moving images. 5 Discuss the various types of Animation. *** Page 2 of 2 SRN 7th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,68 @@
+{
+  "subject": "Probability and Statistics",
+  "semester": 0,
+  "course_code": "B22AS0203",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper. UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Fit a parabola Page 1 of 3 y  a  b x  c x 2 using least square method for the following data. 6 x -2 -1 0 1 2 y -3.150 -1.390 0.620 2.886 5.378 b ) The daily temperature is recorded in a city Russia in a year is given below. Calculate mean 6 deviation. Temp(inoC) -40 to -30 -30 to -20 -20- to -10 -10 to 0 0 to 10 10 to 20 20 to 30 No. of days 10 18 30 42 65 180 20 c) Compute the coefficient of correlation using the lines of regression for the following data. 6 X 1 2 3 4 5 6 7 Y 9 8 10 12 11 13 14 d) Ten students got the following percentage of marks in two subjects x and y. Compute their 7 Rank correlation coefficient. Marks in x 78 36 98 25 75 82 90 62 65 39 Marks in y 84 51 91 60 68 62 86 58 53 47 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Fit a parabola y  a e b x using least square method for the following data. 6 X 5 6 7 8 9 10 Y 133 55 23 7 2 2 b) C alculate standard deviation for the following data, 6 CI 100-109 110-119 120-129 130-139 140-149 150-159 160-169 170-179 Frequency 15 44 133 150 125 82 35 16 c) T he two lines of regression for the variables x and y are given by x19.30.87y and y 11.640.9x. Find x , y SRN 6 and correlation coefficient. d) Compute the Rank correlation coefficient for the following marks in Mathematics of 8 students 7 selected at random in SSLC and PU examination SSLC 85 60 73 40 89 54 70 68 PU 92 74 64 50 80 63 61 80 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find the value of k such that the following distribution represents a finite probability 6 distribution. Hence find its mean and standard deviation. X -3 -2 -1 0 1 2 3 p(x) k 2k 3k 4k 3k 2k K b) F ind mean and standard deviation of Binomial distribution 6 c) Find k such that Page 2 of 3 f ( x )   0 k , x o 2 , t h e 0 r w  i s x e  3 is a p.d.f. Find ( i ) P (1  x  2 ) a n d ( i i ) P ( x  1 ) 6 d) If x is a normal variate with mean 30 and standard deviation 5. Find the probabilities that (i) 2 6  x  4 0 (ii) x  4 5 7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The probability distribution of a finite random variables X is given by the following table. Find 6 the value of k, mean and standard deviation. X -2 -1 0 1 2 3 p(x) 0.1 k 0.2 2k 0.3 K b) F ind mean and standard deviation of Poisson distribution 6 c) An Airline knows that 5% of the people making reservations on a certain flight will not turn 6 up. Consequently, their policy is to sell 52 tickets for a flight that can only hold 50 people. What is the probability that there will be a seat for every passenger who turns up. d) The marks of 1000 students in an examination follows a normal distribution with mean 70 and 7 standard deviation 5. Find the number of students whose marks will be (i) less than 65 (ii) more than 75 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The joint probability distribution table for two random variables X and Y is as follows. 6 X\\Y -4 2 7 1 1/8 ¼ 1/8 5 ¼ 1/8 1/8 Determine (i) the marginal probability distributions of X and Y (ii) E(X), E(Y) and E(XY) b) X and Y are random variables having joint density function f ( x , y )   4 x y 0 ; 0 ,  x o  t h 1 , 1 e r w  i s y e  1 6 verify that E(X+Y) =E(X)+E(Y) c) Find the unique fixed probability vector of the regular stochastic matrix A   3 1 / / 4 2 1 1 / / 4 2  6 d) Three boys A, B , C are throwing a ball to each other. A always throws the ball to B and B 7 always throw the ball to C. C is just as likely to throw the ball to B as to A. If C was the first person to throw the ball find the probabilities that after three follows (i) A has the ball (ii) B has the ball and (ii) C has the ball. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The joint probability distribution table for two random variables X and Y is as follows. 6 X\\Y 1 3 9 2 1/8 1/24 1/12 4 1/4 1/4 0 6 1/8 1/24 1/12 Compute (i) Co-Variance and (ii) Correlation of the random variables X and Y b) The joint density function of two continuous random variables X and Y is given by 6 kxy ; 0 x4,1 y5 f(x,y)  0 , otherwise find (i) the value of k and (ii) E(x) and E(Y) c) Show that (a, b) is a fixed point of the stochastic matrix Page 3 of 3 P   1  a b 1 b  a  . What is the 6 associated fixed probability vector? d) A gambler luck as follows a pattern. If he wins a game the probability of winning the next 7 game is 0.6. however, is he losing a game the probability of loosing the next game is 0.7. There is an even chance of gambler winning the first game. If so (i) what is the probability of he is winning the second game and (ii) in the long run, how often he will win. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A manufactured claimed that at least 95% of the equipment which he supplied to a factory 6 conformed to specifications. An examination of a sample of 200 pieces of equipment revealed that 18 of them were faulty. Test his claim at 1% level of significance. b) The mean and SD of the maximum loads supported by 60 cables are 11.09 tons and 0.73 tons 6 respectively. Find 95% confidence limit for mean of the maximum loads of all cables produced by the company. c) Ten individuals are chosen at random from a population and their heights in inches are found 6 to be 63,63,66,67,68,69,70,70,71,71. Test the hypothesis that the mean height of the universe is 66 inches. (t for 9 d.f is 2.265) 0.05 d) A sample analysis of examination results of 500 students was made. It was found that 220 students had failed, 170 students had scored third class, 90 students second class and 20 students first class. Do these figures support the general examination results which is in the ratio 4:3:2:1 for respective categories. ( 20 .0 5 7 .8 1 f o r 3 d . f )   7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A coin is tossed 1000 times and turns up 540 times. Decide on hypothesis that the coin is 6 unbiased at 1% level of significance. b) A survey was conducted in a slum locality of 2000 families by selecting a sample of size 800. 6 It was revealed that 180 families were illiterate. Find the probability of illiterate families in the population of 2000. c) A machine is expected to produce nails of length 3 inches. A random of 25 nails gave an average length of 3% inch with standard deviation 03. Can it be said that the machine is producing nails as per specification? ( t 0 .0 5 f o r 2 4 d . f i s 2 .0 6 4 ) 6 d) A die is thrown 264 times and the number appearing on the fall (x) follows the following frequency distribution. Calculate the value of 2 7  . X 1 2 3 4 5 6 F 40 32 28 58 54 60 *** SRN 3rd Semester B.Tech CSE/CIT Semester End Examination August 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

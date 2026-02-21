@@ -1,0 +1,44 @@
+{
+  "subject": "Advanced Web Technology",
+  "semester": 0,
+  "course_code": "B18CS7064",
+  "questions": [
+    {
+      "text": "a) The term HTML5 is essentially a buzzword that refers to a set of modern web 7 technologies.HTML5 introduces a number of new elements and attributes that can help you in building modern websites. Discuss the most prominent features introduced in HTML5. b) CSS3, the scope of the specification increased significantly and the progress on 6 different CSS modules started to differ so much, that it became more effective to develop and release recommendations separately per module. Discuss the various module of CSS3. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) HTML documents are composed of textual content and HTML elements. The term 7 HTML element is often used interchangeably with the term tag. Explain the following CSS tags, with an suitable example : i) Generic selectors ii) Background images iii) Attribute selector b) External style sheets are ideal for giving most or all of the pages on your Web site 6 a consistent look. Illustrate the steps to create an external style sheet using CSS3 with an example. UNIT – II 3 a) C# is designed for Common Language Infrastructure (CLI), which consists of the 6 executable code and runtime environment that allows use of various high-level languages on different computer platforms and architectures. Explain the C# features for creating robust and durable applications. b) Java, being one of the most prominent programming languages, provides 6 extensive support to databases. It helps us to connect to various databases through JDBC .What is JDBC? Explain the General Architecture. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) AngularJS is a JavaScript framework that is mainly used for Frontend Development. 6 How AngularJS Integrates with HTML. Creating an AngularJS Application using various directives. b) AngularJS is a toolset for building the framework most suited to your application 6 development. It is fully extensible and works well with other libraries. Explain the MVC Architecture in detail. UNIT – III Page 1 of 2",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Ruby is an interpreted, high-level, general-purpose programming language which 7 supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity. Ruby variables are locations which hold data to be used in the programs. What are Ruby variables? Explain Ruby data types with suitable examples. b) A regular expression is a special sequence of characters that helps you match or 6 find other strings or sets of strings using a specialized syntax held in a pattern. Write a ruby program to search the pattern in the given string. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) AJAX allows web pages to be updated asynchronously by exchanging data with a 7 web server behind the scenes. Explain the Basic communication techniques of Ajax with respect to make a request to the server and handling the response from server. b) Ajax is not a technology, but rather a programming concept. HTML and CSS can be 6 used in combination to mark up and style information. The webpage can be modified by JavaScript to dynamically display—and allow the user to interact with the new information. The Ajax Patterns show how people have used the design principles effectively in real-world Ajax applications. Explain about Fallback Patterns UNIT – IV 7 a) If S3 was implemented as an object-oriented code library instead of a web service, 6 it have two classes.Explain the Object oriented design of S3. b) A resource is something that can be stored on a computer and represented as a 6 stream of bits: a document, a row in a database, or the result of running an algorithm. Explain the three types of resources provided by RESTful S3 service. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A Web API is a development in Web services where emphasis has been moving to 6 simpler representational state transfer (REST) based communications.Resource- Oriented Architecture is also RESTful service, it’s a set of design criteria. Explain the Resource-Oriented Architecture. b) Ajax is a set of web development techniques that uses various web technologies 6 on the client-side to create asynchronous web applications. Ajax applications have become very popular during the past couple of years. Discuss advantages and disadvantages of Ajax applications as rest clients. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

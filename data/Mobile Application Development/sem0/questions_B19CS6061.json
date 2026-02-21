@@ -1,0 +1,56 @@
+{
+  "subject": "Mobile Application Development",
+  "semester": 0,
+  "course_code": "B19CS6061",
+  "questions": [
+    {
+      "text": "a) A protocol specifies features such as the addressing format, the number of bits used, 12 and the mechanisms for determining the grouping size of data chunks, among other things. Explain five different mobile computing protocols. b) A collection of data network elements that have been brought together to form a 13 network system that provides services for the \"Global System for Mobile Communication.\" Draw a diagram to depict the GSM architecture. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) When two mobile devices form a network, several elements such as traffic control, 12 signaling, transmitting and receiving radio signals, and so on must be considered. Discuss the functions of the base station controller and the transceiver station. b) Symbian is a mobile operating system (OS) and computing platform for smartphones 13 that has been discontinued. With a diagram, explain the architecture of the Symbian operating system. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The Android Emulator simulates Android devices on your PC, allowing you to test your 12 app on a variety of devices and API levels without having to own each one. List and explain Android Emulator's limitations. b) The properties of an Android phone, tablet, Wear OS, Android TV, or Automotive OS 13 device that you want to emulate in the Android Emulator are defined by an Android Virtual Device (AVD). Explain the Android virtual device, which is the simplest approach to test the programme, using a clear diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The fundamental building blocks of Android app development are application 12 components. Describe the five categories of app components. b) The Android operating system is a collection of software modules. With a clean 13 diagram, describe in detail the five divisions and four primary layers of the Android Operating System. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The lifespan of an activity is specified by predefined methods that listen to various 13 stages of the activity. Define onCreate(), onStart(), onResume(), onDestroy(), onStop(), and onPause() (). When do they get called during an Activity's lifecycle? b) The simplest basic layout is the LinearLayout, which arranges its pieces in a horizontal or 12 vertical order. To arrange controls within a linear layout, discuss any 5 LinearLayout Page 1 of 2 properties. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Layouts are essentially containers for Views, which are the elements that are displayed 13 on the screen. List and describe any five layouts, then demonstrate how to use necessary properties to combine button and TextView components in a Relative layout. b) With Android's built-in classes and methods, drawing images is simple. Give a java 12 application that uses the ShapeDrawable class to draw a rectangle. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The android.view is referred to as view. The View class is the superclass for all GUI 13 components such as TextView, ImageView, and Button. Discuss the importance of views in Android apps. b) A dialogue is a smaller window that appears when the user interacts with it. List and 12 describe the six types of dialogue windows provided by the Android SDK. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The android.view package contains a large number of View classes. List and explain the 12 TextView subclass's view methods. b) In both landscape and portrait mode, an application must organise Views. Implementing 13 pieces in the application is the solution. Describe the processes for creating Fragments using XML and Java code. *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

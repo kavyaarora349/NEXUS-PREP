@@ -1,0 +1,19 @@
+{
+  "subject": "Web Technologies",
+  "semester": 2,
+  "course_code": "B20EF0501",
+  "questions": [
+    {
+      "text": "i) Form Events ii) Mouse Events c     JavaScript adds dynamic behavior to the webpage and adds special effects to the webpage. Write a script to demonstrate the use of Date object. UNIT IV Answer 1 out of 2 questions. 7 a b      PHP provides a convenient way of working with files via its rich collection of built in functions. Explain with suitable example the two basic techniques for read/writing files in PHP. c     In order to utilize objects, one must understand the classes that define them.Although a few classes are built into PHP, you will likely be working primarily with your own classes. Classes should be defined in their own files so they can be imported into multiple scripts. With suitable syntax explain the class and object concept in PHP. 8 a      A database is a system for storing and taking care of data Illustrate how to make a connection to a database Page #2 using the mysqli and PDO approaches. b      PHP was among the first server-side languages that could be embedded into HTML, making it easier to add functionality to web pages without needing to call external files for data. Write a program to create Index Based and Associative Arrays in PHP c     PHP is a language which is used as server side programming language. It can add dynamic behavior and programming logic to web pages. Write a PHP script to finding leap year and demonstrate the programming concepts using form. -----End----- Page #3 Exam Date & Time: 28-Dec-2022 (09:30 AM - 12:30 PM)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {
+    "sectiona": {
+      "marks": 5,
+      "count": 1
+    }
+  }
+}

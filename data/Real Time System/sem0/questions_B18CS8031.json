@@ -1,0 +1,56 @@
+{
+  "subject": "Real Time System",
+  "semester": 0,
+  "course_code": "B18CS8031",
+  "questions": [
+    {
+      "text": "a) Justify the role of periodic task model as a reference real time system focusing at i) 10 Aperiodic and Sporadic Tasks ii) Periods, Execution Times, and Phases of Periodic Tasks. b) Justify the role of temporal parameters of a real-time workload on processors 10 consisting of jobs in a real time system focusing at the following i) Execution Time and ii) Fixed, Jittered, and Sporadic Release Times. c) Considering deadbet control and Kalman filter, define the concept of Control-Law 5 Computations. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With suitable examples, compare and contrast the working of Hard Real Time 10 Systems with the working of Soft Real Time Systems. b) Illustrate the selection of sampling period and multi-rate systems considering an 10 analog single-input/single-output PID (Proportional, Integral, and Derivative) controller. c) Outline the role of Precedence Graph and Task Graph in the Data and Control 5 dependencies among jobs during execution. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Justify how the validation problem accentuates while the scheduling algorithm is 10 priority-driven and job parameters are subject to variability with suitable examples. b) Illustrate the concept of Non-optimality in the following algorithms: 10 i) Non-preemptive EDF algorithm ii) EDF algorithm for multiprocessor scheduling. c) Compare and contrast the following two scheduling approaches used in scheduling 5 the tasks in a real time system. i) Clock driven ii) Weighted round robin. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Compare and contrast the following terms with respect to any real-time system: 10 (I) Offline Scheduling Vs. Online Scheduling (ii)Aperiodic jobs Vs. Sporadic Jobs b) Considering the task of optimizing of EDF and LST algorithms, illustrate the concept 10 of transforming a non-EDF schedule into an EDF schedule, and also illustrate the working of LST algorithm. c) Define- Predictability of job execution. Prove that the execution of every job in a set 5 of independent, pre-emptable jobs with fixed release times is predictable when scheduled in a priority-driven manner on one processor. Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With an illustrative examples, compare and contrast the Fixed-Priority Scheduling 10 and Priority-Ceiling Protocol for controlling the accesses to resources of periodic tasks. b) Justify how a job can be blocked for at most the duration of one critical section 10 when resource accesses of preemptive priority-driven jobs on one processor are controlled by the priority-ceiling protocol. c) Illustrate how a Priority-Ceiling Protocol avoids a deadlock with the help of an 5 example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define, compare and contrast the Priority-Inheritance and Priority-Ceiling Protocols 10 focusing at their assumptions and the rules of their operation. b) Define- Non-Preemptive Critical Section (NPCS) protocol. With the help of an 10 example illustrate how priority inversion is controlled by: (i) Disallowing preemption of critical section. (ii) Using priority inheritance. c) Outline the rules that are defining i) the Basic Stack-Based Priority-Ceiling Protocol, 5 and ii) the Ceiling-Priority Protocol. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Consider a typical radar signal processing and tracking system that searches for 10 objects of interest in some arbitrary coverage area, where the radar scans the area by pointing its antenna in one direction at a time. Illustrate the working of such a system with illustrative examples. b) Considering an air traffic controller as an example, illustrate the significance, 10 operations of real-time command and control, in such a system. c) List the sum of the factors from the time any device raises an interrupt to the time 5 its interrupt service routine begins to execute. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the general structure of a microkernel with the help of a block diagram by 10 elaborating on the significance of each of the components in the structure. b) Define the following terms with their functionalities within the context of a real time 10 operating system: i) Thread ii) Thread Control Block iii) Periodic Thread iv) Aperiodic Thread, v) Sporadic Thread. Also, outline the meaning of the five major states of a thread in any priority-driven systems. c) Compare and contrast the absolute and relative temporal consistency with respect 5 to the real-time databases. *** Page 2 of 2 SRN 8th Semester B.Tech Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

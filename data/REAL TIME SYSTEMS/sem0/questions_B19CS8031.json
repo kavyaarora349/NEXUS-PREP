@@ -1,0 +1,56 @@
+{
+  "subject": "Real Time Systems",
+  "semester": 0,
+  "course_code": "B19CS8031",
+  "questions": [
+    {
+      "text": "a) Controllers in a complex monitor and control system are typically organized 10 hierarchically. By considering the Air Traffic Control hierarchy, outline the layout of High-Level controls. b) Temporal parameters describe its timing constraints and behaviour, and the periodic task 10 model is a well-known deterministic workload model. What are various temporal parameters, periodic task model of real-time processes and explain in detail? c) Describe the characteristics and requirements of any two most commonly used real-time 5 applications. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Many real-time systems are embedded in sensors and actuators and function as digital 10 controllers. Explain in detail with a neat layout of sampled data systems and Complex Control-Law Computations. b) A signal processing application is typically a part of a larger system. Discuss in detail 10 with a neat diagram the usage of signal processing in radar systems as an example. c) Hard and Soft real-time systems are the variants of real-time systems. Differentiate Hard 5 Real-Time Systems and Soft Real Time Systems in detail with an example. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Whenever scheduling the jobs for execution on the processor, the priority-driven 10 algorithms are a large class of scheduling algorithms which are used in RTS. By considering any real-time applications illustrate the priority-driven scheduling algorithms. b) For optimal scheduling, the CPU has to run the CPU Scheduling algorithms. Explain in 10 detail how the optimality and non-optimality of the EDF and LST algorithms which helps in scheduling c) A sporadic server preserves its execution time until one of the tasks it is servicing 5 becomes ready to execute, at which point the sporadic server uses its available execution time to service the task. Write a short note on sporadic servers. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Compared with the clock-driven approach, the priority-driven scheduling approach has 10 many advantages. Discuss the challenges in validating timing constraints in priority- driven systems. b) The ready periodic jobs are placed in the periodic task queue, ordered by their priorities. 10 Each accepted sporadic job is assigned a priority and is placed in a priority queue. Each newly arrived aperiodic job is placed in the aperiodic job queue. Newly arrived sporadic jobs are inserted into a waiting queue, this whole process takes more scheduling time. Explain the alternative approaches that attempt to provide improved performance in Page 1 of 2 scheduling. c) Static scheduling makes scheduling decisions at off-line and dynamic scheduling is at 5 online. Distinguish between Dynamic Versus Static Systems. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Jobs contend for resources leads to undesirable effects of resource contention for 10 specifying the design objectives. Outline with examples the effects of resource contention and resource access control. b) Priority inheritance protocol blocks one or more high-priority jobs, and ignores the 10 original priority assignment and executes its critical section at an elevated priority level. List and explain with supporting diagrams the basic rules and properties of the priority- inheritance protocol. c) Resource contention is a conflict over access to a shared resource such as random access 5 memory, disk storage, cache memory, internal buses or external network devices. Describe with a diagram the job interaction due to resource contention. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In real-time computing, the priority ceiling protocol is a synchronization protocol 10 for shared resources to avoid unbounded priority inversion and mutual deadlock due to the wrong nesting of critical sections. Illustrate with a diagram the priority-ceiling protocol and describe the basic rules and properties of the priority-ceiling protocol. b) A deadlock is a situation where a set of processes are blocked because each process holds 10 a resource and waits for another resource acquired by another process. Explain with diagrams how priority-ceiling protocol prevents deadlock. c) Priority inversion is a bug that occurs when a high-priority task is indirectly preempted by 5 a low-priority task. Illustrate with diagrams the two simple protocols for controlling priority inversion. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Real-time operating systems (RTOS) are used in environments where a large number of 10 events, mostly external to the computer system, must be accepted and processed in a short time or within certain deadlines. Outline the features of Real-Time Operating Systems. b) Concurrency control schemes typically ensure non-interference among transactions by 10 restricting concurrent transactions to be serializable. Elaborate on the two approaches of concurrency control protocol. c) Temporal Data is temporary data that is valid only for a prescribed time. List the 5 characteristics of temporal data. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The two most troublesome problems that a real-time programmer faces while using UNIX 10 for real-time applications are the non-preemptive UNIX kernel and the dynamically changing priorities of tasks. Elaborate the same with an example. b) Clocks and time services are some of the basic facilities provided to programmes by every 10 real-time Operating System. In connection with this, describe with examples all the timing services provided by all the commercial real-time operating systems. c) POSIX (Portable Operating System Interface) is a set of standard operating system 5 interfaces based on the UNIX operating system. Define POSIX, and illustrate the issues in POSIX. *** Page 2 of 2",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

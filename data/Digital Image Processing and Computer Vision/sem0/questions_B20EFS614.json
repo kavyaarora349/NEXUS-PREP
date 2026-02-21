@@ -1,0 +1,56 @@
+{
+  "subject": "Digital Image Processing and Computer Vision",
+  "semester": 0,
+  "course_code": "B20EFS614",
+  "questions": [
+    {
+      "text": "a) Explain the methodology involved in converting an image captured as an analog 10 data to a digital data also describe an Image Processing System with its components. b) Define the following terms: 10 i)Spatial and Intensity Resolution ii)4-,8- and m-adjacency iii) Euclidean distance ,city-block distance and chessboard distance c) For the given image below find N4 and N8 path length between points p and q, 5 where p is the 4th row 1st element and q is 2nd row 4th element considering the set V= {2,3,4} 3 4 1 2 0 0 1 0 4 2 2 2 3 1 4 3 0 4 2 1 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate the different fundamental steps involved in the processing of digital 10 Image with a neat diagram. b) “An Image speaks more than a thousand words”. Justifying this statement are 10 the variety of applications of Digital Image Processing. List 10 different applications. c) Comment on Linear v/s Non Linear Operations with suitable mathematical 5 examples in Digital Image Processing. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is the objective of piece wise linear transformations? Illustrate gray level 10 slicing, contrast stretching and Bit plane slicing with relevant figures. b) Explaining the role of smoothing filters and Sharpening filters in Image 10 processing. Explain in detail the different types of filters used to introduce smoothing effect in the project associated with a retail marketing UI design. c) Homomorphic filtering considers illumination and reflectance as separate 5 entities and performs filtering. Explain Homomorphic filtering. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the following gray level transformations and indicate them in a plot of 10 input intensities v/s output intensities i)Negative transformation ii)Logarithmic Transformation iii)Power Law transformation Page 1 of 2 b) Explain histogram equalization in detail and for a given Image apply histogram 10 equalization and draw the histograms before and after equalization. 0 0 0 1 1 1 1 1 1 1 2 2 2 2 3 3 3 3 3 3 0 0 0 7 7 c) An Image of a planet need to be converted to frequency domain for some 5 filtering procedures. Identify and explain the different steps for filtering in frequency domain. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Noise in Digital image processing is an important parameter, comment on any 4 12 noise models with relevant diagrams and equations. b) Explain Adaptive Median Filtering. 8 c) Explain with neat diagram the model of Image degradation or image restoration 5 process. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the methods involved in the process of estimation of degradation 10 functions with relevant equations. b) Illustrate the optimum notch filter and Weiner filter. 10 c) Comment on the Periodic noise reduction filter in frequency domain ,and 5 contrast the ideal band reject and band pass filter. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In the context of morphological image processing ,Opening and Closing , Hit-or- 12 miss Transformation have an impact .Explain them. b) Pseudo color Image processing assigns color to monochrome images ,explain the 7 two methods, Intensity Slicing and Intensity to Colour Transformation in this context. c) Morphological Image processing deals with structural elements, explain 6 structural element , Erosion and dilation. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) An Image capturing sensor has been designed with two standard color system 12 viz. RGB and HSI. The task is to have a functionality to allow the conversion from HSI to RGB. Explain these two models and also the conversion process. b) Smoothing and sharpening considers neighborhood pixel processing ,explain 7 the concept of smoothing and Sharpening on color image. c) Explain the two structural elements(morphologically) which does smoothing and 6 sharpening for the project. *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

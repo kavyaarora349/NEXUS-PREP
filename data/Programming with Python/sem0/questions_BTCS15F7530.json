@@ -1,0 +1,56 @@
+{
+  "subject": "Programming with Python",
+  "semester": 0,
+  "course_code": "BTCS15F7530",
+  "questions": [
+    {
+      "text": "a) Describe the different Python datatypes that are available? Explain. Create, 5 display and delete a Python datatype that are unordered. Give Example for each. b) Review the following piece of code. Is it valid? 3 >>>x,y,z=1,2,3 >>>x,y,z i. If it is valid, what it is trying to create? ii. Does it support any functions. Justify your answer? iii. What will happen if you try to add an extra element? Justify your answer? c) Predict the output of the following code? What is the use of using append and 3 extend method. Justify your output. a=[1,2,5] a.append([7]) a.extend([4,6]) print(a) d) List out the differences between Tuple and List. Give example. 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Apply concept of dictionary to implement switch statement of C in Python for 4 developing a simple arithmetic calculator. b) Apply the Exception handling technique for the following exceptions with 3 suitable examples: i. TypeError ii. NameError iii. ZeroDivisonError c) Explain the built-in functions that are available. Give example for each. 3 d) Observe the following list where li = [“a”, ”b”, ”c”, ”exam”, ”b”, ”d”, ”a”, ”is”]. 3 Write a program by considering the above list to display single occurrence of elements of the list, to display only the repetitive elements of the list, to display the elements whose length of the element is greater than 1. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Express the regular expression to validate both thousand and hundreds place of 3 Numeral. Check the pattern with few options to validate the pattern. What does it return if the pattern accepts or fails? Justify your answer with the output of the pattern. b) Apply string slicing techniques for S=”REVA University” to get the following 2 output: i. REVA ii. University Page 1 of 3 c) construct a single regular expression pattern to search for 10s, 100s,1000s and 5 test it with the following examples: i)M, ii)MCVIII iii)MMMCMXCIX d) Discuss the use of {n,m} syntax with example. 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Apply the given slicing operations on the following string and write the output: 3 my_string = 'My alphabet starts where your alphabet ends.' slicing operations: i. my_string[3:11] ii. my_string[3:-3] iii. my_string[0:2] iv. my_string[:18] v. my_string[18:] b) A Regular expression pattern can be constructed with comments for each part of 5 the regular expression indicating their purpose. Construct a verbose regular expression for parsing telephone number. c) Summarize the symbols used for matching a pattern in regular expression. 2 d) Write the regular expression by considering the following string 2 s=”100 BROAD ROAD APT” i)replace RD. for ROAD ii)Substitute RD. for ROAD by considering the whole word. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write the python code to generate Fibonacci numbers by considering iter() and 5 next() functions in a class. b) Write the Python code to perform the following operations. 5 i)Construct a dictionary using the following two inputs by applying range () and zip () functions characters = ('S', 'M', 'E', 'D', 'O', 'N', 'R', 'Y') guess = ('1', '2', '0', '3', '4', '5', '6', '7') ii) Illustrate with suitable examples the use of permutations and combinations functions. c) What is character encoding? What is the significance of utf-8 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Class is a user defined variable used for representing the data and operations 5 that can be performed on data. Write a python code for i) creating and instantiating a class ii) Creating instance and class variables iii)Using __init__ () and next() functions b) Write a program to read a file that is already existing (assume the file 5 sample.py). Perform file operations to indicate the current positon of a file, seeking file pointer position to the end of file and reading last 50 bytes and printing only the last 50 bytes after performing read operation. c) Summarize the importance of closing a file. 3 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Express the memory layout of ndarray and list it types. 2 b) Describe the universal functions for arrays. Give example. 3 c) Indicate the methods that are available for Array conversion. 2 Page 2 of 3 d) Write program to implement K-Means Clustering algorithm. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List and explain the ndarray data type attributes of the Array object. 2 b) Explain memory-mapped-file arrays with example. 5 c) Elaborate the methods available for standard library functions of Array Special 5 methods. ****** Page 3 of 3",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

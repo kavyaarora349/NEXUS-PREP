@@ -1,0 +1,68 @@
+{
+  "subject": "Engineering Chemistry",
+  "semester": 0,
+  "course_code": "B22AS0104",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Name various radiations of electromagnetic spectrum and one application for each. 6 b) Illustrate the Jablonski diagram and explain the terms fluorescence and phosphorescence. 7 c) Outline the molecular orbital diagram of N molecule and provide the electronic 6 2 configuration? Calculate the bond order? d) Differentiate between photochemical and thermal reactions. 6 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss the work function of a matter and state (i) Stark -Einstein law and (ii) Grotthuss 6 draper law b) Define Quantum yield. Explain the causes for high and low quantum yield. 7 c) Write the molecular orbital diagram of HF molecule with electronic configuration, 6 calculate bond order. d) Write a short note on photosensitization and photo polymerization process. 6 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the construction, working and applications of dry cell. 6 b) Define battery. Explain the battery components with neat, labeled diagram. 7 c) Describe the fabrication of supercapacitor with advantages and disadvantages. 6 d) Classify the fuel cells based on their operating temperature and electrolyte. Illustrate the 6 construction and working of solid oxide fuel cell. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is solar cell? Explain the construction and working of photovoltaic cell with 7 applications. b) List the battery characteristics. Explain any three battery characteristics. 6 c) Explain the construction, working and applications of Li-MnO battery. 6 2 d) Mention the chemical and physical properties of Si. Discuss the zone refining technique. 6 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define corrosion. Illustrate the mechanism of corrosion by taking iron as an example. 7 b) Discuss the weight loss method by Tafel extrapolation plots. 5 c) Illustrate the potential-pH diagram of Al-H O phase. 7 2 d) Write a brief note on i) Nernst Equation ii) Role of inhibitors 6 Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe the electrochemical theory of corrosion. 7 b) Define cathodic protection. Explain the sacrificial anode method 6 c) Define the following terms. 6 i) Polarization ii) Passivity iii) Immunity d) What is galvanization. Discuss the steps involved in galvanization process. 6 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the synthesis, properties and applications of graphene. 6 b) What is quantum confinement? Discuss surface properties and thermal properties of 6 nanomaterials. c) Illustrate the synthesis and any two applications of Kevlar fiber. 6 d) What is conducting polymer? Discuss synthesis and conduction mechanism of polyaniline. 7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Account for the following terms i) Liquid crystal ii) Sensors 6 b) Discuss conduction mechanism in polyacetylene. 6 c) Illustrate the synthesis of carbon fiber. Write any two properties and applications of 7 carbon fiber. d) Explain the synthesis, properties and applications of CNTs. 6 *** Page 2 of 2 SRN 1st/2nd Semester B.Tech ME/EEE/ECE/CV/CSE/CIT Semester End Examination September 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

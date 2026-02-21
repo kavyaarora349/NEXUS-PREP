@@ -1,0 +1,56 @@
+{
+  "subject": "Cloud Security",
+  "semester": 0,
+  "course_code": "B18CS7073",
+  "questions": [
+    {
+      "text": "a) Cloud computing is not so much a technology as it is the combination of many 7 preexisting technologies. Illustrate the relevant technologies that have come together to create a technical ecosystem for cloud computing. b) Cloud computing holds the tremendous potential of presenting numerous shared 6 services depending on the cloud model you choose. Elaborate any two cloud computing service delivery models. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The foundational infrastructure for a cloud must be inherently secure whether it 6 is a private or public cloud or whether the service is SAAS, PAAS or IAAS. Elaborate the topological similarities between a secure extranet and a private cloud in Network level security. b) Designing and implementing applications aims at deployment on a cloud platform 7 will require existing application security programs to reevaluate current practices and standards. Justify. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data security becomes more important when using cloud computing at all levels. 6 Evaluate the data security scenarios/aspects and make informed judgments regarding risk for their organizations. b) In addition to the security of your own customer data, customers should also be 6 concerned about what data the provider collects and how the CSP protects that data. Illustrate. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) IAM is not a monolithic solution that can be easily deployed to gain capabilities 6 immediately. Elaborate the Enterprise IAM functional architecture, operational activities and identity life cycle management phases. b) OAuth may play a role to enable SSO with a trusted service provider by employing 6 a web services SSO model. Discuss the use case of OAuth. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) By virtue of the service delivery and business model, SaaS service providers are 6 responsible for business continuity, application, and infrastructure security management processes. Write a short note on SaaS Availability Management along with Customer Responsibility and Health Monitoring. b) As a customer of the cloud, should start understanding the trust boundary of the 7 services in the cloud and should understand all the layers own, touch, or interface with in the cloud service—network, host, application, database, storage, and web services including identity services. With neat diagram explain the ITIL life cycle in an enterprise. Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Personal information should be managed as part of the data used by the 7 organization. It should be managed from the time the information is conceived through to its final disposition. Explain KPMG data life cycle. b) The U.S. regulatory environment is a complex combination of sector-specific 6 federal privacy laws, state-specific laws, and other laws and regulations that can have a significant privacy impact on cloud computing environments. Explain any 3 acts in U.S. Laws and Regulations? UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) CSPs are typically challenged to meet the requirements of a diverse client base. 6 To build a sustainable model, it is essential that the CSP establish a strong foundation of controls that can be applied to all of its clients. Explain the programmatic approach to compliance with a diagram. b) CSPs, like other enterprises, need to establish processes, policies, and procedures 6 for managing their IT systems that are appropriate for the nature of the service offering, can be operationalized in the culture of the organization, and satisfy relevant external requirements. Explain CSP life cycle approach with neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Additional control objectives may be applicable depending on the nature of the 6 services offered by the CSP. Illustrate the control objectives of particular relevance to users of CSPs. b) RightScale provides IaaS-related services in the cloud to assist organizations in 6 managing cloud deployments offered by other CSPs, including vendors such as AWS, FlexiScale, and GoGrid. Explain what are the platforms that RightScale Cloud Management include. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Jan 2021",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,56 @@
+{
+  "subject": "Artificial Intelligence",
+  "semester": 0,
+  "course_code": "B19CS6034",
+  "questions": [
+    {
+      "text": "a) Depth first search and Breadth first search are two algorithms used to solve state space 10 search problems. With respect to the given scenario of the 8 puzzle problem explain BFS and DFS. b) Two jugs with a capacity of 5-gallon and 3-gallon are given. Neither have any measuring 10 markers on it. There is a pump that can be used to fill the jugs with water. The aim is to store 1 gallon of water in the 5 gallon jug. Construct a state space search considering the following: Initial State (0,0), Goal State (1,0), Set of production rules. c) Explain the classes of production system with examples for each. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Generate and Test is the simplest technique in Heuristic Search Approach. Give the steps 5 specifying the Generate and Test Algorithm. b) Define Hill climbing and illustrate the steps/algorithm of the variants of hill climbing 10 approach. Also explain the different issues in Hill climbing with neat diagram. c) Solve the following Cryptarithmetic problem using Constraint Satisfaction Algorithm. 10 CROSS + ROADS ------------ DANGER UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A good system for the representation of knowledge in a particular domain should possess 10 some properties. Illustrate the various approaches to knowledge representation. b) Translate the following statements into Predicate Logic: i) John likes all kinds of food. ii) All Pompeians were either loyal to Caesar or hated him. 10 iii) Every man respects his parent. iv) People only try to assassinate rulers they are not loyal to v) Marcus tried to assassinate Caesar. c) Explain Instance and ISA relationship with example predicates. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Consider the 8-puzzle game. Assume that the areas of the tray are numbered: 1 2 3 10 4 5 6 7 8 9 Page 1 of 2 The rules defined are: o Square 1 empty and Square 2 contains tile n  Square 2 empty and Square 1 contains the tile n. o Square 1 empty Square 4 contains tile n  Square 4 empty and Square 1 contains tile n. Explain the steps involved in forward reasoning from the initial state and backward reasoning from the goal states. b) A representation in which the control information that is necessary to use the knowledge is embedded in the knowledge itself. Discuss how procedural knowledge differs from 5 declarative knowledge? c) Pattern matching, as the name suggests, is a method that is used by an AI entity to understand a certain string of data to find sequences of patterns from it. Explain the concept 10 of matching with examples. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) It has long been assumed that some form of AI planning system will be a central component 10 of any artificial agent. Explain the role of a planning agent with an algorithm and describe how planning differs from problem solving. b) Partial-order planning is an approach to automated planning that maintains a partial 10 ordering between actions and only commits ordering between actions when forced to that is, ordering of actions is partial. Discuss the partial-order plan for putting on shoes and socks, and the corresponding linearization into total-order plans. c) How planning is done with Partially Instantiated Operators? 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Bayesian Network is a graphical structure that provides reasoning about an uncertain 10 domain. Implement Bayesian network for lung cancer problem. b) Define Probability Theory and describe the issues with Probability. Discuss the advantages 10 and disadvantages of Bayesian Network. c) Explain the various sources of Uncertainty. 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the general model of learning agent with a block diagram. 5 b) Explain the decision tree for deciding whether to wait for a table with its decision tree and 10 algorithm. c) Discuss the concept of Inductive Learning with algorithm and example. 10 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain Reinforcement learning with an example. 5 b) Explain the process of active learning and passive learning environment with an example. 10 c) Discuss the concept of Neural Networks and its applications. 10 *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

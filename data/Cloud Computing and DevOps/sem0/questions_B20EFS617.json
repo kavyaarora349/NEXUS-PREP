@@ -1,0 +1,56 @@
+{
+  "subject": "Cloud Computing and DevOps",
+  "semester": 0,
+  "course_code": "B20EFS617",
+  "questions": [
+    {
+      "text": "a) Describe the concept of business drivers and explain primary business drivers that 10 fostered modern cloud-based technology. b) Cloud environments make IT resources highly available and reliable; organizations are 12 able to increase quality of service guarantees to the customers and further reduce or avoid potential loss of business. Discuss the risks and challenges associated with cloud computing with a neat diagram. c) An IT environment requires a specific set of characteristics to enable the remote 3 provisioning of scalable and measured IT resources in an effective manner. List the specific characteristics which are common to the majority of cloud environments. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define Cloud Computing. Explain with a neat diagram fundamental (basic) concepts and 15 terminologies used in the Cloud Computing. b) A cloud deployment model represents a specific type of cloud environment, primarily 10 distinguished by ownership, size, and access. Summarize the various cloud deployment models with neat diagram. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Virtualization is the process of converting a physical IT resource into a virtual IT resource. 10 With a neat diagram, explain Operating System-Based Virtualization and Hardware-Based Virtualization. b) Internetworking is the connection of many computer systems for information 10 interchange. Discuss the Technical and Business Considerations of internetworking with neat diagram. c) The cloud usage monitor mechanism is a lightweight and autonomous software program 5 responsible for collecting and processing IT resource usage data. List three common agent-based implementation formats explain any one with neat sketch. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A Router is a device that is connected to multiple networks through which it forwards 10 packets. Illustrate the basic mechanics of internetworking and generic view of the internet reference model and protocol stack. b) Web Technology is generally used as both the implementation medium and the 10 management interface for cloud services. Explain Web Technology Architecture in detail. c) The isolation of a network environment from the rest of a communications network is 5 called logical Network Perimeters. Describe the Logical Network Perimeter with neat diagram. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The term developed out of a recognition that you have to integrate development and 10 operations tasks to develop software efficiently. Explain how Azure Manages the scripts Page 1 of 2 and List the steps involved in Environment creation script b) A database is an organized collection of structured information, or data, typically stored 15 electronically in a computer system. Describe how to Create the databases OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe the parameters in the scripts. Outline how to run the scripts. 10 b) Source control is essential for all cloud development projects, not just team 10 environments. Describe the Structure Source Branches with the neat diagram. c) Define the following: 5 i). Hotfix. ii). Feature toggles. iii).stagging UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Failure in the system results in not working condition .explain different types of failure in 13 azure environment and scope for the failure with diagram. b) Explain the criteria for Choosing a data storage option 12 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the different Data storage options on Azure with examples. 10 b) Outline the steps involved in typical HDInsight script installation. Define Mapreduce and 10 its importance in azure platform. c) what is SLA and define composite SLA 5 *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

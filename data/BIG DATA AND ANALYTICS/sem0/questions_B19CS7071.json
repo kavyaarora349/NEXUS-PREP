@@ -1,0 +1,56 @@
+{
+  "subject": "Big Data and Analytics",
+  "semester": 0,
+  "course_code": "B19CS7071",
+  "questions": [
+    {
+      "text": "a) Digital (Big) Data is broadly classified into three types. Each of the type of data are 10 named based on the nature of their formats, origin and properties. Define Big data. Outline all the three types of data by compiling their generation and origin with example. b) In this digital era every one depends on some set of data, if there is no data then no 10 work to do. Define data, illustrate the characteristics of Normal data with example. c) Data today is growing at an exponential rate, and this will continue to rise instantly. 5 Elaborate the concept of big data in terms of volume, velocity, and variety with suitable examples. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) To get a good handle on big data environment, list out the key terminologies in this 10 arena of big data environment. b) A data warehouse is a central repository of information that can be analyzed to 10 make more informed decisions. Compare and contrast typical data warehouse technique and Typical Hadoop technique with neat diagram. c) To process the huge volume, velocity, variety of data there are so many challenges. 5 Explain Top Challenges facing Big Data UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The data analytics has been revolutionized into many versions from the day of its 10 inception until today. With the help of a timeline, outline the advancements that revolutionized from Analytics 1.0, via Analytics 2.0 to Analytics 3.0. b) Organizations will have to analyze big time and also take into consideration big data 10 makes it to the organization at unprecedented level in terms of volume, velocity, and variety. Explain what big data analytics is? and what big data analytics isn’t? c) Discuss the importance of Big Data Analytics? 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The abundance of data available today comes with several challenges when it is 10 subject to analytics. Outline the major challenges of Big Data. b) Define Data science? Explain data science in detail with suitable diagram? 10 c) Data is growing at a 40% compound annual rate, reaching nearly 45 ZB by 2020Why 5 this sudden hype around Big Data Analytics? UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Hadoop ecosystem packs relevant functionalities to crack big data for effective 10 analysis. With the help of a neat diagram, outline the key functionalities of each of the components of Hadoop. b) Explain the High-Level Architecture of Hadoop with proper diagram. 10 Page 1 of 2 c) RDBMS is traditional databse management system and HADOOP is new framework 5 for managing Bigdata. Differentiate RDBMS versus HADOOP. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) MapReduce is the processing unit of Hadoop. With the help of an example, illustrate 10 the working of MapReducer. b) With a neat diagram explain the steps involved in the anatomy of file read 10 c) Define Hadoop .Explain any 3 characteristics of Hadoop?. 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Unlike traditional database management systems, Hive also incorporates DDL and 10 DML statements. Enumerate and illustrate such statements that are used in Hive. b) With the help of suitable example for each, classify the various data types that are 10 used by Hive. c) Bring out the intuition behind the use of Pig verse Hive by enumerating the major 5 differences that are found in both of them. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A metastore is a place that stores the important information about some aspects of 10 data storage and computing. Outline the different types of metastore and their relevant functionalities that are used by Hive. b) Apache PIG is a platform for data analysis. The language used to analyze data in 10 Hadoop using Pig is known as Pig Latin. Explain the pig Architecture in detail c) List all the data types used in pig. Explain any one type in brief. 5 *** Page 2 of 2 SRN 8th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

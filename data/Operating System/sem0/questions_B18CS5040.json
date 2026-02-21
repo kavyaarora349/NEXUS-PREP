@@ -1,0 +1,56 @@
+{
+  "subject": "Operating System",
+  "semester": 0,
+  "course_code": "B18CS5040",
+  "questions": [
+    {
+      "text": "a) An operating system provides an environment for the execution of programs. It provides 7 certain services to programs and to the users of those programs. Discuss the view of the various operating-system services. b) Some computer systems do not provide a privileged mode of operation in hardware. Is it 6 possible to construct a secure operating system for these computer systems? In this context, explain operating system Dual-Mode operation with neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Briefly explain the common classes of services provided by the various operating systems 5 for helping the user and for ensuring the efficient operation of the system. b) Define the following: 8 (i) Distributed systems (ii) Real time embedded systems iii) Multimedia systems (iv) Handheld systems UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Consider the following set of processes: Draw Gantt charts and calculate average waiting 7 time, average turnaround time using the following CPU scheduling algorithms FCFS and SJF. b) In computing, a process is the instance of a computer program that is being executed by 5 one or many threads. Draw and explain the process state diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Each process is represented in the operating by a Process Control Block. What is a Process 5 Control Block (PCB)? Define the structure of PCB with a neat diagram. b) Inter-process communication (IPC) refers specifically to the mechanisms an operating 7 system provides to allow the processes to manage shared data. Give various reasons for providing an environment that allows process cooperation. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is critical section? Specify the requirements for a solution to critical section 6 problem. Page 1 of 2 b) Consider the following system snapshot using data structures in the banker’s algorithm, 7 with resources A, B, C and D and process P0 to P4. Process Max Allocation Available Id P0 6 0 1 2 4 0 0 1 3 2 1 1 P1 1 7 5 0 1 7 5 0 P2 2 3 5 6 1 2 5 4 P3 1 6 5 3 1 6 5 3 P4 1 6 5 6 1 6 5 6 Using banker’s algorithm, Answer the following questions: i. How many resources of type A, B, C and D are there? ii. What are the contents of the need matrix? iii. Is the system in a safe state? Why? OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe the Bounded - buffer problem and give a solution for the same using 6 semaphores. Write the structure of producer and consumer processes. b) With the necessary syntax, describe the term monitor. Explain the solution to the classical 7 dining philosopher's problem, using monitor. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discover When do page faults occur? Consider the reference string: 7 1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 2, 1, 2, 3, 6. How many page faults and page fault rate occur for the FIFO, LRU and optimal replacement algorithms, assuming three and four page frames? b) Illustrate how paging supports virtual memory. With a neat diagram explain how logical 5 address is translated into physical address. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define address binding. Give necessary step for binding of instructions and data to 5 memory addresses. b) List out the file allocation and file access methods and clearly differentiate between 7 them. Bring out the relative problems of contiguous allocation methods and explain how these problems are solved in linked allocation method. ****** Page 2 of 2 SRN 5th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

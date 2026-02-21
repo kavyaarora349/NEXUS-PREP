@@ -1,0 +1,56 @@
+{
+  "subject": "Analog and Digital Electronics",
+  "semester": 0,
+  "course_code": "B20EF0301",
+  "questions": [
+    {
+      "text": "a) Explain the operation of a Positive biased Clipper circuit with neat diagrams. Assume 8 ideal diode. b) Design a Colpitts oscillator that produces oscillations of 1MHz. Draw the circuit indicating 6 the designed values. Assume an inductor of 1mH and feedback factor of 0.25. c) Draw the circuit of RC Phase shift oscillator and give the expression for frequency of 5 oscillations d) Derive an expression for the transfer function of a positive feedback system and State 6 the conditions for oscillations. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Sketch the behavior of a biased negative Clamper with a neat diagram and waveforms 8 assuming ideal diode b) A crystal has the following parameters: L=0.5H, Cs=0.06pF; Cp=1pF; R=5kΩ. Find the 5 series and parallel resonant frequencies c) Design a Wien bridge oscillator that generates a sinusoidal signal of 3 KHz 7 (Assume R or C).Draw the circuit diagram of the oscillator indicating the designed component values d) With the help of a neat circuit diagram and waveform explain the working of a double 5 ended clipper. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With a neat circuit diagram and waveforms illustrate the behavior of an Absolute value 7 circuit built using op-amp. b) Design a first order Active Low pass filter for a cut-off frequency of 159Hz and input 6 impedance of 10Kohms The pass band gain of the filter should be 10. What is its Roll-off? c) It is desired to build a circuit that produces an output proportional to Logarithmic of its 7 input voltage. Propose a suitable circuit using Opamp that performs the required task. Draw the circuit and derive an expression for its output voltage. d) Identify the circuit detecting zero crossing of the input signal. Explain the working of the 5 identified circuit with waveforms OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss the behavior of a peak detector built using op-amp with a neat circuit diagram. 7 b) A first order inverting active High pass filter has a pass band gain of 2 and a cutoff 8 frequency of 1 kHz. If input capacitor has a value of 10nF. Calculate the value of the resistors used in the circuit. Draw the circuit indicating the component values. Page 1 of 3 c) Suggest an Opamp circuit used in Industrial applications to amplify the signals produced 10 by the Transducers. List the characteristics of the suggested Amplifier circuit and give its implementation. What is the expression for its output voltage? UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A digital system is to be designed in which the months of the year is given as input in 4-bit 10 form. The month January is represented as ‘0000’, February as ‘0001’ and so on. The output of the system is ‘1’ corresponding to the input of the month containing 30 days or less otherwise it is ‘0’. Consider the excess number in the input beyond ‘1011’ as don’t care conditions. For this systems of 4 variables (A, B, C, D) determine the following. i) Truth table ii) SOP expression iii) Simplify SOP expression using K-Map. iv) Implement the simplified expression using NOR-NOR gates b) Simplify the given Logical expression using K-map and implement the 8 simplified expression using Basic gates Y= ∏M(0, 2, 3, 7, 8, 9, 10, 11) + don’t care(5, 13, 14, 15) c) Simplify the given Logical expression using K-map and implement the simplified expression 7 using (i) Only NAND (ii) Only NOR gates Y = ∑m(0, 2, 3) + don’t care(4, 7) OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In the phrase “ALL THE BEST”, letter ‘A’ is represented as ‘000’ and ‘L’ as ‘001’ with no 10 repeating of letters. The vowel in the phrase has the output ‘0’ and the other letters have ‘1’as the output in the digital system. The remaining inputs if any are represented as do not care terms. For such system specification i) Write the truth table ii) Give SOP and POS expressions iii) Simplify the SOP expression using K-Map iv) Implement the simplified expression using NAND gates. b) The rain bow colors “VIBGYOR” are represented in binary form. Violet is represented as 10 ‘000’, Indigo as ‘001’ and so on.. The output of the system is a ‘1’ if the color has the letter ‘O’ in it, otherwise it is ‘0’.The term ‘111’ is treated as do not care term. For this system, i) Develop the truth table ii) Give SOP and POS expression iii) Do the K-map simplification iv) Realize the simplified expression using NAND gates c) Simplify the given Boolean expression using k-map. 5 ii) f2= ΠM (0,4,7,8,11) .dc (5,6,12,13) UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With the help of truth table of a Full adder, derive an expression for its outputs and draw 8 the circuit diagram. b) Realize a 1:4 DE-MUX using basic gates starting from its basic behavior in the truth table 8 form. c) Analyze a 4-bit Ring counter using D-ffs. Furnish the shift table that demonstrates the 9 circulation of data ‘1100’. Estimate the time required to circulate the data if the clock connected to it is 0.8µs Page 2 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Realize a 4:1 MUX using basic gates starting from its basic behavior in the truth table 8 form. b) With the help of truth table of a Full subtractor, derive an expression for its outputs and 8 draw the circuit diagram. c) Outline the Truth table, excitation table and characteristic equation of SR Flip Flop 6 d) Write the circuit of a 4-bit Johnson counter. How many clock cycles would be consumed 3 to repeat the pattern 1010? *** Page 3 of 3 SRN 3rd Semester B.Tech Semester End Examination August 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

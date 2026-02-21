@@ -1,0 +1,56 @@
+{
+  "subject": "Block chain Technology",
+  "semester": 0,
+  "course_code": "B18CS7072",
+  "questions": [
+    {
+      "text": "a) A blockchain is a growing list of records, called blocks that are linked together 7 using cryptography. What does a block in a blockchain contain? Explain the various components that make up a block. b) A hash is a function that meets the encrypted demands needed to solve for a 6 blockchain computation. What is a hash function? Illustrate how to compute a hash of a block in a blockchain. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A hash tree, or the Merkle tree, encodes the blockchain data in an efficient and 7 secure manner. What is a Marklee tree? Explain how it is used in blockchain. b) Write a note on the following: i) distributed ledger ii) consensus iii) reward 6 (incentive) iv) miner UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) An externally owned account (EOA) does not have a code while a contract account 6 has a code. Differentiate between Externally owned accounts (EOAs) and contract type of accounts. b) The EVM is essential to the Ethereum Protocol and is instrumental to the 6 consensus engine of the Ethereum system. Describe EVM and Explain OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Blockchains are in the supply chain sector and for asset tracking and inventory 6 management. Discuss the various use cases of blockchain. b) A decentralized application (dapp) is an application built on a decentralized 6 network that combines a smart contract and a frontend user interface. Describe DAAPs in detail. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Solidity is a contract-oriented, high-level programming language for implementing 7 smart contracts. Explain the structure of a solidity program and illustrate various parts of the program with an example. b) Cryptocurrency is a type of digital currency used as a form of currency that can be 6 transferred without the use of bank. Write the code for a smart contract to implement the cryptocurrency. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss the following with respect to contracts written in solidity: 7 i) State variables ii) Functions iii) Function Modifiers iv) Events v) Struct types b) Ethereum Virtual Machine and Solidity has pretty straightforward Math 6 operations. Discuss the various arithmetic operators used in solidity and give examples. Page 1 of 2 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Blockchain applications in supply chain tracking, trade finance, digital assets and 6 identity management are going beyond the pilot stage. Discuss the blockchain platforms in detail. b) Hyperledger is an umbrella project of open source blockchains and related tools. 6 Describe the hyperledger and how it works in blockchain. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Stellar is a payment technology that aims to connect financial institutions and 6 drastically reduce the cost and time. What are the stellar blockchian applications. b) Blockchain technology has the potential to transform health care, placing the 6 patient at the center of the health care ecosystem and increasing the security. Discuss blockchain health in detail. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

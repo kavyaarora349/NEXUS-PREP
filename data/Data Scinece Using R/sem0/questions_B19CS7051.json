@@ -1,0 +1,56 @@
+{
+  "subject": "Data Scinece Using R",
+  "semester": 0,
+  "course_code": "B19CS7051",
+  "questions": [
+    {
+      "text": "a) The R language came to use quite a bit after S had been developed. What is R and 5 Mention the Limitations of R. b) There are occasions when different classes of R objects get mixed together. 10 Sometimes this happens by accident but it can also happen on purpose. Define Coercion and Illustrate type of coercion with Suitable examples. c) Matrices are vectors with a dimension attribute. The dimension attribute is itself an 10 integer vector of length 2. How do you construct a matrix and describe the concepts of Row binding and column Binding with examples. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Missing values are denoted by NA or NaN for q undefined mathematical operations. 7 How do you handle the missing Values in R Describe with examples. b) The complement to the textual format is the binary format, which is sometimes 8 necessary to use for efficiency purposes. Explain the key functions for converting R objects into a binary format. c) Data are read in using connection interfaces. Connections can be made to files (most 10 common) or to other more exotic things. Demonstrate the connection interfaces in detail by taking example. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) One important contribution of the dplyr package is that it provides a grammar for 10 data manipulation and for operating on data frames. Summarize key verbs provided by the dplyr packages. b) Explain the following with examples. 10 I. If-else II. For loop and Nested for loop III. While loop. IV. Next V. Repeat c) Arguments to functions are evaluated lazily, so they are evaluated only as needed in 5 the body of the function. What is lazy Evaluation Explain with example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) R has some functions which implement looping in a compact form to make your life 15 easier. What are the families of looping functions explain in detail with suitable example. b) R functions arguments can be matched positionally or by name. Describe the all the 5 types of argument matching in function with example. c) One way to pass data around is by deparsing the R object with dput() and reading it 5 back in (parsing it) using dget() and dump() Explain them with example. Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) For very quick exploration of data, it’s sometimes useful to use the plotting functions 10 in base R. Create the scatter Plot and histogram by considering any data set. b) A data frame where one column represents the x position of each bar, and another 10 column represents the vertical (y) height of each bar. Explain the bar chart and using geom_bar. c) It contains the percentage change in population for the US states from 2000 to 2010. 5 We’ll take the top 10 fastest-growing states and graph their percentage change. Explain the colors in a bar graph. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Use ggplot() with geom_line(), and specify which variables you mapped to x and y. 10 Illustrate the basics Line Graph and also Explain the change in the appearance in Lines. b) Describe the Basics of scatter Plots and Grouping Points Together Using Shapes or 10 Colors. c) You have many points that overlap and obscure each other when plotted. Explain the 5 number of possible solutions for in dealing with overplotting. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data preprocessing techniques generally refer to the addition, deletion, or 10 transformation of training set data. Illustrate Case Study of Cell Segmentation in High- Content Screening. b) Explain Data reduction and Feature Extraction in detail. 10 c) In many cases, some predictors have no values for a given sample. These missing data 5 could be structurally missing in such cases Explain how to handle with these missing values. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss Linear Regression and Multiple Linear Regression and different types of Errors. 10 b) Neural networks are powerful nonlinear regression techniques with a neat diagram 10 Explain neural network with a single hidden layer. c) Define data preprocessing. Describe the necessary steps to be followed in 5 preprocessing. *** Page 2 of 2 SRN 7th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

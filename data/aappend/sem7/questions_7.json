@@ -1,0 +1,1513 @@
+{
+  "subject": "aappend",
+  "semester": 7,
+  "course_code": "7",
+  "questions": [
+    {
+      "text": "8.  a) Machine learning subject of 9 students marks as follows:  6 60, 61,68,63,65,64,62,62,55. Calculate central tendency, percentiles to represent the data in box plots.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A key step in any predictive analytics project is deciding which type of predictive 6 analytics model to use. Explain four types of approaches learned based on their mathematical foundation ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Jan 2022 Subject Title : Web Application Development Subject Code: B18CS7010 - 26721 Time: 90 Minutes                                          Max. Marks: 50 Note: Answer ONE FULL question from each unit.  Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) A student who is new to Web Programing wants to know the various HTML Tags, with 5 suitable example explain the following HTML tags to him. i). <P>ii).<BR>iii).<HR>iv).<PRE>",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Assume that you’re designing a web pages for the Cultural event organized in your 8 institution, it has 3 divisions with the header, footer, section which contain event list and brochures of the event. At left side displays list of events and the right side displays the brochures of the event where the second page is a target of link from the first page. Create a student login page using suitable HTML tags. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) With suitable example illustrate, how the forms data is packaged into a query string. 8 And explain the two important attributes of any forms. What is the difference between GET and POST?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Write a HTML code for creating login page for the Bus Ticket Booking website? 5 UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) A CSS provides the properties of making the HTML documents attractive and colorful 8 by adding different predefined and user defined styles to it. With respect to this explain the following CSS tags, with an suitable example :",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Classes selectors ii) Contextual Selectors iii) ID Selectors iv) Attribute Selectors",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Absolute positioning is a very powerful positioning mechanism that allows users to 4 place any element wherever they want in an exact location. Explain CSS properties right, left, top, bottom and define the exact locations where you need to place the element. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) CSS is used to develop a consistent look and feel for all the pages. Explain about 8 displaying, positioning, and floating an element using CSS.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Which CSS property allows you to hide an element but still maintain the space it 4 occupies on the web page UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) JavaScript is a text-based programming language used both on the client-side and 8 server-side that allows you to make web pages interactive. Write a simple program in JavaScript to validate the email-id.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) JavaScript is a scripting language that enables you to create dynamically updating 5 content, control multimedia, animate images, and pretty much everything else. Write a Java script program to print the numbers from 0 to 50 Page 1 of 2 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) JavaScript is a language that allows you to implement complex features on web 8 pages. Discuss about JavaScript debugging. Explain how local and global functions can be written using java script",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) JavaScript adds dynamic behavior to the webpage and adds special effects to the 5 webpage. Write a script to demonstrate the use of Date object. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) PHP uses its own memory and competes well on speed, especially when using the newer 8 versions. Write a program in PHP to calculate Square Root of a number?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) PHP code has been put to the test in all kinds of real-life environments. Write a program 4 to Associative Arrays in PHP OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Write a program in HTML (Web-Page) having a form with firstname, lastname and a 8 submit button. On clicking the button form validation should work (Use Javascript for that) and data entry should be saved in a database (PHP code needed, for insertion of data from “form” to database). Form should be styled using CSS. (Use any mode- inline, internal or external)?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) PHP is known as a general-purpose scripting language that can be used to develop 4 dynamic and interactive websites. What these tags specify in PHP <?php and ?> ****** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Subject Title: Cryptography and Network Security Subject Code: B18CS7020 - 26722 Time: 90 Minutes                                         Max. Marks: 50 Note: Answer ONE FULL question from each unit.  Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) Security mechanism is a process that is designed to detect, prevent, or recover from a 5 security attack. Discuss the following mechanisms.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Digital Signature ii) Traffic Padding iii) Notarization iv) Routing Control v) Access Control",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Shekhar approached State bank of India for Loan. In order to approve the home loan, 8 bank officials requested him to send his PAN card Number and other details via an electronic transfer. For making secure transmission they used a symmetric key encryption algorithm, which uses 128-bit key. Identify the algorithm used for communication. Explain the steps in Encryption and Decryption process for the same with a neat diagram OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) Security service is a processing or communication service that enhances the security 6 of the data processing systems and the information transfers of an organization. Elaborate on any three security services that are intended to counter security attacks",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Mamatha and Kavitha agree to communicate sharing a key of length 56 bits. The 7 message sent between them is of 64 bits length .Suggest an algorithm for communication. Explain function (f) for the same in detail with a neat diagram UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) Depict the overall processing of a message to produce a digest with its steps in Secure 7 Hash function algorithm SHA – 512.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Perform Encryption and Decryption using RSA Algorithm      5 p = 3 ; q = 11 ; e = 7 and M = 5 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) The purpose of a hash function is to produce a “fingerprint” of a file, message, or 6 other block of data. Outline the properties of a hash function that is to be useful for message authentication",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Consider a Diffie – Hellman Scheme with common prime q=11 and a primitive root α 6 = 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) If user A has public key YA = 9, what is A’s private key XA ? ii) If user B has public key YB = 3, what is the shared Secret key K ? UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) Kerberos was created by MIT as a solution to the network security problems. Explain 7 the over view of Kerberos version -4.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Illustrate the digital service for authentication and confidentiality service provided by 6 PGP giving the sequence. Page 1 of 2 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Illustrate with the help of a diagram how Pretty Good privacy scheme uses key rings 8 for message Generation.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Elaborate on the message header fields defined in MIME specification 5 UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) Illustrate the Unix password scheme and discuss the possible threats to the scheme 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Illustrate the common types of Firewalls giving its features 6 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) There has been a continuous arms race between virus writers and writers of antivirus 6 software since viruses first appeared. Outline the categories of most significant types of viruses.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Illustrate the packet filtering Firewall and Highlight the filtering rules based on the 6 information contained in a Network packet *** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Course (Subject): Augmented and Virtual Reality Course Code: B18CS7041 - 26725 Time: 90 Minutes                                          Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) History always gives a booster, and it is fun to know about the past happenings. 7 Define Augmented reality and write a note about the history of Augmented Reality.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A System to be made up of all the components in the design phase. Discuss the 6 system structure of augmented reality OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) Building a system to know how it works is an important task. Virtual reality 5 techniques are widely used in these aspects. Brief the different concepts and components of virtual reality.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Knowing the upcoming of an area in technology gives us a lot of value addition. 8 Define the term virtual reality and explain the happenings for it to evolve till date. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) Input devices are very important for getting data to the virtual reality system. 7 Discuss tracking system used as an input device.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Visual tools are very useful output devices in a virtual reality system. Discuss 5 visual tools for output in a virtual environment. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) Output system is one with make a system to work as a real time system. Explain 7 haptic devices used as output devices in virtual reality systems.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Sounds and audio systems are one of the major output systems in a virtual reality 5 output. Describe the same. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) Modelling a system is very important for successful outcome of the project. 8 Discuss VR system architecture and explain VR modelling cycle.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Series like Angry birds etc. are developed using some physical quantities in mind. 5 Discuss physical based simulation in brief. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Texture gives a different look to any system. Describe texture mapping with 8 respect virtual reality.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A football game is to be simulate in a VR environment. Discuss behavior 5 simulation / modelling for the same. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) We require different process and tools to build a virtual reality environment. 7 Discuss the Frameworks of Software Development Tools in VR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Tools are very important in development of a virtual environment. Describe 5 unity software and discuss it usage in VR environment. OR Page 1 of 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) Virtual reality is used in simulation in major areas. Write a note into VR 7 Technology in Film and TV Production.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Compare and contrast MultiGen and Virtools used in VR scenario. 5 *** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Course (Subject): C# And .Net Course Code: B18CS7043 - 26727 Time: 90 Minutes                                          Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  When you build solutions using a .NET-aware language, you will most likely interact 13 with each of the CTS types. Recall that the CTS is a formal specification that documents how types must be defined in order to be hosted by the CLR. Outline a brief overview of the five types defined by the CTS. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  The base data types are mainly primitive data types, such as Integer, Double, Date, 13 String, and so on. These include all the types that are part of any .NET programming language. List in a table all the intrinsic CTS Data Types mentioning the corresponding C# keyword. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  Demonstrate a C# program to pass a reference type by value by considering the 12 following points a. Is it possible alter objects state data if an object is passed by value type? Justify the statement. b. Is it possible is to reassign what the reference is pointing to if it passed as a value type? Justify the statement. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  C# provides a set of parameter modifiers that control how arguments are sent into a 12 given method. Explain various method parameter modifiers with example for each. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) All object-oriented languages contend with three core principles of object-oriented 6 programming, often called the famed “pillars of OOP.” Describe each pillar OOP with example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Interface-based programming is an architectural pattern for implementing modular 7 programming at the component level in an object-oriented programming language which does not have a module system. C# supports for interface-based programming. Define interfaces in C#. How to invoke interface members at the object level. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Describe the property syntax for get block and set block and how it is different from 7 traditional accessor and mutator methods. Write a C# program which contains class called Student with data member’s name, SRN, College. Assign and display the data only through get and set block.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) C# language doesn't support multiple inheritance of classes, so Interfaces are 6 needed. Define interfaces in C#. How to invoke interface members at the object level. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) In a computer, software anomaly is categorized in to the three Errors, Bugs, and 6 Exceptions anomaly-centric terms define these terms and list the four key elements required for structured exception handling along with the keywords offered by C# to manage runtime exceptions. Page 1 of 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The Zen of .NET memory management says this: Allocate an object onto the 6 managed heap using the \"new\" keyword and forget about it. Once \"new-ed,\" the CLR removes the object when it is no longer needed. Explain in detail how does the runtime determine when an object is \"no longer needed\"? OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) Object lifetime is the time when a block of memory is allocated to this object during 7 some process of execution and that block of memory is released when the process ends. Express the rules that can be applied for basics of object lifetime. Summarize the rules that are applied for object lifetime.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Objects to clean up any unmanaged resources that they're holding so that memory 5 is utilized efficiently, its allowed by GC. Discuss the finalization process supported by GC in detail. *** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Course (Subject): Natural Language Processing Course Code: B18CS7044 - 26728 Time: 90 minutes                                        Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I 1  a) Consider a mini-corpus of three sentences. Each sentence with a special 10 symbol <s> at the beginning of the sentence, special end </s> symbol. <s> I am Sam </s> <s> Sam I am </s> <s> I do not like green eggs and ham </s> Write out the equation for bigram probability estimation. Calculate the bigram probabilities from this corpus.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A natural language is any language that has evolved naturally in humans 3 through use and repetition without conscious planning or premeditation. What is Natural Language Processing? Illustrate why NLP is hard? OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) After the breakthrough of GPT-3 with its ability to write essays, code and also 5 create images from text, Google announced its new trillion-parameter AI language model that’s almost 6 times bigger than GPT-3. Explain why do we need text normalization? Illustrate how do we achieve it?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Language models offer a way to assign a probability to a sentence or other 8 sequence of words, and to predict a word from preceding words. Demonstrate n-grams are Markov models that estimate words from a fixed window of previous words. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) Automatic speech recognition is a technology that converts speech to text in 7 real time. ASR may also be called speech-to-text or, simply, transcription systems. Illustrate how automatic speech recognition works?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A syllable is a single, unbroken vowel sound within a spoken word. They 5 typically contain a vowel or two if one is silent, and perhaps one or more accompanying consonants. Distinguish between open syllable and closed syllable. OR 4  a) Explain the following terms with appropriate examples   6 I. phone II. diphone III. syllables",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) MFCCs are a compact representation of the spectrum of an audio signal. How 6 can we convert the audio signal into coefficients and what do these coefficients exactly represent? UNIT – III Page 1 of 2 5  a) Dynamic programming approaches systematically fill in tables of solutions to 8 sub-problems. When complete, the tables contain the solution to all the sub problems needed to solve the problem as a whole. Illustrate Earley algorithm uses a dynamic programming approach to efficiently implement a parallel top-down search.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) CYK algorithm is a parsing algorithm for context free grammar. In order to 5 apply CYK algorithm to a grammar, it must be in Chomsky Normal Form. It uses a dynamic programming algorithm to tell whether a string is in the language of a grammar. Illustrate the steps involved CYK algorithm OR 6  a) One that is most commonly used in computational is the Chomsky hierarchy 5 which includes four kinds of grammars, Explain with a neat Venn diagram languages on Chomsky hierarchy.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A probabilistic context free grammar consists of terminal and nonterminal 8 variables. Each feature to be modeled has a production rule that is assigned a probability estimated from a training set. Summarize the general steps for utilizing PCFGs in various scenarios UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) The meaning of a language can be seen from its relation between words, i.e. 6 the sense of one word is related to the sense of another. Illustrate the terms synonymy, antonymy, homonomy, hyponymy, Meronymy, polysemy taxonomy with appropriate example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Machine translation is the process of using artificial intelligence (AI) to 6 automatically translate content from one language (the source) to another (the target) without any human input. Can statistical techniques be used to perform the task of machine translation? If so, explain in brief. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) Information Retrieval (IR) can be defined as a software program that deals 10 with the organization, storage, retrieval, and evaluation of information from document repositories, particularly textual information Explain the architecture of an Information Retrieval system with a neat diagram.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Translation is the process of changing written text created in one language 2 into another language. Will Machine Translation replace human translators? Explain in brief. ****** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Course Title: Data science using R Course Code: B18CS7051 - 26729 Time:  90 Minutes                                          Max. Marks: 50 Note: Answer ONE FULL question from each Unit.   Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) R is the most popular language in the world of Data Science. It is heavily used in 7 analyzing data that is both structured and unstructured. This has made R, the standard language for performing statistical operations. Outline the salient features and limitations of R.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Interfaces form a contract between the class and the outside world, and this contract is 6 enforced at build time by the compiler. Describe various connection interfaces in R OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Every programming language has its own data types (Objects) to store values or any 7 information so that the user can assign these data types to the variables and perform operations respectively. Illustrate with examples the various objects in R",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) To create a matrix in R you need to use the function called matrix (). The arguments to 6 this matrix () are the set of elements in the vector. Create the matrix in R using above function and illustrate with examples the various Matrix operations. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) dplyr is a grammar of data manipulation, providing a consistent set of verbs that help 6 you solve the most common data manipulation challenges. Illustrate any three functions available in dplyr package with suitable examples.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Control structures in R allow you to control the flow of execution of a series of R 6 expressions. Illustrate any three control structures in R with suitable examples. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) The operation of a loop function involves iterating over an R object (e.g., a list or vector 6 or matrix), applying a function to each element of the object, and the collating the results and returning the collated results. Explain with examples the various loop functions available in R.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define Lazy evaluation and … Argument and explain the same by taking a suitable 6 example. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) Graphs in R language is a preferred feature which is used to create various types of 7 graphs and charts for visualizations. Explain how to create bar graphs, scatter plot, line graph and histogram in R.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) in R A line graph is a type of chart used to show information that changes over time. 6 Explain How will you add points to line graph and how will you make line graph with multiple lines. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) With large data sets, the points in a scatter plot may overlap and obscure each other 7 and prevent the viewer from accurately assessing the distribution of the data. This is called overplotting. Explain the different methods used to deal with over plotting in scatter plot. Page 1 of 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Continuous variables are numeric variables that have an infinite number of values 6 between any two values. Describe how to map a continuous variable to color or size. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) Data Transformation is one of the key aspects of working for business data analysis, 6 data science or even for the pre-work of artificial intelligence. Explain data transformations for individual predictors and multiple predictors in R.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) For models predicting a numeric outcome, some measure of accuracy is typically used 6 to evaluate the effectiveness of the model. Explain the various ways of Measuring Performance in Regression Models OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Regression analysis is a group of statistical processes used in R programming and 6 statistics to determine the relationship between dataset variables. Discuss Linear Regression and Multiple Linear Regression and different types of Errors.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) R Non-linear regression is a regression analysis method to predict a target variable 6 using a non-linear function consisting of parameters and one or more independent variables. Illustrate with diagrams the Nonlinear regression Neural Networks model on R. ****** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Course Title: Deep Learning Course Code: B18CS7052 - 26730 Time: 90 Minutes                                          Max. Marks: 50 Note: Answer ONE FULL question from each Unit.   Marks UNIT – I 1  a) Define Conditional Probability. Discuss Conditional Probability for 5 dependent events, independent events and mutually exclusive events",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Suppose that there are two electrical components. The chance that the first 8 component fails is 10%. If the first component fails, the chance that the second component fails is 20%. But if the first component works, the chance that the second component fails is 5%. Calculate the probabilities of the following events: i. At least one of the component works ii. Exactly one of the components works iii. The second component works OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) Biological Neurons are the inspiration for the design of Neural Networks. 5 Illustrate the Artificial Neural Network architecture relating to Neuron in human brain.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Eigenvalues and eigenvectors allow us to \"reduce\" a linear operation to 8 separate or simpler problems. Find the eigen values and eigen vectors for the following matrix. [3 2 3 8] UNIT – II 3  a) List and briefly explain various kinds of tasks a learning algorithm can be 3 applied.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Optimization is a big part of machine learning. Almost every machine 4 learning algorithm has an optimization algorithm at its core. Discuss the Gradient Descent algorithm in detail",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Using Linear regression equation, Solve the given problem: 5 PERSON      RATING FOR       RATING FOR MOVIE 1          MOVIE 2 1st            4                3 2nd            2                4 3rd            3                2 4th            5                5 5th            1                3 6th            3                1 i. Find the value of b and b 0    1 ii. Find the regression line iii. If a new person rates movie 1 as 3, then predict the rating of the same person for movie 2. Page 1 of 2 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) Define Machine Learning. With respect to the following problems, identify 3 the Task T, Performance Measure P and Experience E: i. A checkers learning problem: ii. A handwriting recognition learning problem:",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Solve the following problem by dividing the following data into 2 clusters 9 using k-means algorithm Height 185 170 168 179 182 188 180 180 183 180 180 177 Weight 72 56 60 68  72  77 71  70 84  88 67  76 UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Activation function plays a major role in working of a Neural Network. 7 Discuss the Activation functions used in ANN in detail",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Using Perceptron training rule, design AND, OR logic gates 6 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) Using Perceptron training rule, design XOR gate          3",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Distinguish between the variants of gradient descent algorithm along with 5 their advantages of each variant",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) ANN has an interdisciplinary approach in its development and applications. 5 List and discuss the various applications of ANN. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define RNN. Explain the working of RNN along with its advantages, 5 disadvantages and applications",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Discuss different stages in NLP Pipeline along with suitable examples 7 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Machines understanding the human languages is the current research trend. Define NLP. Describe its components along with the advantage and 5 disadvantages.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Discuss the two approaches to build a recommender system along with suitable examples.                                        7 Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Course Title: Business Intelligence and Process Management Course Code: B18CS7054 - 26732 Time: 90 Minutes                                          Max. Marks: 50 Note: Answer ONE FULL question from each Unit.   Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) The Business Environment in which the organizations operate today is becoming 7 more complex. Illustrate the concept of Business Pressures Responses Support Model with a block diagram. –         –",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The data warehouse is the cornerstone of any medium-to-large BI system. 6 Explain the High-Level Architecture of Business Intelligence with a block diagram. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Business Intelligence implementation depends on which tools are used. Explain 7 the major tools and techniques of Business Intelligence with the help of computerized tools for decision support.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A decision support system (DSS) is an interactive information system that 6 analyzes large volumes of data for informing business decisions. Describe the automated decision-making framework with a block diagram. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Data Warehouse is a system used for reporting and data analysis and is 6 considered a core component of business intelligence. Illustrate the fundamental characteristics of data warehouse.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A data warehousing process consists of Extract, Transform and Load (ETL). 6 Demonstrate the ETL process with a block diagram. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) Organizations continuously collect data, information, and knowledge at an 6 increasingly accelerated rate and store them in computerized systems. Make use of the above statement with a brief explanation of two-tier, three-tier and web- based data warehousing architectures with a neat diagram.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Active Data Warehousing is the technical ability to capture transactions when 6 they change and integrate them into the warehouse. Compare and contrast traditional data warehousing environment v/s active data warehousing environment. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) Virtually every BI application requires database or data warehouse access. 7 Illustrate the multi-tiered application architecture with a neat block diagram.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Business intelligence (BI) is one of the most significant data integration use 6 cases. Explain the major factors that affect the decision-making process of BI implementation. Page 1 of 2 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) On-demand BI model is a cost-effective alternative to overly complex and 7 expensive analytic reporting solutions. Explain the key characteristics and benefits of On-demand BI along with its limitations.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Ethics in decision making and support is very important. Illustrate the model of 6 ethical problem formulation with a block diagram. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) Workflow management systems have been identified as an important step in the 6 evolution of business process management systems. Illustrate workflow management systems architecture with a block diagram.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Flexible workflow management is well suited to supporting business processes 6 with static control structures. In the flexible workflow management, explain the concepts of conceptual design and dynamic adaptations by example with block diagrams. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Web services are the current realization of service-oriented computing, and it 6 provides an important milestone in the quest towards service-oriented architectures. Demonstrate the recommendations that provide the underpinning of Web services development with a block diagram of main world wide web consortium web services recommendations.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The business process management methodology is the way your organization 6 approaches your processes. Explain the business process methodology with a block diagram. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022 Course (Subject): Human Computer Interaction Course Code: B18CS7061 - 26733 Time: 90 Minutes                                           Max. Marks: 50 Note: Answer ONE FULL question from each unit.  Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) Summarize the model of the structure of human memory with diagrammatic 9 illustration?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) State Gestalt theory.                                       4 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) List out the devices used for virtual reality and 3d interaction in computer. Discuss 9 any two in detail.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Illustrate the basic assumptions of the Fitts' Law model    4 UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) The designer does not begin with some preconceived idea. Rather, the idea is the 8 result of careful study and observation, and the design a product of that idea. Illustrate the various steps for Interaction design process?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Explain the concept of Ergonomics with suitable examples.   4 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) Explain in detail about interaction design process using block diagram 8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Explain in detail the Global structure hierarchical organization? 4 UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) Explain the Principles to support usability. Consider the following usability objective. 9 Theatre booking clerks with low motivation, no computing experience and no previous training, working in a small and hectic box office, are able to learn to reserve or book seats within a one hour period. What measure could be taken and which techniques would you consider appropriate to test whether this objective was met?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) List out and Shneiderman’s eight Golden rules of interface design 4 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Explain Norman’s seven principle for transferring difficult task to simple one in design 9",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Discuss in detail about the activities in waterfall model of software life cycle? 4 UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) Describe Nielen's Heuristic Evaluation method: What steps comprise it, how and 8 where is it used, how many evaluators are recommended, and where do the heuristics come from?\"",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Indicate the tradeoffs between Heuristic Evaluation and traditional user testing? 4 OR Page 1 of 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Explain about the factors that influence for choosing evaluation techniques. Outline 8 the approaches used for evaluating through expert analysis?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Discuss the concept of goal of evaluation.                   4 ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022 Course (Subject): Computer Graphics and Animation Course Code: B18CS7062 - 26734 Time: 90 minutes                                         Max. Marks: 50 Note: Answer ONE FULL question from each unit. UNIT – I                         Marks",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) OpenGL is a cross-language, cross-platform application programming interface 6 for rendering 2D and 3D vector graphics. Describe the various OpenGL functions. Also give any 5 geometric primitives specified by the set of vertices.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Sierpinski triangle is a fractal and attractive fixed set with the overall shape of 7 an equilateral triangle which subdivides recursively into smaller triangles. Construct an OpenGL program to design 3D sierpinski Gasket by dividing the tetrahedron by 20 times. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) A pinhole camera is a simple camera without a lens but with a tiny aperture. 6 Explain the concept of pinhole camera which is an example of an imaging system. Derive the expression for angle of view. Also indicate the advantages and disadvantages of this.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Sierpinski triangle is a fractal and attractive fixed set with the overall shape of 7 an equilateral triangle which subdivides recursively into smaller triangles. Construct an OpenGL program to design 2D sierpinski Gasket by dividing the triangle by 30 times. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) Event-driven programming is the dominant paradigm used in graphical user 6 interfaces and other applications that are centered on performing certain actions in response to user input. Explain how the events can be generated by using Mouse and Keyboard. Generate the program to draw a small box at each location on the screen where the mouse is cursor is located.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The geometric transformations play a vital role in generating images of 3D 6 objects with the help of the transformations. Illustrate on 3D transformations (translation, scaling and rotation) in homogenous coordinate system. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) Develop an OpenGL code to develop a colored cube and make the cube to rotate 6 along x,y and z axis by using mouse interaction. The speed of rotation need to be controlled trough keyboard.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Transformations play an important role in computer graphics to reposition the 6 graphics on the screen and change their size or orientation. Explain the concatenation of transformation matrices. Derive the concatenated final matrix M for rotating a 3D object about a fixed point. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) Explain the graphics functions gluLookAt(), glOrtho(), glFrustum(), 6 gluPerspective() with suitable examples. Also determine the final projection matrices for parallel viewing.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Construct the OpenGL program for demonstrating the cohen sutherland line 7 Page 1 of 2 clipping algorithm for clipping the line having the two end points at (60,20) and (80,120). Consider the clipping rectangle at (50,50) and (100,100). OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Projection is a technique or process which is used to transform a 3D object into a 6 2D plane. Explain Orthographic, Axonometric, Oblique, Perspective and Parallel Projections in Classical Viewing.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The Liang-Barsky algorithm is more efficient than Cohen–Sutherland line clipping 7 algorithm and can be extended to 3-Dimensional clipping. Construct the OpenGL program for demonstrating the Liang-Barsky algorithm for clipping the line having the two end points at (60,20) and (80,120). Consider the clipping rectangle at (50,50) and (100,100). UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) The drawing tools in Flash let us create and modify shapes for the artwork in our 6 movies. Explain the following tools,",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Drawing and Painting Tools ii) Colour iii) Adding Sound",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Frame-by-frame animation changes the contents of the Stage in every frame and 6 is best suited to complex animation in which an image changes in every frame instead of simply moving. Frame-by-frame animation increases file size more rapidly than tweened animation Use frame-by-frame animation when one needs to change an image in each frame. Explain the steps involved in animation of movie created frame by frame. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) Flash is Windows-based software where we can start it using the Start menu 6 button and then clicking at the Flash submenus and options. Explain the following in Flash work environment.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Stage and Time line ii) Symbols and Instances iii) Toolbox iv) Panels",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Layers are transparent sheets of acetate stacked on top of each other over which 6 the objects are drawn. Give the procedure for the following,",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Add a layer ii) Delete a layer, iii) Hide a layer iv) Properties reset",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "v) Update the stacking order of layers. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022 Course (Subject): Advanced Web Technology Course Code: B18CS7064 - 26736 Time: 90 minutes                                          Max. Marks:50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) The term HTML5 is essentially a buzzword that refers to a set of modern web 7 technologies.HTML5 introduces a number of new elements and attributes that can help you in building modern websites. Discuss the most prominent features introduced in HTML5.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) CSS3, the scope of the specification increased significantly and the progress on 6 different CSS modules started to differ so much, that it became more effective to develop and release recommendations separately per module. Discuss the various module of CSS3. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) HTML documents are composed of textual content and HTML elements. The term 7 HTML element is often used interchangeably with the term tag. Explain the following CSS tags, with an suitable example :",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Generic selectors ii) Background images iii) Attribute selector",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) External style sheets are ideal for giving most or all of the pages on your Web site 6 a consistent look. Illustrate the steps to create an external style sheet using CSS3 with an example. UNIT – II 3  a) C# is designed for Common Language Infrastructure (CLI), which consists of the 6 executable code and runtime environment that allows use of various high-level languages on different computer platforms and architectures. Explain the C# features for creating robust and durable applications.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Java, being one of the most prominent programming languages, provides 6 extensive support to databases. It helps us to connect to various databases through JDBC .What is JDBC? Explain the General Architecture. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) AngularJS is a JavaScript framework that is mainly used for Frontend Development. 6 How AngularJS Integrates with HTML. Creating an AngularJS Application using various directives.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) AngularJS is a toolset for building the framework most suited to your application 6 development. It is fully extensible and works well with other libraries. Explain the MVC Architecture in detail. UNIT – III Page 1 of 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) Ruby is an interpreted, high-level, general-purpose programming language which 7 supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity. Ruby variables are locations which hold data to be used in the programs. What are Ruby variables? Explain Ruby data types with suitable examples.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A regular expression is a special sequence of characters that helps you match or 6 find other strings or sets of strings using a specialized syntax held in a pattern. Write a ruby program to search the pattern in the given string. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) AJAX allows web pages to be updated asynchronously by exchanging data with a 7 web server behind the scenes. Explain the Basic communication techniques of Ajax with respect to make a request to the server and handling the response from server.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Ajax is not a technology, but rather a programming concept. HTML and CSS can be 6 used in combination to mark up and style information. The webpage can be modified by JavaScript to dynamically display—and allow the user to interact with the new information. The Ajax Patterns show how people have used the design principles effectively in real-world Ajax applications. Explain about Fallback Patterns UNIT – IV 7  a) If S3 was implemented as an object-oriented code library instead of a web service, 6 it have two classes.Explain the Object oriented design of S3.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A resource is something that can be stored on a computer and represented as a 6 stream of bits: a document, a row in a database, or the result of running an algorithm. Explain the three types of resources provided by RESTful S3 service. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) A Web API is a development in Web services where emphasis has been moving to 6 simpler representational state transfer (REST) based communications.Resource- Oriented Architecture is also RESTful service, it’s a set of design criteria. Explain the Resource-Oriented Architecture.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Ajax is a set of web development techniques that uses various web technologies 6 on the client-side to create asynchronous web applications. Ajax applications have become very popular during the past couple of years. Discuss advantages and disadvantages of Ajax applications as rest clients. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022 Course (Subject): BIG DATA AND ANALYTICS Course Code: B18CS7071 - 26737 Time: 90 Minutes                                         Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) Digital (Big) Data is broadly classified into three types. Each of the type of data 7 are named based on the nature of their formats, origin and properties. Outline all the three types of data by compiling their generation and origin with example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Illustrate with a neat diagram of parallel computing and distributed computing 6 and list out the differences. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) In order to get a good handle on the big data environments a few key 7 terminologies ae required, summarize about in-memory analytics, in-database processing and symmetric multiprocessor system with a neat diagram.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Big Data processing is considered to be very beneficial in processing huge data. 6 Outline the characteristics of big data and its benefits. Give real time example. Justify. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) With the help of a timeline, outline the advancements that revolutionized from 6 Analytics 1.0, via Analytics 2.0 to Analytics 3.0.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The abundance of data available today comes with several challenges when it is 6 subject to analytics. Outline the major challenges of Big Data. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) Many organizations irrespective of their size are turning towards investing on 6 data analytics. Outline the need, importance and key aspects of big data analytics that has attracted these organizations. summarize the key advantages of Hadoop.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Big data isn’t just about technology.it is about understanding what the data is 6 saying to us, then, what is big data analytics and why is big data analytics important? List and explain different types of big data analytics. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) Daemons are considered to be the programs running in the background that play 7 a significant role in most of the applications. Outline the functionalities of the five important daemons existing in Hadoop.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) With a neat diagram explain the steps involved in the anatomy of file read 6 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) The famous example for MapReduce programming is word count. describe all 7 the steps involved in java programming of word count.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) With a neat diagram explain the steps involved in the anatomy of file write. 6 UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) Bring out the intuition behind the use of Pig verse Hive by enumerating the 6 major differences that are found in both of them. Page 1 of 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Unlike traditional database management systems, Hive also incorporates DDL and 6 DML statements. Enumerate and illustrate such statements that are used in Hive. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) A metastore is a place that stores the important information about some aspects 6 of data storage and computing. Outline the different types of metastore and their relevant functionalities that are used by Hive.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Pig is yet another component added to the Hadoop ecosystem for data analysis. 6 Outline the basic anatomy or components of Pig that makes it suitable to work on large scale data in Hadoop ecosystem. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022 Course (Subject): Block chain Technology Course Code: B18CS7072 - 26738 Time: 90 Minutes                                         Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) A blockchain is a growing list of records, called blocks that are linked together 7 using cryptography. What does a block in a blockchain contain? Explain the various components that make up a block.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A hash is a function that meets the encrypted demands needed to solve for a 6 blockchain computation. What is a hash function? Illustrate how to compute a hash of a block in a blockchain. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) A hash tree, or the Merkle tree, encodes the blockchain data in an efficient and 7 secure manner. What is a Marklee tree? Explain how it is used in blockchain.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Write a note on the following: i) distributed ledger ii) consensus iii) reward 6 (incentive) iv) miner UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) An externally owned account (EOA) does not have a code while a contract account 6 has a code. Differentiate between Externally owned accounts (EOAs) and contract type of accounts.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The EVM is essential to the Ethereum Protocol and is instrumental to the 6 consensus engine of the Ethereum system. Describe EVM and Explain OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) Blockchains are in the supply chain sector and for asset tracking and inventory 6 management. Discuss the various use cases of blockchain.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A decentralized application (dapp) is an application built on a decentralized 6 network that combines a smart contract and a frontend user interface. Describe DAAPs in detail. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) Solidity is a contract-oriented, high-level programming language for implementing 7 smart contracts. Explain the structure of a solidity program and illustrate various parts of the program with an example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Cryptocurrency is a type of digital currency used as a form of currency that can be 6 transferred without the use of bank. Write the code for a smart contract to implement the cryptocurrency. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Discuss the following with respect to contracts written in solidity: 7",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) State variables ii) Functions iii) Function Modifiers iv) Events v) Struct types",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Ethereum Virtual Machine and Solidity has pretty straightforward Math 6 operations. Discuss the various arithmetic operators used in solidity and give examples. Page 1 of 2 UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) Blockchain applications in supply chain tracking, trade finance, digital assets and 6 identity management are going beyond the pilot stage. Discuss the blockchain platforms in detail.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Hyperledger is an umbrella project of open source blockchains and related tools. 6 Describe the hyperledger and how it works in blockchain. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) Stellar is a payment technology that aims to connect financial institutions and 6 drastically reduce the cost and time. What are the stellar blockchian applications.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Blockchain technology has the potential to transform health care, placing the 6 patient at the center of the health care ecosystem and increasing the security. Discuss blockchain health in detail. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022 Course (Subject): Cloud Security Course Code: B18CS7073 - 26739 Time: 90 Minutes                                        Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) Cloud computing is not so much a technology as it is the combination of many 7 preexisting technologies. Illustrate the relevant technologies that have come together to create a technical ecosystem for cloud computing.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Cloud computing holds the tremendous potential of presenting numerous shared 6 services depending on the cloud model you choose. Elaborate any two cloud computing service delivery models. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) The foundational infrastructure for a cloud must be inherently secure whether it 6 is a private or public cloud or whether the service is SAAS, PAAS or IAAS. Elaborate the topological similarities between a secure extranet and a private cloud in Network level security.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Designing and implementing applications aims at deployment on a cloud platform 7 will require existing application security programs to reevaluate current practices and standards. Justify. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) Data security becomes more important when using cloud computing at all levels. 6 Evaluate the data security scenarios/aspects and make informed judgments regarding risk for their organizations.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) In addition to the security of your own customer data, customers should also be 6 concerned about what data the provider collects and how the CSP protects that data. Illustrate. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) IAM is not a monolithic solution that can be easily deployed to gain capabilities 6 immediately. Elaborate the Enterprise IAM functional architecture, operational activities and identity life cycle management phases.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) OAuth may play a role to enable SSO with a trusted service provider by employing 6 a web services SSO model. Discuss the use case of OAuth. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) By virtue of the service delivery and business model, SaaS service providers are 6 responsible for business continuity, application, and infrastructure security management processes. Write a short note on SaaS Availability Management along with Customer Responsibility and Health Monitoring.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) As a customer of the cloud, should start understanding the trust boundary of the 7 services in the cloud and should understand all the layers own, touch, or interface with in the cloud service—network, host, application, database, storage, and web services including identity services. With neat diagram explain the ITIL life cycle in an enterprise. Page 1 of 2 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Personal information should be managed as part of the data used by the 7 organization. It should be managed from the time the information is conceived through to its final disposition. Explain KPMG data life cycle.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The U.S. regulatory environment is a complex combination of sector-specific 6 federal privacy laws, state-specific laws, and other laws and regulations that can have a significant privacy impact on cloud computing environments. Explain any 3 acts in U.S. Laws and Regulations? UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) CSPs are typically challenged to meet the requirements of a diverse client base. 6 To build a sustainable model, it is essential that the CSP establish a strong foundation of controls that can be applied to all of its clients. Explain the programmatic approach to compliance with a diagram.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) CSPs, like other enterprises, need to establish processes, policies, and procedures 6 for managing their IT systems that are appropriate for the nature of the service offering, can be operationalized in the culture of the organization, and satisfy relevant external requirements. Explain CSP life cycle approach with neat diagram. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) Additional control objectives may be applicable depending on the nature of the 6 services offered by the CSP. Illustrate the control objectives of particular relevance to users of CSPs.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) RightScale provides IaaS-related services in the cloud to assist organizations in 6 managing cloud deployments offered by other CSPs, including vendors such as AWS, FlexiScale, and GoGrid. Explain what are the platforms that RightScale Cloud Management include. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Jan 2021 Course (Subject):WEB TECHNOLOGY Course Code:BTCS15F7400 - 37130 Time: 90 Minutes                                             Max. Marks: 50 Note: Answer ONE FULL question from each unit.    Marks UNIT I –",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) How domain name conversion happens on the web? Summarize the concept, with a figure, 6 by taking by a suitable example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Abdul wants to develop a web pages with the requirements like heading, preserve white 7 spaces and the various ways of styling wherever necessary. He wants to insert an image at the right side of the web page. Demonstrate various tags to get the said requirements. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Design and develop a XHTML document to describe an ordered list of your favorite 7 movie. Each element of the list must have a nested list of at least two actors in it.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) BOB needs to get to a URL which begins with HTTP, and observes Internal Server Error 6 for a website page he was getting to. In this scenario, enumerate with examples about various HTTP phases. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Write an application in JavaScript to validate the name, the name should be entered using 6 prompt. The first and last name should not be more than 10 Characters and middle name must contain only initial. If so validate the corresponding names. The format is first name, Second Name and third name. There should be single white space between each names.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Arrays are used to hold multiple values in same variable. Explain how arrays are created in 6 JavaScript; also, enumerate the five array methods available in JavaScript. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) Develop an application in JavaScript that contains a function named test_phone _num, 6 which test the phone number of the format ddd-dddd-ddddddd and display weather the given number is valid or not using alert.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A logistic company keeps records of goods on day to day basis. Use the suitable CSS-list- 6 properties and their values to keep the items of the inventory categorized by department. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) What are the three categories of Perl variables and how are they handled? Give syntax with 7 example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Write a simple Perl program with use of arrays to read the names, convert them to upper 6 case letters and the array to be sorted and displayed. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) In what three fundamental ways do Perl arrays differ from the arrays of other common 7 high level programming language? Give example for each.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A string is series of characters, where a character is same as a byte. How strings are 6 handled in Perl? List and explain five string methods available in Perl. UNIT – IV Page 1 of 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) Define PHP file variable. List and explain file use indicator. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Differentiate between for and for-each loop in PHP? Explain with Syntax and Example. 6 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) List the differences between single and double – quoted literal strings. Enumerate some 6 commonly used string functions available in PHP.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A person wants to keep track of the number of visitor of his specific webpage. The count is 6 upgrades on each visit and gets stored in session. Design and develop a PHP application to implement the same. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022 Course (Subject): Programming with Python Course Code: BTCS15F7530 - 37134 Time: 90 minutes                                         Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) Describe the different Python datatypes that are available? Explain. Create, 5 display and delete a Python datatype that are unordered. Give Example for each.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Review the following piece of code. Is it valid?          3 >>>x,y,z=1,2,3 >>>x,y,z i. If it is valid, what it is trying to create? ii. Does it support any functions. Justify your answer? iii. What will happen if you try to add an extra element? Justify your answer?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Predict the output of the following code? What is the use of using append and 3 extend method. Justify your output. a=[1,2,5] a.append() a.extend([4,6]) print(a)",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) List out the differences between Tuple and List. Give example. 2 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) Apply concept of dictionary to implement switch statement of C in Python for 4 developing a simple arithmetic calculator.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Apply the Exception handling technique for the following exceptions with 3 suitable examples: i. TypeError ii. NameError iii. ZeroDivisonError",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Explain the built-in functions that are available. Give example for each. 3",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Observe the following list where li = [“a”, ”b”, ”c”, ”exam”, ”b”, ”d”, ”a”, ”is”]. 3 Write a program by considering the above list to display single occurrence of elements of the list, to display only the repetitive elements of the list, to display the elements whose length of the element is greater than 1. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) Express the regular expression to validate both thousand and hundreds place of 3 Numeral. Check the pattern with few options to validate the pattern. What does it return if the pattern accepts or fails? Justify your answer with the output of the pattern.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {
+    "sectiona": {
+      "marks": 5,
+      "count": 249
+    }
+  }
+}

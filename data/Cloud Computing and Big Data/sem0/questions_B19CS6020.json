@@ -1,0 +1,56 @@
+{
+  "subject": "Cloud Computing and Big Data",
+  "semester": 0,
+  "course_code": "B19CS6020",
+  "questions": [
+    {
+      "text": "a) An IT environment requires a specific set of characteristics to enable the remote 6 provisioning of scalable and measured IT resources in an effective manner. Explain six specific characteristics that are common to the majority of cloud environments. b) Describe with a neat diagram, the following basic concepts and terminologies that 7 represent the fundamental concepts and aspects pertaining to the insight of a cloud and its most primitive artifacts: (i) Cloud (ii) IT Resource (iii) On-Premises IT Resource (iv) Cloud Consumers (v) Scaling (vi) Cloud Service OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) There are several primary business drivers that fostered the modern cloud-based 6 technology. List and explain the business drivers. b) A cloud deployment model represents a specific type of cloud environment, 7 primarily distinguished by ownership, size, and access. With the neat block diagram, summarize the cloud deployment models. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Modern data centers exist as specialized IT infrastructure used to house 6 centralized IT resources, such as servers, databases, and networking and software systems. Articulate the significance of computing hardware, storage hardware and network hardware that forms the concept of data center. b) Cloud usage monitor mechanism is a lightweight and autonomous software 6 program that is responsible for collecting and processing IT resource usage data. Discuss the following terms with a neat diagram. (i) Monitoring Agent (ii) Resource Agent (iii) Polling Agent OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The cloud storage device mechanism represents storage devices that are designed 6 specifically for cloud-based provisioning. These mechanisms provide common logical units of data storage. Discuss Network Storage Interfaces, Object Storage Interfaces and Database Storage Interfaces. b) Multitenant applications need to support the sharing of various artifacts by 6 multiple users, while maintaining security levels that segregate individual tenant Page 1 of 2 operational environments. Outline six common characteristics of multitenant applications. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The failover system mechanism is used to increase the reliability and availability of 6 IT resources by using established clustering technology to provide redundant implementations. Outline Failover System with two basic configurations: Active- Active and Active-Passive. b) Cloud management mechanisms form key parts of cloud technology architectures 7 by facilitating the control and evolution of the IT resources that form cloud platforms and solutions. Explain Remote Administration System and Resource Management System with a neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A typical cloud technology architecture contains numerous moving parts to 6 address distinct usage requirements of IT resources and solutions. Make use of diagram, Explain Automated Scaling Listener and Load Balancer. b) Cloud-based IT resources that are geographically diverse can be logically combined 7 into groups to improve their allocation and use. What is the symbol used to indicate that IT resources are clustered and Explain the following terms: (i) Large Dataset Cluster (ii) Server Cluster (iii) Database Cluster (iv) Load Balanced Cluster (v) HA Cluster UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Big Data refers to complex and large data sets that have to be processed and 6 analyzed to uncover valuable information that can benefit businesses and organizations. Interpret structured data, unstructured data and Semi-structured data. b) Big Data is a term used to describe a collection of data that is huge in size and yet 6 growing exponentially with time. Explain Big Data in Medicine and Healthcare with an Applications. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline and illustrate concepts of Hadoop framework that supports data storage 6 and data processing. b) Explain big data Security Issues. 6 *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

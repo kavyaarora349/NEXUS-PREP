@@ -1,0 +1,152 @@
+{
+  "subject": "Machine Learning for Data Analytics",
+  "semester": 0,
+  "course_code": "B18CS6010",
+  "questions": [
+    {
+      "text": "a) Machine learning is defined as an automated process that extracts patterns from 7 data. One of the most commonly used processes for predictive data analytics projects is the Cross Industry Standard Process for Data Mining. Describe about each stage of Cross Industry Standard Process for Data Mining with diagram. b) Some data preparation techniques (w.r.t noise) change the way data is 6 represented just to make it more compatible, in this context explain the two types of Normalization. Also Explain any two data quality issues. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data is quite important for analysis and is depends on its type. List the different 7 types of data and different types of features with an example for each b) Sampling takes care of changing the size and distribution of target values. Explain 6 briefly 3 techniques of sampling UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Entropy model defines a computational measure of the impurity of the elements 7 in a set. Explain about Shannon’s Entropy Model and also calculate the entropy for the following example: The probability of randomly selecting any specific card i from this set, P(card = i), is quite low, just 1/52 . Calculate the entropy of the set of 52 playing cards. b) One of the best known decision tree induction algorithms is the Iterative 5 Dichotomizer 3 (ID3) algorithm. Illustrate the working of ID3 Algorithm in detail. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Entropy-based information gain, have some drawbacks, it preferences features 6 with many levels because these features will split the data into many small subsets, which will tend to be pure, irrespective of any correlation between the descriptive feature and the target feature. Relate a method to address this issue, with relevant mathematical equations. b) Construct a decision tree considering S1 to S6 instances, to predict whether viewer 6 will read or skip the content of the link sent to him for instances S7 & S8. Sample Author Thread Length Location Action S1 Known New Long Home Skips S2 Unknown New Short Work Reads S3 Unknown Old Long Work Skips S4 Known Old Long Home Skips S5 Known New short Home Reads S6 Known old Long work Skips New Sample S7 Known New Short Work ? ? ? S8 Unknown New Long Work ? ? ? Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A simple dataset for MENINGITIS diagnosis with descriptive features that describe 7 thepresence or absence of three common symptoms of the disease: HEADACHE, FEVER, andVOMITING is shown below: Apply the Bayes’ Theorem to make predictionsbased on the above meningitis diagnosis dataset for a query instance withHEADACHE = true, FEVER = false, and VOMITING = true. b) Illustrate how the Naïve Bayes classifier is used to calculate for the given scenario 6 (Outlook=sunny, Temperature=high, wind=strong) if a student plays tennis. Using the training data from the table Outlook Temperature Wind Plays Sunny High Strong No Sunny Normal Weak yes Rainy High strong No Rainy normal Weak No OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Naïve Bayes model is a classification technique based on Bayes’ Theorem with an 7 assumption of independence among predictors.Formally Define the naïve Bayes Model and illustrate with an example the naive Bayes prediction model. b) Multiple linear regressionis a statistical technique that uses several explanatory 6 variables to predict the outcome of a response variable. Illustrate the gradient descent algorithm for training multivariable linear regression models. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A machine learning algorithm can be chosen based on their size of the domain or 7 distribution of the data. Explain Parametric and non parametric, generative and discriminative models and their differences. b) REVA University has two Basketball teams. Compute the standard deviation of 5 heights of the two teams players for following two team players height: Team1: 150,163,145,140,157,151,140,149 Team2: 192, 102,145,165,126,154,123,188 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Machine learning subject of 9 students marks as follows: 6 60, 61,68,63,65,64,62,62,55. Calculate central tendency, percentiles to represent the data in box plots. b) A key step in any predictive analytics project is deciding which type of predictive 6 analytics model to use. Explain four types of approaches learned based on their mathematical foundation ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Jan 2022 Subject Title : Web Application Development Subject Code: B18CS7010 - 26721 Time: 90 Minutes Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A student who is new to Web Programing wants to know the various HTML Tags, with 5 suitable example explain the following HTML tags to him. i). <P>ii).<BR>iii).<HR>iv).<PRE> b) Assume that you’re designing a web pages for the Cultural event organized in your 8 institution, it has 3 divisions with the header, footer, section which contain event list and brochures of the event. At left side displays list of events and the right side displays the brochures of the event where the second page is a target of link from the first page. Create a student login page using suitable HTML tags. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With suitable example illustrate, how the forms data is packaged into a query string. 8 And explain the two important attributes of any forms. What is the difference between GET and POST? b) Write a HTML code for creating login page for the Bus Ticket Booking website? 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A CSS provides the properties of making the HTML documents attractive and colorful 8 by adding different predefined and user defined styles to it. With respect to this explain the following CSS tags, with an suitable example : i) Classes selectors ii) Contextual Selectors iii) ID Selectors iv) Attribute Selectors b) Absolute positioning is a very powerful positioning mechanism that allows users to 4 place any element wherever they want in an exact location. Explain CSS properties right, left, top, bottom and define the exact locations where you need to place the element. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) CSS is used to develop a consistent look and feel for all the pages. Explain about 8 displaying, positioning, and floating an element using CSS. b) Which CSS property allows you to hide an element but still maintain the space it 4 occupies on the web page UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) JavaScript is a text-based programming language used both on the client-side and 8 server-side that allows you to make web pages interactive. Write a simple program in JavaScript to validate the email-id. b) JavaScript is a scripting language that enables you to create dynamically updating 5 content, control multimedia, animate images, and pretty much everything else. Write a Java script program to print the numbers from 0 to 50 Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) JavaScript is a language that allows you to implement complex features on web 8 pages. Discuss about JavaScript debugging. Explain how local and global functions can be written using java script b) JavaScript adds dynamic behavior to the webpage and adds special effects to the 5 webpage. Write a script to demonstrate the use of Date object. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) PHP uses its own memory and competes well on speed, especially when using the newer 8 versions. Write a program in PHP to calculate Square Root of a number? b) PHP code has been put to the test in all kinds of real-life environments. Write a program 4 to Associative Arrays in PHP OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write a program in HTML (Web-Page) having a form with firstname, lastname and a 8 submit button. On clicking the button form validation should work (Use Javascript for that) and data entry should be saved in a database (PHP code needed, for insertion of data from “form” to database). Form should be styled using CSS. (Use any mode- inline, internal or external)? b) PHP is known as a general-purpose scripting language that can be used to develop 4 dynamic and interactive websites. What these tags specify in PHP <?php and ?> ****** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Subject Title: Cryptography and Network Security Subject Code: B18CS7020 - 26722 Time: 90 Minutes Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Security mechanism is a process that is designed to detect, prevent, or recover from a 5 security attack. Discuss the following mechanisms. i) Digital Signature ii) Traffic Padding iii) Notarization iv) Routing Control v) Access Control b) Shekhar approached State bank of India for Loan. In order to approve the home loan, 8 bank officials requested him to send his PAN card Number and other details via an electronic transfer. For making secure transmission they used a symmetric key encryption algorithm, which uses 128-bit key. Identify the algorithm used for communication. Explain the steps in Encryption and Decryption process for the same with a neat diagram OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Security service is a processing or communication service that enhances the security 6 of the data processing systems and the information transfers of an organization. Elaborate on any three security services that are intended to counter security attacks b) Mamatha and Kavitha agree to communicate sharing a key of length 56 bits. The 7 message sent between them is of 64 bits length .Suggest an algorithm for communication. Explain function (f) for the same in detail with a neat diagram UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Depict the overall processing of a message to produce a digest with its steps in Secure 7 Hash function algorithm SHA – 512. b) Perform Encryption and Decryption using RSA Algorithm 5 p = 3 ; q = 11 ; e = 7 and M = 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The purpose of a hash function is to produce a “fingerprint” of a file, message, or 6 other block of data. Outline the properties of a hash function that is to be useful for message authentication b) Consider a Diffie – Hellman Scheme with common prime q=11 and a primitive root α 6 = 2 i) If user A has public key YA = 9, what is A’s private key XA ? ii) If user B has public key YB = 3, what is the shared Secret key K ? UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Kerberos was created by MIT as a solution to the network security problems. Explain 7 the over view of Kerberos version -4. b) Illustrate the digital service for authentication and confidentiality service provided by 6 PGP giving the sequence. Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate with the help of a diagram how Pretty Good privacy scheme uses key rings 8 for message Generation. b) Elaborate on the message header fields defined in MIME specification 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate the Unix password scheme and discuss the possible threats to the scheme 6 b) Illustrate the common types of Firewalls giving its features 6 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) There has been a continuous arms race between virus writers and writers of antivirus 6 software since viruses first appeared. Outline the categories of most significant types of viruses. b) Illustrate the packet filtering Firewall and Highlight the filtering rules based on the 6 information contained in a Network packet *** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

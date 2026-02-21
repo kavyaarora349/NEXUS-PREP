@@ -1,0 +1,29 @@
+REVA UNIVERSITY
+Finite Automata and Formal Lang [B18CS5010]
+Marks: 100 Duration: 180 mins.
+UNIT I
+Answer 1 out of 2 questions.
+1) Design a DFA to accept binary strings that are multiple of 3 when interpreted in (10)
+decimal. Also illustrate the processing of the string "01111"
+a)
+b) Compute the Eclosure of each state of the following Є-NFA and also convert the (10)
+same into an equivalent DFA
+c) Differentiate between the Finite Automata DFA, NFA and Є-NFA (5)
+2) Define DFA and design a DFA to accept strings of a's and b's that either begin or end (10)
+or both with abb
+a)
+b) What are distinguishable and indistinguishable states? List the benefits of minimizing (10)
+the states of the DFA and minimize the states of the following DFA:
+c) Define with example Alphabet, String, Language, complement of a language and (5)
+string concatenation.
+UNIT II
+Answer 1 out of 2 questions.
+3) Define regular Expression. And give regular expressions for the following: (10)
+a) Binary strings whose length is multiple of 3.
+Strings of a's and b's that either begin or end or both with ab.
+L = { anbm | n , m >=0 and n is even number and m is odd number. }
+b) State and prove pumping lemma theorem for regular languages also prove that the (10)
+language L = { an | n >= 0 and is a prime number} is not regular.
+Prove that regular languages are closed under Union and Complement operations.
+c) (5)
+4) (10P)age #1

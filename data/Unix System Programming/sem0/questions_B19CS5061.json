@@ -1,0 +1,56 @@
+{
+  "subject": "Unix System Programming",
+  "semester": 0,
+  "course_code": "B19CS5061",
+  "questions": [
+    {
+      "text": "a) Predict the data structure responsible to access a file, and if a file 6 has to accessed for read or write operation how the kernel will able to locate the file to perform the necessary operations. Explain it with a neat diagram. b) Interpret the use of inode number. Elaborate how it is used in the 7 inode table with the help of a neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Interpret the possible way to create additional references to the 6 given file \"abc.txt\", if a file \"abc.txt\" that is created under the directory /sample/abc.txt. Justify your answer with example. b) Distinguish between directory files API’s device file API’s FIFO file 7 API’s and symbolic link file API’s. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Express the different ways of a process termination? Explain it with a 6 neat diagram and also write the difference between exit and _exit function. b) Summarize the different ways how process control can change 6 user’s id and group id with a neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In Unix, job control refers to control of jobs by a shell. Summarize 6 the job control features with respect to background and foreground process with a neat diagram. b) In early UNIX systems, users logged in using dumb terminals that 6 were connected to the host with hard-wired connections either local or remote. Explain various login terminals with help of neat diagram. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) When the set time value is exceeded, the SIGALRM signal is 7 generated. Explain the prototype of alarm function. Write a C/C++ program to implement interval timers using alarm. b) Save mask specifies the flag used to determine if the signal mask is 6 to be saved. Explain sigsetjmp and siglongjmp function with a suitable program. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A daemon prevents unwanted interactions from happening based on 7 certain coding rules. Demonstrate the implementation of coding Rules. b) Construct a sample code to generate signal and to handle signal by 6 using signal handler function. Page 1 of 2 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Express the structure of shared memory and also reproduce the 6 prototype for shmget(), shmctl(), shmat()functions. b) A message queue is a linked list of messages stored within the kernel 6 and identified by a message queue identifier. Discuss the different type arguments in message queue. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Shared memory allows two or more processes to share a given region 6 of memory. Demonstrate shared memory with help of neat diagram and give 6 different types of reader and writer process when the system calls used. b) Discuss the properties of clients and servers that are affected by the 6 various types of IPC used between them. ****** Page 2 of 2 SRN 5th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

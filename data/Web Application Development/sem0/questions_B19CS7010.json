@@ -1,0 +1,56 @@
+{
+  "subject": "Web Application Development",
+  "semester": 0,
+  "course_code": "B19CS7010",
+  "questions": [
+    {
+      "text": "a) The HTML document comprises many tags defined by various attributes. Illustrate the syntax 10 and the usage of HTML tags with or without the attributes with suitable examples (at least 4). Write the HTML snippet of code that has a link to another webpage “another.html” in the current HTML document. b) Given are the following HTML tags. 10 i)<pre> ii) <div> iii) <img> iv) <span> v) <p> vii) <blockquote> viii)<href> ix) <form> Design the layout of a single web page using “Online Education” context that has courses of some under-graduate program. Illustrate the usage of the above tags with their syntax. Also, write the HTML code that renders the web page whose layout was created in the first part. c) Illustrate all the controls that are used for text collection, created with the <input> tag with 5 suitable examples. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline any 5 important HTML elements with illustrative examples. Considering the context 10 of a “Sportswear Gallery”, create a web page i) that displays an images, ii) has line breaks in the text, iii) has headings to highlight some categories, and iv) manages font colors and styles, to make it appealing. b) With suitable examples, illustrate how the data collected from the form is packaged into a 10 query string. Also, illustrate the two important attributes of such a form. Outline the situations of using GET versus POST method in a web page design. c) Write the snippet of HTML code to create and display the table below, using appropriate 5 column and row span attributes. S. Student Name Marks Scored No. Internal External 1 Akash 23 97 2 Bhagya 24 89 3 Chandana 22 95 4 Divya 25 99 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A CSS provides the properties of making the HTML documents attractive and colorful by 10 adding different predefined and user defined styles to it. Considering the context above, illustrate the following CSS tags with suitable examples: i. Classes Selectors, ii. Contextual Selectors, iii. ID Selectors, and iv. Attribute Selectors. b) Illustrate the usage of different levels of style sheets available in CSS with suitable examples. 10 Page 1 of 2 c) Outline the significance of the four key components that make the responsive design work. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate the following with respect to the table creation in XHTML documents: 10 i. table, tr, th and td tags ii. align and valign attributes.. iii. rowspan and colspan attributes. iv. cell padding and cell spacing attributes b) Identify and outline the various approaches that are available for CSS layouts. Illustrate the 10 same with suitable examples. c) With the help of CSS code, illustrate how HTML elements can be overlapped and hidden in a 5 web page. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the primitive data types in JavaScript emphasizing the Array methods with examples. 10 Also, illustrate the two ways to embed JavaScript in an HTML document. b) A client is a web browser through which users make requests, which contain input required, 10 for service from the server to perform tasks. Server is a program running on a dedicated computer. Design a web page that takes student details such as name, branch, semester, University, date of admission, mobile number, email id, and check for validity or correctness of the input data by writing a JavaScript code to validate these fields. c) Compare and contrast on any three major similarities and differences between Java and 5 JavaScript. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With suitable examples, illustrate how pattern matching using regular expressions is 10 achieved in JavaScript. b) Write a program in JavaScript to accept n integer numbers using prompt and calculate and 10 display the largest, smallest, and average of n numbers. c) Outline the major real time benefits of using JavaScript on the client side. 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define i. Cookie, and ii. Session tracking. Considering the context of a client surfing the 10 REVA university website, illustrate how a web developer handles cookies, and performs session tracking using PHP. b) Write a program in HTML (Web-Page) having a form with Employee ID (String), Employee 10 Salary (Real), and a “Submit” button. The form should be styled using CSS using any of the modes: inline, internal or external. Add the JavaScript code to perform form validation when the user clicks the submit button. Then, write the PHP code that saves this data to some external database. c) Illustrate the implementation of file operations in PHP by first proposing a situation for file 5 usage. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate the concept of creating and accessing an array in PHP. Outline and illustrate the 10 various functions that are available in PHP to deal with arrays with suitable examples for each of the functions. b) Write a program in PHP that accepts the employee id and password from a webpage form 10 styled with CSS, and validated with JavaScript. Write the PHP code to check the employee authorization using the employee data (Employee Id, Employee password, Employee Name, Gender, Age, and Salary) in the database. Fetch the employee details from the database and display the welcome message. c) Illustrate the implementation of links in PHP pages with suitable examples. 5 *** Page 2 of 2 SRN 7th Semester B. Tech. Semester End Examination December 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

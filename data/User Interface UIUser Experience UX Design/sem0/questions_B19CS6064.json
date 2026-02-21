@@ -1,0 +1,56 @@
+{
+  "subject": "User Interface UIUser Experience UX Design",
+  "semester": 0,
+  "course_code": "B19CS6064",
+  "questions": [
+    {
+      "text": "a) According to Harvard Business School there are over 30,000 new products introduced every year (physical and digital), and 95% fail. That’s a disturbing thought for every 13 organization, Outline and also justifies the major reasons for failure of any digital product. b) Personas are fictional characters, which you create based upon your research to represent the different user types that might use your service, product, site, or brand 12 in a similar way. Enumerate the six types of personas that are used to accomplish or prioritize the personas to determine eventually the primary design target. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Creating and later iterating upon, user personas is a critical piece of the UX design/strategy puzzle. Justify how Provisional Personas can be used as rhetorical 13 tools to clearly communicate assumptions about who the important users are and what they need. b) User personas are a commonly used tool in UX design. At their core, personas are about creating products with a specific, not generic, user in mind. Enumerate the 12 steps involved in a persona creation process UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The requirements process establishes a description of the capabilities the custom 13 product must provide, the environment in which it must perform, and the functional specification of the system. Describe the five steps involved in the requirements definition process. b) The persona is a powerful, multipurpose design tool that helps overcome several 12 problems that plague the development of digital products. Summarize the steps involved in a Constructing Personas. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Design values are guidelines for the successful and appropriate practice of design. 12 Outline the various ways and their significance of designers should create design solutions that should followed for design values while designing. b) With the help of rough sketches illustrate the behavior of the following interaction 13 design patterns: i. Desktop: Organizer-Workspace, and ii. Mobile: Double Drawer. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) User segmentation is the process of separating users into distinct groups, or 13 segments, based on shared characteristics. A company might segment users based on language preferences, product version, geographical region, or user persona. Illustrate the role of user segmentation to fulfil user needs during strategic scope plane. b) Product objectives are targets for product development or product management. They serve as the basis for product strategy, design, refinement and launch. Outline 12 the various parameters to be considered to set the product objectives during strategic scope. Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) User Experience design is a commitment to building products that are created with 12 the customer in mind. It starts with studying who the customers are and what they need and taking that information to provide products and services that improve the quality of people’s lives. With diagrams outline the five elements (planes) of User Experience design. b) Requirement’s prioritization is the process of managing the relative importance and 13 urgency of different requirements to cope with the limited resources of projects. Adequate prioritization ensures that the most critical requirements are addressed immediately in case time or budgets run out. Illustrate how the prioritizing requirements are done in scope plane. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Making a software from the words of person in very difficult. Illustrate the different 13 structural content preparation and architectural approaches in the user interface design. b) Navigation between pages is considered very important task. It will give the user the 12 idea about the friendliness of the software developed. Outline and illustrate the concepts used in navigating the pages in such a UI design. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Surface plane is the ‘skin’ layer of the product. Here, designers dive into the visual 12 treatment of the product, including text, graphical elements, and navigational components to create the packaging, the final ‘look-and-feel’, of the product. Illustrate the various aspects of sensory design of a surface plane. b) Building a product requires dealing with the design from the start. Illustrate 13 conceptual models and interaction design with respect to structure plane Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

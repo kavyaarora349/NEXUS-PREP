@@ -1,0 +1,68 @@
+{
+  "subject": "Physics for Computer Science",
+  "semester": 0,
+  "course_code": "B20AS0106",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed. Marks",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Derive an expression of wave function for a particle in one-dimensional infinite 12 potential well. b) Define wave function and mention any 3 of its properties. 8 c) Write an expression for de-Broglie wavelength. Calculate the de-Broglie wavelength of 5 a golf ball of 50 g moving with a velocity of 20 m/sec OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) State de-Broglie hypothesis. Derive an expression for de-Broglie wavelength for an 12 electron accelerated by a voltage V. b) Derive time-dependent Schrödinger equation 8 c) Compute the first three permitted energy values for an electron in one dimensional 5 potential well of width 1 Å. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Derive the expression for Einstein’s coefficient for energy density at thermal 12 equilibrium and relate to Planck’s law of radiation b) Write the key features of electromagnetic waves. 8 c) The wavelength of semiconductor laser diode is 800 nm, find the bandgap of 5 semiconductor laser? OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the working of semiconductor (diode) LASER with neat diagrams. 12 b) Explain the classification of electromagnetic waves with the wavelength range. 8 c) A continuous LASER is emitting LASER beam with an average power of 5 mW. Find the 5 number of photons emitted per second by the LASER. Given the wavelength of emitted radiation is 632.8 nm. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With a neat diagram, discuss different types of optical fibers with the help of refractive 12 index profile and mode of propagation. b) What is attenuation in an optical fiber? Discuss the cause for attenuation in optical 8 fibers c) The attenuation of light in an optical fiber is 3.6 dB/km. what fractional initial intensity 5 remains after 3 km? OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Derive an expression for numerical aperture and obtain the condition for light 12 propagation in an optical fiber. b) With the help of block diagram explain optical fibre communication system (point to 8 point communication). Page 1 of 2 c) Calculate the Numerical Aperture and Angle of Acceptance for an Optical Fiber having 5 refractive indices 1.563 and 1.498 for core and cladding, respectively. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the construction and working of resistive touchscreen with a neat schematic. 12 b) Differentiate bits and qubits 8 c) Write the controlled NOT gate with its truth table. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write a note on CRT display technology. 12 b) Compare LCD display with LED display technology 8 c) Define quantum wire and quantum dot. 5 *** Page 2 of 2 SRN 1st /2nd Semester B.Tech EEE/CV/CSE/CIT Semester End Examination August 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

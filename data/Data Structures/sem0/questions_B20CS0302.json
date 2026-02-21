@@ -1,0 +1,56 @@
+{
+  "subject": "Data Structures",
+  "semester": 0,
+  "course_code": "B20CS0302",
+  "questions": [
+    {
+      "text": "a) Define Sorting and take an array of n elements from user, apply sorting algorithm which 8 works for application of playing cards. b) Define Data Structures. List any 4 Data Structures along with its application usage. 7 c) Define 2D arrays with syntax of declaration, instantiation, and initialization. Consider a 10 matrix of order m X n. Find the number of elements which are even and print their sum. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain all Abstract Data Type (ADT) with examples and diagram 8 b) Create and generate 10 random elements using random class method and write a 8 program to perform sort using bubble sorts and search for an element in it and print it. c) Explain the caesar cipher technique for encryption and decryption. Consider the text is 9 “REVA UNIVERSITY IS IN YELHANKA” then cipher text corresponding to it is “TGXC WPKXGTUKVA KU KP AGNJCPMC”. Write the program for the same. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Distinguish between SLL and DLL 5 b) A list with ordered elements is stored in increasing order. Suppose the next element to 10 be inserted is the greatest element. Identify and write the appropriate function to perform the operation. Illustrate it with proper diagram. c) Design functions for Circular linked list to add element and delete element in the list. 10 Show the operations diagrammatically. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Summarize Linked List with its applications, advantages and disadvantages. 8 b) For a doubly linked list, first write and explain the process of searching an element in the 8 list and second process of displaying the list elements. Implement both procedures in Java. c) A list is maintained as shown in alphabetical order. Suppose the next element to be 9 inserted is “K”. Identify and write the appropriate function to perform the operation. Illustrate it with proper diagram. Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define Stack ADT. Write the Array-based implementation of the Stack interface. Analyze 10 the drawback of this implementation. b) Construct the java program to implement Queue using linked list 10 c) List the applications of stack 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Construct the java implementation of reversing an array using a Stack. 8 b) Evaluation of postfix expressions is done by compilers during the compilation process. 10 Design and Develop a program to evaluate a postfix expression using stack. Entered the expression in postfix: 20 35 + 60 * Evaluate a postfix expression using stack c) Design a java program that determines whether parenthetic symbols ( ), { } and [ ] are 7 nested correctly in a string of characters (use stack ADT). UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Develop a expression tree for the given expression ((2+3)*(5-6/7)) 10 b) Design the code snippet / Algorithm to compute the number of leaf nodes in a binary tree 5 c) Create a binary tree Suppose the data elements are - 45, 15, 79, 90, 10, 55, 12, 20, 50 10 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List out applications of Tree traversals. 7 b) Create a binary tree that satisfies the condition: 8 inorder[] = {1, 5, 10, 40, 30, 15, 28, 20} c) Design the code snippet to create BST 10 *** Page 2 of 2 SRN 3rd Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

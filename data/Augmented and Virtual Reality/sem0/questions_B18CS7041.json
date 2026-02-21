@@ -1,0 +1,56 @@
+{
+  "subject": "Augmented and Virtual Reality",
+  "semester": 0,
+  "course_code": "B18CS7041",
+  "questions": [
+    {
+      "text": "a) History always gives a booster, and it is fun to know about the past happenings. 7 Define Augmented reality and write a note about the history of Augmented Reality. b) A System to be made up of all the components in the design phase. Discuss the 6 system structure of augmented reality OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Building a system to know how it works is an important task. Virtual reality 5 techniques are widely used in these aspects. Brief the different concepts and components of virtual reality. b) Knowing the upcoming of an area in technology gives us a lot of value addition. 8 Define the term virtual reality and explain the happenings for it to evolve till date. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Input devices are very important for getting data to the virtual reality system. 7 Discuss tracking system used as an input device. b) Visual tools are very useful output devices in a virtual reality system. Discuss 5 visual tools for output in a virtual environment. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Output system is one with make a system to work as a real time system. Explain 7 haptic devices used as output devices in virtual reality systems. b) Sounds and audio systems are one of the major output systems in a virtual reality 5 output. Describe the same. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Modelling a system is very important for successful outcome of the project. 8 Discuss VR system architecture and explain VR modelling cycle. b) Series like Angry birds etc. are developed using some physical quantities in mind. 5 Discuss physical based simulation in brief. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Texture gives a different look to any system. Describe texture mapping with 8 respect virtual reality. b) A football game is to be simulate in a VR environment. Discuss behavior 5 simulation / modelling for the same. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) We require different process and tools to build a virtual reality environment. 7 Discuss the Frameworks of Software Development Tools in VR b) Tools are very important in development of a virtual environment. Describe 5 unity software and discuss it usage in VR environment. OR Page 1 of 2",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Virtual reality is used in simulation in major areas. Write a note into VR 7 Technology in Film and TV Production. b) Compare and contrast MultiGen and Virtools used in VR scenario. 5 *** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

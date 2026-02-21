@@ -1,0 +1,56 @@
+{
+  "subject": "Computer Network",
+  "semester": 0,
+  "course_code": "B18CS5030",
+  "questions": [
+    {
+      "text": "a) The OSI Model (Open Systems Interconnection Model) is a conceptual framework 7 used to describe the functions of a networking system. Discuss in detail about the layers in OSI model with a neat diagram. b) Addressing is an identifier for a node or host on a telecommunications network. 6 List and explain the four levels of addresses with examples used in an internet employing the TCP/IP protocols. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The virtual circuit network is a cross connect between circuit switched network 7 and datagram networks, explain all the phases involved in setting the routing table having VCI. Also derive the final total delay time for the same with diagram. b) Unguided transmission media are methods that allow the transmission of data 6 without the use of physical means to define the path it takes. Discuss about any two unguided transmission medium. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The process of coding the bits to digital signals is chosen to avoid overlap and 6 distortion of signal such as inter-symbol interference. Encode the given sequence of bits 101001110 to digital signals using: unipolar NRZ, polar NRZ-L, NRZ-I, RZ, Manchester The process of coding the bits to digital signals is chosen so as to avoid overlap and distortion of signal such as inter-symbol interference. Encode the given sequence of bits 101001110 to digital signals using: unipolar NRZ, polar NRZ-L, NRZ-I, RZ, Manchester. b) Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) is a network 6 protocol for carrier transmission that operates in the Medium Access Control (MAC) layer. In contrast to CSMA/CD (Carrier Sense Multiple Access/Collision Detection) that deals with collisions after their occurrence. With flow diagram, explain the working of CSMA/CD. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The Internet checksum is a relatively lightweight protocol that provides support 6 for reliable data transport.? Explain the steps involved to calculate the checksum at the sender side and steps involved in error detection at receiver side by taking an example. b) Point - to - Point Protocol (PPP) is a communication protocol of the data link layer 6 that is used to transmit multiprotocol data between two directly connected (point- to-point) computers. With diagram explain the frame format and Transition phases of PPP. Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find the NetID and host ID of following IP addresses. 7 i) 217.14.2.1 ii) 288.35.54.12 iii) 91.123.51.46 iv) 131.14.6.8 b) A block of address is granted to a small organization. One of the IPV4 address is 6 205.16.37.39/28. What is first address, last address, and number of addresses in the block? OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The Internet Protocol version 4 (IPv4) is a delivery mechanism used by the TCP/IP 7 protocols. Give the IPv4 Datagram format and brief description of each field. b) Consider a network with 6 routers, connected with links having weights as shown 6 in the following diagram. write the link state routing algorithm and apply it to the following graph with source node as ‘u’ UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) TCP segment is the protocol data unit which consists of a TCP header and an 6 application data piece (packet) which comes from the (upper) Application Layer. Draw TCP Segment structure and explain its fields. b) TCP Congestion Control is meant for handling Congestion in Network. Explain with 6 diagrams the techniques involved in TCP Congestion Control. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The Domain Name System (DNS) is the hierarchical and decentralized naming 6 system used to identify computers, services, and other resources reachable through the internet or other internet protocol networks. Explain with diagrams the recursive and iterative resolution of DNS, also explain the DNS query and response messages. b) ARQ protocol has been implemented more often at the edges of the network to 6 provide end-to-end reliability in the transmission of packets. Explain selective repeat ARQ protocol. ****** Page 2 of 2 SRN 5th Semester B Tech Semester End Examination Jan 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

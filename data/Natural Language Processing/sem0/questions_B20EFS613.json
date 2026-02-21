@@ -1,0 +1,98 @@
+{
+  "subject": "Natural Language Processing",
+  "semester": 0,
+  "course_code": "B20EFS613",
+  "questions": [
+    {
+      "text": "a) Large language models like ChatGPT have revolutionized the way we use the 10 internet. These models are an application of Natural Language Processing. Explain the field of Natural Language processing covering different tasks involved in it. b) Analyze the following text to identify various simple statistics from it: 10 text = ['After all', 'all', 'is', 'said', ‘and’, 'done', 'more', 'is', 'said', 'than', 'done']",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Frequency Distribution 2. Vocabulary 3. Bigrams c) Natural language toolkit (NLTK) is a very handy tool for NLP in python. Explain the 5 features of NLTK that make it such a powerful library OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) NLP Models like ChatGPT3 are very good at Natural language understanding that 10 is why they are so good at responding to different types of prompts in various languages. Examine different technologies involved in automatic natural language understanding b) NLTK provides an extensive set of annotated text corpora and lexical resources 10 that makes it a preferred tool. Explain different annotated text corpora and lexical resources provided by NLTK c) During NLP programming, we often use strings and lists to represent text. 5 Compare the string and the list datatype in Python. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Examine and describe the class of strings matched by the following regular 10 expressions.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "[a-zA-Z]+",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "[A-Z][a-z]*",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "p[aeiou]{,2}t",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "\\d+(\\.\\d+)?",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "([^aeiou][aeiou][^aeiou])* b) The most important source of texts for NLP is the Web. Python has an excellent 10 set of libraries for accessing text from the web. Develop a python function that takes a URL as its argument, and returns the contents of the URL, with all HTML markup removed. Use URL http://nltk.org/ as example. c) Our programs often need to deal with different languages, and different 5 character sets. Explain what you understand by the Unicode. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) NLTK’s Build the regular expressions to match the following classes of strings: 10 1.Strings containing any one of the determiners - a, an, and the.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "An arithmetic expression using integers, addition, and multiplication, such as 2*3+8 Page 1 of 2 b) Develop a python function to produce tabulated output of conditional frequency 10 distribution of following modals –[can, could, may] in the Brown corpus in following categories – [news, hobbies, humor]. c) Compare Stemming and lemmatization operations in NLP. 5 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The words we see in text have a grammar class or a lexical category associated 10 with them. These classes are called parts of speech (POS). A very important task in NLP is tagging of words with their POS tags. Explain POS tagging and illustrate reading and POS tagging of a tagged corpora with python code using NLTK library. b) Compare the following taggers in NLTK library: default tagger, regular expression 10 tagger, NLTK Unigram tagger/look up tagger. c) Explain the universal part of speech tag set. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Analyze different types of clues that can be used to determine the category of a 10 word. b) Examine and draw the process of general N-gram tagging using NLTK library’s 10 built-in taggers. Why should data be split into training and test portions? c) Explain the challenges in case of n-gram taggers. How are these overcome? 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Detecting patterns is a central part of Natural Language. Examine the process of 10 supervised classification with a diagram. b) Develop a python NLP program for gender identification using NLTK library’s 10 Naïve Bayes classifier and ‘names’ corpus. c) Explain the problem of overfitting in supervised classification. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Develop a python program for POS speech tagging using Decision Tree Classifier 10 in NLTK. Use tagged Brown corpus for training. b) Explain the Naïve Bayes Model for text classification. Examine how can Naïve 10 bayes classifier be made to handle non-binary features. c) Compare the following metrics for evaluation of classification models – accuracy, 5 precision, recall. *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

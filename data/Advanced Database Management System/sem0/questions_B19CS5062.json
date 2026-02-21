@@ -1,0 +1,56 @@
+{
+  "subject": "Advanced Database Management System",
+  "semester": 0,
+  "course_code": "B19CS5062",
+  "questions": [
+    {
+      "text": "a) A Company object database stores employee’s information, department details and projects details. Explain Object identity, Structure of the objects and type 8 constructor for a particular department of the company. And also represent Department complex object as a graph. b) Objects and Literals are the basic building blocks of the object model. Explain any 5 four differences between Objects and literals. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Transient objects exist in the executing program and disappear once the program terminates. Persistent objects are stored in the database and persist after program 8 termination. Explain Specifying object persistent via naming and reachability. b) The main characteristic of OO database systems is that it will allow type 5 hierarchies and inheritance. Illustrate it with suitable examples. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) For any database application, operations such as loading data, building indexes, and evaluating queries must be done parallel to improve its performance. 7 Illustrate various architectures proposed for building Parallel DBMS with diagrams. b) Assume that shared nothing architecture with horizontal partitioning of data is used for bank transaction. Explain how the individual operations of a query is 5 parallelized. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Parallelism in a query allows to parallel execution of multiple queries by decomposing them into the parts that work in parallel. Explain Parallel query 7 evaluation in detail. b) Consider sailors distributed database which consists of Sailors and reserves data. As the data is distributed, Illustrate the following types of Distributed Queries are 5 processed. i) Non Join ii) Joins Queries UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The model that has been used to specify active database rules is referred to as Event-Condition-Action model. For a Company database application, Illustrate the generalized model for active databases using Oracle triggers, Design and 7 Implementation issues for Active databases and Examples of statement level active rules in STARBURST. b) For storing maps and to keep track of objects in multidimensional space, spatial databases are used. Illustrate the following with suitable example. i) Spatial Data types 6 ii) Spatial Operators iii)Spatial Queries Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) For the reservation systems in Hotels, Airlines, etc, where information on dates and times when reservations are in effect done with the help of temporal 7 database concepts. Explain how the time component in incorporated using temporal database concepts. b) Notation used in Prolog/Datalog is based on providing predicates with unique 6 names. Illustrate Prolog/Datalog notation with suitable examples. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Traditional SQL systems are evolving to support OLAP style queries for querying any database application. Illustrate multidimensional data model in OLAP 8 systems. b) The query is to find out the top 10 states whose average sales is more. 4 Illustrate various techniques used for solving queries quickly. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The Government uses data warehouses to maintain and analyze tax records. Demonstrate Data warehouse architecture used and also explain how the 8 warehouse is created and maintained. b) For a Company database application. Describe how the window is framed to 4 compute total sales for each product using various Window queries in SQL. *** Page 2 of 2 SRN 6th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

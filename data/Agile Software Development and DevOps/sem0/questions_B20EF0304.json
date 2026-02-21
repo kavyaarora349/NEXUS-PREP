@@ -1,0 +1,56 @@
+{
+  "subject": "Agile Software Development and DevOps",
+  "semester": 0,
+  "course_code": "B20EF0304",
+  "questions": [
+    {
+      "text": "a) Spiral model is one of the most important Software Development Life Cycle models, 10 which provides support for Risk Handling. Explain about Spiral Development Process in detail. Justify why it is considered as a important model. b) A software process is the set of activities and associated results that produce a 10 software product. Explain in detail about the Waterfall Model with advantages and Disadvantages, compare with evolutionary model c) Rather than deliver the system as a single delivery, the development and delivery is 5 broken down into increments with each increment delivering part of the required functionality. Explain incremental delivery and list out its advantages. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Software specification or requirement engineering is the process of understanding 10 and defining what services are required from the system and identifying the constraints on the system’s operation and development. Explain with neat diagram of requirement engineering process with example. b) In Extreme programming (XP), all requirements are expressed as scenarios or user 5 stories which are implemented directly as a series of tasks. Explain XP with a neat diagram. c) The requirements for a system are the descriptions of the services provided by the 10 system and its operational constraints. These requirements reflect the needs of customers for a system that helps solve some problem such as controlling a device, placing an order or finding information. Categorize the requirements and Explain each of them in detail. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The agile ALM requires that we understand and apply agile principles. Explain the 12 10 Principles of Agile in detail. b) Customer collaboration is essential for any comprehensive and usable Agile Lifecycle 10 Management. Explain the concept of customer collaboration and also discuss the DevOps for customers. Justify why customer collaboration is essential. c) Explain the concept of fixed box time sprints and scrum 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Agile application lifecycle management requires a flexible and creative approach to 10 managing the software and system lifecycle that goes beyond the traditional software or systems development lifecycle. Explain the Goals of Agile Application Lifecycle Management. Also Explain the importance of Agile ALM. b) Why requirements in agile is important? explain user stories by taking appropriate 5 example. c) Illustrate rapid application development with advantages and disadvantages. 10 Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Does the tools are essential for automation? Do really Tools matter in ALM? Give 10 your valuable justification on ‘Process over Tools’. Give your understanding of Tools in Scope of ALM and finally differentiate between Commercial and Open Source tools. b) ALM tools should be used to manage the entire agile ALM. Explain the broad scope 10 of ALM tools and achieve seamless integration. c) Give the overview of ‘Process modeling automation’. Explain with an example for 5 transaction on an e-commerce platform. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Testing the code is essential, but you should also remember that the software and 10 systems lifecycle needs to be tested as well. Explain with a neat diagram Testing the Lifecycle, Test case management and Test-driven development. b) The configuration management database (CMDB) is a great tool that many 10 companies have spent millions to implement. Explain the concepts of supporting the CMDB and driving DevOps in Agile ALM. c) Explain the concept of ‘Automating the Workflow’ for an example of Content 5 management system. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the conflicts between Developer and operation team. How to resolve it? Is 10 collaboration gives the solution? Give proper reasons. b) Explain the Goals of DevOps. Also Explain the importance of DevOps 10 c) Explain the knowledge management in DevOps. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Where and when to start working on DevOps and how to implement DevOps? 10 b) Explain cross functional team. What are the purpose and philosophy of cross 10 functional team? Does it give positive effects in the organization? Give proper reasons. c) Explain DevOps ecosystem. is DevOps agile. Justify. 5 *** Page 2 of 2 SRN 4th Semester B.Tech LE CSE/CIT Semester End Examination August 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,73 @@
+{
+  "subject": "Computer Organization and Architecture",
+  "semester": 0,
+  "course_code": "B20EF0404",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper. UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the Register structure of ARM Processor including CPSR 7 b) Develop an ALP to find the sum of n numbers and store the result in memory 5 location. c) Outline the importance of Assembler directives used in ARM Programming 3 d) Identify the types of addressing modes used in the following instructions and how do 10 they execute? I. MOV R0, #45 II. LDR R6, [R5], #08 III. STR R9, [R5, #-4]! IV. ADD R1, R2,R3, LSL #2 V. STR R2, [R5,#-4] OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List the various Addressing modes supported by ARM Processor. Give the Syntax of 7 each type and how do they execute? b) Outline the working of the following ARM Instructions with one example for each. 8 LDRB ADDS MUL MVN EOR TEQ c) Detail the modes of operation of ARM Processor and Outline the importance of Bank 5 registers of ARM. d) Develop an ALP to check if a given 32-bit number is ODD or EVEN. If ODD, store result 5 as 0xFF in R4, else as 0xAA in R3. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Make use of Binary division hardware to demonstrate the division of 22/4 employing 7 restoring division algorithm b) Apply Bit pair recoding multiplier Algorithm to find the product of +19 and -26 7 c) State the drawbacks of a Ripple carry adder. Suggest and design a 4-bit fast adder 7 starting from the sum and carry equations of a full adder. d) Express (23.54) in 32-bit IEEE floating point format. 4 10 OR Page 1 of 2",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Give the 64-bit IEEE floating point number format and Express (19.36) in64-bit IEEE 5 10 format. b) Compute the product of 15 and 13 using sequential Multiplier algorithm. Give the 7 hardware setup for the same. c) With a neat Hardware setup of a 4-bit Adder/Subtractor, demonstrate the addition 7 of 14 with 9 and subtraction of 6 from 13. d) Demonstrate the division of 19 by 4 using Non-restoring Division algorithm. 6 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the organization ofX 8 memory that can be built using 512K X 8 memory 8 chips. b) Develop Set associative mapping function that maps 128 blocks of Cache with 2 7 blocks per set and a main memory having 4k blocks. c) With the aid of DMA registers, explain the DMA transfer that is performed in a 5 computer. d) Outline the Read and Write operation performed by a static Ram cell with a neat 5 diagram. OR",
+      "marks": 2,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the organization of a 1K X 1 memory chip using static memory cells. How 7 many external connections does it provide? b) Outline the translation of Virtual address to Physical address by the MMU in Virtual 6 memory system c) Develop direct mapping function that maps 128 blocks of Cache with main memory 7 having 4k blocks of 16 words each. d) With a neat diagram, outline the memory hierarchy of Computer memory system. 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the Bus Arbitration scheme with the aid of a timing diagram for a case where 7 3 masters’ assigned priorities by the arbiter contend for the common bus. b) Outline the read operation performed on a PCI bus for a 32-bit word transfer from 7 memory. c) With the aid of a neat timing diagram detail the Read and operation performed over 6 an Asynchronous Bus. d) Detail the serial interface that is used to connect the processor to I/O devices that 5 transmit data one bit at a time OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Detail the Parallel interfacing of input and output devices with the Processor with 7 the aid of a block diagram. b) Outline the concept of hardware multi threading 5 c) Detail the Write operation performed on the PCI bus with the aid of a neat timing 7 diagram d) List and detail the different interconnection used to broadcast information from one 6 node to many other nodes. *** Page 2 of 2 SRN 4th Semester B Tech CSE/CIT Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {
+    "sectiona": {
+      "marks": 2,
+      "count": 1
+    }
+  }
+}

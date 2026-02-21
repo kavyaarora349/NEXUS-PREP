@@ -1,0 +1,56 @@
+{
+  "subject": "Discrete Mathematics and Graph Theory",
+  "semester": 0,
+  "course_code": "B20AS0302",
+  "questions": [
+    {
+      "text": "a) Prove the distribution laws for any three sets Page 1 of 3 A , B , C ( i ) A  ( B  C )  ( A  B )  ( A  C ) ( i i ) A  ( B  C )  ( A  B )  ( A  C ) 6 b) Define tautology. Show that  ( p  q )  ( p  r )  ( q  r )   r a tautology, by 6 Constructing a truth table. c) Examine the validity of the following argument: 6 If I study, I will not fail in the examination. If I do not watch TV in the evenings, I will study. I failed in the examination. ……………………………………………………………………. Therfore, I must have watched TV in the evenings. ……………………………………………………………………. d) A student visits sports club everyday from Monday to Friday after school hours and 7 plays one of the three games: cricket, Tennis and Football. In how many ways can he play each of the three games at least once during a week.(from Mon to Fri) OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Prove that the open interval (0,1) is not a countable set 6 b) Prove that the following argument is valid. 6 x,p(x)(q(x)r(x) x,p(x)s(x) x,r(x)s(x) c) Give i) Direct Proof ii)Indirect Proof iii) Proof by contradiction for the following 6 statement “if n is an odd integer, then (n+9) is an even integer” d) Define converse, inverse and contra positive of a conditional statement with truth 7 table. Also state the converse, inverse and contra positive of the following statement. “If a triangle is not isosceles, then it is not equilateral”. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Let A={1,3,5}, B={2,3}, C={4,6}. Write down the following: 6 AB,BA, A(BC), (AB)C b) Consider the sets A={a,b,c} and B={1,2,3} and the relations R={(a,1),(b,1),(c,2),(c,3)} 6 and S={(a,1),(a,2),(b,1),(b,2)} from A to B. Determine R, S , RՍS, RՈS, R C and SC. c) Let A={1,2,3,4} and R={(1,1),(1,2),(2,1),(2,2),(3,4),(4,3),(3,3),(4,4)}be a relation on 6 A. Verify that R is equivalence realtion. d) ABC is an equilateral triangle whose sides are of length 1 cm each. If we select 5 7 points inside the triangle, prove that at least two of these points are such that the distance between them is less than ½ cm. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define Sterling’s number of second kind. If A =7 and B =4 find number of onto 6 function from A to B. Hence find S(7,4). b) Consider the Hasse diagram of a poset (A,R) given below 6 If B={c,d,e} find: i) all upper bounds of B ii) all lower bounds of B iii)the least upper bound of B iv) the greatest lower bound of B. c) Draw the Hasse diagram representing the positive divisors of 36. 6 d) Let f, g, h be functions from Z to Z defined by f(x)=x-1, g(x)=3x, 7 h(x)= Determ0,in𝑖𝑓e 𝑥(f օ 𝑖𝑠(g 𝑒 օ 𝑣h𝑒)𝑛)(x) and ((fօg)օh)(x) and verify that fօ(gօh)= ((fօg)օh. { 1,𝑖𝑓 𝑥 𝑖𝑠 𝑜𝑑𝑑 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Prove that the number of vertices of odd degree in any graph is even. 6 b) Define with an example : Graph, multigraph , simple graph, Complete Graph, 6 Bipartite Graph, Complete Bipartite Graph. c) Prove the following (i) A path with n vertices is of length n-1. 6 (ii) If a cycle has n vertices, it has n edges. (iii) The degree of every vertex in a cycle is 2. d) Prove that a simple connected graph with n vertices and k components can have at 7 1 most (nk)(nk1)edges. 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define (i) connected (ii) weakly connected and (iii) strongly connected graphs with 6 an example each. b) Define isomorphism of graphs. Verify whether the following graphs are isomorphic 6 or not? c) In a graph G with “n” vertices and ‘m’ edges, if  is the minimum degree of the 6 vertices and ∆ is the maximum degree of the vertices show that ≤(2m/n)≤ ∆. d) Define connected graph. Prove that a connected graph with n vertices has at least 7 n-1 edges. Page 2 of 3 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the Konigsberg’s Bridge Problem and then give any one solution of the 6 problem b) Show that Peterson graph has no Hamilton cycle but it has a Hamilton path. 6 c) Define dual of a planar graph. Draw the geometric dual of the given graph 6 d) A connected graph G has a Euler circuit if and only if all the vertices of G are of even 7 degree OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) State Max-flow and min-cut theorem and find the maximum flow possible Between the vertices P and S in the network shown in figure. Page 3 of 3 P 1 8 7 Q T 6 5 4 R S 5 6 b) Prove that a graph is 2-chromatic if and only if 6 c) Using multiplication theorem, find chromatic polynomial for the graph shown in 6 it is a bipartite graph figure. d) Define planar graph. Check the planarity of the following graph by the 7 elementary reduction *** SRN 3rd Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

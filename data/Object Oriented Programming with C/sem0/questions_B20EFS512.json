@@ -1,0 +1,56 @@
+{
+  "subject": "Object Oriented Programming with C",
+  "semester": 0,
+  "course_code": "B20EFS512",
+  "questions": [
+    {
+      "text": "a) Discuss the important concepts of object oriented programming in C++ with real 8 time examples. b) Declare a class called PERSON with data members as name, age, gender, address 10 and member function to read and display the data. Write a C++ program to read and display the data of an employee c) Create two functions “add” for two different data types. Make two functions one 7 for adding two integers and other for adding two floats but having same name. Develop a C++ program to show the use of function overloading. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Constructor is a member function of class where name of the constructor is same 10 as class name. There are different types of constructor in C++. With a programming example explain the different types of constructor. b) Variable is a name given to a memory location to store a value. With an example 8 program explain the difference between normal variable and static variable. c) Function which call by itself is call as recursive function. Develop a program to find 7 Fibonacci series using recursive function UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The array of type class contains the object of the class its individual elements. 10 Thus, an array of class type is known as an array of objects. Consider classEmployee with members name, age, designation, salary and member function to read and print. Implement a C++ program to read a number of employees from user/input device and read and print the details of n-Employees. b) Give the general syntax of friend function. Implement a C++ program to 8 demonstrate and implement friend function. c) Explain the uses of scope resolution operator with an example program. 7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Operator overloading is used to give additional meaning to an existing operator. 10 Develop a program to find the sum of two complex numbers using binary operator overloading. b) The access to data members and member functions of a class can be controlled by 7 using the following keywords: Public, Private, Protected.Explain in detail about access specifiers with an example program. c) Implement the C++ program to calculate the volume of two square boxes and 8 print the volume by using Pointer to objects. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Create a class called STUDENT with data members USN, Name and age. Using 10 simple inheritance, create a class UGSTUDENT having fields as Semester, Fees and Stipend. implement a C++ program to read and print student information. Page 1 of 2 b) Write a C++ program to create a class “PERSON” with data members name and 10 gender. Create a class STUDENT from PERSON with members SRN and Branch name. Create new class EMPLOYEE from PERSON with data member company name, designation and salary. With suitable inheritance read and display the details of STUDENT and EMPLOYEE. c) Write a short note on virtual base class. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Create Base Class called BANK having members: BankName and Address. Create a 10 derived class Called ACCOUNT having members: AccountName, Accountnumber and balance. Write a C++ program to read and print employee information using Multilevel Inheritance. b) Constructors are used to initialize variables of object and destructor is used to 7 destroy the object. With a suitable example show the sequence of execution of constructor and destructor using multiple inheritance. c) With suitable example, explain virtual function and pure virtual functions. 8 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write a C++ program that have a template function that would search for a key 10 element in an array of any type. b) List out the advantages of exception handling. Explain multiple catch statements 8 with an example. c) Dvelop a C++ program that would show how an exception handler can rethrow an 7 exception OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the fundamentals of exception handling. Write a C++ program that 10 illustrates exception handling with the help of keywords try, throw and catch. b) Implement a C++ program to demonstrate a class template with multiple 8 parameters. c) With an example, explain derived class exception. 7 *** Page 2 of 2 SRN 5th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,158 @@
+{
+  "subject": "Compiler Design",
+  "semester": 0,
+  "course_code": "B20EFS517",
+  "questions": [
+    {
+      "text": "a) What is Compiler? Design the Analysis and Synthesis Model of Compiler. 7 b) Discuss all the phases of compiler with a with a diagram. 10 a) Construct Deterministic Finite Automata to accept the regular expression : 8 (0+1)* (00+11) (0+1)* OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is Regular Expression? Write the regular expression for: 10",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "R=R1+R2 (Union operation)",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "R=R1* (KleenClouser)",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Write a regular expression for a language containing strings which end with “abb” over Ʃ= {a,b}.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Construct a regular expression for the language containing all strings having any number of a’s and b’s except the null string. b) Convert the given NFA to DFA: 8 Input/State 0 1 q0 {q0,q1} q0 q1 q2 q1 q2 q3 q3 q3(finalstate) ᵩ(nullcharacter) q2 c) Write the steps to convert Non-Deterministic Finite Automata (NDFA) into Deterministic 7 Finite Automata (DFA). UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Writetheproductionrulestoeliminate the leftrecursionandleftfactoringproblems. 10",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Consider the following Grammar: A->ABd|Aa|a B->Be|b Remove left recursion.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Do left factoring in the following grammar: A->aAB|aA|a B->bB|b b) Show the following Grammar: 7 S->AaAb|BbBa A-> € B-> € Is LL (1) and parse the input string “ba”. c) Writethealgorithm to createPredictiveparsingtablewiththescanningofinputstring. 8 Page 1 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write Rules to construct FIRST Function and FOLLOW Function. 7 b) Consider the following grammar: 10 E-> E+T|T T-> TF|F F-> F*|a|b Construct the SLR parsing table and also parse the input “a*b+a” c) Consider the grammar: E-> E+E 8 E-> E*E E->id Perform shift reduce parsing of the input string “id1+id2+id3”. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Writeshortnoteon: 8",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Synthesizedattributes",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Inheritedattributes",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Dependencygraph",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "DirectedAcyclicGraph(DAG) b) What is LALR parser? Construct the set of LR(1) items for this grammar: 10 S-> CC C->aC C->d c) Draw the syntax tree and DAG for the following expression: 7 (a*b)+(c-d)*(a*b)+b OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Writethe comparisonamongSLR Parser,LALR parserandCanonicalLRParser. 7 b) Show the following grammar 10 S->Aa|bAc|Bc|bBa A->d B->d Is LR(1) but not LALR(1). c) Constructsyntaxtreeandpostfixnotationforthefollowing expression: 8 (a+(b*c)^d-e/(f+g) UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What are the properties of code generation phase? Also explain the Design Issues of this 7 phase. b) What is code optimization? Explain machine dependent and independent code 8 optimization. 10 c) Consider the following program code: Prod=0; I=1; Do{ Prod=prod+a[i]*b[i]; I=i+1; }while (i<=10);",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Partition in into blocks",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Construct the flow graph Page 2 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What are basic blocks? Write the algorithm for partitioning into Blocks. 7 b) What is control and data flow analysis? Explain with example. 8 c) Write a short note on: 10",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Flow graph (with example)",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Dominators",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Natural loops",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Inner loops",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Reducible flow graphs *** Page 3 of 3 SRN 5th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

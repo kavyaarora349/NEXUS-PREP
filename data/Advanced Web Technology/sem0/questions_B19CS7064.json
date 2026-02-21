@@ -1,0 +1,62 @@
+{
+  "subject": "Advanced Web Technology",
+  "semester": 0,
+  "course_code": "B19CS7064",
+  "questions": [
+    {
+      "text": "a) Consider an employee who wants to design a website for his company and the 10 employee with more colorful an attractive pages. Discuss the different levels of style sheet available in CSS. Explain their usage, with syntax and suitable example. b) Create an XHTML document to describe ordered list of four states. Each element of 8 the list must have an unordered list of at least two cities in each state c) Web technologies refers to the way computers/devices communicate with each 7 other using markup languages. Explain the importance of web technology with a neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Design a static web page by including following tags. i) <em>, ii) <audio>, iii) 10 <padding>, iv) <margin> v) <strong> b) Create an HTML code to form a table to show the below values in the tabular form 8 with heading and its corresponding values. Tab Student Marklist HSC Marks list Sl. Student Subject Marks Grade No Name Name 1 Rahul Mathemati 97 A+ cs Biology 91 Chemistry 89 2 Shyam Biology 67 C",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Mohan Chemistry 80 B+ c) CSS selectors are used to \"find\" (or select) the HTML elements you want to style. 7 List the different types of CSS Selectors, explain any 3 selectors with examples. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) .NET is a service consisting of different various components written in different 10 languages, residing on different computers in different locations. With neat diagram describe the components of .NET framework. b) All data in classes are hidden from code outside the class. To access/modify such 8 data we need property. Explain the different properties in C# with an example. c) Design a dynamic Angular JS program that updates the view based on model. 7 Page 1 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) C# contains methods that can only be defined in classes and called through objects 10 or classes. With an example program, explain the different parameter passing mechanisms. b) Data binding is a very useful and powerful feature used in software development 7 technologies. Explain the data binding techniques used in Angular JS c) Database is a collection of data that is stored in a computer system. Explain the 8 following database access architecture, i. JAVA JDBC architecture ii. Client server architecture UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Ruby is a general purpose scripting language which supports multiple programming 10 paradigms. Describe the various data types supported in Ruby with examples. b) AJAX allows web pages to be updated asynchronously by exchanging data with a 10 web server behind the scenes. Explain the Basic communication techniques of Ajax with respect to make a request to the server and handling the response from server. c) What will be the output of mystr and newstr variable after the following snippet in 5 RUBY is executed. >>mystr = “hi” >>newstr=mystr >>mystr.replace(“hello”) >>mystr >>newstr OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Ruby arrays can store different types of data and the length of Ruby array is 10 dynamic. List and explain the built in methods for arrays to place new elements on one or the other end of an array b) Pattern matching is the act of checking a given sequence of tokens for the presence 10 of the constituents of some pattern. Write a code to differentiate between sub and gsub methods along with its variations. c) The jQuery library has a full suite of Ajax capabilities. Explain the function and 5 methods there in allow us to load data from the server without a browser page refresh. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) RESTful architecture is mainly used due to its HTTP response code feature. Explain 10 the HTTP response code. b) RESTful S3 service exposes standard HTTP objects called resources. Explain the 3 10 types of resources and HTTP methods c) An Ajax application is a web service client that runs inside a web browser. Explain 5 the working of Ajax architecture. OR Page 2 of 3",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) S3 is a way of storing a data in a structured way. Illustrate the following, 10 i. S3 buckets ii. S3 objects iii. Object oriented code library in S3. b) Prototype introduces three classes for making HTTP request in Ajax. Explain the 9 following, i. Ajax.Request ii. Ajax.Updater iii. Ajax.PeriodicalUpdater c) S3 is Object-based storage. List and explain the 2 main uses of S3 6 *** Page 3 of 3 SRN 7th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

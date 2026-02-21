@@ -1,0 +1,56 @@
+{
+  "subject": "Programming with JAVA",
+  "semester": 0,
+  "course_code": "B20EF0302",
+  "questions": [
+    {
+      "text": "a) Write a JAVA program, to illustrate the usage of continue and break statements. 6 b) How do you declare and initialize a variable in JAVA? What are the rules to be followed 5 to declare a variable? c) Write a JAVA program to perform simple arithmetic operations using switch statements 8 where you read the input from the scanner. d) Discuss the structure of a simple JAVA program. Also explain different keywords used in 6 the same. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List and explain all iterative statements in java with programming example. 6 b) Explain type promotion rules for expressions. 8 Given int a = 10, float b= 20; explain how type promotion happens automatically in the expression double d = a * b;. c) Define String? Explain any four built-in functions that are available in strings by giving 6 examples for each. d) Illustrate the working of a multi-dimensional array in JAVA? How to declare it. 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) How does inner class can be defined as local inner class andanonymous inner class? 10 Compare both the types with an example. b) Differentiate between local, instance and static variables. 6 c) Write a JAVA program to create a class called car with the following members color, 9 manufacturing date, vehicle number and model. Initialize the values of the members of the class using parameterized constructor and display the values of the members. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write a JAVA program to illustrate the concept of an array of objects 8 b) Define package. Explain different types of packages in JAVA language with 8 anexample. c) Write a JAVA program to create interface bank and two classes Axis and ICICI which 9 implement the interface to display the rate of interest of a bank. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the advantages of using keyword super with suitable examples. 6 b) Describe method overriding concept with suitable example. 6 c) Write a JAVA program to demonstrate that invoking a method on null causes 8 NullPointerException. Page 1 of 2 d) What is multiple inheritance? Explain how multiple inheritance can be achieved in JAVA 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define Exception. Explain the four keywords which are used in handling exceptions in 10 JAVA. b) With example explain the concept of multiple catch clauses. 5 c) Write a JAVA program to create a base class Teacher with members designation and 10 college name, create a derived class MathsTeacher with member main subject and display all the members details using single inheritance. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain any 5 collection methods. 10 b) Explain Type bounds with a programming example. 6 c) Write JAVA program to demonstrate the use of multiple type parameters in generic 9 classes and generic methods. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With programming example explain five routines of JDBC. 10 b) Write a short note on following, 10 i) Wildcards ii) Collection interface iii) Iterators and loops iv) Maps v) Sets c) What are generics in java? Why do we need generics? 5 *** Page 2 of 2 SRN 3rd Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

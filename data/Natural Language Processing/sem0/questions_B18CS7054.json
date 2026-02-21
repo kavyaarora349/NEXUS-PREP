@@ -1,0 +1,152 @@
+{
+  "subject": "Natural Language Processing",
+  "semester": 0,
+  "course_code": "B18CS7054",
+  "questions": [
+    {
+      "text": "a) After the breakthrough of GPT-3 with its ability to write essays, code and also 5 create images from text, Google announced its new trillion-parameter AI language model that’s almost 6 times bigger than GPT-3. Explain why do we need text normalization? Illustrate how do we achieve it? b) Language models offer a way to assign a probability to a sentence or other 8 sequence of words, and to predict a word from preceding words. Demonstrate n-grams are Markov models that estimate words from a fixed window of previous words. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Automatic speech recognition is a technology that converts speech to text in 7 real time. ASR may also be called speech-to-text or, simply, transcription systems. Illustrate how automatic speech recognition works? b) A syllable is a single, unbroken vowel sound within a spoken word. They 5 typically contain a vowel or two if one is silent, and perhaps one or more accompanying consonants. Distinguish between open syllable and closed syllable. OR 4 a) Explain the following terms with appropriate examples 6 I. phone II. diphone III. syllables b) MFCCs are a compact representation of the spectrum of an audio signal. How 6 can we convert the audio signal into coefficients and what do these coefficients exactly represent? UNIT – III Page 1 of 2 5 a) Dynamic programming approaches systematically fill in tables of solutions to 8 sub-problems. When complete, the tables contain the solution to all the sub problems needed to solve the problem as a whole. Illustrate Earley algorithm uses a dynamic programming approach to efficiently implement a parallel top-down search. b) CYK algorithm is a parsing algorithm for context free grammar. In order to 5 apply CYK algorithm to a grammar, it must be in Chomsky Normal Form. It uses a dynamic programming algorithm to tell whether a string is in the language of a grammar. Illustrate the steps involved CYK algorithm OR 6 a) One that is most commonly used in computational is the Chomsky hierarchy 5 which includes four kinds of grammars, Explain with a neat Venn diagram languages on Chomsky hierarchy. b) A probabilistic context free grammar consists of terminal and nonterminal 8 variables. Each feature to be modeled has a production rule that is assigned a probability estimated from a training set. Summarize the general steps for utilizing PCFGs in various scenarios UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The meaning of a language can be seen from its relation between words, i.e. 6 the sense of one word is related to the sense of another. Illustrate the terms synonymy, antonymy, homonomy, hyponymy, Meronymy, polysemy taxonomy with appropriate example. b) Machine translation is the process of using artificial intelligence (AI) to 6 automatically translate content from one language (the source) to another (the target) without any human input. Can statistical techniques be used to perform the task of machine translation? If so, explain in brief. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Information Retrieval (IR) can be defined as a software program that deals 10 with the organization, storage, retrieval, and evaluation of information from document repositories, particularly textual information Explain the architecture of an Information Retrieval system with a neat diagram. b) Translation is the process of changing written text created in one language 2 into another language. Will Machine Translation replace human translators? Explain in brief. ****** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Course Title: Data science using R Course Code: B18CS7051 - 26729 Time: 90 Minutes Max. Marks: 50 Note: Answer ONE FULL question from each Unit. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) R is the most popular language in the world of Data Science. It is heavily used in 7 analyzing data that is both structured and unstructured. This has made R, the standard language for performing statistical operations. Outline the salient features and limitations of R. b) Interfaces form a contract between the class and the outside world, and this contract is 6 enforced at build time by the compiler. Describe various connection interfaces in R OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Every programming language has its own data types (Objects) to store values or any 7 information so that the user can assign these data types to the variables and perform operations respectively. Illustrate with examples the various objects in R b) To create a matrix in R you need to use the function called matrix (). The arguments to 6 this matrix () are the set of elements in the vector. Create the matrix in R using above function and illustrate with examples the various Matrix operations. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) dplyr is a grammar of data manipulation, providing a consistent set of verbs that help 6 you solve the most common data manipulation challenges. Illustrate any three functions available in dplyr package with suitable examples. b) Control structures in R allow you to control the flow of execution of a series of R 6 expressions. Illustrate any three control structures in R with suitable examples. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The operation of a loop function involves iterating over an R object (e.g., a list or vector 6 or matrix), applying a function to each element of the object, and the collating the results and returning the collated results. Explain with examples the various loop functions available in R. b) Define Lazy evaluation and … Argument and explain the same by taking a suitable 6 example. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Graphs in R language is a preferred feature which is used to create various types of 7 graphs and charts for visualizations. Explain how to create bar graphs, scatter plot, line graph and histogram in R. b) in R A line graph is a type of chart used to show information that changes over time. 6 Explain How will you add points to line graph and how will you make line graph with multiple lines. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With large data sets, the points in a scatter plot may overlap and obscure each other 7 and prevent the viewer from accurately assessing the distribution of the data. This is called overplotting. Explain the different methods used to deal with over plotting in scatter plot. Page 1 of 2 b) Continuous variables are numeric variables that have an infinite number of values 6 between any two values. Describe how to map a continuous variable to color or size. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data Transformation is one of the key aspects of working for business data analysis, 6 data science or even for the pre-work of artificial intelligence. Explain data transformations for individual predictors and multiple predictors in R. b) For models predicting a numeric outcome, some measure of accuracy is typically used 6 to evaluate the effectiveness of the model. Explain the various ways of Measuring Performance in Regression Models OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Regression analysis is a group of statistical processes used in R programming and 6 statistics to determine the relationship between dataset variables. Discuss Linear Regression and Multiple Linear Regression and different types of Errors. b) R Non-linear regression is a regression analysis method to predict a target variable 6 using a non-linear function consisting of parameters and one or more independent variables. Illustrate with diagrams the Nonlinear regression Neural Networks model on R. ****** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Course Title: Deep Learning Course Code: B18CS7052 - 26730 Time: 90 Minutes Max. Marks: 50 Note: Answer ONE FULL question from each Unit. Marks UNIT – I 1 a) Define Conditional Probability. Discuss Conditional Probability for 5 dependent events, independent events and mutually exclusive events b) Suppose that there are two electrical components. The chance that the first 8 component fails is 10%. If the first component fails, the chance that the second component fails is 20%. But if the first component works, the chance that the second component fails is 5%. Calculate the probabilities of the following events: i. At least one of the component works ii. Exactly one of the components works iii. The second component works OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Biological Neurons are the inspiration for the design of Neural Networks. 5 Illustrate the Artificial Neural Network architecture relating to Neuron in human brain. b) Eigenvalues and eigenvectors allow us to \"reduce\" a linear operation to 8 separate or simpler problems. Find the eigen values and eigen vectors for the following matrix. [3 2 3 8] UNIT – II 3 a) List and briefly explain various kinds of tasks a learning algorithm can be 3 applied. b) Optimization is a big part of machine learning. Almost every machine 4 learning algorithm has an optimization algorithm at its core. Discuss the Gradient Descent algorithm in detail c) Using Linear regression equation, Solve the given problem: 5 PERSON RATING FOR RATING FOR MOVIE 1 MOVIE 2 1st 4 3 2nd 2 4 3rd 3 2 4th 5 5 5th 1 3 6th 3 1 i. Find the value of b and b 0 1 ii. Find the regression line iii. If a new person rates movie 1 as 3, then predict the rating of the same person for movie 2. Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define Machine Learning. With respect to the following problems, identify 3 the Task T, Performance Measure P and Experience E: i. A checkers learning problem: ii. A handwriting recognition learning problem: b) Solve the following problem by dividing the following data into 2 clusters 9 using k-means algorithm Height 185 170 168 179 182 188 180 180 183 180 180 177 Weight 72 56 60 68 72 77 71 70 84 88 67 76 UNIT – III a) Activation function plays a major role in working of a Neural Network. 7 Discuss the Activation functions used in ANN in detail b) Using Perceptron training rule, design AND, OR logic gates 6 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Using Perceptron training rule, design XOR gate 3 b) Distinguish between the variants of gradient descent algorithm along with 5 their advantages of each variant c) ANN has an interdisciplinary approach in its development and applications. 5 List and discuss the various applications of ANN. UNIT – IV a) Define RNN. Explain the working of RNN along with its advantages, 5 disadvantages and applications b) Discuss different stages in NLP Pipeline along with suitable examples 7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Machines understanding the human languages is the current research trend. Define NLP. Describe its components along with the advantage and 5 disadvantages. b) Discuss the two approaches to build a recommender system along with suitable examples. 7 Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022 Course Title: Business Intelligence and Process Management Course Code: B18CS7054 - 26732 Time: 90 Minutes Max. Marks: 50 Note: Answer ONE FULL question from each Unit. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The Business Environment in which the organizations operate today is becoming 7 more complex. Illustrate the concept of Business Pressures Responses Support Model with a block diagram. – – b) The data warehouse is the cornerstone of any medium-to-large BI system. 6 Explain the High-Level Architecture of Business Intelligence with a block diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Business Intelligence implementation depends on which tools are used. Explain 7 the major tools and techniques of Business Intelligence with the help of computerized tools for decision support. b) A decision support system (DSS) is an interactive information system that 6 analyzes large volumes of data for informing business decisions. Describe the automated decision-making framework with a block diagram. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data Warehouse is a system used for reporting and data analysis and is 6 considered a core component of business intelligence. Illustrate the fundamental characteristics of data warehouse. b) A data warehousing process consists of Extract, Transform and Load (ETL). 6 Demonstrate the ETL process with a block diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Organizations continuously collect data, information, and knowledge at an 6 increasingly accelerated rate and store them in computerized systems. Make use of the above statement with a brief explanation of two-tier, three-tier and web- based data warehousing architectures with a neat diagram. b) Active Data Warehousing is the technical ability to capture transactions when 6 they change and integrate them into the warehouse. Compare and contrast traditional data warehousing environment v/s active data warehousing environment. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Virtually every BI application requires database or data warehouse access. 7 Illustrate the multi-tiered application architecture with a neat block diagram. b) Business intelligence (BI) is one of the most significant data integration use 6 cases. Explain the major factors that affect the decision-making process of BI implementation. Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) On-demand BI model is a cost-effective alternative to overly complex and 7 expensive analytic reporting solutions. Explain the key characteristics and benefits of On-demand BI along with its limitations. b) Ethics in decision making and support is very important. Illustrate the model of 6 ethical problem formulation with a block diagram. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Workflow management systems have been identified as an important step in the 6 evolution of business process management systems. Illustrate workflow management systems architecture with a block diagram. b) Flexible workflow management is well suited to supporting business processes 6 with static control structures. In the flexible workflow management, explain the concepts of conceptual design and dynamic adaptations by example with block diagrams. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Web services are the current realization of service-oriented computing, and it 6 provides an important milestone in the quest towards service-oriented architectures. Demonstrate the recommendations that provide the underpinning of Web services development with a block diagram of main world wide web consortium web services recommendations. b) The business process management methodology is the way your organization 6 approaches your processes. Explain the business process methodology with a block diagram. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

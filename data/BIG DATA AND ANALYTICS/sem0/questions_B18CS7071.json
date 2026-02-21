@@ -1,0 +1,56 @@
+{
+  "subject": "BIG DATA AND ANALYTICS",
+  "semester": 0,
+  "course_code": "B18CS7071",
+  "questions": [
+    {
+      "text": "a) Digital (Big) Data is broadly classified into three types. Each of the type of data 7 are named based on the nature of their formats, origin and properties. Outline all the three types of data by compiling their generation and origin with example. b) Illustrate with a neat diagram of parallel computing and distributed computing 6 and list out the differences. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In order to get a good handle on the big data environments a few key 7 terminologies ae required, summarize about in-memory analytics, in-database processing and symmetric multiprocessor system with a neat diagram. b) Big Data processing is considered to be very beneficial in processing huge data. 6 Outline the characteristics of big data and its benefits. Give real time example. Justify. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With the help of a timeline, outline the advancements that revolutionized from 6 Analytics 1.0, via Analytics 2.0 to Analytics 3.0. b) The abundance of data available today comes with several challenges when it is 6 subject to analytics. Outline the major challenges of Big Data. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Many organizations irrespective of their size are turning towards investing on 6 data analytics. Outline the need, importance and key aspects of big data analytics that has attracted these organizations. summarize the key advantages of Hadoop. b) Big data isn’t just about technology.it is about understanding what the data is 6 saying to us, then, what is big data analytics and why is big data analytics important? List and explain different types of big data analytics. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Daemons are considered to be the programs running in the background that play 7 a significant role in most of the applications. Outline the functionalities of the five important daemons existing in Hadoop. b) With a neat diagram explain the steps involved in the anatomy of file read 6 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The famous example for MapReduce programming is word count. describe all 7 the steps involved in java programming of word count. b) With a neat diagram explain the steps involved in the anatomy of file write. 6 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Bring out the intuition behind the use of Pig verse Hive by enumerating the 6 major differences that are found in both of them. Page 1 of 2 b) Unlike traditional database management systems, Hive also incorporates DDL and 6 DML statements. Enumerate and illustrate such statements that are used in Hive. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A metastore is a place that stores the important information about some aspects 6 of data storage and computing. Outline the different types of metastore and their relevant functionalities that are used by Hive. b) Pig is yet another component added to the Hadoop ecosystem for data analysis. 6 Outline the basic anatomy or components of Pig that makes it suitable to work on large scale data in Hadoop ecosystem. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

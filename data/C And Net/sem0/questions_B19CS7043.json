@@ -1,0 +1,44 @@
+{
+  "subject": "C and Net",
+  "semester": 0,
+  "course_code": "B19CS7043",
+  "questions": [
+    {
+      "text": "a) Suggest a quick rundown of some core features provided courtesy of C# 7 b) The .NET Framework is a rather radical and brute-force approach to making our lives easier. 10 There are three key (and interrelated) entities that make it all possible: the CLR, CTS, and CLS. Visualize the relationship between these three key entities and the base class library, also describe all these. c) The .NET establishes a well-defined setof core data types.List in a table all the 15 Intrinsic 8 CTS Data Types mentioning the corresponding C# keyword. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate with necessary diagram, the workflow that takes place between your source code 12 (which ismaking use of base class library types), a given .NET compiler, and the .NET execution engine. b) Give a diagram that depicts that all .NET-aware compilers emit IL instructions and metadata. 13 Also describe Metadata, Assembly and manifest. Compare single and multi-file assemblies. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The .NET data type may be value-based or reference-based. Summarize the core 6 distinctionsbetween them. b) Strong number is a special number whose sum of factorial of digits is equal to the original 7 number. Develop a C# program to input number from user and check whether number is Strong number or not. c) Methods (static and instance level) tend to take parameters passed in by the caller. However, 12 unlike some programming languages, C# provides a set of parameter modifiers that control how arguments are sent into (and possibly returned from) a given method. Describe each one of them with an appropriate example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In C# Arrays are reference types and derive from a common base class named System.Array. 10 Describe the declaration, initialization of single dimensional, multi-dimensional and Jagged Array with examples for each. b) In .NET, every type is ultimately derived from a common base class: System.Object. Explain 15 the member functions of an object class. Write a C# program using all the member functions of a class. Predict and display the output of it. Page 1 of 2 UNIT III – 5 a) Describe the property syntax for get block and set block and how it is different from traditional 15 accessor and mutator methods. Write a C# program which contains class called Student with data member’s name, SRN, College. Assign and display the data only through get and set block. b) Write a C# program to define a class called shape that contains an abstract draw() method 10 which serves as an abstract base class for derived classes rectangle, triangle and square. Implement the draw() method for each of the derived classes. Now demonstrate a polymorphic behavior of draw() method in a main method by creating an array of shapes that contains objects of rectangle, triangle and square as elements. For each element of the shapes array invoke the draw() method. OR 6 a) Interface-based programming is an architectural pattern for implementing modular 15 programming at the component level in an object-oriented programming language which does not have a module system. C# supports for interface-based programming. Define interfaces in C#. How to invoke interface members at the object level. b) Just as a class can serve as a base class to other classes, it is possible to build inheritance 10 relationships among interfaces. Explain with example, interface hierarchy. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) By using custom exceptions, we can create and handle our own user defined exceptions. 7 Explain how these can be created in C# with suitable example. b) The Zen of .NET memory management says this: Allocate an object onto the managed heap 10 using the \"new\" keyword and forget about it. Once \"new-ed,\" the CLR removes the object when it is no longer needed. Now use C# language to give example and explain in detail how does the runtime determine when an object is \"no longer needed\"? c) In reality, we often run into a situationwhere the statements within a try block could trigger 8 numerous possible exceptions. Write a C# code to demonstrate handling of multiple exceptions. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The finalization process is time consuming and does not guarantee the release of resources in a 6 timely manner. Thus, implementing the IDisposable interface for a type can release resource in timely manner – Justify this. b) To help optimize the GC process, each object on the heap is assigned to a specific 7 “generation.” The idea behind generations is simple: The longer an object has existed on the heap, the more likely it is to stay there. Illustrate how an object’s generation affects the GC process with example. c) Mistakes are done by programmers, but C# has support in dealing. In this context, Define 12 Exception. What are the different methods to handle exception? Explain the state of exception using TargeSite property, StackTrace property, HelpLink property by taking sample example. *** Page 2 of 2 SRN 7th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

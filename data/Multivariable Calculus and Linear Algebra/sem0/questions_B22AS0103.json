@@ -1,0 +1,50 @@
+{
+  "subject": "Multivariable Calculus and Linear Algebra",
+  "semester": 0,
+  "course_code": "B22AS0103",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A particle moves along the curve Page 1 of 3 x  1  t 3 , y  1  t 2 a n d z  2 t  5 . Determine its 6 velocity and acceleration. Find the components of velocity and acceleration at t 1in    the direction 2i j2k. b) If A is a vector point function, show that d i v  c u r l A   0 6 . c) If y  e m s in 1 x show that  1  x 2  y n  2  ( 2 n  1 ) x y n  1  ( n 2  m 2 ) y n  0 6 . d) Apply Taylor’s series method to expand y  l o g e x in powers of  x  1  up to the term 7 containing fourth degree and hence find the value of log (1.1). e OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find the directional derivative of  x 2 y z  4 x z 2  at (1 ,  2 ,  1 ) in the direction of 2 i  j  2 k . 6 b) Show that F  ( y  z ) i  ( z  x ) j  ( x  y ) k is irrotational. Also find a scalar function  such that F     6 . c) If c o s  1  y b   l o g  x n  n 6 show that x 2 y 2n1xy 2n 2 y 0. n2 n1 n d) Apply Maclaurin’s series to expand y  e s in x up to the term containing x 4 7 . UNIT – II 3. a) Show that the curves r a s e c 2 ( / 2 )   and r b c o s e c 2 ( / 2 )   6 intersect orthogonally. ds ds b) Find and for the curve dx dy y 2  4 a x 6 . c) Show that the radius of curvature of the curvexa(costtsint),y a(sinttcost) is ' a t ' 6 . d) Evaluate the following: 7 xe x log(1 x) lim   (i) x0 x 2  (ii) lim(cotx) tanx . x0 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find the pedal equation of the curve r(1cos)2a. 6 b) Find Page 2 of 3 d d s ,  d d s x and d d s y for the curve x a ( s i n ) , y a ( 1 c o s )        6 . c) Derive the radius of curvature for the cartesian curve in the form  1 y y 21 2  3 /2    6 . d) Evaluate the following: (i) lx i m 0 3 x  x 2 x (ii) lx i m a 2 x a ta n ( x / 2 a )      7 . UNIT – III 5. a) Find the Rank of the matrix: A   1 2 3 6 2 4 2 8 3 3 1 7 0 2 3 5  6 . b) Using Gauss Jordan Method find the inverse of A   1 2 1 2 5 0 3 3 8  6 . c) Find the values of k and k such that the system of equations x + y + z = 6, x + 2y + 3z = 6 1 2 10, x + 2y + k z = k may have (i) unique solution (ii) Infinite solution (iii) No Solution. 1 2 d) Solve the following system of equations using Gauss elimination method 7 x 2x x 0, 2x 8x 8, 4x 5x 9x 9 . 1 2 3 2 3 1 2 3 OR 6. a) Reduce the following matrix into normal form and find the rank  3 1 3 2 1 3 5 2 6 7 3 9 1 1 2 5 5  6 . b) Find the inverse of the matrix A   0 1 4 1 0  3 2 3 8  6 if it exists using Gauss Jordan Method. c) Test for consistency and solve x + y + z = 6, x – y + 2z = 5, 3x + y + z =8. 6 d) Solve the following system of equations using Gauss Jordan method 7 2x + 5y + 7z = 52, 2x + y - z = 0, x + y + z = 9. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) If x C o s y S i n      and x S i n y C o s      write the matrix A of this transformation 6 and prove that A1  A. Also write the inverse transformation. b) Find a matrix P which diagonalize the matrix A   4 2 1 3  6 and verify P1APD, where D is the diagonal matrix. c) Find the largest Eigen value and corresponding Eigen vector of the matrix Page 3 of 3 A    6 2 2  3  2 1 2  3 1  using Rayleigh’s Power method. Take X 0  [ 1 0 0 ] T 6 as initial Eigen vector. Carryout 5 approximations. 2i 3 13i d) If A , show that    5 i 42i  A A * is a Hermitian matrix, where A * 7 is the conjugate transpose of A. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Show that the transformation: y 1  x 1  2 x 2  5 x 3 , y 2  2 x 1  4 x 2  1 1 x 3 , y x 2x is 6 3 2 3 regular and find the inverse transformation. b) Find the eigen values and the eigen vectors of the matrix A   1 3 2  2 1 1 4   1 1  6 . c) Using Rayleigh’s Power method, find the largest Eigen value and corresponding Eigen  2 1 0    vector of the matrix A 1 2 1 .Take     0 1 2   X 0  [ 1 1 1 ] T 6 as initial Eigen vector. Carryout 3 approximations. d) Given that A    1 0  2 i 1  0 2 i  , show that  1  A   1  A   1 7 is a unitary matrix. *** SRN 1st/2nd Semester B.Tech CV/ECE/EEE/CSE/C&IT Semester End Examination August 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

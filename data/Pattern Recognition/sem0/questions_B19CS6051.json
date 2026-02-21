@@ -1,0 +1,56 @@
+{
+  "subject": "Pattern Recognition",
+  "semester": 0,
+  "course_code": "B19CS6051",
+  "questions": [
+    {
+      "text": "a) Pattern recognition is a scientific discipline and it aims in the classification of the 7 objects into categories or classes. Describe the various steps in Pattern recognition process. Also, mention the challenges involved in pattern recognition. b) Studies show colour blindness affects about 8% of men. A random sample of 10 8 men is taken. Apply the probability concenpts and find according to given conditions i) All 10 men are colour blind ii) No men are colour blind iii) Exactly 2 men are colour blind iv) Atleast 2 men are colour blind c) There are different types of probability distributions depending on discrete and 10 continuous random variable. Explain any two distributions under each category OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A random variable is a numerical variable whose measured value can change from 7 one replicate of the experiment to another. Explain and apply Probability distribution function and cumulative distribution function with an die rolled example. b) If A and B are two events, then A and B can be joint event or mutually exclusive 9 event. Explain the addition rule and multiplication rule. c) In statistics, Poisson distribution is a probability distribution that is used to 9 show how many times an event is likely to occur over a specified period. Assuming the number of cars that approach an intersection follows a Poisson distribution, what is the probability that 3 or more cars will approach the intersection within a minute? Consider lambda=1.6. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Distance measures are used to find the dissimilarity between pattern 9 representations. Explain the properties of distance function. Briefly explain Edit distance and Euclidean distance measures. b) Data Structures are often used for representing pattern and pattern classes. A good 8 representation is one which makes use of discriminating attributes and reduces the computational burden in pattern classification. In this context, explain the representations of pattern as vector, string, clusters and frequent pattern tree. Page 1 of 3 c) PCA transforms a number of correlated variables into a smaller number of 8 uncorrelated variables. With suitable mathematical notations explain the steps in PCA. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) When there is labeled data, reducing the number of feature can be done using 7 Linear Discriminant Analysis. Explain LDA with a neat diagram and mathematical equations. b) Clinical data collected to diagnose a disease has a lot of redundant and irrelevant 8 attributes and might also contain noise. So, there is a need to reduce the number of features or attributes. Explain the different approaches of reducing the features and compare them. c) Clustering is the task of dividing the population or data points into a number of 10 groups such that data points in the same groups are more similar to other data points in the same group than those in other groups. Explain any 4 types of clusters. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the K nearest neighbor algorithm. State the advantages and disadvantages 10 of nearest neighbor algorithm. b) Apply KNN classification algorithm to the following data and predict value for (10,7) 10 for K = 3 Feature 1 Feature 2 Class 1 1 A 2 3 A 2 4 A 5 3 A 8 6 B 8 8 B 9 6 B 11 7 B c) There are several preprocessing techni ques and projection methods available to 5 increase the efficiency of nearest neighbor algorithms. Explain the projection method and ordered partitions techniques for increasing the computational accuracy of nearest neighbor. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate how the Naïve Bayes classifier is used to calculate for the given scenario 10 (Outlook=sunny, Temperature=high, wind=strong) if a student plays tennis. Outlook Temperature Wind Plays Sunny High Strong No Sunny Normal Weak yes Rainy High strong No Rainy normal Weak No b ) The nearest neighbor classification method is time consuming when the training set 10 Page 2 of 3 is large. To overcome this many efficient algorithms have been proposed. Explain Branch and Bound algorithm and Cube algorithm with suitable representations. c) Bayes algorithm is a supervised learning algorithm, which is based 5 on Bayes theorem and used for solving classification problems. Explain Bayes theorem. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Decision tree follows a systematic approach for building classification models from 15 an input dataset. Explain Decision tree algorithm and also list the characteristics of decision tree induction. b) Decision trees are used for supervised learning in classification. Apply ID3 10 Algorithm to construct a decision tree for the given problem. Outlook Temperatur Tribe Attacks e Friendly Weak Celtic No Enemy Weak Celtic No Friendly Strong Norse No Enemy Strong Norse Yes Friendly Weak Greek Yes Enemy Medium Greek Yes Friendly Strong Greek no OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The measures developed for selecting the best split is based on the degree of 12 impurity of child nodes. Summarize the various impurity measures. b) Overfitting and underfitting are two of the most common causes of poor model 13 accuracy. Summarize overfitting, underfitting and the methods to overcome it. *** Page 3 of 3 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

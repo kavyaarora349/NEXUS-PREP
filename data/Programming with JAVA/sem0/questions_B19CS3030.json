@@ -1,0 +1,56 @@
+{
+  "subject": "Programming with JAVA",
+  "semester": 0,
+  "course_code": "B19CS3030",
+  "questions": [
+    {
+      "text": "a) JAVA is one among most popular language. Outline and explain the buzzwords 7 which evident the popularity of JAVA language. b) String is basically an object that represents sequence of character values. If the 6 user reads a string1 as “HI” and string2 as “this is your SEE”. Develop a JAVA program to print the output as “Hi this is your SEE” and extract the string “SEE” from the string “Hi this is your SEE” by using String methods. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Control statements in any programming language are used to control the flow of 7 execution of program based on certain conditions. List and summarize the single- way branching statements and looping statements. b) Discuss the structure that will be used to store similar datatype elements with 6 respect to various dimensions. When can we call an array as “RAGGED ARRAY”? Explain with syntaxes and examples. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) JAVA allows you to create a class inside another class. How this inner class can be 6 defined as local inner class and anonymous inner class? Compare both the types with an example. b) What do you call a group of classes and interfaces? Demonstrate the same by 6 creating user defined group of classes. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe static data members and member functions. How to declare and define a 6 static data member and static member function. What are the limitations of a static member functions? Write a program to create a class as a circle, calculate the area of a circle by considering the pi as a static data member and calculate () as its static member function. b) How can you express instances of functional interfaces? Discuss with suitable 6 syntax and example. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) SUPER’ and ‘FINAL’ keywords have their own importance in JAVA programming. 7 Discuss the usages of both with suitable examples. b) What do you call a method without implementation and a class that have all the 6 methods without implementation? Discuss the same with an example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What should a method do when it encounters a situation in which it cannot fulfill 7 its contract? Solve this issue by providing suitable justification. Also explain 5 terminologies that you will be using for the given issue. b) Discuss how a single exception can have multiple exception handlers with syntax 6 and example. Page 1 of 2 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss about the generic classes with their syntax and example 6 b) Do you think the generic classes can also be restricted? Explain the restrictions and 6 limitations of the generic classes. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain Iterators and loops. Illustrates adding, removing and printing a list with 6 suitable example. b) With an example program, illustrate the upper bound wild cards using generics. 6 ****** Page 2 of 2 SRN 3rd Semester BTech Semester End Examination Feb 2021",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

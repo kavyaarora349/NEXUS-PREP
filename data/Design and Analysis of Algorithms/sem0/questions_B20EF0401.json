@@ -1,0 +1,68 @@
+{
+  "subject": "Design and Analysis of Algorithms",
+  "semester": 0,
+  "course_code": "B20EF0401",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper. UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define - Asymptotic Notation. With suitable examples and graphs, illustrate the three 10 asymptotic notations that are used to define the complexity of an algorithm. b) Identify and write an iterative algorithm that bubbles down the largest element while 10 sorting elements in ascending order. Also, with suitable example illustrate the step-by- step mathematical analysis of the above algorithm to find its time complexity. 𝑛 5 c) Solve the recurrence equation by using backward substitution 𝑛 𝑇(2)+1, 𝑛 > 1 method. 𝑇(𝑛) = { OR 1, 𝑛 = 1",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With the help of a flow chart, illustrate the fundamentals steps that are to be followed to 10 solve any computational problem algorithmically. b) Identify and write a recursive algorithm that solves the problem of sorting the discs on 10 pegs from largest in the bottom to smallest on the top. Also, illustrate the step-by-step mathematical analysis of the above algorithm to find its time complexity. c) Define –Algorithm. Outline the characteristics of an algorithm. 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Consider the and . Write an algorithm 10 that solves the problem of searching a in the using any brute force technique. Also𝑡𝑒 d𝑥e𝑡d [u]c e= th 𝑎e𝑏 t𝑏im𝑎𝑎e𝑏 c𝑏o𝑎m𝑎p𝑏l𝑎ex𝑏i𝑏ty of th𝑝e 𝑎a𝑡lg𝑡𝑒o𝑟ri𝑛th [m] =in i t𝑏s𝑎 w𝑏orst and best cases. b) Identify and write a recursive algorithm tha𝑝t𝑎 p𝑡a𝑡𝑒rt𝑟i𝑛tions an ar𝑡r𝑒a𝑥y𝑡 in to approximately two 10 equal halves before sorting, based on the position of the elements. Also illustrate how such an algorithm can be applied to sort numbers: 4, 3, 9, 7, 8, and, 6. c) Illustrate how selection sort algorithm can be applied to sort any 5 integer numbers. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Identify and write a recursive algorithm that partitions an array into two random-sized 10 halves before sorting, based on the value of the elements. Also illustrate how such an algorithm can be applied to sort numbers: 7, 3, 9, 6, 4, and, 7. b) Consider the array of elements 10, 80, 30, 90, 40, 50, 70. Write the following algorithms 10 and also illustrate how these algorithms can be applied to sort any 5 integer numbers. i) Selection Sort ii) Insertion Sort c) With suitable examples, compare and contrast Breadth First Search and Depth First 5 Search Page 1 of 3 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Identify and write the algorithm that finds the shortest paths from a single source in any 10 directed weighted graph. Illustrate the steps involved in finding the shortest paths to all the other destination vertices, assuming the source as ‘A’. b) Identify and write the algorithm that finds the minimum cost spanning tree of an 10 undirected connected weighted graph that initiates with selecting any arbitrary vertex initially to construct the spanning tree. Illustrate the steps involved in finding the minimum cost spanning tree of a graph shown below, assuming the source as . ‘𝑎’ c) Illustrate the step by step procedure to obtain the transitive closure for the given graph 5 using Warshall’s Algorithm. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Suppose you have an offer to select any combination of the items having 10 their weights and values as kilograms, and rupees. The maximum you can carry is 8 kilograms, and you can either pick the{ 𝑖it 1 e,𝑖m 2, o𝑖3 r, 𝑖r 4 e,je𝑖5 c}t it as a whole. {2,1,5,2,5} {20,5,15,10,12} Illustrate the steps involved in finding the combination of items that maximize the overall value using dynamic programming algorithmic design technique. b) Identify and write the algorithm that finds the minimum cost spanning tree of an 10 undirected connected weighted graph that initiates with selecting the least cost edge initially to construct the spanning tree. Illustrate the steps involved in finding the minimum cost spanning tree of a graph shown below, assuming the source as . ‘𝑎’ Page 2 of 3 c) Compare and contrast Floyd’s algorithm with Warshall’s algorithm with suitable examples. 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With the help of an example, illustrate how branch and bound is different from 10 backtracking. Given is the table comprising 4 people and 4 jobs along with their cost of assigning each job to a person. Illustrate the branch and bound algorithm design technique you follow to find the optimal assignment of assigning jobs to the people. J1 J2 J3 J4 a 2 10 9 7 b 15 4 14 8 c 13 14 16 11 d 4 15 13 9 b) i. Consider the set With the help of a state space tree, illustrate how 10 backtracking method will find the subsets of set S that sums to 11. ii. With the help of 𝑆a =sta{t1e, 3s,p4a,5c,e6 }t.ree, illustrate how backtracking method will find the solution for a Queens problem. c) With suitable example, Justify how space is afford to speed up the processing of an 5 algorithm 4×4 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write comparison counting sort algorithm that performs sorting of numbers. Also, illustrate 10 the application of such an algorithm to sort the two arrays of numbers: b) C o m1.p𝐴ar=e {b6a2ck,3tr1a,8ck4i,n9g6 ,w19it,h4 7b}ranch and bound technique. Given is the table comprising 4 10 p e o2p.𝐵le =an{d3 54, 1jo5b,7s4 a,1lo2n,1g9 w,2i7th} their cost of assigning each job to a person. Illustrate the branch and bound algorithm design technique you follow to find the optimal assignment of assigning jobs to the people. J1 J2 J3 J4 a 2 5 6 7 b 3 4 7 8 c 8 9 3 2 d 4 5 6 9 c) W ith the help of a simple example, illustrate how Input Enhancement can be useful for 5 string matching. *** Page 3 of 3 SRN 4th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

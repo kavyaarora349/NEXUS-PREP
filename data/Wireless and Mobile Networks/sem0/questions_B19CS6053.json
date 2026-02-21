@@ -1,0 +1,56 @@
+{
+  "subject": "Wireless and Mobile Networks",
+  "semester": 0,
+  "course_code": "B19CS6053",
+  "questions": [
+    {
+      "text": "a) Classify wireless networks and give applications of them to real world. Illustrate 10 any two wireless network architecture with diagram by considering specific applications like patient monitoring and campus network. b) In a wireless communication channel, channel bandwidth is 4 KHZ, and. S/N ratio 5 is 20 db. Calculate the channel capacity. c) What is spread spectrum modulation? List and explain one of the methods of 5 spread spectrum modulation. d) PCM is simple and low complexity speech coding technique. In PCM, consider a 4 5 KHZ speech signal and 256 quantization levels. Find the data rate of PCM system. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List atleast 6 wireless networking issues. Explain the four issues with respect to 10 channel allocation, security, QoS and mobility. b) Diversity play an important role in combating fading and provides reliable 5 communication. Explain the various diversity techniques. c) Duplexing methods are important in accessing the channel for data transfer. 5 Illustrate TDD and FDD used in allocation of resources. d) For a mobile communication system, it is given that average noise power at the 5 receiver is 25 microwatts and captured power is 100 milliwatts. Calculate SNR in db. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In GSM system, 8 channels can coexist in 200 KHZ bandwidth using TDMA. A 5 GSM cellular operation is allocated 5 MHZ bandwidth. Assuming frequency reuse of 1/5 (five cell repeat pattern), determine maximum number of channels that can exist in cell. b) GPRS is used to support data services in GSM. Summarize the limitations of GSM. 5 c) Illustrate application of T-MAC protocol for media access in WBAN. 10 d) A WBAN is created for patient monitoring with a high number of sensor nodes. 5 The energy and bandwidth are critical issues in using routing algorithm for the network. Apply SPIN routing protocol and explain its working. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A WBAN is designed to monitor occurrence of changes in muscle activity of 10 person using EMG sensors. Apply S-MAC protocol to the WBAN and explain its working to transfer the data. b) List the characteristics of wireless body area networks(WBAN) and interpret 5 them. c) What are salient features of GSM? Illustrate GSM architecture with major 10 components using a diagram. Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Give classification of MAC schemes in MANET ad hoc networks. Illustrate 10 MACAW protocol with neat diagram. b) List the characteristics of VANET. Explain atleast 5 characteristics of VANET. 5 c) IEEE 802.11 MAC can work in contention free and contention based mode. List 10 the modes of MAC operation for infrastructure mode and ad hoc mode. Illustrate them with diagram depicting channel acquired by stations for data transfer. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) It is required to perform precision agriculture using Wireless Sensor Network 10 (WSN). Describe the WSN architecture that can be used for the purpose using a diagram. b) Give classification of MANET routing protocols. Illustrate the dynamic source 10 routing (DSR) protocol with a diagram (an on demand source routing protocol) depicting the route discovery using route request and reply packets. c) It is desired to transfer data of file size ‘Y’ in IEEE 802.11b WLAN operating at 10 5 Mbps. Total time taken to transfer file is 75 ms. What is the value of ‘Y’. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List atleast 3 objectives of Wireless Application Protocol. Illustrate WAP 2.0 10 architecture with diagram depicting bearer services, transfer services, session services and application framework. b) 4G networks have been in use for wireless communication for several 5 applications over Internet. Illustrate MIMO and OFDM technologies used in 4G networks for better speed and performance. c) Summarize the technologies that enable the 5G networks for high speed data 5 transfer, multimedia computing and smart cities applications. d) Bring out the security threats in wireless communication networks that affect 5 the transaction of data and privacy of communication. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is LTE? Describe the LTE network architecture with its major components 10 using a diagram. b) What are cyberphysical systems? Illustrate with diagram its application in 5 medical monitoring. c) Explain the features of 4G networks as compared to 3G networks which make it 5 possible for better wireless communication and applications. d) Summarize applications of LTE 4G wireless networks. 5 *** Page 2 of 2 SRN 6th Semester B. Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

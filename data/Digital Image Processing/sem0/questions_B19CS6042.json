@@ -1,0 +1,104 @@
+{
+  "subject": "Digital Image Processing",
+  "semester": 0,
+  "course_code": "B19CS6042",
+  "questions": [
+    {
+      "text": "a) Explain and interpret the process of Sampling and quantization which converts 10 the analog signal to a digital data also describe an Image Processing System with its components. b) Illustrate the different fundamental steps involved in the processing of digital 10 Image with a neat diagram. c) Comment on Linear v/s Non Linear Operations with suitable mathematical 5 examples in Digital Image Processing OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Image processing has a wide variety of applications ,List 10 different applications 10 b) Define the following terms 10 i)Spatial and Intensity Resolution ii)4-,8- and m-adjacency iii) Euclidean distance ,city-block distance and chessboard distance c) For the given image below find N4 and N8 path length between points p and q, 5 where p is the 4th row 1st element and q is 2nd row 4th element considering the set V= {2,3,4} 3 4 1 2 0 0 1 0 4 2 2 2 3 1 4 3 0 4 2 1 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain histogram equalization in detail and for a given Image apply histogram 10 equalization and draw the histograms before and after equalization 0 0 0 1 1 1 1 1 1 1 2 2 2 2 3 3 3 3 3 3 0 0 0 7 7 b) E xplaining the role of smoothing filters and Sharpening filters in Image processing. 10 Explain in detail the different types of filters used to introduce smoothing effect in the project associated with a retail marketing UI design c) An Image of a planet need to be converted to frequency domain for some filtering 5 procedures. Identify and explain the different steps for filtering in frequency domain OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the following gray level transformations and indicate them in a plot of 10 input intensities v/s output intensities Page 1 of 2 i)Negative transformation ii)Logarithmic Transformation iii)Power Law transformation b) What is the objective of piece wise linear transformations? Illustrate gray level 10 slicing, contrast stretching and Bit plane slicing with relevant figures c) Homomorphic filtering considers illumination and reflectance as separate entities 5 and performs filtering. Explain Homomorphic filtering UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Identify the Image Processing step which works on the basis of prior knowledge of 12 the degradation function and explain the same .Also, comment on Erlang and Rayleigh probability density functions b) Weiner Filter restores the image in the presence of blur as well as noise ,Discuss 7 the process with the help of relevant equations c) Discuss the concept involved in optimum Notch filtering 6 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The noise component of an image is considered as the random variable which are 12 defined by probability density function ,With equations and graphs describe any four probability density function b) Explain Adaptive Median Filtering 7 c) Comment on the Periodic noise reduction filter in frequency domain ,and contrast 6 the ideal band reject and band pass filter UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) An Image capturing sensor has been designed with two standard color system viz. 12 RGB and HSI. The task is to have a functionality to allow the conversion from HSI to RGB. Explain these two models and also the conversion process b) Pseudo color Image processing assigns color to monochrome images ,explain the 7 two methods, Intensity Slicing and Intensity to Colour Transformation in this context c) An image processing project demand for the outer boundary of the image to be 6 reduced and inner ROI boundary to be increased. Explain the two structural elements(morphologically) which does this for the project OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In the context of morphological image processing ,Opening and Closing , Hit-or- 12 miss Transformation have an impact .Explain them b) Smoothing and sharpening considers neighborhood pixel processing ,explain the 7 concept of smoothing and Sharpening on color image c) Morphological Image processing deals with structural elements, explain structural 6 element , Erosion and dilation *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023 Course Subject: Advanced Java Programming Course Code: B19CS6042 - 26629 Time: 3 Hours Max. Marks: 100 Note: Answer ONE FULL question from each Unit. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Servlet programs run on the server machine and usually generate simple HTML 6 codes. Discuss the various advantages of servlets. b) A student by name ‘Virat’ has been assigned the task of creating a web page for a 10 web application as a part of his Mini project. Help the student by explaining JSP and its lifecycle. c) Programmer ‘John’ wants to develop a program which can be used to find the sum 9 and product of 2 numbers. Guide the programmer by writing the JSP program to read 2 numbers and find the sum and product of 2 numbers. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The process of providing communication between more than one web component 6 available at the server machine is called Web Component Communication. Explain web component servlet communication mechanism. b) JSP implicit Objects are the Java objects that the JSP Container makes available to 9 the developers in each page and the developer can call them directly without being explicitly declared. Explain the various implicit objects that can be used by the developers. c) The JavaServer Pages Standard Tag Library (JSTL) is a collection of useful JSP tags 10 which encapsulates the core functionality common to many JSP applications. Explain the JSP core tags in detail. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A student wants to write a program which shows the demonstration of 10 implementation of a server. Help the student by writing a program to show the implementation of a server. b) Set of statements are grouped to form transactions so that database integrity can 5 be maintained. Explain transactions and its importance. c) Database user by name “Alice” has written an SQL statement to retrieve the 10 student names who have obtained more than 75% in AJP subject, output of the SQL statement will be printed in the form of result sets. Discuss the different types of result set in detail. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) JDBC API lets programmers connect to a database and then query or update it, 10 using the Structured Query Language. With a neat diagram explain the JDBC to Database communication path and different types of JDBC drivers. b) Row sets can be used when the end user does not want database connection to be 5 opened during the entire user interaction. Discuss cached row sets. c) Localhost is the hostname or the computer that is currently in use to run a 10 program, in which the computer has the role as a virtual server. Write a program to print the Internet address or IP address of the localhost machine and explain the functionality of the built-in or library functions used in the program. Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A shape is covered inside with paint. With a neat diagram explain gradient and 5 textured paint. b) To describe any shape, it is easier if we compose it from areas, such as rectangles, 10 polygons, or ellipses. The Java 2D API supports four constructive area geometry operations that combine two areas into a new area. Explain the geometry operations with a diagram. c) A student by name “Rohit” wants to create a table with column headers and some 10 row data. Write a program which can be used by the student for the creation of table with populating some data. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A student called “Y” wants to draw a shape or drawing on the display. Help the 9 student by explaining the various steps that must be followed to draw a shape b) Progress indicators are helpful in displaying the progress of any ongoing activity on 6 a machine. Discuss progress bars and progress monitors. c) A programmer by name “X” has been assigned the task of displaying the choices 10 for the end user in the form of strings to choose the programming languages he is familiar with. Write a program which demonstrates the working of JList on array of strings. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain simple and indexed properties. 6 b) Bootstrap registry service can be used to access a remote object on the server. 9 Explain bootstrap registry service with a simple program. c) An object called stub resides on the client machine and it knows how to contact 10 the server over the network. The stub packages the parameters used in the remote method into a block of bytes. Explain the process of parameter marshalling with a diagram OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Customizers make the end user task easy by allowing them to edit multiple 5 properties at the same time. Discuss about customizers and writing a customizer class. b) Object called ‘A’ on one computer needs to invoke a method on an object on 10 another computer, it sends a network message that contains the details of the request. Explain the process of client server communication with a neat diagram. c) A bean is a reusable software component based on that can be manipulated 10 visually in a builder tool. Write a bean program which will help the end user to read an image and display the image on the console. *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

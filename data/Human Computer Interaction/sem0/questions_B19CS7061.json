@@ -1,0 +1,56 @@
+{
+  "subject": "Human Computer Interaction",
+  "semester": 0,
+  "course_code": "B19CS7061",
+  "questions": [
+    {
+      "text": "a) Human memory is a powerful mental process that has many implications on life and 10 how you experience things, from remembering meaningful events to enabling you to execute tasks and achieve goals. Summarize the model of the structure of human memory with diagrammatic illustration? b) Human-computer interaction (HCI) is the study of designing the interactive interfaces. 10 List out various interfaces which are primarily used to communicate and record information and data and paraphrase any two in detail c) Illustrate the basic assumptions of the Fitts' Law model 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate the meaning of Reasoning using specific instances as a basis for making a valid 10 conclusion. Classify the various types of reasoning with suitable examples for each b) Illustrate the concept of (i) Input-output channel (ii) The Human Memory (iii) Computer 10 Memory c) Identify the theory believes that we search the problem space to find the answer and 5 illustrate the concept with suitable examples. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The designer does not begin with some preconceived idea. Rather, the idea is the result 10 of careful study and observation, and the design a product of that idea. Identify the various steps for Interaction design process? b) Navigation design is the discipline of creating, analyzing and implementing ways for 10 users to navigate through a website or app Infer in detail about through Levels of Interaction and Screen design. c) Human factors and ergonomics (commonly referred to as human factors) is the 5 application of psychological and physiological principles to the engineering and design of products, processes, and systems. Illustrate the concept of Ergonomics in detail with suitable examples. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Paradigms for interaction have for the most part been dependent upon technological 10 advances and their creative application to enhance interaction in detail. Illustrate the various paradigms of interaction and explain any two in detail. b) Instead of viewing a screen in front of them, users are immersed in and interact with 3D 10 worlds. List out the devices used for virtual reality and 3d interaction in computer and discuss any two in detail. c) Illustrate the concept of Global structure hierarchical organization with example? 5 Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the Principles to support usability. Consider the following usability objective. 10 Theatre booking clerks with low motivation, no computing experience and no previous training, working in a small and hectic box office, are able to learn to reserve or book seats within a one hour period. What measure could be taken and which techniques would you consider appropriate to test whether this objective was met? b) Illustrate the principles for the framework developed by CAST, an Understood founding 10 partner which gives the framework for Universal designs. c) Ben Shneiderman is an American scientist with a strong expertise in the field of human- 5 machine interaction. List out Shneiderman’s eight Golden rules of interface design OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Prototyping serves to provide specifications for a real, working system rather than a 10 theoretical one. Illustrate the three main types of prototyping along with potential advantages and disadvantages of each approach? b) Explain Norman’s seven principle for transferring difficult task to simple one in design 10 c) Discuss in detail about the activities in waterfall model of software life cycle? 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate about the factors that influence for choosing evaluation techniques. Outline 10 the approaches used for evaluating through expert analysis? b) Describe Nielen's Heuristic Evaluation method: What steps comprise it, how and where 10 is it used, how many evaluators are recommended, and where do the heuristics come from?\" c) Evaluation tests the usability, functionality and acceptability of an interactive system. 5 Discuss the concept of goal of evaluation OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain in detail about Cognitive Evaluation Techniques specifying about the factors that 10 influence for evaluation. b) Illustrate the various stages of execution and evaluation cycle? 10 c) Distinguish the tradeoffs between Heuristic Evaluation and traditional user testing? 5 *** Page 2 of 2 SRN 7th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

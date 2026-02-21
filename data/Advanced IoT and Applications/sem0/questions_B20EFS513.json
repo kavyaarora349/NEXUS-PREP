@@ -1,0 +1,56 @@
+{
+  "subject": "Advanced IoT and Applications",
+  "semester": 0,
+  "course_code": "B20EFS513",
+  "questions": [
+    {
+      "text": "a) The IoT Data Management and Compute Stack and the Core IoT Functional Stack reduce 10 the IoT architecture down to a pair of three-layer stacks to develop a sophisticated IoT strategy. Considering this describe the simplified IoT reference architecture. b) Sensors, Actuators and Smart Objects are the fundamental building blocks of IoT networks. 8 Define these sensors and actuators and discuss how sensors and actuators interact with the physical world. c) The differences between IT (Information Technology) and IoT networks are driving new 7 network architectures with few adjustments. Discuss these drivers behind the IoT network architecture. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Machine to Machine architecture is a communication standard developed by ETSI (European 10 Telecommunication Standard Institute) to support heterogeneous devices. Explain in detail the main components of M2M architecture. b) Information technology (IT) and operational technology (OT) have for the most part lived in 5 separate worlds. IT supports connections to the Internet along with related data and technology systems and OT monitors and controls devices and processes on physical operational systems. Illustrate the differences between Industrial Operational Technology (OT) and Enterprise Information Technology (IT). c) Edge or fog computing in no way replaces the cloud rather, they complement each other, 10 and many use cases require strong cooperation between layers. Demonstrate the hierarchical nature of edge, fog, and cloud computing across an IoT system with a neat diagram. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Wireless sensor networks are made up of wirelessly connected smart objects, referred to as 10 motes. They have an advantage for flexible deployments, but there are a variety of design constraints while connecting smart objects to them. Discuss their design constraints and communication protocols in IoT. b) Implementing Internet Protocol in the data centre, cloud services, and operation centres 5 hosting IoT applications may seem obvious, but the adoption of IP in the last mile is more complicated. Justify what adoptions are necessary to streamline this process. c) Smart sensors, smart devices, IoT devices, intelligent devices, things, intelligent nodes, 10 intelligent things, ubiquitous things, and intelligent products are all Smart objects in IoT. They transform data from the physical world into an intelligent network and are capable to interact with their environment in a meaningful way. Define these smart objects and their defining characteristics with a neat diagram. Page 1 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Constrained devices, such as sensors and actuators, have adopted deployments of no 10 application layer for transportation methods in IoT. However, it becomes challenging during the scalability of devices to receive and interpret data in different formats. Illustrate the solution that is used to overcome these data processing challenges when the application layer is not present in the IoT network. b) Deployment of constrained nodes, and verbose web-based and data model protocols may 15 be too heavy for IoT applications. Therefore, two lightweight protocols are developed to be better suited to large numbers of constrained nodes and networks. Demonstrate the working and highlight their position in the IoT protocol stack. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Edge streaming analytics involves acting on data that is generated while it is still valuable 10 before it becomes stale. Summarize the key values, core functions and stages of edge streaming analytics. b) When data from multiple systems are combined and analyzed together, predictions can be 7 made about the state of the system. Write a note about the role of these predictions in IoT. c) Big data is unstructured data that has been collected and stored in the cloud, whereas edge 8 nodes process and act on the data in real-time without waiting for the results from a future batch-processing job in the cloud. Distinguish between big data analytics in the cloud and edge data analytics outside the cloud. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In IoT, network analytics has the power to analyze details of communications patterns made 10 by protocols and correlate them across the network. With a suitable example discuss this process in IoT. b) In the world of IoT, the proliferation of data from sensors is common and it's one of the 7 biggest challenges. Distinguish how this data can be categorised into various types. c) Machine Learning provides the right algorithm and the right learning model for each IoT use 8 case. Illustrate the major domains of ML in IoT. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The Purdue Model for Control Hierarchy is the most widely used framework across industrial 10 environments globally and is used in manufacturing, oil and gas, and many other industries. Discuss how security can be applied to industrial networks using the Purdue model at each level. b) OCTAVE Allegro is a lightweight and less burdensome risk assessment framework. With a 10 neat diagram explain the OCTAVE risk assessment framework c) Operational Technology (OT) and Information Technology (IT) align their strategies closely to 5 ensure end-to-end computer security. Write a note on these strategies impacting Security. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Smart cities are expected to generate almost two-thirds (63%) of IoT’s overall civilian 10 benefits worldwide over the next decade. Explain the smart cities layered architecture with a neat diagram b) Of all urban utilities, street lighting comprises one of the largest expenses in a 8 municipality’s utility bill, accounting for up to 40% of the total, according to the New York State Department of Environmental Conservation. A comprehensive smart lighting solution help reduce lighting expenses and at the same time improves operating efficiencies while minimizing upfront investment. Outline the smart lighting architecture with a neat diagram. c) FAIR (Factor Analysis of Information Risk) is a technical standard for risk definition from The 7 Open Group. It emphasizes both unambiguous definitions and the idea that risk and associated attributes are measurable. Considering this explain the FAIR risk assessment framework. Page 2 of 3 *** Page 3 of 3 SRN 5th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

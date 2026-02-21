@@ -1,0 +1,56 @@
+{
+  "subject": "Augmented and Virtual Reality",
+  "semester": 0,
+  "course_code": "B19CS7041",
+  "questions": [
+    {
+      "text": "a) The scope of application of Augmented Reality has impacted many fields hence discuss 10 popular examples of Augmented Reality (AR) and related fields in AR. b) Simulation can be better experienced by the user through virtuality. Therefore, define and 10 explain different components or types of Virtual Reality. c) Briefly explain any two Engines/Tools to build VR experiences. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The overall structure of Augmented reality can be visualized better by visualizing the 10 architecture. So, describe the System Structure of Augmented Reality. b) Describe the primary features / factors that help to create a complete virtual reality 10 experience. c) Terminologies identify the domain of application hence briefly explain the following 5 terminologies: (i) Accelerometer (ii) Gyroscope UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Superimposition of real and virtual objects is essential so for that tracking plays major role 10 in augmented and virtual reality. Hence discuss various tracking methods used in Augmented and Virtual reality. b) Among the various device interfaces used in Virtual reality digital glove has been used 10 consistently. Discuss the impact of the glove in Virtual reality. c) In Virtual reality 3D objects make the scene more realistic hence discuss about 3D Scanner 5 with examples. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Sensors acts as inputs for Augmented and Virtual reality So, discuss its role with various 10 types of sensors. b) Explain haptic devices and its significance in Virtual reality. 10 c) The synchronization between auditory and display is required for virtual reality. Hence explain the 5 concept of Auditory and System Architecture for Auditory Virtual Environments. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In the context of creating the virtual world from real a number of objects of various shape 10 and size need to be created so discuss how geometric modelling can be useful in this Page 1 of 2 regard. b) Discuss about the modelling technique used to transform the physical features of an 10 object from real to virtual world. c) Briefly discuss about behavioral modelling. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Interaction is one of the important components of virtual reality. So discuss about 10 Interactive Techniques in Virtual Reality b) The objects in the virtual world has to be transformed to scale, rotate and translate hence 10 discuss the fundamental transformations used in geometric modelling. c) Briefly discuss about environment model in Virtual Reality and its challenges. 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Development of virtual reality application can be achieved using a framework, So discuss 10 concept of Frameworks of Software Development Tools in VR. b) With suitable examples, explain the concept of VR Technology in Film and TV Production. 10 c) Briefly discuss any one the tools(like Unity, Vuforia, SketchUp etc). 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Game engines are evolving with new technology hence discuss about game engines. 10 b) Briefly discuss about Software Development kit used in the Virtual reality. 10 c) With suitable examples, explain the concept of Demonstration of Digital Entertainment by 5 VR. *** Page 2 of 2 SRN 7th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

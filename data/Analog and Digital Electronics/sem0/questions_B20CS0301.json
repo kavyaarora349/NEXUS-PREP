@@ -1,0 +1,56 @@
+{
+  "subject": "Analog and Digital Electronics",
+  "semester": 0,
+  "course_code": "B20CS0301",
+  "questions": [
+    {
+      "text": "a) With a neat circuit diagram, sketch the behavior of a series unbiased positive clipper built 4 using ideal diodes. b) Give the block representation of an oscillator highlighting the function performed by 4 each block c) Detail the working of a Positive Biased Clamper that clamps the o/p at +3V. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the behavior of a biased negative clamper with a neat diagram and waveforms 4 assuming ideal diode b) Design a RC phase shift oscillator (LAG) that generates sinusoidal oscillations of 2.5 KHz. 4 c) Design a colpitts oscillator that produces oscillations of 50KHz. Draw the circuit indicating 5 the designed values. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Detail the working of an Absolute value Opamp circuit and give the expression for its o/p 3 voltage. b) Design a first order Active Low pass filter for a cut-off frequency of 8 KHz. The pass band 4 gain of the filter should be 10. c) Suggest an Opamp circuit used in Industrial applications to 5 i. amplify the signals produced by the Transducers. List the characteristics of the suggested Amplifier circuit and give its implementation. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Design a non-inverting amplifier using Opamp to provide a voltage gain of 11. Sketch its 4 input and o/p waveforms for a 0.75v (peak) signal applied at its input. b) It is desired to build a circuit that produces an o/p proportional to Logarithmic of its i/p 4 voltage. Propose a suitable circuit using Opamp that performs the required task. Draw the circuit and derive an expression for its o/p voltage. c) Discuss the behavior of a peak detector built using Opamp with a neat circuit diagram 4 and waveforms. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The years 2000 to 2015 are represented in four bit form, with 2015 represented as 4 ‘1111’, 2014 as ‘1110’ and soon. All the leap years in this range have an o/p as don’t care, odd numbered years as’1’ and even numbered years as’0’. Using the given data find the following •Truth Table •SOP expression ∑m •POS expression ∏M Page 1 of 2 b) Simplify the given Logical expression using K-map.∏M(0, 2, 3, 8, 9, 10, 11) + don’t care 4 (5, 13, 14, 15) c) Simplify the given Logical expression using K-map and implement the simplified expression using 5 (i)Basic gates (ii) Only NAND (III) Only NOR . Y = ∑m(0, 2, 3) + don’t care(4, 7) OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A digital system is to be designed in which the months of the year is given as input in 4-bit 4 form. The month January is represented as ‘0000’, February as ‘0001’ and so on. The output of the system is ‘0’ corresponding to the input of the month containing 30 days or less, otherwise it is ‘1’. Consider the excess number in the input beyond ‘1011’ as don’t care conditions. For this systems of 4 variables (A, B, C, D) find the •Truth Table •SOP expression ∑m •POS expression ∏M b) A Logic circuit is to be designed that produces an o/p of ‘1’ for all the odd numbers in 4 the range 0 to 8 and even numbers in the range 9 to 15. i. Draw the truth table of the circuit ii. Corresponding SOP and POS expressions iii. Simplified SOP expression using K-map a) Simplify the given Boolean expression using K-map. Implement the 5 simplified expression using only NAND gates. Y = ∑m (2, 3, 4, 5, 8, 10, 11) + dc(12, 13, 14) UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Draw the truth table of a full adder. Using the table entries, derive an expression for its 4 outputs and draw the circuit diagram b) Analyze a 4-bit Ring counter using D-ffs. Furnish the shift table that demonstrates the 5 circulation of data ‘1100’. Estimate the time required to circulate the data if the clock connected to it is 0.8µs. c) Realize a 4:1 MUX using only available 2:1 Multiplexers 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With a neat diagram, illustrate the behavior in the form of truth table and Characteristic 4 equation of a T flip flop b) Analyze a 4-bit Johnson counter using D-ffs. Furnish the shift table that demonstrates the 4 circulation of data ‘1001’. c) Analyze a 1:4 DE-MUX using basic gates starting from its basic behavior in the truth table 4 form. ****** Page 2 of 2 SRN 3rd Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

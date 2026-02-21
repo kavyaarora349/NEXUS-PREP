@@ -1,0 +1,56 @@
+{
+  "subject": "Web Technology",
+  "semester": 0,
+  "course_code": "B20EF0501",
+  "questions": [
+    {
+      "text": "a) The <form> element is a container for different types of input elements, such as: text fields, 10 checkboxes, radio buttons, submit buttons, etc. Come up with the HTML code for the following webpage. Note:  Items in the checklist should have links embedded to provide information about the respective item.  List of Payment methods  5 listings to be provided in the menu and 3rd item to be displayed in the menu bar.  On clicking submit button a “Thank You Message” to be displayed. b) A website is defined as a collection of web pages and related content that is identified by a 10 common domain name and published on at least one web server. Illustrate the working of static website and dynamic website with appropriate diagrams c) An HTML element is a type of HTML (Hypertext Markup Language) document component, 5 one of several types of HTML nodes which builds the structure of an HTML document. Illustrate with an example distinguishing block level and inline elements. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A table is a structured set of data made up of rows and columns (tabular data). A table 10 allows you to quickly and easily look up values that indicate connection between different types of data. Come up with HTML script for the following table Page 1 of 3 Table Name b) A server can be defined as a central repository, the command center, and the central hub of 10 the client-server model. Illustrate the working of client-server model with appropriate diagrams along with different types of servers. c) HTML5 is the current version of HTML that brings many new and advanced features and 5 improvements over its predecessor, i.e., HTML4. Illustrate the differences with an example. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) CSS selectors are used to \"find\" (or select) the HTML elements we want to style. Illustrate 10 the different categories of selectors with appropriate examples. b) The position property specifies the type of positioning method used for an HTML element. 8 Illustrate different types of position property values with appropriate examples. c) Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a 7 document written in HTML. Illustrate with appropriate examples different levels of style sheets. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The “Cascade” in CSS refers to how conflicting rules are handled. Illustrate with appropriate 10 examples the principles followed by CSS to handle conflicting rules. b) One of the main problems faced by web designers is that the size of thescreen used to view 10 the page can vary quite a bit. Illustrate with appropriate example the following approaches i. Fixed Layout ii. Liquid Layout iii. Responsive design c) CSS is a W3C standard for describing the appearance of HTML elements. Illustrate with 5 examples benefits of CSS. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) JavaScript, often abbreviated as JS, is a programming language that is one of the core 5 technologies of the World Wide Web, alongside HTML and CSS. Illustrate with an example the need for <noscript> tag in JavaScript. b) Exception handling is the process of responding to unwanted or unexpected events when a 10 computer program runs. Illustrate with appropriate examples different ways in which JavaScript handles exceptions. Page 2 of 3 c) Event handlers are the properties of the HTML or DOM elements, which manages how the 10 element should react to a specific event. Illustrate with suitable examples different ways in which events are handled by JavaScript. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The Document Object Model (DOM) is a programming interface for web documents. It 10 represents the page so that programs can change the document structure, style, and content. Illustrate with examples different “selection DOM methods”. b) A JavaScript function is a block of code designed to perform a particular task. A JavaScript 10 function is executed when \"something\" invokes it (calls it). Illustrate the following with appropriate examples i. Function definition ii. Anonymous Function iii. Function Expression iv. Function Hoisting c) Events are “things” that happen to HTML elements. When JavaScript is used in HTML pages, 5 JavaScript can \"react\" on these events. Illustrate with examples “event propagation” in JavaScript. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) PHP uses special predefined associative arrays called superglobal variables that allow the 10 programmer to easily access HTTP headers, query string parameters, and other commonly needed information. Illustrate neatly with appropriate diagrams and examples the working of $GET and $POST superglobal variables. b) In web development the ability to read and write to text files remains an important 8 technical competency. Illustrate and explain different ways to read and write files using PHP. c) PHP is a server scripting language, tool for making and powerful dynamic and interactive 7 Web pages. Write a PHP program to store current date-time in a COOKIE and display the Last visited on date-time. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) An array is a data structure that allows the programmer to collect several related elements 10 together in a single variable. Illustrate the following with appropriate example. i. Defining and accessing an array ii. Iterating through an array b) The reason that databases are such an essential feature of real-world websitesis that they 10 provide a way to implement one of the most important softwaredesign principles: namely, that one should separate that which varies from and which stays the same. Illustrate with appropriate diagram and example how websites use databases. a) PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely used open-source 5 general-purpose scripting language that is especially suited for web development and can be embedded into HTML. Write a PHP program to store page views count in SESSION, to increment the count on each refresh, and to show the count on web page. *** Page 3 of 3 SRN 5th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

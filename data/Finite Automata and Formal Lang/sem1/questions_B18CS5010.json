@@ -1,0 +1,2935 @@
+{
+  "subject": "Finite Automata and Formal Lang",
+  "semester": 1,
+  "course_code": "B18CS5010",
+  "questions": [
+    {
+      "text": "1)        Design a DFA to accept binary strings that are multiple of 3 when interpreted in decimal. Also illustrate the processing of the string \"01111\" a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Compute the Eclosure of each state of the following Є-NFA and also convert the same into an equivalent DFA",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Differentiate between the Finite Automata DFA, NFA and Є-NFA",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Define DFA and design a DFA to accept strings of a's and b's that either begin or end or both with abb a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     What are distinguishable and indistinguishable states? List the benefits of minimizing the states of the DFA and minimize the states of the following DFA:",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Define with example Alphabet, String, Language, complement of a language and string concatenation. UNIT II Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        Define regular Expression. And give regular expressions for the following:",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)         Binary strings whose length is multiple of 3. Strings of a's and b's that either begin or end or both with ab. L = { anbm | n , m >=0 and n is even number and m is odd number. }",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     State and prove pumping lemma theorem for regular languages also prove that the language L = { an | n >= 0 and is a prime number} is not regular. Prove that regular languages are closed under Union and Complement operations.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)                                                                       (10P)age #1",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Prove that every regular expression has an equivalent Finite Automata. Also convert the regular expressions ((ab+b(ba)*)*+bb)(ab+bab) to an equivalent FA. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Convert the Finite Automata given in question number 1b to an equivalent Regular Expression using state elimination method.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Prove that the language L={an | n >=0 and is perfect square } is not regular. UNIT III Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Define CFG and language of a CFG. Also give CFG for the following languages L = { a2nb3ncm | n, m>=0 }",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     L = { wwR| w Є { a, b}*} and L = { Binary strings that are palindrome}",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     When do we say the given CFG is ambiguous? Show that the following CFG is ambiguous and also convert it into equivalent unambiguous CFG by considering the rules of arithmetic expression evaluation of C language: E→E+E E→E-E E→E*E E→E/E E→(E) E→id",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Define CNF and convert the following grammar to CNF S→aAbA A→aB | bB | λ B→A | c",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        Define λ-production, Unit production and useless productions. Also eliminate the same and simplify the following grammar:",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     S→aACa A→B | a B→C C→cC | λ",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Give CFG for L = {a2n+2b3mcn | n, m>=0} along with LMD, RMD and Parse Tree for the string aaaabbbcc. Also prove that the following grammar is ambiguous: S → aSbS S → bSaS S → λ",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Define GNF and convert the following grammar to GNF S→AaBB | Aa A → BBA | aBB B→aBab | ab UNIT IV Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Differentiate between DPDA and NPDA.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        How is Deterministic PDA different from Non deterministic PDA? Give DPDA for accepting the strings of the language",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     L = { ancbn | n>=0}",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Design a Turing machine to accept a string w of a's and b's such that \\number of a's in w is equal to number of b's in w. Show the sequence of moves giving the generic method for the same. Construct the transition table, transition diagram and the moves made by the TM for the string abbbabaaa.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Define Turing Machine. -----End----- Page #2 REVA   UNIVERSITY Python for Data Analysis [B18CS5020] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        For data analysis and interactive computing and data visualization, Python will inevitably draw comparisons with other open source and commercial programming",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     languages. Describe the features of Python for its preference for data analysis.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Magic commands are designed to facilitate common tasks and enable programmers to easily control the behavior of the IPython system and jupyter notebooks. What are the various magic commands supported and explain any 5 of them with example.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Python's workhorse data structures are tuples, lists, dicts, and sets. Write a program to create a list having numbers in the range of 1-100, which are multiples of 5, but not multiples of 10.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Dictionaries are used to maintain key value pairs and are being used for developing various applications. Construct a dictionary having keys as number",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     between 0 to 10 and values as cubes. without dictionary comprehensionwith dictionary comprehension",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     The software development can be made better maintainable software by using modules or functions. Write a function which uses both positional and keyword arguments. The function takes two arguments (n,m) where n is positional argument and m is keyword argument. The function by default returns the square of n if only one argument is supplied, else returns n",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Handling Python errors or exceptions gracefully is an important part of building robust programs. Write a python exception handler to handle divide by zero error. UNIT II Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        The scientific applications involve lot of mathematical operations and require use of arrays. N-dimensional array object, or ndarray, is a fast, flexible container for large",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     datasets in Python. What are the various Python methods available for creation of one dimensional array.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     The data intensive applications involve lot of mathematical operations and require use of arrays. Write a program to create an array of size 5x5 and perform following operations. Display sum all rows Display sum of all columns Display standard deviation of all columns.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Write a program to count the occurrence of a key element in a two dimensional array.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Numpy arrays are important because they enable you to express batch operations on data without writing any for loops. Write a Python program to generate a two",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     dimensional array and perform various arithmetic operations on the same array.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Illustrate various indexing operations on ndarrays used for extracting required Page #1 elements.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Discuss various attributes of ndarray. Create an array of size 3x4 and display the following attributes of arrays.-ndim -shape -size -itemsize UNIT III Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        The data science applications require suitable data structure for data representation and analysis. Pandas data frame is a suitable data structure used",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     for data science applications. Create Dataframe object of size (3,4) using row index labels ['a','b','c'] and column labels ['A', 'B', 'C', 'D']. Perform the following operations.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Use label indexing to display all rows ii) Use integer indexing to display the 2nd and4th columns",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     The data intensive applications involve lot of mathematical operations and require use of data frame objects. Create 2 data frame objects of sizes( 3,4) and (4,3), and demonstrate data alignment on arithmetic operations like addition and substraction with examples.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Write a program to determine the correlation among various dimensions data. Use the following data to compute the correlation. Age = [20,25,30,35,40,50] Salary = [10000,20000,30000,40000,2000]",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        Big market maintains inventory of items, so that, they can analyze the data for proper maintenance of stock of all items regularly. Create Data Frame object with",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     ITEM_NAME, ITEM_COST and ITEM_QTY and store 10 items details. Perform the following operations.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Reduce the quantity of item, if user purchase the item ii) Find the total cost and quantity of all items",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Missing values handling a major concern in data analysis. Create series object 1 of 3 random numbers with index labels ['a','b','c'] and series object 2 of 4 random numbers with index labels ['a','b','c','d']. Perform the addition of both objects ad create object 3. Replace missing value or NaN of object 3 by the mean value of the column.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Write a program to demonstrate integer indexing opreations on python data templates. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        Data Science solutions require removal of outliers to improve classification of data. Write a program to detect and remove outliers from data. Consider suitable",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     example for removal of outliers.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Write a python program to compare two text documents and print percentage of content match. A sentence matches, if three words occur contiguously in sequence in both sentences.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Write a python program to read data from text file and display number of words, characters and lines.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Discuss with suitable application: Function mapping a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Discuss with suitable application: Dummy variables",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Discuss with suitable application: Regular expressions Page #2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Discuss with suitable application: Json Data -----End----- Page #3 REVA   UNIVERSITY Computer Networks [B18CS5030] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        In most wireless links such as satellite TV and high definition TV broadcast channels uses two ASK links in parallel, each of 16-levels. Discuss the",
+      "marks": 4,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     implementation of Binary-ASK as one of the digital modulation technique, with analog signal modulation.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Email communication can be defined as the exchange of short informational messages between at least two people over a computer network. These messages containing plain text, images or document attachments are delivered through email web-based services like Gmail, Outlook, or Yahoo. Identify and describe the components involved in the communication.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Analog-to-analog conversion is the representation of analog information by an analog signal. One may ask why we need to modulate an analog signal; it is already analog. The government assigns a narrow bandwidth to each radio station. The analog signal produced by each station is a low-pass signal, all in the same range. To be able to listen to different stations, the low-pass signals need to be shifted, each to a different range. Now, elaborate the different ways of Analog-to- analog conversion with relevant diagrams.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Switching at the physical layer in the traditional telephone network uses the circuit- switching approach. Elaborate the working of it, with delay experience with relevant diagrams. But later Internet started using packet switching for data communication purpose. Give at least 4 differences between circuited switched and packet switched networks.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Consider the old landline telephone communication system with a bandwidth B = (3,400 - 300) Hz = 3,100 Hz. The telephone system is generally assumed that to",
+      "marks": 4,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     require a SNR of at least 3162 to operate without unacceptable bit errors. Calculate the maximum channel transmission capacity C as predicted by the Shannon equation.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Unguided transmission media are methods that allow the transmission of data without the use of physical means to define the path it takes. Discuss about any 2 unguided transmission medium.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Consider a network with bandwidth of 2Mbps. For a transmission carrying the message of size 10MB, can pass through 3,000 frames per minute with each frame carrying an average of 2,000 bits. Assume the distance between sender and receiver is 15,000km and speed of light is 2.4 × 108 m/s. Find the throughput, propagation time and the transmission time for this communication.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     The OSI Model is a conceptual framework used to describe the functions of a networking system. The OSI model characterizes computing functions into a universal set of rules and requirements in order to support interoperability between different products and software. Describe the following Encapsulation. Peer to Peer Communication Hop to hop delivery. Source to destination delivery. Process to process delivery. Page #1 UNIT II Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        The process of coding the bits to digital signals is chosen so as to avoid overlap and distortion of signal such as inter-symbol interference. Encode the given",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     sequence of bits 101001110 to digital signals using: unipolar NRZ, polar NRZ-L, polar NRZ-I, Manchester.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     In a system using CRC for error detection has received the codeword as",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1001111010. Check whether the any error has occurred at receiver, while traversing. Both sender and receiver has assumed the generator polynomial as x3+1. Justify your result.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Multiplexing is used to achieve better bandwidth utilization. List out the multiplexing techniques and explain the multiplexing technique based on time slots which can avoid the empty slots in a frame.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Consider a scenario where there are 'n' stations on a link and all are waiting to transfer data through that channel. In this case all 'n' stations would want to access the link/channel to transfer their own data. Problem arises when more than one station transmits the data at the moment. In this case, there will be collisions in the data from different stations. With the flow diagram, explain the working of CSMA/CD with regard to above scenario.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Point - to - Point Protocol (PPP) is a communication protocol of the data link layer that is used to transmit multiprotocol data between two directly connected",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     computers. Give the format of the frame transmitted over PPP, elaborating each field in it.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Four channels , two with a bit rate of 200kbps and two with a bit rate 150 kbps are to be multiplexed using multiple slots TDM with no synchronization bits. Answer the following questions: assume 4 bits from the first 2 sources and 3 bits from the second 2 sources. i. What is the size of a frame in bits? ii. What is the frame rate?",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     LANs do not normally operate in isolation. They are connected to one another or to the Internet. To connect LANs or segments of LANs, we use connecting devices. Connecting devices can operate in different layers of the Internet model. Describe all connecting devices acting in the lower three layers only.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Demonstrate how Internet using a 16-bit checksum can be applied for detecting the error if occurred while transferring the data \"PROGRAMMING\". Consider ASCII of A-41, G-47, I-49, M-4D, N-4E, O-4F, P-50, R-52, T-54. Do encoding at sender for \"PROGRAMMING\". Assuming receiver received \"PROTRAMMING\", perform decoding at receiver and find the checksum at receiver. Justify your answer. UNIT III Answer 1 out of 2 questions.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Find the class of following IP addresses. Also find the NETID of each IP address mentioned below. a) 217.14.2.1 288.35.54.12 91.123.51.46 131.14.6.8 11000001 10000011 00011011 11111111",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     The standard MAC frames are defined in Ethernet by IEEE 802.3. List and describe the fields of standard Ethernet MAC frame.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Give the format of IPv6 header format. Elaborate the importance of each field.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Consider a network with 6 routers, connected with links having weights as shown in the following diagram. Apply Link State routing algorithm to find the routing table at node A. Page #2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        Consider a network with 6 routers, connected with links having weights as shown in the following diagram. Apply distance vector routing algorithm to find the routes at",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     all the routers.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Dual stack is one of the method for transition from IPv4 to IPv6, expected to have both IPv4 and IPv6 stacks in every node. Explain the other mechanisms can be used for transition from IPv4 to IPv6.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     The architecture of Wireless networks includes the way of BSS and ESS with Distribution system. The data frames can be transferred within the BSS or between the devices in different BSS. Discuss the different Addressing mechanisms for the given scenario. Make use of the relevant fields in frame.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     A block of address is granted to a small organization. One of the IPV4 address is 205.16.37.31/27. What is first address, last address, and number of addresses in the block? UNIT IV Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        A three-way handshake is a method used in a TCP/IP network to create a connection between a local host/client and server. TCP is a connection oriented",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     service. Describe connection establishment in TCP using three way handshake with relevant diagrams.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain the usage of SMTP and FTP protocols used for E-Mailing and data file transfer accordingly.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Identify and explain the different remote login protocols.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Transmission Control Protocol accepts data from a data stream, divides it into chunks, and adds a TCP header creating a TCP segment. The TCP segment is",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     then encapsulated into an Internet Protocol (IP) datagram, and exchanged with peers. State the fields in TCP segment and describe each of them.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     UDP provides a connectionless server, in which a client sends a request and the server sends back a response. Give the program can be used for establishing the client server communication using UDP.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     What is importance of Selective Repeat N over Go-Back-N protocol. Explain the concept of Selective repeat N. -----End----- Page #3 REVA   UNIVERSITY Operating Systems [B18CS5040] Marks: 100                                                      Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)       Operating system provides different types of system calls to manage process, memory, file management, devices and communication. Explain the each of the system calls related to",
+      "marks": 12,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     management of process, file and Device.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     A Copy system call is executed in a sequence of steps to copy the contents of one file to another file. Explain the sequence of steps involved in invoking the copy ( ) system call with a neat diagram.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Operating system can be designed in many different forms. Explain the traditional layered approach of UNIX system with a neat diagram.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)       Operating system provides common classes of services for helping user and also for ensuring the efficient operation of the system. Explain with a neat diagram the common",
+      "marks": 12,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     classes of services offered by Operating system.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Computer system can work in both user mode and kernel mode. Illustrate with a neat diagram how the computer system works in Dual-Mode operation.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Different types of computing environments are used for carrying out the tasks like, receiving, storing, processing, downloading and uploading of data. Explain the different types of computing environments available with neat diagram. UNIT II Answer 1 out of 2 questions.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)       Consider the following set of processes: a)",
+      "marks": 12,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Draw the Gantt charts for non-preemptive SJF and preemptive SJF (SRTF) Scheduling algorithms. ii) Compute average waiting and turnaround time for both the cases.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Illustrate with a neat diagram both message passing and shared memory techniques and also give the pseudo algorithm for Shared memory and discuss the different types of communication techniques used by message passing.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Medium term scheduler is used for swapping of the processes. Illustrate with a neat diagram the use of medium term scheduler for swapping out and swapping in the processes and explain briefly.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)       Consider the following data about processes: a) Page #1",
+      "marks": 12,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Draw GANTT charts to illustrate execution using non-preemptive Priority and Round- Robin (Time quantum =2 ms) scheduling algorithms. ii) Compute average waiting time and turnaround time in each of these cases.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     During the execution of a process, the process moves from one state to another state depending upon the type of statement to be executed. Illustrate with a neat diagram the transition of a process from one state to another state during its execution.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Illustrate with a neat diagram the context switching indicating clearly how one process,P0 saves its state on PCB0 and how another process,P1 restores its state from PCB1. Explain it briefly. UNIT III Answer 1 out of 2 questions.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)    Consider the following snapshot of a system: a) Answer the following questions using Banker's algorithm: What is the content of the matrix need? Is the system in a safe state? If a request from process P2 arrives for (0 0 2) can the request be granted immediately?",
+      "marks": 11,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     What is a deadlock? Illustrate with an example the deadlock avoidance algorithm",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Semaphore is a synchronization tool used to achieve the synchronization amongst the many processes requesting for accessing the critical section. Illustrate with an example how synchronization is achieved using semaphore.",
+      "marks": 4,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)   For the following snapshot, find the safe sequence using Banker's algorithm: The number of resource units is (A, B, C) which are (7, 7, 10) respectively. a) Page #2",
+      "marks": 11,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Write the resource allocation algorithm for dead lock? And explain it",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Discuss the requirements that a solution to the critical-section problem must satisfy UNIT IV Answer 1 out of 2 questions.",
+      "marks": 4,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)       Consider the following page reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1. How many page faults would occur for FIFO and LRU assuming three frames. Which is",
+      "marks": 12,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     the most efficient among them.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Illustrate the allocation of memory with hardware support using relocation and limit registers in contiguous memory allocation method",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Hierarchical paging can be implemented using a two level paging. Explain with a neat diagram the hierarchical paging.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)       Given the page reference string: 0, 9, 0, 1, 8, 1, 8, 7, 8, 7, 1, 2, 8, 2, 7, 8, 2, 3, 8, 3. How many page faults would occur for FIFO and LRU page replacement algorithms, assuming",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     four frames?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Translation look-aside buffer (TLB) is very important in paging scheme to store page number and frame number. Illustrate with a neat diagram the use of TLB in paging scheme.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     A page fault occurs when a page to be executed by processor is not found in the primary memory. Describe the steps involved in handling a page fault, with the help of a neat diagram. -----End----- Page #3 REVA   UNIVERSITY Object Oriented Analysis and Dsgn [B18CS5051] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        You have been assigned the task of writing a software project to simulate the operations of a self-driving car. What factors will make this task inherently",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     complex? How will the sources of complexity be handled?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Consider the requirements for the electronic system of a multiengine aircraft, a cellular phone switching system, or an autonomous robot., List and explain the properties or attributes that are common to all complex systems.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Hydroponics Gardening System grows crops in water without soil. It is controlled by electronic devices and sensors. One such device is an \"Temperature Sensor\" which helps in maintaining the temperature of the garden using another device called a \"Heater\". Discuss the relationship between these two classes and draw their abstraction diagrams.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Jerkins and Glassgow define the styles of programming based on the conceptual framework. List and explain in brief the major and minor elements of Object Model. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Differentiate between Algorithmic Decomposition and Object-Oriented Decomposition",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Distinguish hierarchy, abstraction with suitable examples. UNIT II Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        We establish relationships between two classes to indicate some sort of sharing and semantic connection. Explain the different kinds of class relationships in detail. a)",
+      "marks": 15,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Design of classes and objects is an incremental and iterative process. What are the different quality measures of an abstraction? Explain.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        A key abstraction is a class or object that forms part of the vocabulary of the problem domain. Explain Key abstraction and mechanisms in detail. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     A Classification is an ordered set of related categories used to group data according to its similarities. Mention and describe the general approaches to Classification.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Suggest how to name the key abstractions : Objects, Classes, Modifier operations, and Selector operations. UNIT III Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Consider the example: HydroponicsGardeningSystem for Package Diagrams. Construct the diagrams for the following cases : a) The Package Diagrams but with two of its contained elements represented as packages themselves for HydroponicsGardeningSystem. The packages used to group use cases of the Hydroponics Gardening System. The package diagram with all the relationships (association,import, access, Page #1 merge) for Hydroponics Gardening System.",
+      "marks": 15,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Consider a simple telephone that is used to receive and make phone calls. Identify the various states and draw a state transition diagram.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        A UML use case diagram is the primary form of system/software requirements for a new software program under developed. Design and explain the Use case diagram",
+      "marks": 15,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     to maintain the storage tanks and write its Use case Specification.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Consider the case of a customer withdrawing money from a teller in a bank. Identify the actors and use case details. Draw the sequence diagram. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        For Vacation Tracking system, design the model representation and model elements for the category class. Draw the communication diagram describing",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     request validation collaboration.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     A Vacation Tracking System will provide individual employees with the capability to manage their own vacation time, sick leave, and personal time off, without having to be an expert in company policy or the local facility's leave policies. Design the following for the Vacation Tracking System. The Deployment View The Logical View The implementation view",
+      "marks": 15,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        A Vacation Tracking System (VTS) will provide individual employees with the capability to manage their own vacation time, sick leave, and personal time off,",
+      "marks": 15,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     without having to be an expert in company policy or the local facility's leave policies. Explain the Use case Specification for the following. Manage Time withdraw request Edit Pending Request.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     For the above application explain the object diagram describing a Request Validation Collaboration. -----End----- Page #2 REVA   UNIVERSITY IoT Programming and Applns [B18CS5052] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        Explain the benefits of IoT. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     What is a sketch? Explain the two functions required to build a sketch with an example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Write a program in Arduino to blink the LED.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     What is HTTP protocol? Explain the GET and POST methods with example.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        List out the applications of IoT in real world. Write a program in Arduino to print \"Hello world\" in serial monitor. a)",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     What is MQTT protocol? What for it is used in building IoT applications?",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Write a note on Arduino Yun board.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     What is the role of a broker in publish/subscribe model? UNIT II Answer 1 out of 2 questions.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        What is a Node-RED? Discuss the features of Node-RED. Discuss the various Node-RED concepts. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     The government of India decides to provide a intrusion detection system to all the IAS officials to enhance the safety and security measures. In this regard, the government has invited proposals to setup the project by private firms. Develop a complete detailed requirement and design document to setup a intrusion detection system to the houses of IAS officials. The system has to monitor the house from outside and detect any person trespassing and found suspicious and report to the authority. For the above scenario, Give the schematic of the components used in the intrusion detection system. Develop the schematic of the circuit to implement the Intrusion detection system using motion sensor. Develop the function to read motion sensor data used in the above project. Write the code for publishing an MQTT message in this project.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Write the arduino code for controlling LED light",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Explain how to use Android studio in building mobile apps. a)",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     The company xyz is in a process of building a smart lighting control system for their office locations located across the globe. The requirement of the project is to get the status of the lights in a office and if required to switch ON or OFF the light remotely. Give the schematic of the components used in the smart light control system. Page #1 Design and explain the schematic of the circuit used in building the above project. Write the code for subscribing to an MQTT broker to be developed in the smart light control system. Give the code for controlling LED light by switching ON/OFF when required.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Explain the use of Node-RED in building IoT applications. Develop a flow in Node- RED that will receives an HTTP request and tweets a message. UNIT III Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        The RMX mall at Bangalore have plans to setup a smart parking system at all the locations of the mall to bring an automated smooth parking system to enable the",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     customers to have convenient parking. The solution to this problem is to monitor whether the car is parked or not and update the information to the customer in the app. Give the php code for establishing database connectivity with the server. Design the code for detecting if parking spot is empty.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Develop the schematic of the circuit used in temperature monitoring system. Develop a code to read data from the sensor and convert it into Fahrenheit",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     What is GPS tracker?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        What are proximity sensors? What are the uses of them in building IoT applications? Develop the PHP code to receive and update stored data in smart",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     parking system.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     The XYZ organization has plans to setup a temperature monitoring system for a green house. The project describes to have a temperature monitoring of the green house and transmit the data to a web application where it is displayed as web- based analytic dash board. Give the schematic of the components used in the temperature monitoring system and also develop the schematic of the circuit. Develop a code to read data from the sensor and convert it into Fahrenheit.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Explain the working of GPS module. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        Give the schematic of the components used in the smart waste management system. Create a Node-RED flow that will subscribe to an MQTT topic that Arduino",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     is publishing messages to and then trigger the process in Effektif while implementing smart waste management system.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     With a neat diagram, explain the various components of IoT layered architecture.",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Differentiate between machine to human and machine to machine IoT patterns.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Give the schematic of the components used in the energy conservation. Develop the Arduino code for implementing energy conservation system. a)",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Mention the various security risks and also discuss the challenges.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Develop the schematic of the circuit to implement the soil moisture control system. What is a Zapier and how it is used in this project? -----End----- Page #2 REVA    UNIVERSITY Software Testing [B18CS5053] Marks: 100                                                      Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)       In software engineering, a test case is a specification of the inputs, execution conditions, testing procedure, and expected results that define a single test to be executed to achieve",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)    a particular software testing objective, such as to exercise a particular program path or to verify compliance with a specific requirement. Explain two fundamental approaches to identify test cases with suitable examples for each",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)    Levels of testing include different methodologies that can be used while conducting software testing. Explain different levels of testing with a diagrammatic variation of waterfall model.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)    Define Pseudocode. Write a generalized pseudocode to determine the type of triangle (equilateral, isosceles, scalene or not a triangle) based on the given inputs (sides a, b, c).",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)       Fault taxonomy is a key starting point for providing techniques and methods for assessing the quality of software and in particular of component-based systems. Illustrate different",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)    types of faults available in Testing.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)    Define the following: Error, Fault, Failure, Incident and Test Case.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) UNIT II Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)       Equivalence class testing is a software testing technique which determines equivalence classes of valid and invalid values. Explain Equivalence class testing with its types in",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)    detail.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)    Cite the BVA test cases for the triangle problem of 3 variables a, b, c. Note that variable ranges are 1< =a< =200, 1< =b< =200 and 1< =c< =200.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)    Explain McCabe's Basis path Method with suitable example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)       Boundary value analysis is a software testing technique in which tests are designed to include representatives of boundary values in a range. Explain Boundary value analysis",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)    with its types in detail.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)    Accept three integers which are supposed to be the three sides of a triangle and determine if the three values represent an equilateral triangle, isosceles triangle, scalene triangle, or they do not form a triangle at all. Design and develop a program in a language Page #1 of your choice to solve the triangle problem defined as follows: Derive test cases for your program based on decision-table approach, execute the test cases and discuss the results.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)    Define Test Coverage Metrics. List and describe Miller's Test Coverage Metrics. UNIT III Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)       What is Selenium IDE? Discuss about the steps involved in installing Selenium IDE in your system and also specify the Rules for automation. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)    John has recorded the testing procedure of \"XYZ\" application using Selenium IDE. He wants to validate elements available on the application under test. Explain John about the two mechanisms followed to validate elements of application under test.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)    List and explain any five verify and assert methods available in Selenium IDE.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)       Working with multiple browser windows can be one of the most difficult things to do within a Selenium Test. Explain the steps to be followed in order to check the click on an",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)    element on the page which will cause a new window to appear.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)    Having readable code and having comments can make maintenance of the application much easier. So it is good practice to make sure that your tests have comments that future software testers can use. Specify the steps to be followed to add comments for your tests.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)    List and explain the elements of Selenium IDE tool. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)       Discuss in detail about the History of Selenium. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)    WebDriver uses the most appropriate way to access the accessibility API. If we look at Firefox, it uses JavaScript to access the API. If we look at Internet Explorer, it uses C++. Explain its Architecture.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)    On web applications today, elements should have an ID attribute for all their controls on the page. A control would be an element that we can interact with and is not static text. This allows Selenium to find the unique item, since IDs should be unique, and then complete the action that it needs to do against that element. List out the steps to be followed for finding elements by ID.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)       Discuss in detail about the following:",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Web Driver API",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)    ii) Web Driver SPI iii) Moving elements on the page",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)    Elements do not necessarily have ID attributes on all of them. Elements can have names that we can use to locate them. Identify the steps to be followed for finding elements by name.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)    The most common element on a page is a link. Links allow pages to be joined together so end users can navigate the site with confidence. List the steps for finding elements by link text. -----End----- Page #2 REVA   UNIVERSITY Digital Communication [B18CS5054] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        Define Information. With examples describe how probability and information is related. Write the formula of information. a)",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain Mutual information with formula and give the examples with uncertainty.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe variable length coding and its advantage over fixed length coding.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Define Entropy. Differentiate entropy and information with formulas . a)",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     The source of information A generates the symbols {A0, A1, A2, A3 and A4} with the corresponding probabilities {0.4, 0.3, 0.15, 0.1 and 0.05}. Encode the source symbols Shannon-Fano encoder.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe the source coding significance in digital communication using the example of compression. UNIT II Answer 1 out of 2 questions.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        Explain the Amplitude shift keying with waveforms and generation method of coherent ASK a)",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Compare the ASK, PSK and FSK modulation techniques with waveforms and bandwidth spectra.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Explain how the DPSK is non- coherent method of modulation and give its advantage over coherent technique.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Define the Phase shift keying digital modulation technique with block diagram of generation method. a)",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Summarise the QPSK technique of modulation with diagrams and equations.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Illustrate the fundamentals concept of frequency shift keying and describe the coherent detection of FSK. UNIT III Answer 1 out of 2 questions.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Design a PN sequence generator with the period 7 bits and justify the number of flip flops used. a)",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain the working of DSSS transmitter and receiver.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Justify the use of CDMA to facilitate the communication channel for multiple user access.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        Explain the two steps of synchronization methods in spread spectrum explain in brief a)",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Enlist the uses and application of spread spectrum techniques in various fields of communication. Page #1",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Discuss the Frequency hopping concept in spread spectrum and justify how the FHSS provides secure communication using hopping concept. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        Define the significance of channel coding and enlist the two methods of channel coding . a)",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain How the single bit error can be detected using parity check code but more than one bit error can not be detected. Justify your answer with example taking different cases.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe the waveform coding with two orthogonal waveform examples.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Discuss the type of error controls. Give the reason for Automatic Repeat Request mechanism of error control requires full duplex connectivity. a)",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain linear block code generation matrix with example .",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe the capability of Cyclic code and its use in error detection. -----End----- Page #2 REVA   UNIVERSITY Unix System Programming [B18CS5061] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        American National Standard Institute (ANSI) proposed C programming language standard. most computer vendors support the C language constructs and libraries",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     proposed by Brian Kernighan and Dennis Ritchie. In this regard list out the difference between ANSI C and K & R C.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     List out and explain the UNIX and POSIX.1 general file attribute for each file in a file system which are essential for the kernel to manage files. Justify the attributes that remain unchanged when file is created and also attributes that keep changing.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     There is a set of general file API's that can be used to manipulate and create more than one type of files. Mention different general API's available in UNIX.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Files are building blocks of any operating system. Most operations in a system deal with files. Explain the data structure of Unix kernel support for files with the help of",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     a neat diagram.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     File locking is a mutual-exclusion mechanism for files. Describe the file and record locking mechanism in Unix file API's by considering all types of locks.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     File locking is a mutual-exclusion mechanism for files. Describe the file and record locking mechanism in Unix file API's by considering any two types of locks. UNIT II Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        Describe command line arguments and environment list with example. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     A Process is a program under execution in a UNIX or POSIX system. Summarize the types of process termination with example.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Explain the process of Job Control with the help of a neat diagram.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Process control is concerned about creation of new processes, program execution, and process termination. Explain the prototype of atexit function and demonstrate a",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     sample program of atexit function.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     In ANSI C, a process can register up to 32 functions that are automatically called by exit. Explain in detail about atexit function with an suitable diagram and example.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Explain the working of Network Login and Terminal Login with a neat diagram. UNIT III Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Daemons are processes that live for a long time. They are often started when the system is bootstrapped and terminate only when the system is shut down. Explain",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     the Daemon Characteristics in detail.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain the basic rules to coding a daemon which prevent unwanted interactions from happening.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     The sigaction function allows us to examine or modify (or both) the action associated with a particular signal. Demonstrate its prototype with function structure. Page #1",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        The BSD syslog facility has been widely used since 4.2BSD. Most daemons use this facility. Illustrate the structure with three ways to generate log messages. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Signals are classic examples of asynchronous events. We can tell the kernel to do one of three things when a signal occurs. Explain the disposition of the signal, or the action associated with a signal.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     The kill function sends a signal to a process or a group of processes. Explain the kill function and demonstrate a sample program using kill function. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        A socket is an abstraction of a communication endpoint. Explain in detail how to create and destroy a socket. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     A FIFO file is a special kind of file on the local storage which allows two or more processes to communicate with each other by reading/writing to/from this file. Explain in detail about FIFO files(Named Pipes).",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Shared memory allows two or more processes to share a given region of memory. Explain the concept of shared memory.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Socket descriptors are implemented as file descriptors in the UNIX System. Indeed, many of the functions that deal with file descriptors, such as read and",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     write, will work with a socket descriptor. Explain Socket types and socket communication domains.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Describe the working of message queues in detail by explaining the prototypes of all the functions used in message queues.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Pipes are the oldest form of UNIX System IPC and are provided by all UNIX systems. With this explain in detail about the concept of pipes along with the limitations. -----End----- Page #2 REVA   UNIVERSITY Advanced DBMS [B18CS5062] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        A Company object database stores employee's information, department details and projects details. Explain Object identity, Structure of the objects and type",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     constructor for a particular department of the company. And also represent Department complex object as a graph.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     List and explain the various built-in interfaces used for defining classes",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Illustrate the object behavior via class operations and object persistence via naming and reachability.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Differentiate between transient and persistent objects",
+      "marks": 3,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        For the Company database, define the classes using ODL (atleast 5 classes) and write simple queries (atleast 6 queries) using OQL. a)",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     The main characteristic of OO database systems is that it will allow type hierarchies and inheritance. Illustrate it with examples.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Object Relational DBMS provides capabilities of an RDBMS and supports Object Oriented concepts. With examples list the object relational features of Oracle.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Describe various type constructors and Factory Object UNIT II Answer 1 out of 2 questions.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        For any database application, operations such as loading data, building indexes, and evaluating queries must be done parallelly to improve its performance.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     Illustrate various architectures proposed for building Parallel DBMS with diagrams.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     For any Online transaction happening, Discuss the issues of Distributed concurrency control and recovery in case of transaction failure.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Assume that shared nothing architecture with horizontal partitioning of data is used for bank transaction. Explain how the individual operations of a query is parallelized.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     For the bank data to be stored in the distributed database system, the impact of data distribution must be transparent. And even the properties Distributed data independence and Transaction atomicity are considerable. Explain them.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Thousands of HDFC bank customers are doing transactions at a same time. HDFC bank server must evaluate the relational queries in parallel. Apply the techniques",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     used for parallel query evaluation over bank database.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Consider sailors distributed database which consists of Sailors and reserves data. As the data is distributed, explain how the following types of Distributed Queries are processed.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Non Join Queries ii) Joins iii) ship to one site iv) Semi Join and Bloom Join. Also Describe the cost based Query Optimization.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     For any database application, functions such as loading data, building indexes, and evaluating queries must be done across different distributed systems to improve its performance. Illustrate various architectures proposed for building distributed Page #1 DBMS .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Explain different types involved in the Fragmentation UNIT III Answer 1 out of 2 questions.",
+      "marks": 2,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Multimedia applications deal with thousands of images, document, audio and video segments, etc. Illustrate the data management issues of such applications a)",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Deductive database are mainly used to deduce the rules over enhancing the real time database application. Summarize the declarative language is been used to specify rules in Deductive database applications.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Consider the Library database application, When a new book is added to a library, modify the Total_books of the Library. When a book is taken by student from a library, modify the Total books of the Library. Create When a new staff is added to library database, modify the Total staff in the User table. When a student is passed out of the college, modify the Total students in the User table. When a student return the book to the library, modify the Total students in the User table.",
+      "marks": 13,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        Illustrate with examples how the rules are interpreted in the deductive databases a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Deductive database are mainly used to deduce the rules over enhancing the real time database application. Summarize the declarative language is been used to specify rules in Deductive database applications.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     For any database applications active database concepts plays an important role in enhancing the data models, Illustrate the architecture of event-condition-action model along with triggers and create suitable triggers for Library database that can be used over enhancing the database applications.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     In deductive databases a formula can be declared with different quantifiers , describe how horn and casual form of formulae can be applied over deductive databases UNIT IV Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        Traditional SQL systems are evolving to support OLAP style queries for querying any database application. Illustrate the various implementation techniques",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     incorporated in OLAP systems.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     For any database application, describe Rollup and cube with examples",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     The query is to find out the top 10 states whose average sales is more? Explain the various techniques used for solving queries quickly.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     For a Company database application, create view to compute sales of the product. Also compute total sales of each product for a state. And also discuss the issues in view materialization.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        The Government uses data warehouses to maintain and analyze tax records. Describe the Data warehouse architecture used and also explain how the",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     warehouse is created and maintained.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     For a Company database application, describe how the window is framed to compute total sales for each product using various Window queries in SQL.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     The query is to find out the top 10 states whose arrange sales is more. Explain the Page #2 various techniques for solving queries quickly.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     For computing average sales of the product, explain how Multidimensional aggregation queries are used. -----End----- Page #3 REVA   UNIVERSITY Introduction to Robotics [B18CS5063] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        Robots are intelligent electrical-mechanical devices that can sense, think, actuate and interact with humans. Give an example of a recently invented robot, which",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     interact with human beings just like any other human being and which will also possess human emotions to certain extent.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     You are required to design a robot that can pick up an object of arbitrary shape from a table and place it inside a box.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "(i) What is the minimum number of degrees of freedom it should have? (ii) List all the possible arm configurations. (iii) Draw their corresponding work volumes.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Briefly illustrate following parameters in terms of robotics function:",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "(i) Payload (ii) compliance (iii) Precision (iv) Accuracy",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Classify the robots according to the coordinates of motion with a sketch and example, explain the features of each type. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     In robotics, speed of response and stability are inversely proportional to each other. Interpret this statement by drawing a graph.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     What do you mean by work volume? Draw the work volumes of polar, cylindrical and rectangular configuration robots. UNIT II Answer 1 out of 2 questions.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        A stiff cardboard carton weighting 10 lb is held in a griper using friction against two opposing fingers. The coefficient of friction between the finger contacting surfaces",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     and the carton surface is 0.25. The orientation of the carton is such that the weight of the carton is directed parallel to finger surfaces. A fast work cycle is anticipated so that a 'g' factor of 3.0 should be applied to calculate the required gripper force. Determine the required gripper force for the conditions given.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Describe the types of end effector & gripper mechanisms with simple sketches.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Explain vacuum grippers, with reference to the principle, use and applications.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Enlighten the need of utilizing intelligent mechanism for the robot joint controllers with specific examples. a)",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Differentiate between open loop and close loop (feedback) control systems for robotic systems. Describe each one of them in brief.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Analyze the various robot motions for continuous path controls, point to point controllers in terms of Open loop and closed loop control system.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     State the significance of Robot Control mechanism in terms of various intelligent control applications. UNIT III Answer 1 out of 2 questions.",
+      "marks": 4,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        A vector v=3i+2j+7k is rotated by 60 degree about the z-axes of the reference frame. It is then rotate by 30 degree about the x-axes of the reference frame. Find Page #1",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     the rotation transformation.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Discuss in detail about the significance of Tactile sensor and its application with diagrams.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Rotate point (2,5) by 90 degrees about the origin then find new point by using Rotational transformation.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Explain in detail the safety sensors and safety monitoring of robots.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        Justify the significance of sensors in robots for providing awareness of surroundings, allows interaction with environment, Protection and Self preservation",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     and Robot capability to goal seek.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Classify the proximity sensors and describe in brief for each one of them.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Why does robot need sensors? Discuss the different types of sensors existing in Robotics. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        Illustrate the phenomenon of ROBOT CELL Layout in terms of the following classification a) Robot centered cell Inline robot cell Mobile Robot cell",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Compare and discuss the functions of Multiple robots and machine interference.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Explain in detail about the welding and spray-painting robot application with respect to the robot cell design.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Enumerate the following transfer characteristics of inline cell configurations. Intermittent transfer system a) Continuous transfer system Non Synchronous transfer system",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Illustrate the phenomenon of Sequence control and safety monitoring of the robot in operation.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Write a detailed note on Robotic Operating system (ROS) and highlight its need for industrial applications. -----End----- Page #2 REVA   UNIVERSITY High Performance Computing [B18CS5064] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        Summarize memory hierarchies design and its characteristics in the computer system. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain parallel computing paradigms and classify the types of paradigms.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Define networks and classify the different types of networks in detail",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Describe Stored-program computer architect in modern processor. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Categorize the multi-threaded and vector processors in a modern computer system.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe multicore processors and its advantages in a modern computer system. UNIT II Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        Use Flynn's Taxonomy categorizes different parallel architectures describe in detail. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Classify the parallelism and why it is required in the high performance computing systems?",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Extract the potential benefits of parallel computing in modern computer architectures.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Illustrate the parallel computing is required and explain advantages in high performance computing a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Describe the parallel scalability in detail used in the modern computer system.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Identify the different types of cores in a parallel computer systems and write some of the advantages. UNIT III Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Define OpenMP, why using openMP and what are the goals. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Summarize OpenMP and draw the chart of core elements in the shared memory parallel programming.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe the Wavefront parallelization in the parallel programming",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        Explain profiling OpenMP programs in the efficient OpenMP programming a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     What are the openMP runtime variables and write the parallel regions with a suitable example.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Extract the Parallel sparse matrix-vector multiply in the efficient OpenMP Page #1 programming UNIT IV Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        Define message passing in the Distributed-memory parallel programming with MPI. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     What are the MPI performance tools in the efficient MPI programing explain in detail.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Compare the following;(i)Synchronization (ii) serialization (iii) contention (iv) communication",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Describe the MP and give an example in the Distributed-memory parallel programming with MPI. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Interpret the reducing communication overhead in the efficient MPI programing",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Identify the intranode point-to-point communication in the efficient MPI programing -----End----- Page #2 REVA   UNIVERSITY Digital Logic Design [B19CS3010] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) UNIT II Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        Implement a data processing circuit which has a single data input that is steered to one of the many output lines using selection bits. Write the relevant truth table and",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     logic circuit for a 8 output line circuit.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Demonstrate the working of a binary adder/ subtractor with a neat diagram for i) addition of 14 and 11 ii) Subtraction of 8 from 13",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Page #1",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Implement a full adder circuit using suitable decoder and multi input OR gate.",
+      "marks": 4,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Construct an octal to binary encoder circuit. a)",
+      "marks": 4,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     With the help of a neat diagram, demonstrate the serial addition operation of 5 and 7 in the BCD adder.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Suggest the realization of 16:1 Mux using only 4:1 Mux.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) UNIT III Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Name the flip flop that overcomes the Race around condition. Explain its Working with the block diagram and truth table. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        Name the flip flop that has an Invalid or forbidden output state. Explain its working along with its truth table. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Determine the characteristic equation, excitation table and state transition diagram of MS JK flip flop giving its truth table.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Show the addition of 11010 and 10011 in a Serial Adder with all steps in detail. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        Illustrate the operation of a 2-bit binary Ripple Up counter with its timing diagram and truth table. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Design a sequence detector to detect the sequence 011 entering from the left. Implement the detector. Use Moore model.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Compare the two models for designing the synchronous sequential logic circuits.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Design a modulo 8 synchronous counter. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Design a mod-3 synchronous counter using D Flip Flops.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Design a sequence detector to detect the sequence 101. Implement the detector. Use Mealy model. -----End----- Page #2 REVA   UNIVERSITY Analog Electronic Circuits [B19CS3020] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        Define SCR With the help of V-I characteristics, briefly describe the working of SCR along with the control of gate in terms of change in the V-I characteristics as a",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     function of gate current.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Illustrate the variation of operating point for changes in base current IB, collector resistor RC and voltage supply VCC.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe the operation of BJT as a ON and OFF Switch.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Explain the concept of Thermal runaway.",
+      "marks": 4,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Describe load line analysis of the fixed bias circuit (Common-Emitter configuration). a)",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Define UJT With help of relevant schematic diagram, briefly describe the operational principal of UJT with particular reference to its VI characteristics. UNIT II Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        Explain the basic construction and working of N- Channel JFET with the aid of required diagrams. a)",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain CMOS as an inverter with neat circuit diagram. Give its equivalent circuit and its advantages.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Enumarate Voltage divider biasing of MOSFET with relavent equations.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     List out in what way JFET differ from BJT.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        With neat diagrams, explain the Drain and transfer characteristics of EMOSFET and DEMOSFET. a)",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     List and brief about different applications of MOSFETS.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Compare and contrast JFET and FET and justify the same.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Briefly discribe the ways to handle MOSFET devices. UNIT III Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Sketch the output waveform for the clipping circuits shown in figure. Assume the diodes to be ideal and the peak amplitude to be Vm for the input sinusoidal signal. a) Page #1",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Describe and explain the operations of the following oscillators. Colpitts Oscillator RC Phase shift oscillator",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Define oscillator. Explain the Barkhausen's criteria for oscillations.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        Sketch the output waveforms for the clamping circuits shown in figure. Assume the diodes to be ideal and the peak amplitude to be Vm for the input sinusoidal signal. a)",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain the operation of crystal oscillator with neat diagram and write the expression for its frequency of oscillation.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     What is the expression for the frequency of oscillations of a Wien bridge oscillator? The frequency sensitivity arms of the Wien bridge oscillator uses C1 = C2 = 0.01 µF and R1 = 10 kΩ while R2 is kept variable. The frequency is to be varied from 10 kHz to 50 kHz by varying R2. Find the minimum and maximum values of R2.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     List the advantages and disadvantages of a Hartley oscillator. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        List the ideal characteristics of opamp. a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain peak detector circuit with suitable circuit diagram.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe log amplifier with suitable circuit diagram.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Explain the first order high pass filter with necessary diagram.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Briefly describe the following opamp parameters, Page #2",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)         Bandwidth Open loop gain CMRR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Explain the first order low pass filter with necessary diagram. Determine the cut-off frequency, if R=10KΩ and C = 1000pF.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Draw the relevant circuit schematic of instrumentational opamp. Briefly describe its operational principle.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Draw the equivalent circuit of an ideal and practical opamp. -----End----- Page #3 REVA   UNIVERSITY Programming with Java [B19CS3030 - S2] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        In JAVA, everything is object oriented and it can be easily extended as it object based model. Discuss the salient features of JAVA programming? a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Even though JAVA is an object oriented programming, not all JAVA values are objects, instead it belongs to primitive types. Explain the primitive types that are available with the storage requirement and the range it takes.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Identify the keyword that is used to declare a constant variable in java and describe with its prototype. Write a program to calculate the area of a triangle by considering height and breadth as constant variable where the value of height is 5 and breadth is 6.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        String is a sequence of characters but it's not a primitive type. When we create a string in java, it actually creates an object of type String. Elaborate the following",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     string functions with example for each String concatenation Substrings String comparison String uppercase String lowercase",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Define Array. How do you declare and initialize arrays. Write a program to calculate the total sum of n arrays.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Design a JAVA program to show the implementation of basic calculator using switch statement, where the input should be read from the keyboard. UNIT II Answer 1 out of 2 questions.",
+      "marks": 7,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        Explain the constructors in JAVA and also the types of constructors. Demonstrate a JAVA program to calculate the volume of a Box by considering width, depth, and",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     height as its features and initialization of values should be done during construction of object.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     There will be times when you will want to define a class member that will be used independently of any object of that class. How do you declare such data member? What are the restrictions that are applied to that, if a method has to be used to access such data member? Write a program to implement the above scenario.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Define a package. Write a program to demonstrate the working of a package.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        Discuss the two categories of non-static nested class. Write a program for each type of non-static nested class. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     An interface in java is a blueprint of a class. Why do we use interface? What is the keyword used to implement interface. Write a program to show the working of interface.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Discuss Lambda expressions. Give example UNIT III Page #1 Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        Inheritance is one of the important feature of object oriented programming. Illustrate how inheritance can be achieved by implementing a program and also",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     explain the prototype of hierarchy of inheritance.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Demonstrate a program to show the order of hierarchy of multilevel inheritance of how constructors gets executed and also passing values to the super class constructor from sub class constructor. Write the sample output to explain the order of execution to implement the above scenario. Justify your answer?",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe the method to achieve run-time polymorphism in java. Write a sample program.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        An exception is an abnormal condition that arises in a code sequence at run time. Discuss the fundamentals of exception handling where it is handled by 5 keywords",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     and also write the general form of an exception handling block.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Sometimes there will be more than one exception could be raised by a single piece of code. How do you handle such situations? Justify your answer. Write a program to handle ArrayIndexOutOfBoundsException and ArithmeticException.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Differentiate between throw and throws statement. Give example for each. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        Explain generic functions? How Generics improve type safety and also justify how Generic Types Differ Based on Their Type Arguments. Write a java program to",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     implement the same.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Discuss the general form of a Generic Class. Illustrate how A Generic Class works with Two Type Parameters and write a program to implement the same.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Develop a program to add integer numbers and floating point numbers using generic method.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Explain the use of wildcard argument. In which context a wild card argument can be applied. Write a java program that makes use of wildcard argument a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     List the restrictions of generics. Explain each one of them with an example.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe the collections framework. -----End----- Page #2 REVA   UNIVERSITY Data Structures [B19CS3040] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        With regard to the basic terminologies in Data structures, define the following terms with suitable illustrations:",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     i) Data ii) Data Type iii) Abstract Data Type iv) Data Structure",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     A function that is built into an application and can be accessed by end-users. Develop a code in java program to perform binary search without using in-built method. UNIT II Page #1 Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Define Singly Linked List. List out the advantages, applications of Singly Linked List and also list out the drawbacks of array.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     You are given the pointer to the head node of a linked list and an integer to add to the list. Create a new node with the given integer. Insert this node at the tail of the linked list and return the head node of the linked list formed after inserting this new node. The given head pointer may be null, meaning that the initial list is empty.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d)     Identify the three major differences between Java and JavaScript. UNIT III Answer 1 out of 2 questions.",
+      "marks": 3,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        We are given a string and we have to perform some steps. In each step we need to take the first character of the string and put it at the end of the string. We have to",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     find out what will be the string after N steps. Construct the Java code for the same.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Design Java functions to push, pop and display elements for Stack data structure.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Design a method in JAVA to reverse the elements of the stack.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        While we use infix notations in our day to day lives, Computers have trouble understanding this format because they need to keep in mind rules of operator",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     precedence and also brackets. Hence, design a JAVA program to convert infix to prefix expression.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Queue is an abstract data structure used for various applications. Unlike stacks, a queue is open at both its ends.Write a Java function to delete elements in a Queue data structures. UNIT IV Answer 1 out of 2 questions.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        Binary Tree is a special data structure in the field of computer science. In this perspective, state what is Binary Tree Data Structure and explain various",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a)     operations on it.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Enumerate some advantages of a binary search tree over a hashtable data structure? Also, write a code snippet to delete a given Binary Tree.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Perform an analysis to Check if two given binary trees are identical or not. Further, Page #2 write a formulae to calculate the height of a binary tree.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        Binary Tree is a special data structure used for data storage purposes. Mention and explain some properties of Binary tree. a)",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     To create a linked complete binary tree, we need to keep track of the nodes in a level order fashion such that the next node to be inserted lies in the leftmost position. A queue data structure can be used to keep track of the inserted nodes. Hence, write a code in Java for Implementation of a Linked Binary Tree Structure.",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) -----End----- Page #3 REVA   UNIVERSITY Discrete Maths [B19CS3050] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 6,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) UNIT II Answer 1 out of 2 questions.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) UNIT III Answer 1 out of 2 questions.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5) Page #1 a)",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Define subgroup, homomorphism, isomorphism, normal subgroup, semigroup and monoid.",
+      "marks": 9,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) UNIT IV Answer 1 out of 2 questions.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Page #2 -----End----- Page #3 REVA   UNIVERSITY Software Engg [B19CS3060] Marks: 100                                                     Duration: 180 mins. UNIT I Answer 1 out of 2 questions.",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1)        What do you understand by SDLC in a software project, describe in brief a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Requirement understanding is one of the most important part of software development. You are required to collect requirement for an ATM system for a bank, explain how you will accomplish this task",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Test driven development is a modern technique for writing code for an application. With a suitable diagram explain Test Driven Development",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2)        Why is defining SDLC in a software project important, discuss a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Suppose you are a part of requirement definition team and your task is to collect all Non-Functional Requirement for a Web based project, describe various Non- Functional Requirements you will collect",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     What is software maintenance, how it is different from software development? If you are asked to debug a faulty software how will you do it, explain in brief. UNIT II Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3)        Describe a technique which can be used for collecting requirement for a software application and how? a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     You have been asked by your manager to rapidly develop a simple software application which will display different sales reports from a database. What software development model you will use, describe the model with a suitable diagram",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     What is customer collaboration? Suppose you are part of a software development project for a customer, how will you improve customer collaboration and what benefit you expect to get from this?",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4)        How requirements are written in an Agile project, explain with an example a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Agile principles are the foundation for any Agile software development project, describe briefly 10 Agile principles which you think must be followed in a Agile software development project",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     You have been selected as a Scrum master for an Agile project. Using suitable diagrams describe how you will plan & execute the project. UNIT III Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5)        While implementing Agile methodology in your organization which one you will give more importance, Process or Tools & why? a) Page #1",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Organizations use commercial tools & open source tools both. Which one do you think is better for software development, explain.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Why Project management & Project Management Office (PMO) is required for software projects. How it is useful in case of Agile projects",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6)        What is CMDB, describe its use for software projects a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     What is meant by an incident with respect to operations department in an IT organization. Describe the process of handling incidents arising in a production environment of the IT organization",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     What is help desk & service desk? Describe how it can be used to support operations UNIT IV Answer 1 out of 2 questions.",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7)        What is DevOps? What are its goals? a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Why there is a conflict between Development & operations? How it can be resolved?",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     In the context of DevOps explain what is meant by Delivery pipeline & how it can be improved?",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8)        In case of an IT department, how infrastructure can be managed as a code a)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)     Describe how QA operates in case of DevOps scenario. What are your suggestions to further improving QA process",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c)     Describe what is meant by Disaster Recover & Business Continuity Plan with reference to an IT department of a company. How do you create a Disaster Recovery Plan -----End----- Page #2",
+      "marks": 10,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {
+    "sectiona": {
+      "marks": 5,
+      "count": 177
+    }
+  }
+}

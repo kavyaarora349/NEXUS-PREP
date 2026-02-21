@@ -1,0 +1,2275 @@
+{
+  "subject": "void input_arrayint n int a",
+  "semester": 0,
+  "course_code": "n",
+  "questions": [
+    {
+      "text": "c) Design and Develop a program to find gcd (hcf) of two numbers. 10 int input(); int gcd(int a, int b); void output(int a, int b, int gcd); UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) Identify and illustrate operations on pointer. Develop a c program to demonstrate the 5 use of pointer.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Summarize the basic data types associated with C and Illustrate a program to Add two 10 numbers using 4 functions and Pass by reference void input(int *a, int *b); void add(int a, int b, int *sum); void output(int a, int b, int sum); Page 1 of 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Construct a program to find whether the three points form a triangle. 10 void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float *y3); int is_triangle(float x1, float y1, float x2, float y2,float x3, float y3) void output(float x1, float y1, float x2, float y2,float x3, float y3, int istriangle) OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) Compare and contrast pass by value and pass by reference.      5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Demonstrate a program to find sum of two fractions. Write output with debugging 10 steps void input(int *num1, int *den1, int *num2, int *den2); void add(int num1,int den1, int num2, int den2, int *num3, int *den3); void output(int num1, int den1, int num2, int den2, int num3, int den3);",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Construct a program to Compare two strings                     10 void input_two_string(char *a, char *b); int strcmp(char *a, char *b); void output(char *a, char *b, int result); UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) Illustrate the concept of array of structures with an example. 5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Demonstrate a program to find the area of a triangle. Write output with debugging 10 steps struct _triangle { float base,altitude,area; }; typedef _triangle Triangle Triangle input_triangle(); void find_area(Triangle *t); void output(Triangle t);",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Construct a program to find all the prime numbers between erotosthenes sieve 10 method. int input_array_size(); void init_array(int n, int a[n]; void erotosthenes_sieve(int n, int a[n]); void out_put(int n, int a[n]); OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Distinguish between Actual and formal arguments with an example 5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Identify and illustrate five different library functions for string 5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Infer the concept of Structure in C and Illustrate the declaration of structure with an 5 example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Build a program to find Sum of two complex numbers             10 struct _complex { float real,imaginary; }; typedef _complex Complex Complex input_complex(); Complex add(Complex a, Complex b); void output(Complex a, Complex b, Complex c); *** Page 2 of 2 SRN 1st Semester B.Tech CSE/C&IT Semester End Examination August 2023 Course (Subject): Multivariable Calculus and Linear Algebra Course Code: B20AS0105/B21AS0105 - 85101 Time:  3 Hours                                           Max. Marks: 100 Note: 1.Answer ONE FULL question from each unit.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) If F (xy3z2), find divF and Page 1 of 3 c u r l F                              6 at the point (1,-1,1)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Find the derivative of the following functions 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i)    𝑡ℎ       ii) 𝑛",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) If       2 𝑦 = log(4𝑥 −1) 𝑦 = 𝑠𝑖𝑛5𝑥cos3𝑥 y  S i n  m S i n  1 x  show that  1  x 2  y n  2  ( 2 n  1 ) x y n  1  ( n 2  m 2 ) y n  0 6 . 2a                                  7",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Find the pedal equation of the curve 1Cos r OR 2.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find the constants a and b that F  ( a x y  z 3 ) i  ( 3 x 2  z ) j  ( b x z 2  y ) k is irrotational and find  such that  F   6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Show that the curves r a (1 C o s )    and r a (1 C o s )    intersect orthogonally. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the Maclaurin’s expansion of    up to third degree terms 6 𝑥",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Find the pedal equation of the curve 𝑦 (𝑥) = 𝑙𝑜𝑔 (1+𝑒 ) r n a n c o s n   7 UNIT – II 3.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find d d s and  d d s r 6 for the curver a(1cos).",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Evaluate the following                                      6 1 1   1           Sinx x2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "(i)   lim         (ii) lim  x0 x Sinx       x0 x ",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find radius of curvature of the curvexa(tsint),y a(1cost). 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Obtain an expression for radius of curvature for Cartesian curve. 7 OR 4.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find d d s x ds                                                  6 and  for the curve y 2 4ax, where s being the arc length. dy",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Show that the radius of curvatures of the curve r n  a n cosn varies inversely as 6 n1 r Find the radius of the curve c) Page 2 of 3 y 2  a 2 ( a x  x ) 6 at the point (a,0).",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Evaluate lx i m 0  1  s i n x  c x o t s a n x 2  x l o g (1  x )                      7 using L’ Hospital. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) Reduce the following matrix to echelon form and hence find its rank 6 2 4  3  1 0               1 2  1 4 2 A               0  1  1 3  1               4 7  4  4 5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Test for consistency and solve the following system of equations. 4 x  2 y  6 z  8 , x  y  3 z   1 , 1 5 x  3 y  9 z  2 1 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the inverse of the matrix using Gauss – Jordan method of the following matrix A   1 2 1 2 5 0 3 3 8  6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Apply the Gauss-Jordon method to solve the system of equations 7 x y z 9,x2y3z 8,2x yz 3 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Determine the rank of the matrix by reducing into echelon form 6 3  0 1  6            1 1  1  1 A=            9  3 1  0             0 6  1 9 ",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Find all the solutions of the following system of non-homogeneous equations. x  y  z  6 , x  y  2 z  5 , 3 x  y  z  8 6  1 4  2                            6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the inverse of the matrixA  2  5  4  by Gauss-Jordon method.            1 2 1  ",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Solve the system of equations by Gauss Elimination  method: 7 5x y3z 20,2x5y2z 18,3x2yz 14 UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) Show  that the  transformation y  x 2x 5x , 1  1   2   3 y 3   x 2  2 x 3 y 2  2 x 1  4 x 2  1 1 x 3 ,  6 is regular and find the inverse transformation. 3 7 5        6         ",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Predict the eigen roots and the eigen vectors of the matrix A 2 4 3 .           1 2  2           4 1                             6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the matrix which diagonalises A  and hence diagonalise A. 3 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Estimate the largest Eigen value and the corresponding Eigen vector of a matrix Page 3 of 3 A   2  0 1  2  1 1 0  2 1  by Power method by taking X    1 0 0  7 , carry out six iterations. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.            y  2 1  1 x                                    6 1           1           ",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Show that y  1 1 2  x  is a regular transformation and hence find its inverse  2        2 y  1 0 2x             3           3 transformation. 1 2  a",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) If A 1 2  1  b  is orthogonal, find a,b,cand        3  2 2 c  A  1 . 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the matrix P that will diagonalize the matrix A   7 4  3 1                 6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Find the largest Eigen value and the corresponding Eigen vector of a matrix  6 2  2           A 2  3  1 by Power method by taking the initial eigen vector as           2 1  3           X    1 0 0  7 . *** SRN 1st/2nd Semester B.Tech CSE/ECE/ME/CV Semester End Examination September 2023 Course (Subject): Communication Skills Course Code: B22AH0103-70203 Time: 2 Hours                                              Max. Marks: 50 Note: 1.Answer ONE FULL question from each unit.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) Discuss any five characteristics of effective communication.  5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Compose an introductory email to a prospective business client discussing your USP, 5 services, type of business etc. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Distinguish between general purpose communication and professional communication 5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Develop a short dialogue between Amar and Tanya where Amar is giving instructions to 5 Tanya on how to use the new Dish washer. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Study the following hints and explain how butter is processsed. 5 Milk obtained-Cream separated by churning-cream soured-cream pasteurized-butter obtained—forced into the roller to make it smooth-packed and sent off to market.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Compose an informal letter to a close friend thanking him/her for going that extra mile 10 to coach you for your semester exams. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) Classify the traits of a good listener and a poor listener.   5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Explain the different types of listening with examples.       10 UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) ABC company has recently introduced a policy of subsidizing 50% of the tuition fee of 5 employees’ children. Construct a report in the Memo format announcing this policy.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Discuss the various aspects of voice that determine the success of any speech or 5 presentation. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) Construct a paragraph on your Dream Destination. Include all the quintessential details 5 related to your destination.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Outline the four major ways of delivering a speech with suitable examples. 5 UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) Explain the process of communication with a flowchart.        5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Compose a Cover Letter and CV for the following advertisement: 10 Urgently wanted competent Programmers at Ahimsacircle.com. Qualifications required: B.Tech/B.E /or any Computer Science Degree. Besides technical skills the candidate should possess excellent communication and inter- personal skills. Page 1 of 2 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Make inference from the following paragraph and answer the following questions: 5 Opera refers to a dramatic art form, originating in Europe, in which the emotional content is conveyed to the audience as much through music, both vocal and instrumental, as it is through the lyrics. By contrast, in musical theater an actor's dramatic performance is primary, and the music plays a lesser role. The drama in opera is presented using the primary elements of theater such as scenery, costumes, and acting. However, the words of the opera, or libretto, are sung rather than spoken. The singers are accompanied by a musical ensemble ranging from a small instrumental ensemble to a full symphonic orchestra.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. It is pointed out in the reading that opera ----. i. has developed under the influence of musical theater ii. as a drama sung with the accompaniment of an orchestra iii. is not a high-budget production iv. is often performed in Europe v. is the most complex of all the performing arts",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. An actor’s performance is less important than music-True/False",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. The word ‘Libretto’ refers to a --------------",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. A suitable title for the passage would be- i. Libretto ii Opera iii Musical Ensemble",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. From your reading of the passage what do you infer about the primary elements of theatre.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Develop an essay on The influence of technology on human communication and 10 relationships with reference to Artificial Intelligence. *** Page 2 of 2 SRN 1st Semester B. Tech CSE/C&IT/ME/CV Semester End Examination September 2023 Course (Subject): Multivariable Calculus and Linear Algebra Course Code: B22AS0103-70201 Time: 3 Hours                                             Max. Marks: 100 Note: 1.Answer ONE FULL question from each unit.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) A particle moves along the curve Page 1 of 3 x  1  t 3 , y  1  t 2 a n d z  2 t  5 . Determine its 6 velocity and acceleration. Find the components of velocity and acceleration at t 1in     the direction 2i j2k.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) If A is a vector point function, show that d i v  c u r l A   0 6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) If y  e m s in 1 x show that  1  x 2  y n  2  ( 2 n  1 ) x y n  1  ( n 2  m 2 ) y n  0              6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Apply Taylor’s series method to expand y  l o g e x in powers of  x  1  up to the term 7 containing fourth degree and hence find the value of log (1.1). e OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Find the directional derivative of  x 2 y z  4 x z 2  at (1 ,  2 ,  1 ) in the direction of 2 i  j  2 k . 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Show that F  ( y  z ) i  ( z  x ) j  ( x  y ) k is irrotational. Also find a scalar function  such that F     6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) If c o s  1  y b   l o g  x n  n                                              6 show that x 2 y 2n1xy 2n 2 y 0. n2       n1    n",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Apply Maclaurin’s series to expand y  e s in x up to the term containing x 4 7 . UNIT – II 3.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Show that the curves r a s e c 2 ( / 2 )   and r b c o s e c 2 ( / 2 )   6 intersect orthogonally. ds   ds",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Find  and  for the curve dx   dy y 2  4 a x 6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Show that the radius of curvature of the curvexa(costtsint),y a(sinttcost) is ' a t ' 6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Evaluate the following:                                       7 xe x log(1 x) lim           (i) x0   x 2    (ii) lim(cotx) tanx . x0 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) Find the pedal equation of the curve r(1cos)2a.           6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Find Page 2 of 3 d d s ,  d d s x and d d s y for the curve x a ( s i n ) , y a ( 1 c o s )        6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Derive the radius of curvature for the cartesian curve in the form  1 y y 21 2  3 /2                6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Evaluate the following: (i) lx i m 0 3 x  x 2 x (ii) lx i m a 2 x a ta n ( x / 2 a )      7 . UNIT – III 5.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find the Rank of the matrix: A   1 2 3 6 2 4 2 8 3 3 1 7 0 2 3 5                          6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Using Gauss Jordan Method find the inverse of A   1 2 1 2 5 0 3 3 8                6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the values of k and k such that the system of equations x + y + z = 6, x + 2y + 3z = 6 1    2 10, x + 2y + k z = k may have (i) unique solution (ii) Infinite solution (iii) No Solution. 1   2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Solve the following system of equations using Gauss elimination method 7 x 2x x 0, 2x 8x  8, 4x 5x 9x 9 . 1   2  3      2   3       1   2    3 OR 6.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Reduce the following matrix into normal form and find the rank  3 1 3 2 1 3 5 2 6 7 3 9 1 1 2 5 5   6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Find the inverse of the matrix A   0 1 4 1 0  3 2 3 8                            6 if it exists using Gauss Jordan Method.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Test for consistency and solve x + y + z = 6, x – y + 2z = 5, 3x + y + z =8. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Solve the following system of equations using Gauss Jordan method 7 2x + 5y + 7z = 52, 2x + y - z = 0, x + y + z = 9. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) If  x C o s y S i n      and x S i n y C o s      write the matrix A of this transformation 6 and prove that A1  A. Also write the inverse transformation.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Find a matrix P which diagonalize the matrix A   4 2 1 3                      6 and verify P1APD, where D is the diagonal matrix.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the largest Eigen value and corresponding Eigen vector of the matrix Page 3 of 3 A    6 2 2  3  2 1 2  3 1  using Rayleigh’s Power method. Take X 0  [ 1 0 0 ] T 6 as initial Eigen vector. Carryout 5 approximations. 2i 3 13i",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) If A            , show that             5 i 42i  A A * is a Hermitian matrix, where A * 7 is the conjugate transpose of A. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Show that the transformation: y 1  x 1  2 x 2  5 x 3 , y 2  2 x 1  4 x 2  1 1 x 3 ,  y x 2x is 6 3   2   3 regular and find the inverse transformation.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Find the eigen values and the eigen vectors of the matrix A   1 3 2  2 1 1  4   1 1         6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Using Rayleigh’s Power method, find the largest Eigen value and corresponding Eigen  2 1 0          vector of the matrix A 1 2 1 .Take           0 1 2   X 0  [ 1 1 1 ] T 6 as initial Eigen vector. Carryout 3 approximations.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Given that A    1 0  2 i 1  0 2 i  , show that  1  A   1  A   1 7 is a unitary matrix. *** SRN 1st/2nd Semester B.Tech CV/ECE/EEE/CSE/C&IT Semester End Examination August 2023 Course (Subject): Engineering Chemistry Course Code: B22AS0104-70202 Time: 3 Hours                                              Max. Marks: 100 Note: 1.Answer ONE FULL question from each unit.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper. Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1.  a) Name various radiations of electromagnetic spectrum and one application for each. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Illustrate the Jablonski diagram and explain the terms fluorescence and phosphorescence. 7",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Outline the molecular orbital diagram of N molecule and provide the electronic 6 2 configuration? Calculate the bond order?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Differentiate between photochemical and thermal reactions.     6 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) Discuss the work function of a matter and state (i) Stark -Einstein law and (ii) Grotthuss 6 draper law",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define Quantum yield. Explain the causes for high and low quantum yield. 7",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Write the molecular orbital diagram of HF molecule with electronic configuration, 6 calculate bond order.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Write a short note on photosensitization and photo polymerization process. 6 UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) Explain the construction, working and applications of dry cell. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define battery. Explain the battery components with neat, labeled diagram. 7",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Describe the fabrication of supercapacitor with advantages and disadvantages. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Classify the fuel cells based on their operating temperature and electrolyte. Illustrate the 6 construction and working of solid oxide fuel cell. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) What is solar cell? Explain the construction and working of photovoltaic cell with 7 applications.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) List the battery characteristics. Explain any three battery characteristics. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Explain the construction, working and applications of Li-MnO battery. 6 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Mention the chemical and physical properties of Si. Discuss the zone refining technique. 6 UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) Define corrosion. Illustrate the mechanism of corrosion by taking iron as an example. 7",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Discuss the weight loss method by Tafel extrapolation plots.   5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Illustrate the potential-pH diagram of Al-H O phase.           7 2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Write a brief note on i) Nernst Equation ii) Role of inhibitors 6 Page 1 of 2 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Describe the electrochemical theory of corrosion.              7",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define cathodic protection. Explain the sacrificial anode method 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define the following terms.                                    6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Polarization ii) Passivity iii) Immunity",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) What is galvanization. Discuss the steps involved in galvanization process. 6 UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) Outline the synthesis, properties and applications of graphene. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) What is quantum confinement? Discuss surface properties and thermal properties of 6 nanomaterials.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Illustrate the synthesis and any two applications of Kevlar fiber. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) What is conducting polymer? Discuss synthesis and conduction mechanism of polyaniline. 7 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) Account for the following terms i) Liquid crystal ii) Sensors  6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Discuss conduction mechanism in polyacetylene.                 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Illustrate the synthesis of carbon fiber. Write any two properties and applications of 7 carbon fiber.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Explain the synthesis, properties and applications of CNTs.    6 *** Page 2 of 2 SRN 1st/2nd Semester B.Tech ME/EEE/ECE/CV/CSE/CIT Semester End Examination September 2023 Course (Subject): Introduction to Data Science Course Code: B22CS0104 - 70604 Time: 3 Hours                                                  Max. Marks: 100 Note: 1. Answer ONE FULL question from each unit.   Marks",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) Data visualization is the process of turning the data into graphical representation. List and 10 explain any 4 different visualization charts with suitable example.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Explain the following functions in excel with syntax and example. 10",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) count ii) concatenate iii) find iv) exact v) if",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) XML is a form of semi-structured data which has tags and text. Sachin wants to import the 5 data from XML file to excel file. Help him to do the task by giving detailed steps to import. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Indian Team head coach Rahul Dravid was very frustrated because India lost the match against 10 Sri Lanka. Dravid wants to analyse the reason for defeat vigorously. Help Dravid to visualize the data using any two different charts in excel. Note: Assume the score report like overs, runs, wickets, etc on your own.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Considering the marks of the student, generate the formula for displaying the grade and Pass 8 /Fail (Consider total marks 40 as pass) of a student. If student’s total marks is:",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) <40 Display “F” ii) <60 Display “C” iii) <75 Display “B” iv) <90 Display “A”",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "v) <=100 Display “O” DS  PPS   Total Pass/Fail Grade 25    14 94    56 79    84 59    98 85    47 98    91 20    19",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Excel can restrict data entry to certain cells by using data validation. Explain the Data Validation 7 concept in excel with an example. Page 1 of 3 UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Create a supplier database of 5 records with Supplier_Id as primary key, Supplier _Name, Products, Qty, Address, City, Phone_No and Pincode, Where Supplier _Name, Products, Qty 10 and Phone_No, should not be NULL.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Create a database and table ii) Describe the table iii) Insert 5 records into the table iv) Display the contents in the table.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A factory production in Bombay is manufacturing Bags using three machines, A, B and C. Of the 8 total output, machine A is responsible for 25%, machine B for 35% and machine C for the rest. It is known from previous experience with the machines that 5% of the output from machine A is defective, 4% from machine B and 2% from machine C. A bag is chosen at random from the production line and found to be defective. What is the probability that it is manufactured by:",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) machine A ii) machine B iii) machine C?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) A graph G = (V, E) is a structure consisting of a set of objects called vertices V and a set of objects 7 called edges. List and explain any 3 different graphs. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) SQL is a structured query language that allows you to interact with a database. Describe the 10 DDL and DML commands with syntax and examples",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Physics teacher gave her class two tests. 35% of the class passed both tests and 62% of the 5 class passed the first test. What percent of those who passed the first test also passed the second test?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) A bag I contain 4 white and 6 black balls while another Bag II contains 4 white and 3 black 5 balls. One ball is drawn at random from one of the bags, and it is found to be black. Find the probability that it was drawn from Bag I.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) A jar contains black and white marbles. Two marbles are chosen without replacement. The 5 probability of selecting a black marble and then a white marble is 0.34, and the probability of selecting a black marble on the first draw is 0.47. What is the probability of selecting a white marble on the second draw, given that the first marble drawn was black? UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) Data science tools are application software or frameworks that help data science professionals 10 to perform various data science tasks. List and explain any 4 Data science tools.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Solve this system of equations using Gaussian Elimination. x + y + z = 3 8 x + 2y + 3z = 0 x +3y + 2z = 3",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to 7 become more accurate at predicting outcomes without being explicitly programmed to do so. Compare difference between AI and ML. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) Machine learning provides the ability to automatically learn and improve based on experience. 8 Explain the different types of machine learning techniques with examples.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The mean score for the population is 21, and the standard deviation is 5. Find the probability that a score falls on                                               8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Higher than 30 ii) Less than 20 Page 2 of 3 iii) Between 23 and 27 iv) Between 15 and 20 Use the following values 0.9641, 0.4207, 0.6554, 0.8849, 0.1151 for Z-Score values 1.80, -0.20, 0.40,1.20, -1.20 respectively.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Regression analysis is a statistical method to model the relationship between a dependent 5 (target) and independent (predictor) variables. Differentiate between linear and logistic regression",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Markowitz Portfolio Optimization assists in the selection of the most efficient portfolio by 4 analysing various possible portfolios of the given securities by using simple mathematical calculation. Explain Markowitz Portfolio Optimization in detail. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) Data Science has emerged out as one of the most popular fields of 21st Century. Companies 10 employ Data Scientists to help them gain insights about the market and to better their products. Illustrate the life cycle of data science with neat sketch.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Data Science has dominated almost all the industries of the todays world. There is no industry 10 in the world today that does not use data. List and explain at least 5 applications of data science.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the Mean, Median and Standard Deviation for the following numbers. 5 11, 10, 12, 9, 8, 9, 11, 13,15 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Explain the following statistical functions in excel with suitable example. 5 i. Standardization ii. Standard Normal Probability Distribution",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Descriptive statistics summarizes or describes the characteristics of a data set. Describe 5 descriptive statistics 5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Calculate the total interest paid on a car loan which has been availed from HDFC bank. For example, Rs.10,00,000 has been borrowed from a bank with annual interest rate of 5.2% and the customer needs to pay every month as shown in table below. Calculate the total interest rate paid for a                                    loan availed of Rs.10,00,000                                       during 3 years. Sl No.        A               B 1   Principal           Rs.10,00,000 2   Annual interest rate  5.20% 3   Year of the loan        3 4   Starting payment number 1 5   Ending payment number   36 total interest paid during 6                           ? period",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) In machine learning, a feature is a measurable property or attribute of a phenomenon being 5 observed. Explain Feature Engineering phase of data science life cycle",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "e) Why Data Cleaning phase are very important in data science life cycle? Explain in detail. 5 *** Page 3 of 3 SRN 1st/2nd Semester B.Tech ME/EEE/ECE/CV/CSE/CIT Semester End Examination September 2023 Course (Subject): Elements of Mechanical Engineering Course Code: B22ME0103 – 70205/78205 Time: 3 Hours                                                  Max. Marks: 100 Note: 1. Answer ONE FULL Question from Each Unit.   Marks",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper. Design Data Hand Book is Permitted Assume suitable data if not provided UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) Define wet steam, Dry steam and Super heated Steam?               6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Describe the Formation of Steam at Constant Pressure with Temperature and Enthalpy 10 diagram (T-H Diagram)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Steam is at 9 bar pressure and dryness fraction 0.98. Find the quality and temperature of 9 steam when (i) the steam looses 50 kJ/kg at constant pressure, and (ii) steam receives 150 kJ/kg a t constant pressure. From steam tables, at 9 bar h=742.6 kJ/kg, hfg=2029.5 kJ/kg, hg=2772.1 kJ/kg, tsat=175.4oC f OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Differentiate fire tube boiler and water tube boiler              8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Describe the working principle for Babcock Wilcox boiler with a neat sketch? 12",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define boiler? List out the functions of boiler?                  5 UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Describe the working principle of 4 stroke petrol engine with PV diagram? 10",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Describe the open and closed cycle gas turbine with a neat sketches 10",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Distinguish between impulse and reaction water turbine            5 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) Define I C Engine? and classification of IC Engine                8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Describe the working principle of vapour compression refrigeration system with neat diagram? 12",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define the term refrigeration and refrigerator? List out the commonly used refrigerants? 5 UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) Describe 3D printing technology? List out the 3D printing methods? 8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Describe with a neat block Diagram the basic components of CNC Machine 10",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Differentiate between Welding and Soldering process               7 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) With a neat sketch explain arc welding process?                   8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Explain any three operations performed by drilling machine with neat sketches? 8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Describe with a neat sketch i) Turning ii) Facing iii) Knurling operations performed in lathe? 9 Page 1 of 2 UNIT – IV 8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) Write a short note on Industrial Robot Applications?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Describe with a neat sketch open belt drive and cross belt drive? 10",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define Mechatronics and need of Mechatronics in Industry ?        7 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) Define springs? Mention the types of springs?                     5",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) With a neat sketch explain i) Spur gear ii) Helical Gear ii) Bevel Gear iv) worm and worm wheel 12",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Differentiate open loop control system and closed loop control system? 8 *** Page 2 of 2 Page 3 of 2 SRN 2nd Semester B.Tech CSE/CIT Semester End Examination August 2023 Course (Subject): Basics of Civil and mechanical Engineering Course Code: B20CE0201/B21CE0201 Time: 3 Hours                                                Max. Marks: 100 Note: 1. Answer ONE FULL Question from Each Unit. Marks",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper. PART – A (MECHANICAL) - 85126 UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) List and elaborate the applications of mechanical engineering  6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) With a neat sketch and PV diagram explain the working of a 4 stroke petrol engine. 9",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) With a neat sketch explain the working of room air condition.  10 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) With a neat sketch explain the different parts of a 4 stroke Petrol Engine. 9",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A four stroke petrol engine has a piston diameter 250 mm and stroke 400 mm. The mean 7 effective pressure is 4 bar and speed is 500 rpm. The diameter of the brake drum is 1000 mm and the effective brake load is 800 N. Find I.P and B.P.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) With a neat sketch explain the working of a Vapour compression refrigeration system. 9 UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Draw a neat sketch of a Lathe machine and label its main parts 10",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Explain the working of Electric arc welding process and list the applications of welding 8 process",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Mention the different types of gear drives used for power transmission. Explain working 7 of any two gears. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) Explain with the help of sketches any three machining operations than can be carried out 9 in a drilling machine.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define CNC machine? Explain with the block diagram the working of a CNC machine. 8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Write a short note on 3D printing technology                    4",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Write any four differences between welding and soldering.       4 Page 1 of 3 SRN 2nd Semester B.Tech. CSE/CIT Semester End Examination July 2023 Course (Subject): Probability and Statistics Course Code: B21AS0204- 85121 Time: 3 Hours                                            Max. Marks: 100 Note: 1.Answer ONE FULL question from each unit.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) Construct a second-degree parabola  in the least square sense for the 6 following data:                      2 𝑦 = 𝑎 +𝑏𝑥+𝑐𝑥 1   2   3  4   5 𝑥   10  12  13 16  19",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) C alculate the co-effici𝑦ent of correlation for the following data: 6 1  2   3  4   5  6  7   8  9 𝑥  9  8   10 12  11 13 14  16 15 c ) Compute 𝑦    given that the equations of the regression lines are 6 8                              Also, find if 𝑥̅,𝑦̅ 𝑎𝑛𝑑 𝑟",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Find rank correlation for the following data showing rank of 10 students in two tests 7 𝑥−10𝑦 +66 = 0,40𝑥 −18𝑦−214 = 0.      𝜎𝑦 𝜎𝑥 = 3. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Construct a curve of the form for the data:                  6 𝑏𝑥 0   𝑦 =2 𝑎𝑒 4 𝑥   8.12  10   31.82",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Obtain the lines 𝑦of regression for the following data:        6 1   3  4   2  5   8  9   10 13  15 𝑥  8   6  10  8  12  16 16  10 32  32 𝑦                                     1r2      6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Show that if is the angle between the regression lines than tan  x y      2 2  r  x   y 𝜃 Page 1 of 4",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Three judges, A, B, C, give the following ranks. Find which pair of judges has 7 common approach UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Find the value of k such that the following distribution represents a finite probability 6 distribution. Also, find the mean and standard deviation. x     -3    -2    -1    0     1    2     3 p(x)   k     2k    3k   4k    3k    2k    k",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) T he probability that a pen manufactured by a company will be defective is 6 1/10. If 12 such pens are selected, find the probability that (i) exactly two are defective (ii) at least two are defective (iii) none of them are defective.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Derive the mean and Standard deviation for Exponential Distribution. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) In a normal distribution 31% of the items are under 45 and 8% of the items 7 are over 64. Find the mean and S.D. of the distribution. Given that             then −𝑧2 1  𝑧 2 OR ∅(𝑧) = √2𝜋∫0 𝑒 𝑑𝑧   ∅(0.5) = 0.1915& ∅(1.4) = 0.4192 4.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A random variable X has the density function Page 2 of 4 p ( x )   k 0 x 2  3 e l  s e x w  h e 3 r e Find (i) constant k (ii) P  1  X  2  (iii) P  X  2  6 .",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Derive the mean and Standard deviation for Poisson’s Distribution. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) The length of telephone conversation in a booth has been an exponential distribution and 6 found on an average to be 5 minutes. Find the probability that a random call made from this booth (i) less than 5 minutes (ii) 5 minutes or more (iii) between 5 and 10 minutes.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) The mean weight of 500 students during a medical examination was found 7 to be 50 kgs and S.D. weight 6 kgs. Assuming that the weights are normally distributed find the number of students having weight (i) between 40 & 50 kgs (ii) more than 60 kgs. Given that UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) The joint probability distribution ∅ o ( f 1 t .6 w 7 o ) r = and 0 o .4 m 5 2 v 5 ariables x and y is given below 6 y x          1       3       9 2      1/8     1/24   1/12 4      1/4     1/4      0 6      1/8     1/24   1/12 Find (i) Marginal distribution of X and Y (ii) Covariance of X and Y (iii) Correlation of X and Y. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Find the constant so that                        is a joint −𝑦 probability function. Also, verify that 𝑘(𝑥+1)𝑒are i,n d e0p<end𝑥e<nt.1 , 𝑦 > 0 𝑘     𝑓(𝑥,𝑦) = { 0,       𝑜𝑡ℎ𝑒𝑟 𝑤𝑖𝑠𝑒 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Show that              is a 𝑥 re g 𝑎 u 𝑛 l 𝑑 ar 𝑦 s t ochastic matrix. 0    1  0",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) A habitual g 𝑃 am = b [ l er 0 is a m 0 embe 1 r ] of two clubs A and B. He visits either of the 7 1   1 ⁄    ⁄  0 clubs every day for p2laying2 cards. He never visits club A on two consecutive days. But if he visits club B on particular day, then the next day he is as likely to visit Club B or Club A.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Find the transition matrix of the Markov chain. ii) Find the unique fixed probability vector. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) The joint probability function of two independent random variables X and Y is given by 6 where and can assume all integral values such that by       otherwise. Find ( ) constant ii) Marginal distributions of X f(x,y) = c(2x+y)  x   y                           0 ≤ x ≤ 2,0 ≤ and Y (iii) Check whether X and Y are independent or not?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A y ≤ joi 3 n t 𝑎 d 𝑛 is 𝑑 tribu f t ( io x n ,y o ) f = tw 0 o continuous rando 𝑖 m variable 𝑐 s X and Y is given by      6 . Verify that 4𝑥𝑦, 0 ≤ 𝑥 ≤ 1,0 ≤ 𝑦 ≤ 1 𝑓(𝑥,𝑦) = { 0,       𝑜𝑡ℎ𝑒𝑟 𝑤𝑖𝑠𝑒",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the uniq 𝑖) u 𝐸 e ( f 𝑋 ix + ed 𝑌 p ) ro = ba 𝐸 b ( il 𝑋 it ) y + ve 𝐸 ct ( o 𝑌 r ) for the regular stochastic matrix   6 𝑖𝑖) 𝐸(𝑋𝑌) = 𝐸(𝑋) × 𝐸(𝑌) . 0   1   0 1   1   1 ⁄   ⁄   ⁄ 𝐴 = [ 6   2   3] 2   1 0   ⁄   ⁄",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Every year, a m 3 an tra 3 des his car for a new car. If he has a BMW, he trades it 7 for an Audi, if he has an Audi, he trades it for Mercedes. However, if he has a Mercedes, he is just as likely to trade it for a new Mercedes as to trade it for a BMW or Audi. In 2020 he bought his first car, which was a Mercedes. Find the probability that in 2022 he has (i) Mercedes (ii) BMW. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) It has been found from experience that the mean breaking strength of a particular brand of 6 thread is 275.6 gms with standard deviation of 39.7 gms. Recently a sample of 36 pieces of thread shows a mean breaking strength of 253.2 gms. Can one conclude at level of significance of 5% and 1% that the thread has become inferior.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) One type of aircraft is found to develop engine trouble in 5 flights out of a total of 100 and 6 another type in 7 flights out of a total of 200 flights. Is there a significant difference in two types of aircrafts so as engine defects are concerned?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Ten individuals are chosen at random from a population and their heights in inches are 6 found to be 63, 63, 66, 67, 68, 69, 70, 71, 71. Test the hypothesis that the mean height of the universe is 66 inches. (t =2.262 for 9 d.f. ). 0.05 Page 3 of 4",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Four coins are tossed 100 times and the following results were obtained. 7 Construct a binomial distribution for the data and test the goodness of fit, given that =9.49 for 4 d.f. 2      0    1   2   3    4 𝜒0.05 𝑁𝑜.𝑜𝑓 ℎ𝑒𝑎𝑑𝑠 5   29   36  25   5 𝑓𝑟𝑒𝑞𝑢𝑒𝑛𝑐𝑦               OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) A sample of 100 bulbs produced by company A showed a mean life of 1190 hrs and a 6 standard deviation of 90 hrs. Also, a sample of 75 bulbs produced by company B showed a mean life of 1230 hrs and a standard deviation of 120 hrs. Is there a difference between mean lifetime of bulbs produced by two companies at 5% and 1% level of significance.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) In 324 throws of a six faced die an odd number turned up 181 times. It is reasonable to 6 think that die is an unbiased one.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Two types of batteries are tested for their length of life and the following results were obtained Battery A: n = 10,x 560,2 100 1    1      1 Battery B: n = 10, 2 Page 4 of 4 x 2  5 0 0 , 22 1 2 1   6 Compute student’s t and test whether there is a significant difference in the two means. ( t for 18 d.f. is 2.101). 0.05",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Construct a Poisson distribution for the following data and test the goodness of fit, given 7 that  = 7.815 for 3 d.f. 2               0     1      2     3     4 𝜒0.05 𝑥     122   60    15     2     1 𝑓 *** 2nd Semester B.Tech CSE/CIT/CV/ME Semester End Examination August 2023 Course (Subject): Probability and Statistics Course Code: B22AS0203 - 70221 Time: 3 Hours                                                 Max. Marks: 100 Note: 1. Answer ONE FULL question from each unit.    Marks",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper. UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) Fit a parabola Page 1 of 3 y  a  b x  c x 2 using least square method for the following data. 6 x      -2    -1     0     1      2 y      -3.150 -1.390 0.620 2.886 5.378 b ) The daily temperature is recorded in a city Russia in a year is given below. Calculate mean 6 deviation. Temp(inoC) -40 to -30 -30 to -20 -20- to -10 -10 to 0 0 to 10 10 to 20 20 to 30 No. of days 10  18      30      42     65    180     20",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Compute the coefficient of correlation using the lines of regression for the following data. 6 X     1     2     3     4    5     6     7 Y     9     8     10    12   11    13    14",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Ten students got the following percentage of marks in two subjects x and y. Compute their 7 Rank correlation coefficient. Marks in x 78 36 98 25   75  82  90   62  65  39 Marks in y 84 51 91 60   68  62  86   58  53  47 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Fit a parabola y  a e b x using least square method for the following data. 6 X     5     6     7     8    9     10 Y     133   55    23    7    2     2",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) C alculate standard deviation for the following data,            6 CI      100-109 110-119 120-129 130-139 140-149 150-159 160-169 170-179 Frequency 15  44    133  150  125  82   35    16",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) T he two lines of regression for the variables x and y are given by x19.30.87y and y 11.640.9x. Find x , y SRN 6 and correlation coefficient.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Compute the Rank correlation coefficient for the following marks in Mathematics of 8 students 7 selected at random in SSLC and PU examination SSLC   85   60  73  40   89  54  70   68 PU     92   74  64  50   80  63  61   80 UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Find the value of k such that the following distribution represents a finite probability 6 distribution. Hence find its mean and standard deviation. X     -3    -2   -1    0     1    2     3 p(x)  k     2k   3k    4k    3k   2k    K",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) F ind mean and standard deviation of Binomial distribution       6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find k such that Page 2 of 3 f ( x )   0 k , x o 2 , t h e 0 r w  i s x e  3 is a p.d.f. Find ( i ) P (1  x  2 ) a n d ( i i ) P ( x  1 ) 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) If x is a normal variate with mean 30 and standard deviation 5. Find the probabilities that (i) 2 6  x  4 0 (ii) x  4 5 7 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) The probability distribution of a finite random variables X is given by the following table. Find 6 the value of k, mean and standard deviation. X     -2    -1   0     1     2     3 p(x)  0.1   k    0.2   2k    0.3   K",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) F ind mean and standard deviation of Poisson distribution        6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) An Airline knows that 5% of the people making reservations on a certain flight will not turn 6 up. Consequently, their policy is to sell 52 tickets for a flight that can only hold 50 people. What is the probability that there will be a seat for every passenger who turns up.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) The marks of 1000 students in an examination follows a normal distribution with mean 70 and 7 standard deviation 5. Find the number of students whose marks will be (i) less than 65 (ii) more than 75 UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) The joint probability distribution table for two random variables X and Y is as follows. 6 X\\Y      -4       2        7 1        1/8      ¼        1/8 5        ¼        1/8      1/8 Determine (i) the marginal probability distributions of X and Y (ii) E(X), E(Y) and E(XY)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) X and Y are random variables having joint density function f ( x , y )   4 x y 0 ; 0 ,  x o  t h 1 , 1 e r w  i s y e  1 6 verify that E(X+Y) =E(X)+E(Y)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Find the unique fixed probability vector of the regular stochastic matrix A   3 1 / / 4 2 1 1 / / 4 2     6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Three boys A, B , C are throwing a ball to each other. A always throws the ball to B and B 7 always throw the ball to C. C is just as likely to throw the ball to B as to A. If C was the first person to throw the ball find the probabilities that after three follows (i) A has the ball (ii) B has the ball and (ii) C has the ball. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) The joint probability distribution table for two random variables X and Y is as follows. 6 X\\Y      1        3        9 2        1/8      1/24     1/12 4        1/4      1/4      0 6        1/8      1/24     1/12 Compute (i) Co-Variance and (ii) Correlation of the random variables X and Y",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The joint density function of two continuous random variables X and Y is given by 6 kxy ; 0 x4,1 y5 f(x,y)   0 ,  otherwise find (i) the value of k and (ii) E(x) and E(Y)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Show that (a, b) is a fixed point of the stochastic matrix Page 3 of 3 P   1  a b 1 b  a  . What is the 6 associated fixed probability vector?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) A gambler luck as follows a pattern. If he wins a game the probability of winning the next 7 game is 0.6. however, is he losing a game the probability of loosing the next game is 0.7. There is an even chance of gambler winning the first game. If so (i) what is the probability of he is winning the second game and (ii) in the long run, how often he will win. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) A manufactured claimed that at least 95% of the equipment which he supplied to a factory 6 conformed to specifications. An examination of a sample of 200 pieces of equipment revealed that 18 of them were faulty. Test his claim at 1% level of significance.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) The mean and SD of the maximum loads supported by 60 cables are 11.09 tons and 0.73 tons 6 respectively. Find 95% confidence limit for mean of the maximum loads of all cables produced by the company.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Ten individuals are chosen at random from a population and their heights in inches are found 6 to be 63,63,66,67,68,69,70,70,71,71. Test the hypothesis that the mean height of the universe is 66 inches. (t for 9 d.f is 2.265) 0.05",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) A sample analysis of examination results of 500 students was made. It was found that 220 students had failed, 170 students had scored third class, 90 students second class and 20 students first class. Do these figures support the general examination results which is in the ratio 4:3:2:1 for respective categories. ( 20 .0 5 7 .8 1 f o r 3 d . f )   7 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) A coin is tossed 1000 times and turns up 540 times. Decide on hypothesis that the coin is 6 unbiased at 1% level of significance.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) A survey was conducted in a slum locality of 2000 families by selecting a sample of size 800. 6 It was revealed that 180 families were illiterate. Find the probability of illiterate families in the population of 2000.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) A machine is expected to produce nails of length 3 inches. A random of 25 nails gave an average length of 3% inch with standard deviation 03. Can it be said that the machine is producing nails as per specification? ( t 0 .0 5 f o r 2 4 d . f i s 2 .0 6 4 ) 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) A die is thrown 264 times and the number appearing on the fall (x) follows the following frequency distribution. Calculate the value of 2 7  . X     1     2     3     4     5    6 F     40    32    28    58    54   60 *** SRN 3rd Semester B.Tech CSE/CIT Semester End Examination August 2023 Course (Subject): Discrete Mathematics and Graph Theory Course Code: B20AS0302- 85144 Time: 3 Hours                                          Max. Marks: 100 Note: 1.Answer ONE FULL question from each unit.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. Ensure that question paper is completely printed.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. Students must check the course title and course code before answering the question paper Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) There are 350 farmers in a large region. 260 farm beetroot, 100 farm yams, 70 farm 8 radish, 40 farm beetroot and radish, 40 farm yams and radish, and 30 farm beetroot and yams. Let B, Y, and R denote the set of farms that farm beetroot, yams and radish respectively. Determine the number of farmers that farm beetroot, yams, and radish",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Verify for the validity of the following argument.         8 p  qr  s r t t _________________ p",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Give i.   A direct proof, ii.  Indirect proof and iii. Proof by contradiction for the following statement: “ if Page 1 of 4 n is on odd integer, then n  9 9 is an even integer”. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.                                                               8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Among 50 patients admitted to a hospital, 25 are diagnosed with pneumonia, 30 with bronchitis, and 10 with both pneumonia and bronchitis. Determine:",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "(i) The number of patients diagnosed with pneumonia or bronchitis (or both) (ii) The number of patients not diagnosed with pneumonia or bronchitis",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Simplify the network                                       8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define open Statement and Quantifiers . Determine the truth value of each of the following quantified statements, the universe being the set of all non zero integers. i. Page 2 of 4  x ,  y ,  x y  1  ii.  x ,  y ,  x y  1  iii.  x ,  y ,  x y  1  9 iv. x,y,2x y 5x3y 8                        v. x,y,3x y 172x4y 3                         UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Define Equivalence Relation. Let A   1 , 2 , 3 , 4 , 6  8 and R be a relation on A defined by aRbif and only if a is a multiple of b. represent the relation R as a matrix and draw its digraph.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define the partial order relation. Draw the Hasse diagram for the poset  P  S  ,   , where S   1 , 2 , 3 , 4  8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define Stirling number of second kind. Find the number of ways of distributing four 9 distinct objects among three identical containers, with some container(s) possibly empty. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4. a) Let A1,2,3,4,B w,x,y,z and C 5,6,7 . Also, let R 1 be a relation from A to B by R    1 , x  ,  2 , x  ,  3 , y  ,  3 , z   and R 2 & R 3 be relations from B to C, defined by                 R 2   w , 5 , x , 6 , R 3   w , 5 , w , 6 . Find   MR  ,MR      and    MR   R  .   Verify   that 1      2                1  2 M  R 1 R 2   M  R 1   M  R 2  8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define Pigeon hole principle. A bag contains 10 red marbles, 10 white marbles, and 8 10 blue marbles. What is the minimum no. of marbles you have to choose randomly from the bag to ensure that we get 4 marbles of same color?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define Floor and Ceiling functions. If a is a positive real number and a  1 , prove the following; i.   a  a   1 9  a  ii.         1    a       UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) In a graph G with “n” vertices and ‘m’ edges, if  is the minimum degree of the 8 vertices and ∆ is the maximum degree of the vertices show that ≤(2m/n)≤ ∆.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b)  Define isomorphism of graphs. Verify whether the following graphs are 8 isomorphic or not?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) A simple connected graph with n vertices and k components can have at most Page 3 of 4 1 2 ( n  k ) ( n  k  1 ) 9 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) Prove the following: (i) A path with n vertices is of length n-1. 8 (ii) If a cycle has n vertices, it has n edges. (iii) The degree of every vertex in a cycle is 2.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define and give an example for each of the following: Connected graph, sub graph, 8 Spanning subgraph, Induced Sub graph, Edge disjoint sub graphs, vertex disjoint sub graphs and Difference between the sub graphs and induced sub graphs",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define complete graph. Show a complete graph which is simple in which degree 9 of every vertex is (n-1) and the number edges is n(n-1)/2. UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) Prove that a connected graph G has an Euler’s circuit if and only if all vertices 8 of G are of even Degree.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define Dual of a planar graph? Find the duals of the following graphs 8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) State Max-flow and Min-cut theorem and find the maximum flow possible between the vertices P and S in the network shown in figure. P 1 8 7 Q T 6 5 4 R 5 S 9 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) Define Euler Graph, Hamilton graph. Give an example for the following i) graph 8 which is both i. Euler and Hamilton , ii. graph which is Euler but not Hamilton iii. graph which is Hamilton but not Euler.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define planar graph. Prove that a connected planar graph G with n-vertices and m- 8 edges has exactly m-n+2 regions in all of its diagrams",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define chromatic number. Find the chromatic polynomial for the cycle of length 4. 9 Hence find its chromatic number. *** Page 4 of 4 SRN 3rd Semester B.Tech CSE/CIT Semester End Examination June 2023 Course (Subject): Discrete Mathematics and Graph Theory Course Code: B20AS0302/B21AS0302- 85144/85554 Time: 3 Hours                                            Max. Marks: 100 Note: Answer ONE FULL question from each unit.  Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) Prove the distribution laws for any three sets Page 1 of 3 A , B , C ( i ) A  ( B  C )  ( A  B )  ( A  C ) ( i i ) A  ( B  C )  ( A  B )  ( A  C ) 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define tautology. Show that  ( p  q )  ( p  r )  ( q  r )   r a tautology, by 6 Constructing a truth table.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Examine the validity of the following argument:             6 If I study, I will not fail in the examination. If I do not watch TV in the evenings, I will study. I failed in the examination. ……………………………………………………………………. Therfore, I must have watched TV in the evenings. …………………………………………………………………….",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) A student visits sports club everyday from Monday to Friday after school hours and 7 plays one of the three games: cricket, Tennis and Football. In how many ways can he play each of the three games at least once during a week.(from Mon to Fri) OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Prove that the open interval (0,1) is not a countable set   6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Prove that the following argument is valid.                 6 x,p(x)(q(x)r(x) x,p(x)s(x) x,r(x)s(x)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Give i) Direct Proof ii)Indirect Proof iii) Proof by contradiction for the following 6 statement “if n is an odd integer, then (n+9) is an even integer”",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Define converse, inverse and contra positive of a conditional statement with truth 7 table. Also state the converse, inverse and contra positive of the following statement. “If a triangle is not isosceles, then it is not equilateral”. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3. a) Let A={1,3,5}, B={2,3}, C={4,6}. Write down the following:  6 AB,BA, A(BC), (AB)C",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Consider the sets A={a,b,c} and B={1,2,3} and the relations R={(a,1),(b,1),(c,2),(c,3)} 6 and S={(a,1),(a,2),(b,1),(b,2)} from A to B. Determine R, S , RՍS, RՈS, R C and SC.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Let A={1,2,3,4} and R={(1,1),(1,2),(2,1),(2,2),(3,4),(4,3),(3,3),(4,4)}be a relation on 6 A. Verify that R is equivalence realtion.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) ABC is an equilateral triangle whose sides are of length 1 cm each. If we select 5 7 points inside the triangle, prove that at least two of these points are such that the distance between them is less than ½ cm. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) Define Sterling’s number of second kind. If A =7 and B =4 find number of onto 6 function from A to B. Hence find S(7,4).",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Consider the Hasse diagram of a poset (A,R) given below    6 If B={c,d,e} find: i) all upper bounds of B ii) all lower bounds of B iii)the least upper bound of B iv) the greatest lower bound of B.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Draw the Hasse diagram representing the positive divisors of 36. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Let f, g, h be functions from Z to Z defined by f(x)=x-1, g(x)=3x, 7 h(x)= Determ0,in𝑖𝑓e 𝑥(f օ 𝑖𝑠(g 𝑒 օ 𝑣h𝑒)𝑛)(x) and ((fօg)օh)(x) and verify that fօ(gօh)= ((fօg)օh. { 1,𝑖𝑓 𝑥 𝑖𝑠 𝑜𝑑𝑑     UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5. a) Prove that the number of vertices of odd degree in any graph is even. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define with an example : Graph, multigraph , simple graph, Complete Graph, 6 Bipartite Graph, Complete Bipartite Graph.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Prove the following (i) A path with n vertices is of length n-1. 6 (ii) If a cycle has n vertices, it has n edges. (iii) The degree of every vertex in a cycle is 2.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Prove that a simple connected graph with n vertices and k components can have at 7 1 most (nk)(nk1)edges. 2 OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6. a) Define (i) connected (ii) weakly connected and (iii) strongly connected graphs with 6 an example each.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define isomorphism of graphs. Verify whether the following graphs are isomorphic 6 or not?",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) In a graph G with “n” vertices and ‘m’ edges, if  is the minimum degree of the 6 vertices and ∆ is the maximum degree of the vertices show that ≤(2m/n)≤ ∆.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Define connected graph. Prove that a connected graph with n vertices has at least 7 n-1 edges. Page 2 of 3 UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7. a) Explain the Konigsberg’s Bridge Problem and then give any one solution of the 6 problem",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Show that Peterson graph has no Hamilton cycle but it has a Hamilton path. 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define dual of a planar graph. Draw the geometric dual of the given graph 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) A connected graph G has a Euler circuit if and only if all the vertices of G are of even 7 degree OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8. a) State Max-flow and min-cut theorem and find the maximum flow possible Between the vertices P and S in the network shown in figure. Page 3 of 3 P 1 8 7 Q T 6 5 4 R S 5 6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Prove that a graph is 2-chromatic if and only if            6",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Using multiplication theorem, find chromatic polynomial for the graph shown in 6 it is a bipartite graph figure.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "d) Define planar graph. Check the planarity of the following graph by the 7 elementary reduction *** SRN 3rd Semester B.Tech CSE Semester End Examination June 2023 Course (Subject): Analog Digital Electronics Course Code: B20CS0301 - 85141 Time: 3 Hours                                           Max. Marks: 100 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) Outline the basic behavior of a clamping circuit. With a neat circuit diagram, 9 sketch the behavior of an unbiased negative clamper built using ideal diodes.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) State the condition for oscillations that an oscillator has to satisfy. Give the 9 block representation of an oscillator highlighting the function performed by each block",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Design a RC phase shift oscillator (LAG) that generates sinusoidal oscillations 0f 7 2.5 KHz. How many phase shifting networks are required for the given task? OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2.  a) List the types of Clamping circuits that are possible to realize. Outline the 9 behavior of a Biased negative clamper with a neat diagram and waveforms assuming ideal diodes",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Outline the basic behavior of a clipping circuit. With a neat circuit diagram, 9 sketch the behavior of a series unbiased positive clamper built using ideal diodes.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Design a Colpitts oscillator that produces oscillations of 50KHz. Draw the circuit 7 indicating the designed values. UNIT – II",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "3.  a) Outline the behavior of a Logarithmic amplifier and derive an expression for its 9 o/p voltage",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Design a first order Low pass active filter to have a cutoff frequency of 3.5KHz 9 providing a pass band gain of 6. Draw its frequency response indicating roll off.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) With a neat circuit diagram and waveforms illustrate the behavior of an 7 absolute value circuit built using opamp. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "4.  a) Outline the behavior of an Instrumentation amplifier with a neat circuit 9 diagram. List its requirements and give its o/p voltage equation.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Outline the behavior of a peak detector built using opamp with a neat circuit 9 diagram and waveforms.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Design a first order High pass active filter to have a cutoff frequency of 5.5KHz 7 providing a pass band gain of 9. Draw its frequency response indicating roll off. UNIT – III",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "5.  a) A Logic circuit is to be designed that produces an o/p of ‘1’ for all the odd 9 numbers in the range 0 to 8 and even numbers in the range 9 to 15. i. Draw the truth table of the circuit ii. Corresponding SOP and POS expressions iii. Simplified SOP expression using K-map",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Simplify the given Logical expression using K-map and implement the 9 Page 1 of 2 simplified expression using (i)Basic gates (ii) Only NAND (III) Only NOR Y = ∑m(0, 2, 3) + don’t care(4, 7)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Simplify the given Logical expression using K-map and implement the 7 simplified expression using (i)Basic gates (ii) Only NAND (III) Only NOR Y = ∏M ( 2, 5, 6) + don’t care OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "6.  a) A digital system is to be designed in which the months of the year is given as 9 input in 4-bit form. The month January is represented as ‘0000’, February as ‘0001’ and so on. The output of the system is ‘0’ corresponding to the input of the month containing 30 days or less otherwise it is ‘1’. Consider the excess number in the input beyond ‘1011’ as don’t care conditions. For this systems of 4 variables (A, B, C, D) find the following",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "(i) Draw the truth table of the circuit (ii) Corresponding SOP and POS expressions (III) Simplified SOP expression using K-map",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Simplify the given Logical expression using K-map and implement the 9 simplified expression using Basic gates Y= ∏M(0, 2, 3, 8, 9, 10, 11) + don’t care(5, 13, 14, 15)",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Simplify the given Logical expression using K-map and implement the 7 simplified expression using Basic gates Y= ∑m (1, 4, 7, 8, 9 11, 13) + don’t care(3, 5, 6, 12,15) UNIT – IV",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "7.  a) Realize a 1:4 DE-MUX using basic gates starting from its basic behavior in the 9 truth table form.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) With a neat diagram, give the behavior in the form of truth table, 9 Characteristic equation and excitation table.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Realize a 4-bit Johnson counter using D-ffs. Furnish the shift table that 7 demonstrates the circulation of data ‘1001’. Draw the timing diagram OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "8.  a) Draw the truth table of a full adder. Using the table entries, derive an 9 expression for its outputs and draw the circuit diagram",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Realize a 4:1 MUX using basic gates starting from its basic behavior in the truth 9 table form.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Realize a 4-bit Ring counter using D-ffs. Furnish the shift table that 7 demonstrates the circulation of data ‘1001’. Estimate the time required to circulate the data if the clock connected to it is 0.5µs. *** Page 2 of 2 SRN 3rd Semester B.Tech CSE Semester End Examination June 2023 Course (Subject): Data Structures Course Code: B20CS0302 - 85143 Time:   3 Hours                                               Max. Marks: 100 Note: Answer ONE FULL question from each unit.   Marks UNIT – I",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "1. a) Define Sorting and take an array of n elements from user, apply sorting algorithm which 8 works for application of playing cards.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Define Data Structures. List any 4 Data Structures along with its application usage. 7",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Define 2D arrays with syntax of declaration, instantiation, and initialization. Consider a 10 matrix of order m X n. Find the number of elements which are even and print their sum. OR",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "2. a) Explain all Abstract Data Type (ADT) with examples and diagram 8",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "b) Create and generate 10 random elements using random class method and write a 8 program to perform sort using bubble sorts and search for an element in it and print it.",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "c) Explain the caesar cipher technique for encryption and decryption. Consider the text is 9",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {
+    "sectiona": {
+      "marks": 5,
+      "count": 377
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "subject": "Finite Automata and Formal Languages",
+  "semester": 0,
+  "course_code": "B19CS5010",
+  "questions": [
+    {
+      "text": "a) Identify and define with necessary parameters/tuples of definition of an automaton that does 7 not use temporary memory and perform deterministic transitions? Also Construct a DFA to accept string of a’s and b’s which do not end with the string abb. Give Examples for accepting and rejecting string. b) Non Deterministic Automata are very easy to construct compared to DFA. Draw the NFA to 8 accept strings of 0’s and 1’s ending with 011 and convert the same to DFA. c) Consider the following ε-NFA. Convert the ε-NFA into its Equivalent DFA. 10 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Draw a DFA to accept the strings of 0’s , 1’s and 2’s beginning with a ‘0’ followed by odd 7 number of 1’s and followed a 2. Also Show transition function that the string 0111112 is accepted by the machine. b) Draw an NFA to accept the strings of a’s and b’s whose third symbol from the RHS is a and 8 Convert the same into DFA. c) Automata theory is a branch of theoretical computer science. DFA minimization is the task 10 of transforming a given Deterministic finite automaton (DFA) into an equivalent and has a minimum number of states. Hence minimize the following DFA and find the solution. UNIT – II Page 1 of 3",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Prove that there exists a Finite Automaton to accept the language L(R) corresponding to the 8 Regular Expression R. b) The language accepted by Finite automata can be easily described by simple expressions 12 called Regular Expressions. A regular expression can also be described as a sequence of pattern that defines a string and used to match character combinations in strings. Define Regular Expression with your own example. And also frame Regular Expression for the following languages: i. L={an bm|(m+n) is even} ii. L= {w: |w|mod 3=0, w ε {a,b}*}. iii. Regular Expression for the set of all strings that do not end with 01 over{,0,1}* c) List with an example Algebraic laws for Regular Expression. 5 OR 4 a) Give the Regular Expression for the following. 5 i. Binary strings ending with 100 ii.. Strings of a’s and b’s having length 2 b) Construct an NFA for the Regular Expression (a+b)*bb(a+b)* 7 8 c) The language accepted by finite automata can be easily described by simple expressions called Regular Expressions. It is the most effective way to represent any language. Construct such Regular Expression from the following Automata. d) Enlist the Applications of Regular Expression. 5 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A Language accepted by Finite Automata is called a Regular Language .Pumping Lemma is 8 used to prove that the Language is not Regular. Prove that the Language L= {WWR|W∈(a+b)*} is not Regular. b) Define Ambiguous Grammar and Show that the following Grammar is Ambiguous. 7 S→S-S|S+S|S*S |S/S|(S)|id c) Define CNF and GNF. 10 Obtain the Grammar in GNF A→ BC B →CA | b C →AB | a OR 6 a) State and Prove Pumping Lemma for Regular Languages. 7 . b) A grammar is a set of rules for a strings generation in a formal language. Construct a 10 Grammar for the following Languages. Page 2 of 3 i. Language consisting of all non-palindromes over{a,b} ii. Language to generate a string of balanced parentheses. iii. L={W| |W| mod3=0 where w∈(a,b)*} c) Grammar is a finite set of formal rules for generating syntactically correct sentences or 8 meaningful correct sentences. Obtain a Grammar for the following Languages. i. L = { a2nbncm | n, m>=0 } ii. L = { a2nb3m | n, m>=0 } UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Finite Automata cannot be used to model a non-Regular Languages. Identify an automaton 12 to accept non regular Languages. Express all attributes of such an automata. Obtain the same to accept the Language L= {anb2n |n>=1} and show the sequences of moves made by the string aaabbbbbb. b) Turing Machine is modified version of PDA and it is much more powerful than PDA. 13 Express all attributes of Turing Machine and Obtain a Turing Machine to accept the Language L={0n1n|n>=1} and show the sequence of moves made by the Turing Machine for the string 00001111. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Finite automata can be used to accept only regular languages. Pushdown Automata is a finite 12 automata with extra memory called stack which helps Pushdown automata to recognize Context Free Languages. Obtain the same to accept the Language L={WCWR|w∈(0+1)*} where WR is the Reverse of W and C is a constant and show the sequence of moves made by the PDA for the string 010011C110010. b) Obtain a Turing Machine to accept the Language having equal number of a’s b’s and c’s. 13 and show the sequence of moves made by the Turing Machine for the string ababbaabba *** Page 3 of 3 SRN 5th Semester B.Tech Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

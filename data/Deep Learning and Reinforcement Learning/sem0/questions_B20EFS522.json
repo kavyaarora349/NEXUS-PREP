@@ -1,0 +1,56 @@
+{
+  "subject": "Deep Learning and Reinforcement Learning",
+  "semester": 0,
+  "course_code": "B20EFS522",
+  "questions": [
+    {
+      "text": "a) Ilustrate the working of an Artificial Neural Network covering the weighted sum 15 operation, activation function, back propagations and gradient descent operations. b) Consider a bucket has some spheres and cubes. There are 3 scenarios 10 i) Equal number of spheres and cubes. ii) Only cubes iii) One sphere and remaining cubes. Calculate Entropy Loss function. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Biological Neurons are the inspiration for the design of Neural Networks. Illustrate 10 the Artificial Neural Network architecture relating to Neuron in human brain b) Define Perceptron? Illustrate Perceptron Learning algorithm and its weight update 10 rules in detail with a diagram. c) How should you choose the appropriate activation function for your neural network 5 architectural design? UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Contrast among the following types of reinforcement learning: 14 Fully Observable vs Partially Observable Deterministic vs Stochastic Single-agent vs multi-agent Static vs Dynamic Discrete vs Continuous Episodic vs Sequential Known vs Unknown b) The transition diagram in the following figure shows how an insurance company 5 classifies its drivers: no accidents, one accident, or two or more accidents. This information could help the company determine the insurance premium rates. Create a transition matrix representing the drivers, use the percentages to show going from one state to another. Page 1 of 2 c) Reinforcement Learning is a feedback-based Machine learning technique in which 6 an agent learns to behave in an environment by performing the actions and seeing the results of actions. Outline the functionality of elements of reinforcement learning with a neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Consider the Markov chain with three states, S={1,2,3} that has the following 15 transition matrix i) Draw the state transition diagram for this chain. ii)If we know P(X1=1)=P(X1 =2)= ¼ find P(X1=3,X2=2,X3=1) b) Markov chain has first state A and second state B, and its transition probabilities for 10 all time are given by the following graph:Write the transition matrix for the same. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define a Policy in Reinforcement Learning? Give the formal mathematical definition 10 of a Policy and justify how a Policy is a probability distribution over all possible actions in each state of anMarkovDecision Process. b) Apply dynamic programming to solve the Shortest Path problem using Floyd 15 Warshall Algorithm. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate the relationship between value functions and policies in Reinforcement 10 Learning with an example b) Illustrate how Bellman’s Equation for value function has the necessary 15 characteristics that are required for it to be solved using Dynamic Programming. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the working of generalized policy iteration framework. Also, justify how it 10 relaxes the hard conditions of Policy iteration algorithm? b) Illustrate the iterative policy evaluation algorithm that begins with an arbitrary 15 initialization for approximate value function and in each iteration then produces a better approximation by using the update rule. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Finding an optimal policy in RL involves the two steps: 1. Evaluation of the current 10 Policy known as Policy Evaluation (prediction) and 2. Refinement or improvement of the current policy known as Policy Iteration or Control. Differentiate between policy evaluation and policy iteration steps. b) Policy Iteration is an algorithm in 'Reinforcement Learning', which helps in learning 15 the optimal policy which maximizes the long term discounted reward. Outline the policy iteration algorithm and analyze each step in it *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

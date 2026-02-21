@@ -1,0 +1,56 @@
+{
+  "subject": "C And Net",
+  "semester": 0,
+  "course_code": "B18CS7043",
+  "questions": [
+    {
+      "text": "When you build solutions using a .NET-aware language, you will most likely interact 13 with each of the CTS types. Recall that the CTS is a formal specification that documents how types must be defined in order to be hosted by the CLR. Outline a brief overview of the five types defined by the CTS. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "The base data types are mainly primitive data types, such as Integer, Double, Date, 13 String, and so on. These include all the types that are part of any .NET programming language. List in a table all the intrinsic CTS Data Types mentioning the corresponding C# keyword. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Demonstrate a C# program to pass a reference type by value by considering the 12 following points a. Is it possible alter objects state data if an object is passed by value type? Justify the statement. b. Is it possible is to reassign what the reference is pointing to if it passed as a value type? Justify the statement. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "C# provides a set of parameter modifiers that control how arguments are sent into a 12 given method. Explain various method parameter modifiers with example for each. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) All object-oriented languages contend with three core principles of object-oriented 6 programming, often called the famed “pillars of OOP.” Describe each pillar OOP with example. b) Interface-based programming is an architectural pattern for implementing modular 7 programming at the component level in an object-oriented programming language which does not have a module system. C# supports for interface-based programming. Define interfaces in C#. How to invoke interface members at the object level. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe the property syntax for get block and set block and how it is different from 7 traditional accessor and mutator methods. Write a C# program which contains class called Student with data member’s name, SRN, College. Assign and display the data only through get and set block. b) C# language doesn't support multiple inheritance of classes, so Interfaces are 6 needed. Define interfaces in C#. How to invoke interface members at the object level. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In a computer, software anomaly is categorized in to the three Errors, Bugs, and 6 Exceptions anomaly-centric terms define these terms and list the four key elements required for structured exception handling along with the keywords offered by C# to manage runtime exceptions. Page 1 of 2 b) The Zen of .NET memory management says this: Allocate an object onto the 6 managed heap using the \"new\" keyword and forget about it. Once \"new-ed,\" the CLR removes the object when it is no longer needed. Explain in detail how does the runtime determine when an object is \"no longer needed\"? OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Object lifetime is the time when a block of memory is allocated to this object during 7 some process of execution and that block of memory is released when the process ends. Express the rules that can be applied for basics of object lifetime. Summarize the rules that are applied for object lifetime. b) Objects to clean up any unmanaged resources that they're holding so that memory 5 is utilized efficiently, its allowed by GC. Discuss the finalization process supported by GC in detail. *** Page 2 of 2 SRN 7th Semester B Tech Semester End Examination Jan 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

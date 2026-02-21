@@ -1,0 +1,68 @@
+{
+  "subject": "Elements of Mechanical Engineering",
+  "semester": 0,
+  "course_code": "B22ME0103",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper. Design Data Hand Book is Permitted Assume suitable data if not provided UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define wet steam, Dry steam and Super heated Steam? 6 b) Describe the Formation of Steam at Constant Pressure with Temperature and Enthalpy 10 diagram (T-H Diagram) c) Steam is at 9 bar pressure and dryness fraction 0.98. Find the quality and temperature of 9 steam when (i) the steam looses 50 kJ/kg at constant pressure, and (ii) steam receives 150 kJ/kg a t constant pressure. From steam tables, at 9 bar h=742.6 kJ/kg, hfg=2029.5 kJ/kg, hg=2772.1 kJ/kg, tsat=175.4oC f OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Differentiate fire tube boiler and water tube boiler 8 b) Describe the working principle for Babcock Wilcox boiler with a neat sketch? 12 c) Define boiler? List out the functions of boiler? 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe the working principle of 4 stroke petrol engine with PV diagram? 10 b) Describe the open and closed cycle gas turbine with a neat sketches 10 c) Distinguish between impulse and reaction water turbine 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define I C Engine? and classification of IC Engine 8 b) Describe the working principle of vapour compression refrigeration system with neat diagram? 12 c) Define the term refrigeration and refrigerator? List out the commonly used refrigerants? 5 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe 3D printing technology? List out the 3D printing methods? 8 b) Describe with a neat block Diagram the basic components of CNC Machine 10 c) Differentiate between Welding and Soldering process 7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With a neat sketch explain arc welding process? 8 b) Explain any three operations performed by drilling machine with neat sketches? 8 c) Describe with a neat sketch i) Turning ii) Facing iii) Knurling operations performed in lathe? 9 Page 1 of 2 UNIT – IV 8",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write a short note on Industrial Robot Applications? b) Describe with a neat sketch open belt drive and cross belt drive? 10 c) Define Mechatronics and need of Mechatronics in Industry ? 7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define springs? Mention the types of springs? 5 b) With a neat sketch explain i) Spur gear ii) Helical Gear ii) Bevel Gear iv) worm and worm wheel 12 c) Differentiate open loop control system and closed loop control system? 8 *** Page 2 of 2 Page 3 of 2 SRN 2nd Semester B.Tech CSE/CIT Semester End Examination August 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,56 @@
+{
+  "subject": "Data Sructures",
+  "semester": 0,
+  "course_code": "B20CSO601",
+  "questions": [
+    {
+      "text": "a) Define – Data Structure. Outline the classification of data structures by illustrating each 10 one of them with suitable examples. b) Define – Stack and a Queue. Compare and Contrast the ADTs of Stack and Queue by 10 listing and illustrating all the operations present in these data structures. c) Write an algorithm in pseudocode that performs the linear search operation on set of 5 numbers. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define – Array. Illustrate how a single and multi-dimensional dimensional array is i) 10 declared and ii) initialized with correct syntax, by using the example of finding the sum of the array (1D or 2D) elements. b) Write an algorithm to perform the following operations on a 1D array. 10 i) insertion sort ii) finding minimum and maximum element c) Define –Cryptography. Given is the plain text: “REVA UNVERSITY”, find the corresponding 5 cipher text for the above string with rotation = 4. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define – Linked List. Compare and contrast Linked List with Arrays. Given are the 5 integer 10 elements “10, 20, 30, 40, 50”, illustrate how the elements are stored in a 1D Array and a Singly Linked List with suitable structural diagrams and labels. b) Implement the following operations on a SLL with structural diagrams. 10 i) Insert Front ii) Delete Rear c) Define – Doubly Linked List. Outline the advantages and limitations of DLL over SLL. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Implement the following operations on DLL. 10 i) Insert Rear ii) Delete Front. b) Given are the 4 integer elements: “15, 25, 35 and 45”. Show how these elements are 10 stored (represented) in i) SLL ii) SLL with a header node iii) CSLL iv) CSLL with a header node, and v) DLL with a header node. c) Write pseudocode to implement the deleteKey(Node, key) operation in a CSLL with a 5 header node. Page 1 of 2 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Given are the elements “10, 20 and 30” along with the operations that are performed on 10 an empty Stack of size 3 in that order. Display the contents/results of the Stack after each one of the operations in a sequence are performed. (Note: For each of the below question assume that the stack is empty initially.) i) push(10), push(20), push(30), pop(), pop(), peek() ii) push(10), pop(), pop(), push(20), peek(), pop() b) Given are the elements “15, 25, 35” along with the operations that are performed on an 10 empty Queue (Ordinary) of size 3 in that order. Display the contents/results of the Queue after each one of the operations in a sequence are performed. (Note: For each of the below question assume that the stack is empty initially.) i) insertQ(15), insertQ(25), insertQ(35), deleteQ(), deleteQ() ii) insertQ(15), deleteQ(), deleteQ(), insertQ(25), insertQ(35) c) Bring out the applications of Stacks and Queues data structures. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate how the following Infix expression gets converted to a Postfix expression, by clearly 10 showing the contents of the stack. ((X+Y) * (P-Q)) b) Write user defined function in pseudocode to evaluate the digitized postfix expression. 10 Evaluate the following postfix expressions i) 6 7 + 5 3 - * ii) 7 3 – 2 / iii) 4 2 / 5 4 – 5 3 + * c) Write pseudocode to implement insertRear() operation on a Queue represented using 5 CSLL. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define the following trees with at least one example for each of them. 10 i) Strictly Binary Tree ii) Almost Complete Binary Tree iii) Complete Binary Tree iv) Binary Search Tree (BST) v) Height of a Binary Tree b) Draw a BST which is also a complete binary tree having 7 integer elements. List and 10 illustrate the three types of tree traversals by traversing such a BST constructed above. c) Illustrate how the given integer elements: 50, 80, 40, 60, 50, 70 and 10 are sorted using a BST. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define – Binary Tree. Outline and illustrate the various properties of a Binary Tree with 10 suitable examples. b) Write a user defined function that constructs or performs insertion operation into a Binary Search 10 Tree (BST). Illustrate the step-by-step construction of a BST when the integer elements: 55, 85, 45, 65, 50, 75, 30, 95, 20, 60 and 25 are inserted in that order. List all the elements of such a tree using all the three tree traversal techniques. c) Illustrate how the searching operation is performed using a BST. 5 *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

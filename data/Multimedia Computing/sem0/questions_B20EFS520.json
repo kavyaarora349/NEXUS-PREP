@@ -1,0 +1,62 @@
+{
+  "subject": "Multimedia Computing",
+  "semester": 0,
+  "course_code": "B20EFS520",
+  "questions": [
+    {
+      "text": "a) Discover a current media input, storage, or playback device that is analog. Is it 5 necessary to convert to digital? Compare the pros and cons of analog and digital. b) An image of pixel size (640*480) pixels. Estimate how many KBs are required to 5 store this image in the following two cases:",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Binary image 2. Gray Scale image c) Using your own words, describe what is “multimedia”? Explain in detail 5 multimedia applications. d) YIQ and YUV are the two commonly used color models in video. Explain YUV color 10 model. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) There are many image formats are used to store the files. Explain any 5 image 10 formats. b) Discuss about CMY colour model and its application 5 c) Explain in detail 1-bit,8-bit grey level and 24-bit colour image. 10 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain different types of television system? Justify why HDTV is better than the 10 conventional system? b) Discuss about basic of digital audio and Digitization of Sound 5 c) What are MIDI devices? Why MIDI devices are required in multimedia system? 10 Explain different components of MIDI? OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Summarize Quantization and Transmission of Audio 5 b) Digital video is very important in today’s world. Explain the advantages and 10 different standards of digital video. c) Explain the different types of video systems? 10 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) If we look at applications and technologies, there is a strong interest in existing 10 multimedia systems and their constant enhancement. Discuss about the interdisciplinary aspects of multimedia with a neat diagram b) Quality of Service is basic concept and central focus in multimedia systems. Explain 8 about quality of service and resource reservation with an example. c) A real-time process is a process which delivers the results of the processing in a 7 given timespan. Explain the Characteristics of Real-Time Systems. Also Describe their advantages and disadvantages Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A resource is a system entity required by tasks for manipulating data. Each 8 resource has a set of distinguished characteristics. Describe the different types of resources and also with a neat diagram explain how two end-systems communicating with each other over a router. b) Scaling methods, used in multimedia systems. Explain the classification of scaling 7 methods with an example. c) Write a note on 10 i. Perceptual Qos ii. Application QoS iii. System QoS iv. Network QoS v. Device QoS UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Resource is very important for the execution of process. Discuss the resource 5 reservation for memory management b) Inter-process communication is used for interchanging useful information among 10 various regions in one or more. Explain the different types of approaches are used to implement Inter-process Communication. c) All scheduling algorithms are used based on the system model for the scheduling of 10 real-time tasks. Explain the system model in detail with an example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the difference between Preemptive versus Non-preemptive Task 5 Scheduling b) SRT systems utilize for multimedia task scheduling policies. Explain Scheduling 10 policies with an example. c) Explain the three major techniques for buffer management that multimedia 10 systems consider in their communication and processing components. *** Page 2 of 2 SRN 5th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,56 @@
+{
+  "subject": "Computer Networks",
+  "semester": 0,
+  "course_code": "B20EF0502",
+  "questions": [
+    {
+      "text": "a) Explain the categories of network topologies. 8 b) With a diagram, explain the interaction between the layers in OSI Model. 10 c) Explain the components of data components. 07 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the functionality of the layers in the TCP/IP protocol suite. 10 b) Define pulse code modulation. With a diagram, explain the process of pulse code 10 modulation. c) Explain the Nyquist Bit Rate formula for noiseless channel. 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the spread spectrum techniques with diagrams. 10 b) Explain the point-to-point frame format and its transition phases. 8 c) Find the code word for the data word 1001 and divisor 1011 using CRC encoder. 7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Differentiate between pure and slotted aloha protocols. 8 b) Explain the different channelization protocols. 12 c) Write a short note on Virtual LAN. 5 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the IEEE 802.3 frame format and its access method. 8 b) Explain the three transition strategies for transition from IPv4 to IPv6. 12 c) Explain the advantages of IPv6 over IPv4. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the various classes of IPv4 address. 8 b) With a diagram, explain the IPv4 datagram format. 8 c) With a diagram, explain the header format of the OSPF protocol. Also describe the steps 9 involved in the OSPF protocol. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the different TCP Congestion Control methods. 10 b) Explain the Hierarchy of DNS domain name servers and DNS Message format. 10 c) Write a short note on Telnet protocol. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the Stop & Wait, Go Back N and Selective Repeat protocols. 10 b) With a diagram, explain the TCP segment format. 10 c) Write a short note on Piggybacking technique. 5 *** Page 1 of 1 SRN 5th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

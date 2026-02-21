@@ -1,0 +1,50 @@
+{
+  "subject": "Multivariable Calculus and Linear Algebra",
+  "semester": 0,
+  "course_code": "B20AS0105",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) If F (xy3z2), find divF and Page 1 of 3 c u r l F 6 at the point (1,-1,1) b) Find the derivative of the following functions 6 i) 𝑡ℎ ii) 𝑛 c) If 2 𝑦 = log(4𝑥 −1) 𝑦 = 𝑠𝑖𝑛5𝑥cos3𝑥 y  S i n  m S i n  1 x  show that  1  x 2  y n  2  ( 2 n  1 ) x y n  1  ( n 2  m 2 ) y n  0 6 . 2a 7 d) Find the pedal equation of the curve 1Cos r OR 2. a) Find the constants a and b that F  ( a x y  z 3 ) i  ( 3 x 2  z ) j  ( b x z 2  y ) k is irrotational and find  such that  F   6 . b) Show that the curves r a (1 C o s )    and r a (1 C o s )    intersect orthogonally. 6 c) Find the Maclaurin’s expansion of up to third degree terms 6 𝑥 d) Find the pedal equation of the curve 𝑦 (𝑥) = 𝑙𝑜𝑔 (1+𝑒 ) r n a n c o s n   7 UNIT – II 3. a) Find d d s and  d d s r 6 for the curver a(1cos). b) Evaluate the following 6 1 1 1  Sinx x2 (i) lim   (ii) lim  x0 x Sinx x0 x  c) Find radius of curvature of the curvexa(tsint),y a(1cost). 6 d) Obtain an expression for radius of curvature for Cartesian curve. 7 OR 4. a) Find d d s x ds 6 and for the curve y 2 4ax, where s being the arc length. dy b) Show that the radius of curvatures of the curve r n  a n cosn varies inversely as 6 n1 r Find the radius of the curve c) Page 2 of 3 y 2  a 2 ( a x  x ) 6 at the point (a,0). d) Evaluate lx i m 0  1  s i n x  c x o t s a n x 2  x l o g (1  x )  7 using L’ Hospital. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Reduce the following matrix to echelon form and hence find its rank 6 2 4 3 1 0   1 2 1 4 2 A   0 1 1 3 1   4 7 4 4 5 b) Test for consistency and solve the following system of equations. 4 x  2 y  6 z  8 , x  y  3 z   1 , 1 5 x  3 y  9 z  2 1 6 c) Find the inverse of the matrix using Gauss – Jordan method of the following matrix A   1 2 1 2 5 0 3 3 8  6 d) Apply the Gauss-Jordon method to solve the system of equations 7 x y z 9,x2y3z 8,2x yz 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Determine the rank of the matrix by reducing into echelon form 6 3 0 1 6   1 1 1 1 A=  9 3 1 0    0 6 1 9  b) Find all the solutions of the following system of non-homogeneous equations. x  y  z  6 , x  y  2 z  5 , 3 x  y  z  8 6  1 4 2 6 c) Find the inverse of the matrixA  2 5 4  by Gauss-Jordon method.     1 2 1   d) Solve the system of equations by Gauss Elimination method: 7 5x y3z 20,2x5y2z 18,3x2yz 14 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Show that the transformation y  x 2x 5x , 1 1 2 3 y 3   x 2  2 x 3 y 2  2 x 1  4 x 2  1 1 x 3 , 6 is regular and find the inverse transformation. 3 7 5 6   b) Predict the eigen roots and the eigen vectors of the matrix A 2 4 3 .    1 2 2    4 1 6 c) Find the matrix which diagonalises A  and hence diagonalise A. 3 2 d) Estimate the largest Eigen value and the corresponding Eigen vector of a matrix Page 3 of 3 A   2  0 1  2  1 1 0  2 1  by Power method by taking X (0 )   1 0 0  7 , carry out six iterations. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "y  2 1 1 x  6 1 1      a) Show that y  1 1 2 x is a regular transformation and hence find its inverse  2   2 y  1 0 2x       3 3 transformation. 1 2 a b) If A 1 2 1 b  is orthogonal, find a,b,cand   3  2 2 c  A  1 . 6 c) Find the matrix P that will diagonalize the matrix A   7 4  3 1  6 . d) Find the largest Eigen value and the corresponding Eigen vector of a matrix  6 2 2    A 2 3 1 by Power method by taking the initial eigen vector as    2 1 3    X (0 )   1 0 0  7 . *** SRN 1st/2nd Semester B.Tech CSE/ECE/ME/CV Semester End Examination September 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,68 @@
+{
+  "subject": "Introduction to Data Science",
+  "semester": 0,
+  "course_code": "B20CS0101",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper. UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Arjun and Vivek are close friends. Arjun knew the difference between a formula and function 10 but not Vivek. Help Vivek to learn the difference between a formula and function by i) Create a table that contains information about the first year CSE department. ii) Apply the formula to find the strength of students studying in first year. iii) Using logical function display the student information who have been admitted through CET. Note: Department information contain Faculty name, ID no, No. of sections and strength in each section whereas the student information contain student name, SRN No., admission type and contact number b) XML is a form of semi-structured data which has tags and text. Neha wants to import the 5 data from XML file to excel file. Help her to do the task by giving detailed steps to import. c) Rajkumar is a business analyst. He has his marketing company in prime locations like USA, 10 UK. He wants to open another branch office at these prime locations. His idea is to open his office at the location based on the maximum sales. Help Rakesh to calculate the total sales in “USA” and “UK” separately. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A function is a predefined formula that performs calculations using specific values in a 10 particular order. Explain the following functions in excel with syntax and example. (i) Find( ) (ii) Replace( ) (iii) Countif( ) (iv) Exact( ) (v) Counta( ) b) Data visualization is the process of turning the data into graphical representation. List and 8 explain any 4 different visualization charts with suitable diagrams. Page 1 of 3 c) South African Cricket Team head coach Mark Boucher was very frustrated because India lost 7 the match against England. Boucher wants to analyse the reason for defeat vigorously. Help Boucher to visualize the data using any two different charts in excel. Note: Assume the score report like overs, runs, wickets, etc on your own. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A man is known to speak the truth 2 out of 3 times. He throws a die and reports that the 6 number obtained is a four. Find the probability that the number obtained is actually a four. b) Peter plans and records his spending. In the coordinate plane below, the x-axis represents 4 the number of days before or after today. The y-axis represents the amount of money peter planned to spend in dollars. The points (-5, 8)and (2, 8) represent Peter's planned spending on two separate days. (i) Plot the two points on the coordinate plane. (ii) How many days separate the two days Dexter planned to spend $8? c) Create a table called “Employee” with Emp_ID, Emp_Name, Emp_Salary, Designation, 10 Branch_City, and Mobile_No. Insert the values into the Employee table. Display the following by writing the SQL queries: (i) Write an SQL query to display the all-employees information. (ii) Write an SQL query to display the Employee Name and Mobile_No who are all from Bangalore City. (iii) Write an SQL query to find the employee id whose salary lies in the range of 9000 and 15000. d) 75% of the children in Exton school have a dog, and 30% have a cat.Given that 60% of those 5 that have cat also have a dog, what percent of those that have a dog also have a cat? OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A bag I contain 4 white and 6 black balls while another Bag II contains 4 white and 3 black 6 balls. One ball is drawn at random from one of the bags, and it is found to be black. Find the probability that it was drawn from Bag I. b) SQL is a Domain -Specific language used in Programming. Describe the important DDL and 10 DML commands with help of syntax and examples. c) Let’s work on a simple NLP problem with Bayes Theorem. By using NLP, I can detect spam e- 5 mails in my inbox. Assume that the word ‘offer’ occurs in 80% of the spam messages in my account. Also, let’s assume ‘offer’ occurs in 10% of my desired e-mails. If 30% of the received e-mails are considered as a scam, and I will receive a new message which contains ‘offer’, what is the probability that it is spam? d) 35% of the children in Exton school have a tablet, and 24% have a smart phone. Given that 4 42% of those that have smart phone also have a tablet, what percent of those that have a tablet also have a smart phone? UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data Science is a study of data which will help us to extract some meaningful insights from 8 the available data. Explain the following most used data science tools with their purpose. (i) Jupyter (ii) Apache Spark (iii) SAS (iv) Tableau b) The mean score for the population is 21, and the standard deviation is 5. Find the probability 7 that a score falls on i. Higher than 30 ii. Less than 20 iii. Between 23 and 25 Note: Use the following values 0.9641, 0.4207, 0.6554, 0.7881 for Z-Score values 1.80, -0.20, 0.40 and 0.80 Page 2 of 3 c) Apply linear regression to find the weather (temperature) of a city with the amount of rain in 10 centimeters. Create your own database with following details. CITY Temperature Rain in in Centigrade Centimetres OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Machine Learning and Artificial Intelligence is a buzz word in everywhere. Differentiate 5 between Artificial Intelligence and Machine Learning. b) Gaussian Distribution is also known as Normal Probability Distribution. Explain the Gaussian 7 Distribution and properties of Gaussian Distribution. c) Solve this system of linear equations using Gaussian Elimination. 13 x + y + z = 3 x + 2y + 3z = 0 x + 3y + 2z = 3 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Calculate the Mean, Median, Mode and Standard Deviation for the following Series. 10 11, 10, 12, 9, 8, 9, 11, 13,15 b) Data Science is used in many places to extract some meaningful insights from available data. 6 Explain the applications of Data Science in different sectors. c) Data Science life cycle has so many phases. Each phase is responsible for certain operations 9 during data science project process. Discuss in detail the following phases with its operations. (i) Data Exploration (ii) Data Visualization (iii) Data Mining OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data Science is a multidisciplinary study which is study of data. Data Science Life Cycle has 10 many levels and each level is responsible for specific process in data science life cycle. In this contrast, Explain the following Data Science Life Cycle Process with detailed explanation. (i) Business Understanding (ii) Feature Engineering (iii) Data Cleaning (iv) Predictive Modeling b) Statistics is way of collecting, organizing, and analyzing the data for business profits. 8 Distinguish between descriptive statistics and Inferential Statistics in detail. c) In statistics, Frequency is a major measure to analyze about the data. In contrast, what is 7 frequency? And Explain the Frequency Distribution and Probability Distribution with its purposes. *** Page 3 of 3 SRN 1st/2nd Semester B.Tech CSE/CIT Semester End Examination August 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

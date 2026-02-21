@@ -1,0 +1,56 @@
+{
+  "subject": "WEB TECHNOLOGY",
+  "semester": 0,
+  "course_code": "BTCS15F7400",
+  "questions": [
+    {
+      "text": "a) How domain name conversion happens on the web? Summarize the concept, with a figure, 6 by taking by a suitable example. b) Abdul wants to develop a web pages with the requirements like heading, preserve white 7 spaces and the various ways of styling wherever necessary. He wants to insert an image at the right side of the web page. Demonstrate various tags to get the said requirements. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Design and develop a XHTML document to describe an ordered list of your favorite 7 movie. Each element of the list must have a nested list of at least two actors in it. b) BOB needs to get to a URL which begins with HTTP, and observes Internal Server Error 6 for a website page he was getting to. In this scenario, enumerate with examples about various HTTP phases. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write an application in JavaScript to validate the name, the name should be entered using 6 prompt. The first and last name should not be more than 10 Characters and middle name must contain only initial. If so validate the corresponding names. The format is first name, Second Name and third name. There should be single white space between each names. b) Arrays are used to hold multiple values in same variable. Explain how arrays are created in 6 JavaScript; also, enumerate the five array methods available in JavaScript. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Develop an application in JavaScript that contains a function named test_phone _num, 6 which test the phone number of the format ddd-dddd-ddddddd and display weather the given number is valid or not using alert. b) A logistic company keeps records of goods on day to day basis. Use the suitable CSS-list- 6 properties and their values to keep the items of the inventory categorized by department. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What are the three categories of Perl variables and how are they handled? Give syntax with 7 example. b) Write a simple Perl program with use of arrays to read the names, convert them to upper 6 case letters and the array to be sorted and displayed. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In what three fundamental ways do Perl arrays differ from the arrays of other common 7 high level programming language? Give example for each. b) A string is series of characters, where a character is same as a byte. How strings are 6 handled in Perl? List and explain five string methods available in Perl. UNIT – IV Page 1 of 2",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define PHP file variable. List and explain file use indicator. 6 b) Differentiate between for and for-each loop in PHP? Explain with Syntax and Example. 6 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List the differences between single and double – quoted literal strings. Enumerate some 6 commonly used string functions available in PHP. b) A person wants to keep track of the number of visitor of his specific webpage. The count is 6 upgrades on each visit and gets stored in session. Design and develop a PHP application to implement the same. ****** Page 2 of 2 SRN 7th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

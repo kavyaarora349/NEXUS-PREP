@@ -1,0 +1,68 @@
+{
+  "subject": "Basic Electrical and Electronics Engineering",
+  "semester": 0,
+  "course_code": "B21EE0101",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) State and explain Ohms Law & Mention its Limitations? 6 b) An electrical iron carrying 2A at 120V. Find resistance of the device? 6 c) Three resistances of values 2Ω, 3Ω and 5Ω are connected in series across 20 V, D.C supply. 6 Calculate (a) equivalent resistance of the circuit (b) the total current of the circuit (c) the voltage drops across each resistor and (d) the power dissipated in each resistor. d) Define the Average Value of an AC Quantity? Derive an Expression for the Average Value of 7 AC? OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) State and explain Kirchhoff’s laws. 5 b) State & Explain Thevenin’s Theorem 6 c) Write the difference between 3phase system and single phase system? 6 d) Define the RMS Value of AC Quantity? Derive an Expression for the RMS Value of AC? 8 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Derive an Expression for EMF Equation of Transformer? 6 b) Explain the Losses in a Transformer? How are they Minimized? 6 c) With a neat diagram, Explain the construction of DC machine with parts 6 d) What are the types of DC Motor? Mention applications of DC motors. 7 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Derive an Expression for EMF Equation of DC Generator ? 6 b) What is the principle transformer? Explain the construction of transformer 6 c) Write the construction of 3phase Squirrel cage Induction Motor. 6 d) What is the basic principle of alternator? What are the applications of alternator in electrical 7 engineering? UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is electrical earthing? Explain the different types of earthing 8 b) Mention different types of domestic wiring systems and explain any two types 8 c) Describe some of the important types of tariff commonly used. 9 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What are the protective devices used in domestic electrical installation? 8 b) What is MI instrument? Explain the Construction of MI instrument. 8 c) Explain clearly the Pressure sensor and Proximity sensor, Ultrasonic sensor applications? 9 Page 1 of 2 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is Zener diode and explain its working briefly. 8 b) Explain the operation of a full wave rectifier. 8 c) Describe the gates required for digital logic operation with truth tables. 9 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Convert the binary number to decimal number 8 i. (1111)2 ii. (110011)2 iii. (10101)2 iv. (1000)2 b) Perform the binary addition for the numbers 8 i. 1110 and 1101 ii. 1001 and 1101 iii. 1010 and 111 iv. 11011 and 10101 c) Convert the following decimal numbers to binary: (i)51,(ii) 1241, (iii)1999 9 *** Page 2 of 2 SRN 1st/2nd Semester B.Tech CV/CSE/CIT/ECE Semester End Examination August 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

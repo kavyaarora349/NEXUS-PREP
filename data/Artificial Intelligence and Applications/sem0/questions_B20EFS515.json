@@ -1,0 +1,56 @@
+{
+  "subject": "Artificial Intelligence and Applications",
+  "semester": 0,
+  "course_code": "B20EFS515",
+  "questions": [
+    {
+      "text": "a) In a tic tac toe game, a nine-element vector representing the board, is described 10 as below. If the corresponding square is “blank” represent it by 2, 3 indicting “X” and 5 indicating “O”. Consider the turns 1 to 9 and illustrate all the turns which follows the algorithm. Odd numbered turns correspond to “X” and even numbered turns correspond to “O”. b) Two jugs with a capacity of 5-gallon and 3-gallon are given. Neither have any 10 measuring markers on it. There is a pump that can be used to fill the jugs with water. The aim is to store 1 gallon of water in the 5-gallon jug. Write a state space search for the above problem considering the following: Initial State (0,0), Goal State (1,0), Set of production rules created to perform the same. c) Depth first search and Breadth first search are two algorithms used to solve state 5 space search problems. Compare the two algorithms used in the search space. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The eight-tile puzzle consist of a 3 by 3 (3*3) square frame board which holds 8 10 movable tiles numbered 1 to 8. One square is empty, allowing the adjacent tiles to be shifted. The objective of the puzzle is to find a sequence of tile movements that leads from a starting configuration to a goal configuration. b) Solve the following Cryptarithmetic problem using Constraint Satisfaction Problem. 10 B A S E + B A L L G A M E S c) Generate and Test is the simplest technique in Heuristic Search Approach. Outline 5 the steps specifying the Generate and Test Algorithm. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A good system for the representation of knowledge in a particular domain should 10 possess some properties. Illustrate the various approaches to knowledge representation. b) Chaining is a type of intervention that aims to create associations between 10 behaviors in a behavior chain. Compare forward chaining and backward chaining. c) The relationship of Isa and instance in AI represents the semantic representation 5 of the network. Explain the concept of Isa and Instance relationship in AI. Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate the usage of two standard quantifiers in the First Order Logic with 10 examples. b) Knowledge representation is carried out using rules. Compare the declarative 10 knowledge and procedural knowledge with examples. c) Write Predicates for the following statements: 5 i) Marcus was a man ii) All Pompeians were Romans iii) Caesar was a Ruler iv) Everyone is loyal to someone v) Marcus tried to assassinate Caesar UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Planning in Artificial Intelligence is about the decision-making tasks performed by 10 robots to achieve a specific task. Mention the purpose of planning. Demonstrate a simple planning agent with its algorithm and pseudo code. b) The idea of a partial-order planner is to have a partial ordering between actions 10 and only commit to an ordering between actions when forced. Interpret partial order planning with a suitable example c) Describe Probability theory. Outline the Probability concept with a network for 5 burglary alarm system. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Uncertainty quantification is one of the key parts of AI-based systems and decision- 10 making processes. Define uncertainty. Explain the different sources of uncertainty. b) Partial order planner specifies the order between actions when necessary. 10 Illustrate the partial-order plan for putting on shoes and socks, and the corresponding linearization into total-order plans. c) Explain Bayesian theorem and mention the advantages and disadvantages of it. 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) An intelligent agent is a program that can make decisions or perform a service 10 based on its environment, user input and experiences. Demonstrate the concept of a generic agent with a neat block diagram. b) The structure of an intelligent agent is a combination of many programs. Explain 10 the structure of intelligent agent with example. c) PEAS helps define the task environment for an intelligent agent. Define the 5 terminologies in PEAS (Performance measure, Environment, Actuators, Sensors). OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Agents can improve their performance and generate better action over the time. 10 Explain the concept of Simple reflex agents with a neat block diagram and the Simple Reflex Agent function. b) An environment can be described as a situation in which an agent is present. 10 Explain any 3 environment types of an agent. c) The agent environment supports many agent types. Explain the concept of utility- 5 based agent with a neat block diagram. *** Page 2 of 2 SRN 5th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,56 @@
+{
+  "subject": "C and NET",
+  "semester": 0,
+  "course_code": "B20EFS519",
+  "questions": [
+    {
+      "text": "a) In the world of .NET, “type” is simply a generic term used to refer to a CTS member 15 from the set {class, structure, interface, enumeration, delegate}. With example, describe each of the CTS type b) Programmatically speaking, the term runtime can be understood as a collection of 10 external services that are required to execute a given compiled unit of code. Illustrate with a neat diagram, the workflow that takes place between your source code, a given .NET complier and the .NET execution engine. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Visualize the relationship between the CLR, CTS, CLS, and the base class library with 10 diagram and explain. b) C# language offers the special features (many of which are shared by other .NET- 7 aware programming languages), summarize these features. c) The .NET establishes a well-defined set of core data types. List in a table all the 15 8 Intrinsic CTS Data Types mentioning the corresponding C# keyword. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Develop a program to create a class named HelloClass to process possible command- 5 line parameters using for and foreach keyword. b) The keyword static implies that only one instance of the member exists for a 8 class. With a code snippet demonstrate the use of static for creating a static constructor. Also state few points of interest regarding static constructors. c) They are few keywords that are used to control how arguments are passed to the 12 method. These are called as parameter modifier in C#. List them with their meaning. Describe each one of them with an appropriate example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Given that .NET defines two major categories of types (value based and reference 7 based), we may occasionally need to represent a variable of one category as a variable of the other category. C# provides a very simple mechanisms, termed boxing, and unboxing. Define these mechanisms and demonstrate with example. b) An array can be single-dimensional, multidimensional or jagged. ·Describe the 10 declaration, initialization of these arrays with code. c) The C# string keyword is a shorthand notation of the System.String type, which 8 provides a several members we would expect from such a utility class. Tabulate some 8 methods of String class with meaning. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Demonstrate the use of “this” keyword for self-reference and to forward constructor 10 call with appropriate code fragments in C#. b) An interface is nothing more than a named collection of semantically related abstract 15 Page 1 of 2 members. How can we dynamically determine the set of interfaces supported by a type? Explain it with example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) All object-oriented languages contend with three core principles of object-oriented 12 programming, often called the famed “pillars of OOP”. With example, describe the three pillars of OOP. b) Demonstrate a C# program to define a class called shape that is derived by three 13 more classes such as rectangle, triangle and square. Define the method draw() using polymorphic behavior for all the three classes and display the output by printing the number of sides for each corresponding class UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In structured exception handling, there are three commonly used anomaly-centric 15 terms - Errors, Bugs, and Exceptions. Define these terms. Also describe the four keywords offered by C# to manage runtime exceptions with example code fragment. b) Object lifetime is the time when a block of memory is allocated to this object during 10 some process of execution and that block of memory is released when the process ends. Express the rules that can be applied for basics of object lifetime. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) All user- and system-defined exceptions ultimately derive from the System.Exception 7 base class. Tabulate the Core Members of the System.Exception Type with meaning. b) We often run into a situation where the statements within a try block could trigger 8 numerous possible exceptions. Write a program to demonstrate the process of handling multiple exceptions. c) State when System.GC type can be used. List the members of System.GC type and 10 explain each member of its type. *** Page 2 of 2 SRN 5th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

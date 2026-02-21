@@ -1,0 +1,68 @@
+{
+  "subject": "Database Management System",
+  "semester": 0,
+  "course_code": "B20EF0403",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss the main characteristics of the database approach and specify how it differs 10 from traditional file system. b) Explain the differences between Entity & Entity Set with examples. 5 c) Explain the difference type of the database languages 5 d) Explain three schema architecture in detail. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List and explain various data models used for database design. 10 b) What is Entity set? and also define Relationship set. List and explain the symbols used to 10 draw ER Diagram. c) Differentiate between file system and database system 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe the Joins in Relational Algebra with suitable examples. 10 b) Describe the – Tuple relational Calculus. 5 c) Explain how the different update operations deal with constraint violation 10 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe the additional relational operation in relational algebra 7 b) Define the following terms: relation schema, relational database schema, domain, 10 attribute, attribute domain, relation instance, and relation cardinality. c) When are integrity constraints enforced by a DBMS? What is referential integrity? 8 Explain with examples UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the basic constraints that can be specified in SQL as part of table creation with 10 example. b) What is a view? Explain the implementation of views 5 c) Discuss the following clauses with examples 10 (i) HAVING (ii) GROUP BY iii) Relational set operations OR Page 1 of 2",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Write SQL Queries for following set of tables: 12 EMPLOYEE (EmpNo, Name, DoB, Address, Gender, Salary, DNumber) DEPARTMENT(DNumber,Dname,ManagerEmpNo,MnagerStartDate). i) Display the Age of ‘male’ employees. ii) Display all employees in Department named ‘Marketing’. iii) Display the name of highest salary paid ‘female’ employee. iv) Which employee is oldest manger in company? b) Distinguish between View and Table. 5 c) Explain about the Aggregate functions of SQL. 8 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is functional dependency? Explain its usage in database design 10 b) What is Normalization? Give an example of 1NF,2NF and 3NF. 10 c) Specifying primary key and foreign key constraints in SQL with an example. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) What is the difference between a candidate key and the primary key for a given 10 relation? What is a superkey? Describe with an example. b) Write detailed notes on Informal design guidelines for relation schema. 8 c) What is the need for normalization of schema? Are they any demerits of normalization? 7 *** Page 2 of 2 SRN 4th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

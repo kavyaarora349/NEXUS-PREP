@@ -1,0 +1,56 @@
+{
+  "subject": "Numerical Methods and Optimization Techniques",
+  "semester": 0,
+  "course_code": "B20AS0401",
+  "questions": [
+    {
+      "text": "a) Find a root of the equation Page 1 of 3 x l o g 1 0 x  1 .2 , using the bisection method. Carry out 6 five iterations. b) Using Newton – Rapson method to find a real root of the equation x s i n x  c o s x  0 near x   6 carry out three iterations up to four decimal places of accuracy. c) Solve the following system of equations by using Gauss - Seidel method 2 0 x  y  2 z  1 7 , 3 x  2 0 y  z   1 8 , 2 x  3 y  2 0 z  2 5 6 . d) Solve the following system of equations by using Relaxation method 1 2 x  y  z  3 1 , 2 x  8 y  z  2 4 , 3 x  4 y  1 0 z  5 8 7 . OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Use the Regula falsi method to find the fourth root of 12 correct to three decimal 6 places. Carry out three iterations. b) Find a root of the equation x 3  5 x  1  0 , using the fixed-point iteration method. 6 Carry out four iterations. c) Solve the following system of equations by using Gauss - Seidel method 2 7 x  6 y  z  8 5 , 6 x  1 5 y  2 z  7 2 , x  y  5 4 z  1 1 0 6 . d) Solve the following system of equations by using Relaxation method 1 0 x  2 y  z  9 , x  1 0 y  z   2 2 ,  2 x  3 y  1 0 z  2 2 7 . UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find interpolating polynomial satisfying , , , 6 , , using Newton’s Forward interpolation formula. 𝑓(𝑥) 𝑓(0) = 0 𝑓(2) = 4 𝑓(4) = 56 b) 𝑓U(s6in)g= Be2s0se4l’s 𝑓F(o8rm) =ula4 f9in6d 𝑓(10) g=ive9n8 0 6 x 20 30 40 50 f(x) 512 439 𝑓(3354)6 243 c) Using Newton’s divided difference formula, find given 6 11 13 x 4 5 7 10 𝑓(15) 1210 2028 f(x) 48 100 294 900 d) The velocity v of a particle at distance s from a point on its linear path is given by 7 the following table s(m) 0 2.5 5.0 7.5 10.0 12.5 15.0 17.5 20.0 v(m/sec) 16 19 21 22 20 17 13 11 9 Estimate the time taken by the particle to traverse the distance 20 meters, using Simpson’s 1/3rd rule. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The area of a circle (A) corresponding to diameter (D) is given below 6 D 80 85 90 95 100 A 5026 5674 6362 7088 7854 Find the area corresponding to diameter 105 using an appropriate interpolation formula. b) Apply Stirling’s Formula to find given 6 x 1.0 1.1 1.2 1.3 1.4 f(x) 0.841 0.891 𝑓0(.19.3222 ) 0.963 0.985 c ) Find Lagrange’s interpolation polynomial for the function f(x) given by the following 6 table. x 0 1 2 5 f(x) 2 3 12 147 1 dx 7 d) Evaluate  taking 7 ordinates by using Weddle’s rule. Also, find an 1 x2 0 approximate value of  using Weddle’s rule. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Prove that the set Page 2 of 3 W    x , y , z  x /  3 y  4 z  0  of vector space V 3 ( R ) is a subspace of V 3 ( R ) 6 . b) Find the dimension and basis of the subspace spanned by the vectors ( 2 , 4 , 2 ) , (1 ,  1 , 0 ) , (1 , 2 ,1 ) & ( 0 , 3 ,1 ) in V 3 ( R ) 6 . c) If T : V 3 ( R )  V 3 ( R ) is defined by T ( x 1 , x 2 , x 3 )  ( 0 , x 2 , x 3 ) ,show that T is a linear 6 transformation. d) Given v 1   1 , 1 , 1  , v 2   0 , 1 , 1  , v 3   0 , 0 , 1  , apply Gram-Schmidt 7 orthogonalization process to find an orthonormal basis. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Let S   1 ,  3 , 2  ,  2 , 4 , 1  , 1 , 1 , 1  be a subset of V 3 ( R ) . Show that the vector  3 ,  7 , 6  6 is in L[S]. b) Show that the set B   1 , 1 , 0  , 1 , 0 , 1  ,  0 , 1 , 1  is a basis of the vector space V 3 ( R ) . 6 c) Find the matrix of Linear transformation T : V 3 ( R )  V 2 ( R ) defined by T(x,y,z)(xy,yz)with respect to B 1,1,1,1,0,0,1,1,0 1 B 2    1 , 0  ,  0 ,1   6 . d) Use Gram-Schmidt process on the basis   1 , 0 , 1  ,  1 , 0 ,  1  ,  0 , 3 , 4   to obtain orthonormal basis of R 3 7 . UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Solve the LPP by Simplex Method: Maximize Z  6 x 1  2 x 2  3 x 3 , subjected to 8 6x 5x 3x 26,4x 2x 5x 7, x,x ,x 0. 1 2 3 1 2 3 1 2 3 b) Solve the LPP by Big-M method: Maximize Z x 2x , subject to constraints 8 1 2 x x 3, 2x x 10, x,x 0. 1 2 1 2 1 2 c) Use the duality to solve the following LLP: Minimize Z 2x 2x subjected to: 9 1 2 2x 4x 1, x 2x 1,2x x 1 & x,x 0. 1 2 1 2 1 2 1 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Solve the LPP by Simplex Method: Minimize Page 3 of 3 Z  8 x 1  2 x 2 , subject to constraints  4 x 1  2 x 2  1 ,  5 x 1  4 x 2   3 , x 1 , x 2  0 8 . b) Solve the LPP by Penalty: Maximize Z  3 x 1  2 x 2 , subject to constraints 2 x 1  x 2  2 , 3 x 1  4 x 2  1 2 & x 1 , x 2  0 8 . c) Solve LPP by two-phase method: Minimize Z  1 5 2 x 1  3 x 2 9 , subjected to 3x x x 3, x x x 2& x,x ,x 0. 1 2 3 1 2 3 1 2 3 *** SRN 5th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,56 @@
+{
+  "subject": "Database Management Systems",
+  "semester": 0,
+  "course_code": "B20CSO501",
+  "questions": [
+    {
+      "text": "a) Outline the main characteristics of the database approach and explain how it differs 7 from traditional file systems. b) In a database management system, an attribute refers to a database component, 8 such as a table .Define Attribute and list various types of attribute with notation and examples. c) Identify the naming conventions used for ER schema as ER diagrams and also 10 develop an ER diagram for Company database using those conventions. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data models define how data is connected to each other and how they are 7 processed and stored inside the system. Define Data Model and outline the main categories of Data Model. b) Constraints are the rules enforced on the data columns of a table. These are used to 8 limit the type of data that can go into a table. Outline the different types of constraints with examples. c) Relational database is used to create a well-defined relationship between database 10 tables so that relational databases can be easily stored .Outline the Relationship constraints (Cardinality ratios and participation) with notations and examples. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Each table (which sometimes called a relation) contains one or more data categories 6 in columns. Summarize the characteristics of relations that make them different from ordinary tables and files. b) A database is a collection of data/information, organized together in such a manner 6 so that they can accessed easily and successfully. Define the following: Relation, Domain, and Tuples with examples. c) SQL Relational algebra query operations are performed recursively on a relation. 7 Outline the relational algebra Select and Projection operation with examples. d) The goal of creating a join condition is that it helps you to combine the data from 6 two or more DBMS tables. List and explain the different types of Inner joins with examples. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Specify the following queries on the Company relational database schema using the 10 relational algebra operators. EMPLOYEE(name,ssn,salary,sex,superssn,address,dno) DEPARTMENT(Dname, Dnumber, Dloc ,MGRSSN) PROJECT(Pname, Pnumber,Plocation,Dnum) WORKS_ON(ESSN,PNO,Hours) DEPENDENT(ESSN, DEPE_Name, Address,Relationship,sex) i) List female employees from Dumber=20 earning more than 5000. Page 1 of 3 ii) Retrieve the names of all employees in department 5 who work more than 10 hours on the Product X project. iii) Find the names of all employees who are directly supervised by ‘Franklin Wong’. iv) Retrieve the names of managers who do not have female dependents. v) For every project located in ‘MG ROAD’ list the project number, the controlling dept no and the dept manager’s name and address. b) The goal of creating a join condition is that it helps you to combine the data from 6 two or more DBMS tables. List and explain the different types of Outer joins with examples. c) Appraise the various relational model constraints. Explain how the insert, delete and 9 update operations violates these constraints UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Structured Query Language contains Delete, Commit and Truncate Commands. 4 Illustrate the SQL commands, COMMIT and TRUNCATE Syntax with suitable examples. b) SQL is a standard language for storing, manipulating and retrieving data in 6 databases. Explain the following SQL Commands with syntax and example: CREATE, DROP, DELETE. c) An aggregate function performs a calculation on a set of values, and returns a 10 single value. Summarize the Aggregate functions in SQL and give example for each of the function. d) The SQL ALTER TABLE command is used to add, delete or modify Columns in an 5 existing table. Explain ALTER Commands with syntax and suitable example for the same. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The SELECT statement is used to select data from a database. Outline the complete 10 syntax of SELECT statement and all its clauses with an example for each scenario. b) The ORDER BY keyword is used to sort the result-set in ascending or descending 5 order. Explain syntax with example the SQL command “order by Clause” ascending orders, descending order. c) Specify the Create Syntax along with data types, constraints on the 10 Company database schema using SQL by considering the following details. EMPLOYEE(name,ssn,salary,sex,superssn,address,dno) DEPARTMENT(Dname, Dnumber, Dloc ,MGRSSN) PROJECT(Pname, Pnumber,Plocation,Dnum) WORKS_ON(ESSN,PNO,Hours) DEPENDENT(ESSN, DEPE_Name, Address,Relationship,sex) UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Informal guidelines that may be used as measures to determine the quality of 10 relational schema design. Outline and briefly explain the informal design guidelines for relational Schemas. b) Functional Dependency exists between the primary key and non-key attribute within 10 a table. Define the concept of Functional Dependency and its types with suitable example. c) Normal forms are used to eliminate or reduce redundancy in database tables. 5 Outline Third Normal Form with suitable example. Page 2 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Normalization is used to minimize the redundancy from a relation or set of relations. 5 List all the normal forms and give the meaning of BCNF/3.5 Normal Form. b) The term Armstrong axioms refer to the sound and complete set of 10 Inference rules. List and explain the inference rules along with suitable examples. c) BCNF is based on functional dependencies that take into account all candidate keys in 10 a relation. Illustrate the working of First Normal Form and Second Normal Form with example. *** Page 3 of 3 SRN 5th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

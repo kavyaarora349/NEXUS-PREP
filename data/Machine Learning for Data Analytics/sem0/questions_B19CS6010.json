@@ -1,0 +1,56 @@
+{
+  "subject": "Machine Learning for Data Analytics",
+  "semester": 0,
+  "course_code": "B19CS6010",
+  "questions": [
+    {
+      "text": "a) Extracting insights from data is the job of data analytics. In this context, define predictive 10 Data Analytics. List some applications of predictive data analytics and explain about each b) The chances of a predictive data analytics project being successful are greatly increased if 10 a standard process is used to manage the project through the project lifecycle. One of the most commonly used processes for predictive data analytics projects is the Cross Industry Standard Process for Data Mining (CRISPDM). With diagram describe the six key phases of the predictive data analytics project lifecycle that are defined by the CRISP-DM . c) A model at the experimentation stage is to be projected for overfitting ,underfitting and 5 goldilocks for the poster preparation ,explain them with necessary graphs OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Having continuous features in an ABT that cover very different ranges can cause difficulty 10 for some machine learning algorithms. Simple solution is to normalize. State Normalization and Normalize 200,300,400,600,1000 using range normalization and Standard score. b) A data analyst at her work is at the phase of data exploration. Describe your knowledge of 10 different data quality issues as an intern c) Quote the advantage and disadvantage of using a programming language for predictive 5 data analytics projects UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain similarity based learning along with any two distance metrics used. Apply KNN on 10 the dataset of the company which produces tissues for biological science laboratory. Predict the acceptability of the new type of tissue with acid durability being 3 and strength being 7. Consider the case for K=2 Name Acid Strength Class Durability Type 1 7 7 Bad Type 2 7 4 Bad Type 3 3 4 Good Type 4 1 4 Good Page 1 of 3 a) Describe the pseudocode description of the k-d tree nearest neighbor retrieval algorithm. 5 b) Explain the characteristics of ensemble models and outline the two standard approaches 10 for creating model ensembles OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Apply ID3 to find just the root node of the given data set 10 b) There are many other ways in which the similarity between instances can be measured. 9 Explain any three alternative measures of similarity with an example for each. c) Illustrate tree pruning with example 6 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the Gradient descent algorithm used in adjusting of weights to reduce error 7 b) Consider the following dataset for MENINGITIS diagnosis with descriptive features. 10 Apply Bayesian MAP prediction model and predict whether the patient suffering from MENINGITIS disease with the following symptoms: Headache = True, Fever = True, Vomiting = False. Make sure to show equations and intermediate steps in your answer. c) Support Vector Machine (SVM)is used in many Machine learning application. Explain the 8 algorithm along with relevant equations OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The success of Naïve Bayes is because of the two concepts which is not found in Bayesian 10 prediction i) Identify the two concepts Page 2 of 3 ii) Explain the advantages of Naïve Bayes algorithm b) Illustrate what is error based learning with an Illustration of Simple linear regression 7 model c) Explain the following concepts 8 i) Difference between error based learning and probability based learning ii) Logistic regression, assuming a dataset of your choice illustrate UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Considering the given set of data ,Calculate Standard deviation and variance {34,28,16,45, 10 50} and Mean with relevant equations b) Summarize generative and discriminative models and their differences. 10 c) Explain the graph which helps to visualize the outlier. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Given the number of customers getting vaccinated at a center on daily basis for 12 days. 10 Explain and Calculate the 80th percentile of the given data, highlighting the relevant formulas used. 69,65,84,34,85,51,86,74,87,78,42,85 b) Statistic measure is needed to quantize the data ,explain any two measures for continuous 5 feature measurement with equation c) Illustrate with an example the concept of Descriptive Statistics for Categorical Features 10 *** Page 3 of 3 SRN 6th Semester B. Tech Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

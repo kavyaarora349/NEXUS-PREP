@@ -1,0 +1,44 @@
+{
+  "subject": "Basics of Civil and mechanical Engineering",
+  "semester": 0,
+  "course_code": "B20CE0201",
+  "questions": [
+    {
+      "text": "Ensure that question paper is completely printed.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Students must check the course title and course code before answering the question paper. PART – A (MECHANICAL) - 85126 UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List and elaborate the applications of mechanical engineering 6 b) With a neat sketch and PV diagram explain the working of a 4 stroke petrol engine. 9 c) With a neat sketch explain the working of room air condition. 10 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With a neat sketch explain the different parts of a 4 stroke Petrol Engine. 9 b) A four stroke petrol engine has a piston diameter 250 mm and stroke 400 mm. The mean 7 effective pressure is 4 bar and speed is 500 rpm. The diameter of the brake drum is 1000 mm and the effective brake load is 800 N. Find I.P and B.P. c) With a neat sketch explain the working of a Vapour compression refrigeration system. 9 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Draw a neat sketch of a Lathe machine and label its main parts 10 b) Explain the working of Electric arc welding process and list the applications of welding 8 process c) Mention the different types of gear drives used for power transmission. Explain working 7 of any two gears. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain with the help of sketches any three machining operations than can be carried out 9 in a drilling machine. b) Define CNC machine? Explain with the block diagram the working of a CNC machine. 8 c) Write a short note on 3D printing technology 4 d) Write any four differences between welding and soldering. 4 Page 1 of 3 SRN 2nd Semester B.Tech. CSE/CIT Semester End Examination July 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

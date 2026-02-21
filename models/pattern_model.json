@@ -1,0 +1,4484 @@
+{
+  "aappend_7": {
+    "subject": "aappend",
+    "semester": 7,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Advanced Database Management System_0": {
+    "subject": "Advanced Database Management System",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Advanced IoT and Applications_0": {
+    "subject": "Advanced IoT and Applications",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Advanced IOT and Applications_2": {
+    "subject": "Advanced IOT and Applications",
+    "semester": 2,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Advanced Machine Learning_0": {
+    "subject": "Advanced Machine Learning",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Advanced Web Technology_0": {
+    "subject": "Advanced Web Technology",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Agile Software Development and DevOps_0": {
+    "subject": "Agile Software Development and DevOps",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Analog and Digital Electronics_0": {
+    "subject": "Analog and Digital Electronics",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Analog Digital Electronics_0": {
+    "subject": "Analog Digital Electronics",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Artificial Intelligence_0": {
+    "subject": "Artificial Intelligence",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Artificial Intelligence and Applications_0": {
+    "subject": "Artificial Intelligence and Applications",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Augmented and Virtual Reality_0": {
+    "subject": "Augmented and Virtual Reality",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Basic Electrical and Electronics Engineering_0": {
+    "subject": "Basic Electrical and Electronics Engineering",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Basics of Civil and mechanical Engineering_0": {
+    "subject": "Basics of Civil and mechanical Engineering",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "BIG DATA AND ANALYTICS_0": {
+    "subject": "BIG DATA AND ANALYTICS",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Big Data and Cloud Computing_0": {
+    "subject": "Big Data and Cloud Computing",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Block chain Technology_0": {
+    "subject": "Block chain Technology",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "C And Net_0": {
+    "subject": "C And Net",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Cloud Computing and Big Data_0": {
+    "subject": "Cloud Computing and Big Data",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Cloud Computing and DevOps_0": {
+    "subject": "Cloud Computing and DevOps",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Cloud Security_0": {
+    "subject": "Cloud Security",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Communication Skills_0": {
+    "subject": "Communication Skills",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Compiler Design_0": {
+    "subject": "Compiler Design",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Computer Graphics and Animation_0": {
+    "subject": "Computer Graphics and Animation",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Computer Network_0": {
+    "subject": "Computer Network",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Computer Networks_0": {
+    "subject": "Computer Networks",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Computer Organization and Architecture_0": {
+    "subject": "Computer Organization and Architecture",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Cryptography and Network Security_0": {
+    "subject": "Cryptography and Network Security",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Data Mining and Warehousing_0": {
+    "subject": "Data Mining and Warehousing",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Data Scinece Using R_0": {
+    "subject": "Data Scinece Using R",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Data Sructures_0": {
+    "subject": "Data Sructures",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "DATA STRUCTURES_0": {
+    "subject": "DATA STRUCTURES",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Database Management System_0": {
+    "subject": "Database Management System",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Database Management Systems_0": {
+    "subject": "Database Management Systems",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Deep Learning and Reinforcement Learning_0": {
+    "subject": "Deep Learning and Reinforcement Learning",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Design and Analysis of Algorithm_0": {
+    "subject": "Design and Analysis of Algorithm",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Design and Analysis of Algorithms_0": {
+    "subject": "Design and Analysis of Algorithms",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Digital Image Processing_0": {
+    "subject": "Digital Image Processing",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Digital Image Processing and Computer Vision_0": {
+    "subject": "Digital Image Processing and Computer Vision",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "dimensional vector space V_0": {
+    "subject": "dimensional vector space V",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Discrete Mathematics and Graph Theory_0": {
+    "subject": "Discrete Mathematics and Graph Theory",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Elements of Mechanical Engineering_0": {
+    "subject": "Elements of Mechanical Engineering",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Engineering Chemistry_0": {
+    "subject": "Engineering Chemistry",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Engineering Mathematics  III_0": {
+    "subject": "Engineering Mathematics  III",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Finite Automata and Formal Lang_1": {
+    "subject": "Finite Automata and Formal Lang",
+    "semester": 1,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Finite Automata and Formal Languages_0": {
+    "subject": "Finite Automata and Formal Languages",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "High Performance and Quantum Computing_0": {
+    "subject": "High Performance and Quantum Computing",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Human Computer Interaction_0": {
+    "subject": "Human Computer Interaction",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "i  LEA BX 56h_0": {
+    "subject": "i  LEA BX 56h",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Introduction to Data Science_0": {
+    "subject": "Introduction to Data Science",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Introduction to Robotics_0": {
+    "subject": "Introduction to Robotics",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "L_0": {
+    "subject": "L",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Machine Learning_0": {
+    "subject": "Machine Learning",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Machine Learning for Data Analytics_0": {
+    "subject": "Machine Learning for Data Analytics",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Maxa_0": {
+    "subject": "Maxa",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Mobile Application Development_0": {
+    "subject": "Mobile Application Development",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Modern Databases_0": {
+    "subject": "Modern Databases",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Multimedia Computing_0": {
+    "subject": "Multimedia Computing",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Multivariable Calculus and Linear Algebra_0": {
+    "subject": "Multivariable Calculus and Linear Algebra",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Natural Language Processing_0": {
+    "subject": "Natural Language Processing",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Numerical Methods and Optimization Techniques_0": {
+    "subject": "Numerical Methods and Optimization Techniques",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Object Oriented Analysis and Design_0": {
+    "subject": "Object Oriented Analysis and Design",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Object Oriented Programming with C_0": {
+    "subject": "Object Oriented Programming with C",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Open Elective-Smart Materials_2": {
+    "subject": "Open Elective-Smart Materials",
+    "semester": 2,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Operating System_0": {
+    "subject": "Operating System",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Pattern Recognition_0": {
+    "subject": "Pattern Recognition",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Physics for Computer Science_0": {
+    "subject": "Physics for Computer Science",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Probability and Statistics_0": {
+    "subject": "Probability and Statistics",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Programming for Problem Solving_0": {
+    "subject": "Programming for Problem Solving",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Programming with JAVA_0": {
+    "subject": "Programming with JAVA",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Programming with Python_0": {
+    "subject": "Programming with Python",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Real Time System_0": {
+    "subject": "Real Time System",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Real Time Systems_0": {
+    "subject": "Real Time Systems",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Research Methodology_0": {
+    "subject": "Research Methodology",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Theory of Computation_0": {
+    "subject": "Theory of Computation",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Unix Operating Systems_0": {
+    "subject": "Unix Operating Systems",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Unix System Programming_0": {
+    "subject": "Unix System Programming",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "User Interface UIUser Experience UX Design_0": {
+    "subject": "User Interface UIUser Experience UX Design",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "void input_arrayint n int a_0": {
+    "subject": "void input_arrayint n int a",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Web Application Development_0": {
+    "subject": "Web Application Development",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Web Technologies_2": {
+    "subject": "Web Technologies",
+    "semester": 2,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Web Technology_0": {
+    "subject": "Web Technology",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  },
+  "Wireless and Mobile Networks_0": {
+    "subject": "Wireless and Mobile Networks",
+    "semester": 0,
+    "units": {
+      "unit1": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit2": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit3": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      },
+      "unit4": {
+        "setA": [
+          10,
+          10,
+          5
+        ],
+        "setB": [
+          10,
+          10,
+          5
+        ]
+      }
+    }
+  }
+}

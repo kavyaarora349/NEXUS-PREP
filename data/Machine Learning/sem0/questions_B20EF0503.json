@@ -1,0 +1,56 @@
+{
+  "subject": "Machine Learning",
+  "semester": 0,
+  "course_code": "B20EF0503",
+  "questions": [
+    {
+      "text": "a) In data science machine learning algorithm performance improves with the 10 experience. With a neat diagram, explain the working of machine learning algorithm. b) The project lifecycle helps the data analyst to develop the project systematically. 10 Explain the predictive data analyst project life cycle (CRISP). c) Outline the different types of data. 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data quality plays a vital role in developing a machine learning model. Illustrate the 10 structure of data quality report for categorical and continuous features with a suitable example. b) The quality of thedataset can be enhanced by preprocessing various data 10 relatedissues. List and illustrate various such issues to enhance the quality of the dataset. c) Consider the below dataset. Apply range normalization to the continuous feature 5 ‘AREA’ to the new range [0 ,1]. AREA 10 23 45 89 125 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Entropy is a measure of randomness present in the dataset. Apply entropy measure 8 to compute the randomness of the below datasets. Dataset 1: Dataset 2: Height Weight Class Income Age Class 10 100 Camel >30Lac 45 Rich 11 110 Camel >35Lac 39 Rich 6 12 Duck 10-15Lac 43 Middle class 4 10 Duck <5Lac 36 Lower 4.2 11 Duck 5-8Lac 50 Lower 5 10.5 Duck 8-10Lac 35 Lower Page 1 of 4 b) Apply ID3 algorithm to construct a decision tree for the below email spam prediction 12 datasetand alsomake a prediction for new query instanceis spam or not. Suspicious words Unknown eSender Contains Images Class true false true Spam true true false Spam true true false Spam false true true ham false false false ham false false false ham Suspicious Unknown eSender Contains Class words Images Query False True True ? c) Consider the below training dataset and computedistance between the 5 query to all the instances of the dataset using Euclidiandistancemetrics. X Y Z Class 10 40 34 Yes 11 55 39 Yes 60 67 80 No 59 58 99 No X Y Z Query 12 46 33 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In Machine learning, the features can be classified based on the feature similarity. In 5 this context, illustrate K-Nearest Neighbor algorithm. b) Apply KNN on the dataset of the company which produces tissues for biological 10 science laboratory. Predict the acceptability of the new type of tissue with durability = 3 and strength =7 . Consider the case for K=3. Name Durability Strength Class Type 1 7 7 Bad Type 2 7 4 Bad Type 3 3 4 Good Type 4 1 4 Good Page 2 of 4 c) Consider the below binary dataset and the query instance ‘Q’. Compute the similarity 10 indexes of binary descriptive features such as co-presence (CP), co-absence(CA), presence-absence(PA), absence-presence(AP), Russel-Rao. ID Profile FAQ HelpForum Newsletter Liked Signup 1 true true true False True Yes 2 true false false false false No Query: [profile=true, FAQ=false, HelpForum=True, Newsletter=false, Liked=false] UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) From the probability point of view, Illustrate 5 i. Random variable ii. Sample Space iii. Event iv. Experiment v. Probability mass function b) The Probability based learning techniques can be applied to solve various real-world 10 applications. Apply product rule and logical symmetry to derive Bayes formula. c) Consider that 10,000 people are diseased. The doctor report in a test that patient has 10 99% chance of a disease.Predict the actual probability that the patient has a disease or not using Bayes theorem. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The below dataset gives the information about disease D1 or D2.Apply Naive Bayes 10 classifier to predict whether Rama has a disease D1 or D2. Query instance: < Rama, No, Mild, Yes, ?> Sl.No Name RunNose Headache Fever Disease 1 Rama No Mild Yes D2 2 Rama Yes No No D1 3 Rama No Strong Yes D1 4 Sita Yes Mild Yes D1 5 Sita No No No D2 6 Sita Yes Strong Yes D1 7 Sita Yes Strong No D2 8 Rama Yes Mild Yes D1 b) Regression analysis is applied to evaluate the relationship between two or more 10 variables. Illustrate simple linear and multilinear regression with a suitable example. c) Consider the linear prediction model M: Price=6.47+0.62 * Size for a office rental 5 dataset. Predict the rental price for a size=730 sq. ftand target=470. Also compute the sum of squared error(SSE). UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The artificial neural network tries to mimic the behavior of a human brain. With a 10 neat diagram outline the functionality of basic components of artificial neural network. b) The perceptron can represent the Boolean function. Justify whether a single 10 perceptron is sufficient or not to implement for XOR Boolean function. c) In ANN, the proper updation of weights play a prominent role in model accuracy. 5 Illustrate the perceptron training rule algorithm for weight updation. Page 3 of 4 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Systematic principles have been followed while developing a successful machine 10 learning model. Demonstrate the three basic principles of experimental design in machine learning. b) To develop a machine learning model, numerous analysis is carried out at different 10 levels of machine learning. Outline & justify the design guidelines to conduct machine learning experiments. c) The performance of the machine learning model is evaluated on the test dataset. 5 Illustrate how the splitting of dataset using K-fold cross validation technique. *** Page 4 of 4 SRN 5th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

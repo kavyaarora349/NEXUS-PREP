@@ -1,0 +1,25 @@
+{
+  "subject": "Advanced IOT and Applications",
+  "semester": 2,
+  "course_code": "B20EFS513",
+  "questions": [
+    {
+      "text": "i) Constrained nodes ii) Constrained network iii) Adoption or Adaptation of the Internet Protocol c     Discuss DAG and DODAG Comparison in detail. UNIT III Answer 1 out of 2 questions. 5  a     Illustrate the OCTAVE Allegro steps and phases. b     Discuss the following:",
+      "marks": 5,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "i) Structured Versus Unstructured data ii) Data in motion Versus Data at Rest iii) Supervised Learning and Unsupervised Learning c     Explain the Purdue model for control hierarchy. 6  a     What are the common challenges in OT security? b     Explain the edge streaming analytics in detail. c     Elaborate the distributed Hadoop cluster and NoSQL database. UNIT IV Answer 1 out of 2 questions. 7  a     Describe DS 18B20 temperature sensor. Page #1 b     With a neat diagram explain the Role of the Cloud for Smart City Applications in detail. c     Explain Pi Via SSH in detail. d     Difference between Analog, Digital and PWM Pins 8  a     With a neat diagram explain the Smart City Security Architecture in detail. b     Explain with an example a basic structure of Arduino programming. c     Explain Raspberry Pi interfaces. -----End----- Page #2",
+      "marks": 8,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {
+    "sectiona": {
+      "marks": 5,
+      "count": 1
+    }
+  }
+}

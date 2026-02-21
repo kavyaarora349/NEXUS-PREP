@@ -1,0 +1,56 @@
+{
+  "subject": "Introduction to Robotics",
+  "semester": 0,
+  "course_code": "B18CS5063",
+  "questions": [
+    {
+      "text": "a) Compare and contrast between automation and robotics. 5 b) The disaster relief Robot named “HONDA E2-DR”, who has the ability to hold 8 bars adjust itself to walk like human like manner. Explain how this task is possible with the hydraulic, pneumatic and Electric Drivers associated for the momentary position of the robot. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A robot with 1 DOF as an illustration, assume it as one sliding joint with a full 6 range of 1.0 m. The robots control memory has a 12-bit storage capacity. Determine the problem to control resolutions for this axis of motion. b) Robots are popping up everywhere. For that you can thank three technologies 7 in particular: sensors, actuators, and AI. Describe the major three laws of robotics. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A 5 kg rectangular block is gripped in that middle and lifted vertically at a 6 velocity 1m/s. if it accelerates to this velocity at 27.5 m/s2 and the coefficient of friction between the gripping pads and block is 048. Calculate the minimum force that would prevent slippage considering the free body. b) The disaster relief Robot named “HONDA E2-DR”, which can hold bars adjust 6 itself to walk like human like manner. Explain how this task is possible with the point-to-point control and continuous path control. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Derive Gripper Force Analysis with suitable equations. 5 b) Most of the Industries are depending on FANUC-SCARA because of Excellent quit 7 effector functions. Robot uses the Grippers to accomplish the Industrial tasks, summarize any three kinds grippers associated with end effectors of the robot. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A quadruped robot has four legs. Each legs has 3 degrees of freedom i.e. 3 joints. 7 But the quadruped robot can also move with 2 joints on each leg. Derive forward transformation of 3 degree of freedom arm. b) A vector v= 2i + 5j + 3k is rotated by 60 degrees about z axis and translated by 6 3,4, and 5 units in the x, y and z directions respectively. Find the vector with reference to the reference frame. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A vector v= 3i + 2j + 7k is rotated by 60 degrees about z axis of the reference 7 frame. It is then rotate by 30 degrees about the x axis of the reference frame. Find the rotation transformation. Page 2 of 3 b) Describe any two types of sensors used in robotics with suitable example. 6 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Describe the various considerations taken into account for material handling. 5 b) The word robotics first appeared in Isaac Asimov's science-fiction story 7 Runaround (1942). Define mobile robot work cell? Also explain the robot cell layout with neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Industrial robots were fixed machines capable of manufacturing tasks which 7 allowed production with less human work. Describe the Spray coating operation with robot system. b) How three levels of safety sensor systems are provided in robot workspace? 5 Explain with neat diagram. *** Page 2 of 3 SRN 5th Semester B.Tech Semester End Examination Feb 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

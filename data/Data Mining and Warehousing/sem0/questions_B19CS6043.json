@@ -1,0 +1,56 @@
+{
+  "subject": "Data Mining and Warehousing",
+  "semester": 0,
+  "course_code": "B19CS6043",
+  "questions": [
+    {
+      "text": "a) There are technologies behind many Business Intelligence Applications like OLTP & OLAP. 5 Briefly elaborate on typical OLAP operations on multidimensional data. b) When you were loading data from your sales stack into your warehouse, ETL is the lever that 10 unlocks the value of your data warehouse. Illustrate in detail the working of ETL with a neat diagram. c) An ODS is a database designed to integrate data from multiple sources. It is a subject- 10 oriented, current-valued data store, containing only corporate-detailed data. Explain in detail the design & implementation of ODS. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A data warehouse is a tool to aggregate disparate sources of data in one central location to 10 support business analytics and reporting. With diagram, explain data warehouse model. Describe DWH implementation guidelines. b) Good Business Intelligence allows your organization to query data obtained from trusted 10 sources and use the answers to gain a competitive edge in your industry. The first step to achieving effective BI is a well-designed warehouse. Explain star and Snow flake Schema with examples c) Discuss: i) lazy (or on-demand) query processing. 5 ii) eager query processing. UNIT II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Knowledge Discovery in Databases (KDD) is very important to know the hidden information 10 in the databases, discuss the process of KDD with a neat diagram. b) Almost all businesses use data mining, and it is important to understand the data mining 5 process and how it can help a business make decisions. Explain the different Data Mining tasks. c) Conventional database systems provide users with query & reporting tools. But these tools 10 cannot provide any intelligence about why it happened. Data mining will be able to address these problems. Interpret the different challenges that encounter while dealing with real time problems using data mining. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Find out the similarity between the following data using the mentioned Proximity Measures. 10 i) X=(1,0,0,0,0,0,0,0,0,0) ,Y=(0,0,0,0,0,0,1,0,0,1) Find SMC and J. ii) X=(3,2,0,5,0,0,0,2,0,0),Y=(1,0,0,0,0,0,0,1,0,2) Find Cos(X,Y). b) Similarity and dissimilarity measures play a prominent role in data mining. What are various 10 similarity and dissimilarity measures? Explain them with formulas for each. c) Data preprocessing is a broad area and consists of several different strategies and 5 techniques that are interrelated in complex way. List the various data mining preprocessing techniques Page 1 of 3 UNIT III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Consider the following transaction database for a super market in the given table: Generate 10 Aprior rules by assuming the minimum support of 50% and minimum confidence of 75%. TID Items 1 Bread, Cheese ,Egg, Juice 2 Bread, Cheese , Juice 3 Bread, Milk, Yogurt 4 Bread, Juice, Milk 5 Cheese , Juice, Milk b) To improve the efficiency of level-wise generation of frequent item sets, an important 5 property is used called Apriori property which helps by reducing the search space. Write an Apriori Algorithm and Illustrating Apriori Principle also. c) 10 For the following Transaction data set find out the frequent itemsets using FP Growth Algorithm with min-sup=3. TID Itemset 1 { f, a c, d, g, m, p } 2 { a, b, c, f, l, m, o } 3 { b, f, h, o } 4 { b, k, c, p } 5 { a, f, c, l, p, m, n} OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The number of frequent Itemset produced from a transaction data set can be large. It is 10 useful to identify a small representative set of Itemset from which all other frequent Itemset can be derived. Outline the two-compact representation of frequent itemset, with example. b) FP-Tree is a compressed representation of the input data and uses separate approach when 10 compare to Aprior. Construct an FP Tree for the given Transaction. MinSupport =3. TID Items 1 S,P,T 2 P 3 S,T 4 S,T 5 S,P c) 5 TID T1 T2 T3 T4 T5 T6 T7 T8 T9 Item- I1,I2,I5 I2,I4 I2,I3 I1, I2, I1, I3 I2, I3 I1, I3 I1, I2, I3, I1, I2, I3 IDS I4 I5 Construct an FP Tree UNIT IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Clustering aims to find useful groups of objects, where usefulness is defined by the goals of 10 the data analysis. List and explain different types of clusters b) Briefly describe each of the following approaches to clustering with suitable examples: 10 Agglomerative and Divisive clustering technique. c) Explain k-means algorithm. 5 Page 2 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Clustering involves grouping data based on similarities. Clustering is being used in market 10 segment analysis for grouping customers based on the amount of money spent. Given a set of data points and distances between each data points. Apply Agglomerative clustering to cluster the given data points. Use MIN – link and MAX - link for proximity measure. b) Association Analysis is about discovering relationship among huge data sets. List the Issues 10 in Association Analysis. Define the following terms used in the Association Analysis: i. Itemset ii. Support iii. Confidence iv. Support Count c) Differentiate between K-means and DBSCAN. 5 *** Page 3 of 3 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

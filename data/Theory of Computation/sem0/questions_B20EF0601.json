@@ -1,0 +1,56 @@
+{
+  "subject": "Theory of Computation",
+  "semester": 0,
+  "course_code": "B20EF0601",
+  "questions": [
+    {
+      "text": "a) Define with an example (i) Alphabet (ii) Power of an alphabet (iii) Concatenation (iv) 8 Language b) Draw a DFA to accept the strings of a’s and b’s (i) ending with bab 8 (ii) L= {wabw|w ε {a,b}*}. With extended transition function, state whether the string ‘abab’ is Accepted/Rejected. c) Convert the following NDFSM shown below to its equivalent DFSM. 9 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define DFSM. Draw a DFSM to accept decimal strings divisible by 3. 8 b) Convert the following NDFSM shown below to its equivalent DFSM. 8 c) Define distinguishable and indistinguishable states. Minimize the DFA depicted below: 9 δ 0 1 A B F B G C *C A C D C G E H F F C G G G E H G C Page 1 of 3 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define regular expression. Obtain a regular expression for the following languages 8 I. L={an bm|(m+n) is even} II. L= {w:|w|mod 3=0 , w ε {a,b}*} a) Draw a DFSM for the following regular expression (i) aa*(a+b) (ii) ab(a+b)* (ii) a*b*c* 9 b) Draw an epsilon-NFA for the regular expression R= (a+b)*bb(a+b)* 8 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Give the regular expression for the following languages on ∑= {a,b,c} 8 (i) All strings containing exactly one ‘a’ followed by any number a’s and b’s. (ii) All string that contains one occurrence of each symbol in ∑. (iii) Even number of a’s or b’s or c’s. Also, draw the epsilon-NFA for Q4 a.(iii). b) Construct the regular expression depicted in the transition table by state elimination 8 method. ᵟ a b Φ →EE OE EO {EE,OO} OE EE OO {OE,EO} OO EO OE {OO,EE} *EO OO EE {EO,OE} c) State pumping lemma theorem for regular language and prove that the language 9 L={ wwR| w ε {a,b}*} is not regular. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define grammar, derivation and sentential form with example. 8 b) Define ambiguity in grammar. Show the following grammar is ambiguous. 8 S→ aB|bA A→ aS|bAA|a B→ bS|aBB|b c) Let G be the grammar, 9 S→ aB|bA A→ aS|bAA|a B→ bS|aBB|b For the string aaabbabbba find a (i) Left most derivation (ii) Right most derivation (iii) Parse tree OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Simplify the following grammar 8 S→ aA|a|Bb|cC A→ aB B→ a|Aa C→ cCD D→ ddd b) State pumping lemma for context free grammar. Show that the language 9 L= { anbncn | n≥0} is not context free. a) Consider the following grammar 8 S→ 0A|1B A→ 0AA|1S|1 B→ 1BB|0S|0 Obtain a grammar in CNF Page 2 of 3 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain the following terms (i) Push down automata (ii) Language of a PDA 13 (iii) Instantaneous description of PDA. Convert the following CFG to PDA S→ aABB|aAA A→ aBB|a B→ bBB|A C→ a b) Construct a PDA to accept the language L={wwR| w ε {a,b}*}. Show the instantaneous 12 description of the PDA for the string \"aabbaa\". OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define PDA. Construct PDA for the language L= {anbn | a, b ϵ Σ ,n>= 0}. Show the 13 instantaneous description of the PDA for the string \"aaabbb\". b) Convert the following grammar into corresponding PDA. 8 S-> aABC A-> aB | a B-> bA| b C -> a c) Define Turing machine. List its application 4 *** Page 3 of 3 SRN 6TH Semester B.Tech Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

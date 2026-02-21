@@ -1,0 +1,56 @@
+{
+  "subject": "Advanced Machine Learning",
+  "semester": 0,
+  "course_code": "B20EFS618",
+  "questions": [
+    {
+      "text": "a) What do you mean by dimensionality reduction. Why is it needed. Give the 7 advantages of dimensionality reduction. b) Principal Component Analysis (PCA) is one of the most used unsupervised machine 10 learning algorithms across a variety of applications. Using code snippets, explain the PCA Algorithm through utility methods. c) SOM is trained using unsupervised learning. How do you define SOM. Explain the 8 working of SOM. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Grouping unlabelled examples is called clustering. One such technique is K Means. 10 What is the drawback of K means? How to overcome using Elbow method. Explain it. Give the necessary diagram. b) Comparing and contrasting looks at the similarities and differences between or 8 among ideas. Find these between the working of K means and K means++ clustering methods. c) Unsupervised Learning is one of the types of machine learning techniques. How 7 could you define it. List and explain the different Unsupervised Learning techniques. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A network topology is the physical and logical arrangement of nodes and 12 connections in a network. What are Neural Networks. Give the composition of NN. b) CNNs are particularly useful for finding patterns in images to recognize objects, 8 classes, and categories What is Convolution Neural Network. Give the different applications of it. How is it different from other Neural Networks. c) What is the drawback of Boltzmann Machine and how does RBM overcomes the 5 drawback. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A restricted Boltzmann machine (RBM) is a generative stochastic artificial neural 8 network. Explain the Training of RBM with detailed process of PCD and Gibbs sampling. b) A convolutional neural network (CNN or ConvNet) is a network architecture for 7 deep learning that learns directly from data. What are pooling layers in CNN. Explain the types of these layers. How advantageous are pooling layers. c) We create Deep Belief Networks (DBNs) to address issues with classic neural 10 networks in deep layered networks. What is DBN. With diagram explain the architecture and give the steps involved in training DBN. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Self-training is the simplest semi-supervised learning method . Describe the 5 Page 1 of 2 process of improving selection in Self training. b) With implementation code, explain how class labels are generated for unlabelled 10 cases in self learning. c) It's possible to blend hundreds of different models successfully. Describe the 10 stacking ensembles which works on concept of blend of blend. Give the necessary diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) CPLE, provides a more general way to perform semi-supervised parameter 7 estimation. What is the advantage of CPLE against self-training in semi-supervised learning. b) Semi-supervised learning is a type of machine learning .formally define semi 10 supervised learning? With diagram explain the steps involved in Self-training algorithm. c) How is random forest different from Extra Trees. Bring the comparison of these 8 with Decision tree also. UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Creating features involves creating new variables which will be most helpful for 15 our model. Describe the 3 methods in Creating features from text data. b) The features you use influence more than everything else the result. No 10 algorithm alone, to my knowledge, can supplement the information gain given by correct feature engineering. Define the following used in feature engineering: tokenization, Tagging, categorizing, Sequential tagging OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Text cleaning is the process of preparing raw text for processing. With example 13 code snippet, describe Text cleaning using Beautiful Soup. b) Stemming is performed by an individual or an algorithm within an AI system Give 7 the Steps involved in stemming using porter stemmer. c) Feature engineering is the pre-processing step of machine learning. Describe 5 feature engineering? Explain the need of cleaning text data in text feature engineering. *** Page 2 of 2 SRN 7th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

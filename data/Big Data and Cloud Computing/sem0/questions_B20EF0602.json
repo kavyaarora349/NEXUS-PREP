@@ -1,0 +1,56 @@
+{
+  "subject": "Big Data and Cloud Computing",
+  "semester": 0,
+  "course_code": "B20EF0602",
+  "questions": [
+    {
+      "text": "a) Assume Mr. John is working in XYZ organization as a data analyst. His primary work is 10 to ensure the quality of the data before doing analytics. Summarize the attributes, categorizes, and the questions he assumed to control the quality of data. b) Deriving value from the big data stored in the cloud platform is a layered process. 10 With an appropriate diagram, discuss the Layered development of cloud platform for big data processing and analytics applications. c) We know the fact, that the data mining and machine learning are closely related to 5 each other. With a neat diagram explain the relationship of data mining and machine learning OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In recent years, five cutting-edge information technologies namely Social, Mobile, 10 Analytics, Cloud and IoT, have become more demanding, known as the SMACT technologies. Summarize the SMACT technology characterized by basic theories, software tooling, networking, and service providers. b) Due to the evolution of technologies, the data generation is increasing rapidly. 10 Illustrate the characteristics of big data with a neat diagram by considering an example of e-commerce. c) Depict the diagram to show the progress of mobile core networks for wide-range 5 communications and the short-range wireless communication. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Integrating the two technologies has a major impact in achieving efficiency. 10 Especially integrating big data and cloud computing has given better results in terms of storage and processing. Discuss the conceptual workflow of a modern cloud system for big data computing applications with a neat architecture. b) With a neat diagram, demonstrate how the capabilities of the mobile devices are 10 enhanced by mobile clouds in a heterogenous mobile computing environment. c) Discuss the following service models with an example: 5 (i) Iaas (ii) Paas (iii) Saas OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In order to overcome the software barrier problem, the Virtual Machines (VM) can 10 be created in a host machine. Elaborately discuss the Two VM architectures compared with conventional physical machines with a suitable diagram. b) The combination of mobile communication and mobile clouds is paving the way to 10 many more useful applications in our daily life. Discuss Cloudlet mesh architecture for securing mobile cloud computing. Page 1 of 2 c) The largest use of clouds is in the business service areas. Discuss the various types of 5 business cloud / commercial cloud services and representative providers. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) With an appropriate diagram, discuss the core components of Hadoop. 10 b) Demonstrate the two deployment modes that can be used when submitting Spark 10 applications to a YARN cluster. c) Discuss the following Data Structures that used in Functional Python Programming: 5 (i) Lists (ii) Tuples OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Briefly elaborate the anatomy of a spark application with standalone cluster 10 application components. b) Discuss the following object serialization formats with sample code: 10 (i) JSON (ii) Pickle c) Discuss Directed Acyclic Graph (DAG). 5 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Elaborately discuss Resilient Distributed Dataset (RDD) along with its types 10 b) The Spark API provides two mechanisms for creating and using shared variables in a 10 Spark cluster. With a neat diagram discuss the specific broadcast variables with a neat diagram. c) RDDs and stages have dependencies that can be narrow or wide. Discuss the specific 5 traits of narrow as well as the wide operations. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate the steps with the source code to calculate the average word length of a 10 text file using accumulators. b) Discuss the following repartitioning functions with a proper syntax: 10 (I) PartitionBy() (II) Repartition() (III) Coalesce() c) Illustrate how JSON objects are treated as data sources and accessed using the 5 read.json() method with a proper syntax. *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

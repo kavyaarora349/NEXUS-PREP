@@ -1,0 +1,224 @@
+{
+  "subject": "DATA STRUCTURES",
+  "semester": 0,
+  "course_code": "B18CS5020",
+  "questions": [
+    {
+      "text": "a) To maintain the privacy of information transferred from one place to another place our 5 INDIAN ARMED FORCE has to implement some cryptographic techniques such as message encryption(encoding) and decryption(decoding). One of the basic encryption/decryption algorithm is Caesar Cipher algorithm. We have already seen the java program working for message having uppercase alphabets. Construct a caesar cipher program to also encrypt/decrypt numbers 0-9 and lower case alphabets. b) Define 1D arrays and also explain its syntax and instantiation. Construct a java program to 8 search for an element by considering an array of n elements. Also show tracing of the program. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List and explain the random class java.util methods for pseudo random number generation. 5 b) Define 2D arrays and also explain its syntax and instantiation. Consider a two matrices of 8 same order m×m. Construct a java program to multiply two matrices. Also find the transpose of the result matrix. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Consider the below list which is maintained in increasing order. Construct a java program to 8 perform the below operations and also explain the same with diagrams. i. Insert a new node with the data “12” at appropriate position. ii. Print the elements from the list. b) Suggest to preference of a singly or a doubly linked lists for traversing through a list of 4 elements? justify your answer with an example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Given DLL with one pointer of each node pointing to the next node and previous node. 7 Construct a java program to duplicate this list. That is implement a program which will create a copy of this list. b) Circular linked list is a linked list where all nodes are connected to form a circle. 5 There is no NULL at the end. Describe the procedure and develop a java program i. To insert a node at first position ii. Delete a node at last position. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Justify the drawbacks of stack implementation using array. Construct a java program to 8 implement stack using linked list. Page 1 of 2 b) Evaluate the following prefix expressions using stack: 5 i) -a*b/cd ii) +/ab*cd. The values of a, b, c and d are 8, 4, 6, and 3. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Convert the following infix expressions into prefix form: 10 i) (a+b*c)/((d*e+f)/g*h-k) ii) (a-b*c)/((d+e)*f)/g+h. Show the diagrammatic representation of expression conversion. Also construct a java program for the same. b) Compare and contrast between stack and linked list. 3 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Files are stored in memory in tree structure directory. Design and develop a program to 12 create a directory having files with unique file-id in the hard disk and display the files in all three traversal orders using Binary Search Tree (BST). OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Develop a java program 12 i. To compute the height and depth of the tree. ii. To find the number of nodes in a tree. iii. Given In-order and Post order traversal In Order: 9,5,1,7,2,12,8,4,3,11. Post Order: 9,1,2,12,7,5,3,11,4,8. Construct a binary search Tree. ****** Page 2 of 2 SRN 5th Semester B.Sc Semester End Examination Jan 2022 Subject Title : Discrete Mathematics Subject Code: B19CS3050 - 26325 Time: 90 minutes Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Prove the following by using the laws of logic: 6 (𝑖)(𝑝 → (𝑞 → 𝑟) ⇔ (𝑝∧𝑞) → 𝑟 (ii)(¬𝑝∨¬𝑞) → (𝑝∧𝑞 ∧𝑟)] ⇔ 𝑝∧𝑞 b) Test the validity of the following statement. 7 If Dhoni studies, then he will pass DMS. If Dhoni does not play cricket , then he will study Dhoni failed in DMS Therefore, Dhoni played cricket. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Prove the following argument is valid where a is the specification 6 element in the universe. ∀𝑥,[𝑝(𝑥) → 𝑞(𝑥)] ∀𝑥,[𝑞(𝑥) → 𝑟(𝑥)] ¬𝑟(𝑎) ∴ ¬𝑝(𝑎) a) (i) Give the direct proof of the statement: 7 “ If 𝑛is an odd integer, then 𝑛2is an even integer” (ii) Prove that for any propositions 𝑝,𝑞,𝑟the compound proposition [(𝑝∨𝑞)∧(𝑝 → 𝑟)∧(𝑞 → 𝑟)] → 𝑟 is a tautology, by constructing a truth table. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Prove by mathematical induction: 6 𝑛 1 1 1 1 1 𝑛 ∑ = + + +...+ = 𝑖(𝑖+1) 1.2 2.3 3.4 𝑛(𝑛+1) 𝑛+1 𝑖=1 b) (i) Find the generating functions for the following sequences: 6 1, 2, 3, 4, ………………… and 1, -2, 3, -4, ……… (ii) Find the co-efficient of 𝑥5 in the expansion of (1−2𝑥)−7. Page 1 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) (i) State and prove the generalized Pigeonhole Principle. 6 (ii) Show that if seven numbers are selected from 1 to 12 then two of them will add up to 13. b) Solve the following recurrence relation𝑎 −2𝑎 = 2𝑛, 𝑛 ≥ 0, 𝑎 = 1 6 𝑛+1 𝑛 0 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) If ∘is the binary operation on Z defined by 𝑥∘𝑦 = 𝑥 +𝑦+1 prove that 6 (𝑍,∘) is an abelian group. b) Prove that the set Z with binary operations ⊕ and ⊗ defined by 7 𝑥 ⊕𝑦 = 𝑥 +𝑦−1 and 𝑥 ⊗𝑦 = 𝑥 +𝑦−𝑥𝑦 is a commutative ring with unity. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) For any group G prove that G is abelian if and only if 6 (𝑎𝑏)2 = 𝑎2𝑏2 ∀𝑎,𝑏 ∈ 𝐺. b) Let f be homomorphism from the group 𝐺 to a group 𝐺 prove that 7 1 2 (i) If 𝑒 is the identity element in𝐺 and 𝑒 is the identity element in 𝐺 then 𝑓(𝑒 ) = 1 1 2 2 1 𝑒 2 (ii) 𝑓(𝑎−1) = [𝑓(𝑎)]−1 for all 𝑎 ∈ 𝐺 . 1 (iii) If H is a subgroup of G and H = f(H ) then H is a subgroup of G . 1 1 2 1 2 2 UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Determine whether the posets shown in the following Hasse diagrams are lattice or not. 6 7 e f 5 6 d 4 c 2 3 a b 1 Page 2 of 3 b) (i) Define Homomorphic and Isomorphic Lattices. 6 (ii) Determine whether the lattices shown below are isomorphic. d 4 3 2 b c 1 a OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Let A={a, b, c},B= P(A),where P(A) is the power set of A. Let R is a 6 subset of relation on A. Draw the Hasse diagram of the poset (B,R). b) Determine whether the posets given below are a Boolean algebra or not. 6 Give reason. I e d f e d c a b b c o a ****** Page 3 of 3 SRN 3rd Semester B.Tech Semester End Examination Feb 2022 Course Title: Software Engineering Course Code: B19CS3060 - 26326 Time: 90 Minutes Max. Marks: 50 Note: Answer ONE FULL question from each Unit. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Software Development Life Cycle, SDLC for short, is a well-defined, structured 7 sequence of stages in software engineering to develop the intended software product. Explain waterfall model in brief with appropriate diagram. b) Consider a burglar alarm system fit in a shop to sound alarm when intruders sneak 6 into the shop when it is closed for business. List, justify and explain the non- functional requirements that the intended system must meet. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Test-driven development (TDD) is a development technique where you must first 7 write a test that fails before you write new functional code. Explain in brief with a neat diagram b) Consider a Critical alarm system in a chemical factory which is intended to protect 6 the factory and its employees from hazards. List, justify and explain the non- functional requirements that the intended system must meet. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In Agile product development, a sprint is a set period during which specific work 6 must be completed. Explain the Scrum process briefly with a neat diagram b) A manifesto is a published declaration of the intentions, motives, or views of the 6 issuer, The Manifesto for Agile Software Development is based on four agile values and twelve principles. List all the agile principles and values OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Trawling is process of searching through a large amount of information or many 6 people, places, etc. looking for a thing or person. Explain the different techniques adopted in Agile methodology to gather requirements from the client. b) User stories are requirements/functionalities narrated by the end user/client in the 6 form of stories. Explain and justify the need of gathering and eliciting requirements. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Tools facilitate in reducing the deployment time of the software. Distinguish open- 6 source tools and commercial tools. b) Application lifecycle management (ALM) touches every aspect of the software and 7 systems lifecycle. List the goals & importance of automating the Agile ALM Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Application lifecycle management (ALM) touches every aspect of the software and 6 systems lifecycle. List and explain benefits of Agile ALM. b) Application lifecycle management (ALM) touches every aspect of the software and 7 systems lifecycle. Explain briefly the three core aspects of ALM with a neat diagram. UNIT – IV 7 a) Explain deployment pipeline in DevOps transformation. 6 b) Configuration control is a key discipline for any deployment framework. Discuss the 6 configuration control and Audit in DevOps. OR 8 a) Cross functional team is one of the approaches where the team structure is 6 different than the conventional ones. Justify why Cross functional teams are the very best aspect of taking a DevOps approach. b) Having optimal number of members in your team is one of the measures of easy 6 management facilitating your software project. Explain in detail pizza theory to constitute your DevOps team. ****** Page 2 of 2 SRN 5th Semester B Tech Semester End Examination Jan 2022 Subject Title : Finite Automata and Formal Languages Subject Code : B19CS5010 – 26521 Time: 90 minutes Max. Marks: 50 Note: Answer ONE FULL question from each unit. UNIT – I Marks",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Observe the word abab. Model a deterministic finite automata that accepts the strings 3 of a’s and b’s starting with ‘a’ and ending with ‘b’. b) Practically NFA and Ԑ-NFA cannot exist. For this we need to convert all NFA and Ԑ- 6 NFA into DFA. Convert the following Ԑ-NFA into equivalent DFA. ∂ Ԑ a b C →p Ф {p} {q} {r} q {p} {q} {r} Ф *r {q} {r} Ф {p} c) Any number interpreted as a binary integer which is divisible by 5 can be valid strings 4 in the language. Obtain a DFA which accepts set of all strings which is divisible by 5. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Mr. Smith is not able recognize the terms of automata theory. On request of the teacher 5 Mr. Donald is helping him out to define the following terms. Define the terms with an example for each i) Alphabet ii) Strings iii) Power of an alphabet iv) Language v) Empty String. b) Minimize the following DFA using table filling algorithm where A is the start state. 5 The statesC , F andI are final states. ∂ 0 1 →A B E B C F *C D H D E H E F I *F G B G H B H I C *I A E c) Convert the following NFA to its equivalent DFA. 3 Page 1 of 3 UNIT II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Recursively we can define regular expression with basic regular expressions. Define all 5 those regular expressions recursively. Obtain the regular expression for the following languages. i. L= { an bm | m≥1, n≥1, nm≥3 } ii. Regular expression to accept a language consisting of strings of a’s and b’s and with alternate a’s and b’s. b) Let M=(Q, Σ, ∂, q ,F) be a finite automata recognizing the language L. Then there 5 0 exists an equivalent regular expression R for the regular L. Prove that L = L(R). c) Regular expression for the automata we first create equations of the given form for all 2 the states. Find regular expression for the following Finite Automata by eliminating states. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Pumping Lemma is used as a proof for irregularity of a language. Thus, if a language is 5 regular, it always satisfies pumping lemma.State and prove pumping lemma for the regular languages. b) The Regular languages is apumping lemma that describes an essential property of all 4 regular languages. Show that L = { x C xR | x belongs to (0+1)* } is not regular. c) There are many laws which govern the order in which we perform operations using 3 algebraic laws. List out the algebraic laws of regular expressions. UNIT III 5 a) Context Free Grammars are used to define the High Level Structure of a Programming 5 Languages, hence define context free grammar. Write the CFG for the language i) L = {anb2n where n>=1} ii) L = { an+2bm | n ≥0 and m>n} b) Consider the grammar : E→+EE | *EE | -EE | x | y 5 Find leftmost and rightmost derivation for the string +*-xyxy and write parse tree. c) Context-free grammars are used in compilers and in particular for parsing. Write the 3 applications of CFG. OR 6 a) Mr. Bob is trying to remove all the redundant productions from a grammar. Hence 5 eliminate ↋, unit and useless production from the following grammar and the resulting grammar into CNF. S → ABC | BaB A →aA | BaC | aaa B →bBb | a | D C → CA |AC D →↋ b) Simplifying CFG’s is necessary to convert them into GNF. Convert for the same. 5 A→XY1 | 0 X →00X | Y Y → 1X1 c) A top-down parser cannot handle left recursive productions, let us understand Left 3 Recursion and then eliminate Left recursion from the following grammar. S → (L) / a L → L , S / S Page 2 of 3 UNIT IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Define a Turing machine and explain the working of a basic Turing machine with a 4 neat diagram. b) Design a PDA for the language L(M) = { w | wϵ(a+b)* where n (w) = n (w) }. Draw 5 a b the transition diagram and also write the sequence of moves “aabb”. Is it deterministic? Justify. c) Pushdown Automata is a finite automata with extra memory called stack which helps 3 Pushdown automata to recognize the languages. Explain the working of it with a neat diagram. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The current configuration of PDA at any given instant can be described by an 4 instantaneous description in short we call it as ID. Define ID and explain the acceptance of language by PDA. b) Design a Turing machine for the language L = { anbn |n>1}. Write the transition 5 diagram for the same and also, indicate the moves made by the turing machine for the input ‘aabb’. c) Define Instantaneous description and acceptance of language by TM. 3 ****** Page 3 of 3 SRN 5th Semester B Tech Semester End Examination Jan 2022 Course Title: Python for Data Analysis Course Code: B18CS5020/B19CS5020 - 26522 Time: 90 Minutes Max. Marks: 50 Note: Answer ONE FULL question from each unit. Marks UNIT – I",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) For data analysis and interactive computing and data visualization, Python will 8 inevitably draw comparisons with other open source and commercial programming languages. Summarize any 4 features of Python for its preference for data analysis. b) Functions can be defined in Python with variable number of arguments. Define lambda 5 function and Illustrate the use of four types of function arguments. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Magic commands are designed to facilitate common tasks and enable programmers to 7 easily control the behavior of the IPython system and Jupyter notebooks. List various magic commands supported and explain any 2 of them with example. b) Python was written for non-programmers and hence has lot of features and one 6 among them are many data types, define the different data types with examples and also differentiate between lists, tuples, dictionaries and sets. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A universal function, or ufunc, is a function that performs element-wise operations on 6 data in ndarrays. You can think of them as fast vectorized wrappers for simple functions that take one or more scalar values and produce one or more scalar results. Explain any three ufunc with suitable examples. b) Illustrate to create a NumPy ndarray to as given below and extract the given data using 6 NumPy methods. i. Extract numbers (10, 35, 60, 85, 110, 135, 20, 45, 70, 95, 120, 145) ii. Extract second row from the end (105,110,115,120,125) using negative index iii. Extract numbers (30, 40, 50, 80, 90, 100, 130, 140, 150) 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 105 110 115 120 125 130 135 140 145 150 OR Page 1 of 3",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The ndarray creation functions can create arrays with any dimension by specifying how 6 many dimensions and length along that dimension in a tuple or list. What are the various Python methods available for creation of ndarray and explain any two with example. b) The arrays and their operations are useful in representing features of data samples 6 and analyzing them with statistical features for classification or other tasks. Create a NumPy array of shape (3,4) and perform following operations on them. i. Find and display the row wise and column wise sum ii. Count the number of Zero elements. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Indexing, selection and filtering is supported by pandas. Create a DataFrame of 5 7 columns with 3 rows. Label the rows and columns appropriately, Extract the 2nd and 3rd row with appropriate commands. Also explain the working of loc and iloc with suitable examples. b) Missing values handling a major concern in data analysis. Create series object 1 of 3 6 random numbers with index labels [‘a’,’b’,’c’] and series object 2 of 4 random numbers with index labels [‘a’,’b’,’c’,’d’]. Perform the addition of both objects and create series ‘object3’. Replace missing value or NaN of ‘object3’ by the mean value of the column. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Dataframe is very prominent data structure used in data analysis. Create a dataframe 7 having 3 columns (State, population, GDP) populate these columns and display only the first five rows. From the dataframe, display only the GDP and write command to delete the GDP column, what are the various methods to drop and insert columns in pandas. b) The data science applications require suitable data structure for data representation 6 and analysis. Pandas data frame is a suitable data structure used for data science applications. Create Dataframe object of size (3, 4) using row index labels [‘a’,’b’,’c’] and column labels [‘A’, ‘B’, ‘C’, ‘D’]. Perform the following operations. i. Use label indexing to display all rows ii. Use integer indexing to display the 2nd and 4th columns iii. Add 2 to all elements using function application UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Create a dataframe with minimum 3 columns and 5 rows with some NaN values. 6 i. Find the count of all NaN values in the table ii. Write commands to drop rows if one entry is NaN iii. Write commands to drop columns if all entries in a column is NaN iv. Write commands to drop rows if NaN exceeds a threshold v. Write commands to drop columns if NaN exceeds a threshold b) When processing very large files or figuring out the right set of arguments to correctly 6 process a large file, you may only want to read in a small piece of a file or iterate through smaller chunks of the file. What are the commands to : i. Read only 5 rows of csv file ii. Read a chunk of 1500 of csv file iii. Read a pickled object iv. Read and write into excel file. Page 2 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data transformation is the process of converting data from one format or structure into 6 another format or structure. Explain the following function with an example: i. replace() ii. duplicated() iii. rename() b) Missing data occurs commonly in many data analysis applications. One of the goals of 6 pandas is to make working with missing data as painless as possible. Illustrate to i. Create a dataframe and show the working of dropna and fillna. ii. Drop rows and columns containing NaN . (all possibilities) iii. Fill the original dataframe with backward and forward fill *** Page 3 of 3 SRN 5th Semester B.Tech Semester End Examination Jan 2022",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -1,0 +1,98 @@
+{
+  "subject": "Modern Databases",
+  "semester": 0,
+  "course_code": "B20EF0504",
+  "questions": [
+    {
+      "text": "a) A schema change is an alteration made to a collection of logical structures in a 10 database. Schema changes are generally made using structured query language. Explain schema changes statements using Alter command in SQL b) Constraints in SQL are certain conditions or restrictions on the database. This 10 means that before inserting data into the database, some conditions are checked. Describe basic constraints in SQL with examples. c) Data Definition Language which is used to define data structures. Provide the 5 syntax of DDL commands with example. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) The storage of digital data is increasing day by day. Every big / small organization 10 started storing their Employee details like name, salary, address, Department under which they are working in their own database. Design a company database which can store the details of Departments, projects, their Employee and his / her dependent details of a particular organization Employee (ssn, name, salary, sex, super_ssn, address, dno) Department (dname, dnumber,mgr_ssn) Dept_Loc ( dnumber, dloc) Project (pname, pnumber, plocation, dnum) Works_On (essn, pno, hours) Dependent (essn, depen_name, address, relationship, sex) Demonstrate the following queries using SQL",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Retrieve the names of the Employees who works in the same Department as that of RAM.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Retrieve the names of the Employees whose salary is greater than the salary of all the Employees working in Department no 3.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Retrieve the names of the Employees who work for dept no 3 and have a daughter as dependent.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Retrieve the names of the Employees who paid highest salary from each Department.",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "For each project, retrieve the Pnumber, the Pname, and the number of Employees who work on that project. b) Data Type is an attribute that specifies the type of data of any object. Each column, 10 variable and expression has a related data type in SQL. Explain the Datatypes available for specification in relational model with examples c) Combine multiple queries using some operators. Define the following: i) Distinct 5 ii)Union iii)Union All iv) Except v) Except All Page 1 of 3 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) MongoDB Shell is the quickest way to connect, configure, query, and work with 10 your MongoDB database. Demonstrate any five MongoDB shell commands? b) Modern applications produces massive amount of unstructured data. MongoDB is 10 used to handle, process, store and manage such data. Describe the features and advantages of MongoDB in detail. c) Create an employee database with the fields: : {eid, ename, dept, desig, salary, yoj, 5 address {dno, street, locality, city}}",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Display all the employees with salary in range (50000, 75000).",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "Display all the employees with designation developer. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Data modeling is the process of defining how data is stored and what relationships 10 exist between different entities in our data. Demonstrate the data models in MongoDB. b) MongoDB is a cross-platform, document oriented database that provides, high 10 performance, high availability, and easy scalability. MongoDB works on concept of collection and document.Illustrate MongoDB Overview. Also, differentiate between MongoDB and SQL. c) MongoDB supports a wide range of data types as values in documents. Describe 5 various data types in MongoDB with example? UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Java is one of the most popular programming languages in the MongoDB 10 Community. Explain MongoDB using JAVA programming with examples. b) Databases can be managed either with SQL or NoSQL. Differentiate SQL and NoSQL 10 in database management system. c) NoSQL has many popular products in the industry. Explainany one NoSQL 5 productand also list the products in detail. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) NoSQL is an approach to Database Management Systems. Discuss about 10 advantages and disadvantages of NoSQL with its types. b) MongoDB is a document-oriented database classified as NoSQL and integrates 10 extremely well with Python. Explain PyMongo with CRUD operations. c) Documents are the basic unit of data in MongoDB, various operations can be done 5 on database. Explainthe following functions with example: i. limit() ii. update() iii. delete() iv. find() v. $lt - $gt UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) MongoDB follows client-server architecture, commonly found in traditional 10 RDBMSs. Explain with a neat block diagram, the MongoDB Wire Protocol along with the allowed operations. b) Apache Cassandra is a very popular NoSQL database. Describe the properties of 10 Apache Cassandra. c) Berkeley Database comes in distinct flavors and supports multiple configurations. 5 Demonstrate the storage configuration of Berkeley Database Page 2 of 3 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) NoSQL databases are horizontally scalable, meaning that you simply add more 10 servers to your database to get more storage space. Extract the Surveying Database Internals. b) The transformation from RDB to NoSQL database has become more challenging 10 because there is no current standard on NoSQL database. Discuss migrating from RDBMS to NOSQL in detail. c) Hypertable is a high-performance alternative to H-Base. Illustrate the concept of 5 Regular Expression Support and Bloom Filter in Hypertable. *** Page 3 of 3 SRN 5th Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

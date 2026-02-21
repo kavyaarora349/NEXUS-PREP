@@ -1,0 +1,56 @@
+{
+  "subject": "Cryptography and Network Security",
+  "semester": 0,
+  "course_code": "B20EFS616",
+  "questions": [
+    {
+      "text": "a) Explain the encryption and decryption processes of DES with neat diagram. 10 b) Elaborate on the encryption and decryption processes of AES with neat diagram. 10 c) Explain the encryption and decryption processes involved in Triple DES 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Explain elaborately various types of security attacks. 10 b) Explain various ingredients of network security model with neat diagram. 5 c) Explain various ingredients of symmetric key encryption. 5 d) Define Cryptanalysis. Explain various types of Cryptanalytic attacks. 5 UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate RSA algorithm of encryption and decryption process. Apply the same to 10 encrypt and decrypt the message M=8 with p=7, q=11 and e=17. b) Illustrate Diffie-Hellman Key exchange algorithm and apply the same for 10 q=353,α=3,XA=97 and XB=233. c) Explain Man-in-middle attack with an example 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Illustrate on SHA-512 algorithm which produces a message digest of 512 bits 10 taking message blocks less than 2128 bits. b) Illustrate the generic model of digital signature with neat diagram. 10 c) Explain various ingredients of Public Key cryptography. 5 UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) In the context of Kerberos, what is a realm? Explain. 10 b) Explain two different uses of public-key cryptography related to key distribution? 10 c) List and explain the difference between a session key and a master key? 5 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss chain of certificates? Give the x.509 certificate structure. 10 b) Explain the five principal services provided by PGP? 10 c) List out the difference between statistical anomaly detection and rule-based 5 intrusion detection? UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss different types of malicious software and their behavior. 10 b) Discuss on different parts of virus and stages of virus in its life cycle 10 c) Explain the structure of the virus and its propagation strategy considering 5 compression Page 1 of 2 OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Discuss on virus classification based on target and concealment strategy 5 b) Comment on the different generation antiviruses based on STEP93 5 c) Discuss on Generic decryption technology as one the advanced antivirus 5 techniques d) Discuss on Digital Immune system technology as one the advanced antivirus 5 techniques e) Discuss the need and characteristics and limitation of firewall 5 *** Page 2 of 2 SRN 6th Semester B.Tech CSE Semester End Examination May 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

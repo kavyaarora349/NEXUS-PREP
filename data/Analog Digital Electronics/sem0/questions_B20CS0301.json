@@ -1,0 +1,56 @@
+{
+  "subject": "Analog Digital Electronics",
+  "semester": 0,
+  "course_code": "B20CS0301",
+  "questions": [
+    {
+      "text": "a) Outline the basic behavior of a clamping circuit. With a neat circuit diagram, 9 sketch the behavior of an unbiased negative clamper built using ideal diodes. b) State the condition for oscillations that an oscillator has to satisfy. Give the 9 block representation of an oscillator highlighting the function performed by each block c) Design a RC phase shift oscillator (LAG) that generates sinusoidal oscillations 0f 7 2.5 KHz. How many phase shifting networks are required for the given task? OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) List the types of Clamping circuits that are possible to realize. Outline the 9 behavior of a Biased negative clamper with a neat diagram and waveforms assuming ideal diodes b) Outline the basic behavior of a clipping circuit. With a neat circuit diagram, 9 sketch the behavior of a series unbiased positive clamper built using ideal diodes. c) Design a Colpitts oscillator that produces oscillations of 50KHz. Draw the circuit 7 indicating the designed values. UNIT – II",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the behavior of a Logarithmic amplifier and derive an expression for its 9 o/p voltage b) Design a first order Low pass active filter to have a cutoff frequency of 3.5KHz 9 providing a pass band gain of 6. Draw its frequency response indicating roll off. c) With a neat circuit diagram and waveforms illustrate the behavior of an 7 absolute value circuit built using opamp. OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Outline the behavior of an Instrumentation amplifier with a neat circuit 9 diagram. List its requirements and give its o/p voltage equation. b) Outline the behavior of a peak detector built using opamp with a neat circuit 9 diagram and waveforms. c) Design a first order High pass active filter to have a cutoff frequency of 5.5KHz 7 providing a pass band gain of 9. Draw its frequency response indicating roll off. UNIT – III",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A Logic circuit is to be designed that produces an o/p of ‘1’ for all the odd 9 numbers in the range 0 to 8 and even numbers in the range 9 to 15. i. Draw the truth table of the circuit ii. Corresponding SOP and POS expressions iii. Simplified SOP expression using K-map b) Simplify the given Logical expression using K-map and implement the 9 Page 1 of 2 simplified expression using (i)Basic gates (ii) Only NAND (III) Only NOR Y = ∑m(0, 2, 3) + don’t care(4, 7) c) Simplify the given Logical expression using K-map and implement the 7 simplified expression using (i)Basic gates (ii) Only NAND (III) Only NOR Y = ∏M ( 2, 5, 6) + don’t care(0) OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) A digital system is to be designed in which the months of the year is given as 9 input in 4-bit form. The month January is represented as ‘0000’, February as ‘0001’ and so on. The output of the system is ‘0’ corresponding to the input of the month containing 30 days or less otherwise it is ‘1’. Consider the excess number in the input beyond ‘1011’ as don’t care conditions. For this systems of 4 variables (A, B, C, D) find the following (i) Draw the truth table of the circuit (ii) Corresponding SOP and POS expressions (III) Simplified SOP expression using K-map b) Simplify the given Logical expression using K-map and implement the 9 simplified expression using Basic gates Y= ∏M(0, 2, 3, 8, 9, 10, 11) + don’t care(5, 13, 14, 15) c) Simplify the given Logical expression using K-map and implement the 7 simplified expression using Basic gates Y= ∑m (1, 4, 7, 8, 9 11, 13) + don’t care(3, 5, 6, 12,15) UNIT – IV",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Realize a 1:4 DE-MUX using basic gates starting from its basic behavior in the 9 truth table form. b) With a neat diagram, give the behavior in the form of truth table, 9 Characteristic equation and excitation table. c) Realize a 4-bit Johnson counter using D-ffs. Furnish the shift table that 7 demonstrates the circulation of data ‘1001’. Draw the timing diagram OR",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    },
+    {
+      "text": "a) Draw the truth table of a full adder. Using the table entries, derive an 9 expression for its outputs and draw the circuit diagram b) Realize a 4:1 MUX using basic gates starting from its basic behavior in the truth 9 table form. c) Realize a 4-bit Ring counter using D-ffs. Furnish the shift table that 7 demonstrates the circulation of data ‘1001’. Estimate the time required to circulate the data if the clock connected to it is 0.5µs. *** Page 2 of 2 SRN 3rd Semester B.Tech CSE Semester End Examination June 2023",
+      "marks": 0,
+      "section": "A",
+      "unit": "1"
+    }
+  ],
+  "pattern": {}
+}

@@ -11,6 +11,8 @@ import Result from './pages/Result';
 import History from './pages/History';
 import Settings from './pages/Settings';
 import Login from './pages/Login';
+import Test from './pages/Test';
+import TestResult from './pages/TestResult';
 
 // Components
 import Navbar from './components/Navbar';
@@ -19,7 +21,7 @@ import GlobalLoader from './components/GlobalLoader';
 
 // Types
 import { QuestionPaper } from './types';
-import { saveUserProfile, fetchHistory, savePaper } from './services/api';
+import { saveUserProfile, fetchUserProfile, fetchHistory, savePaper } from './services/api';
 
 interface UserProfile {
   name: string;
@@ -76,12 +78,13 @@ const AppContent: React.FC = () => {
   }, []);
 
   const login = async (userData: UserProfile) => {
-    const finalUser = { ...userData, theme: userData.theme || user?.theme || 'Dark' };
+    let finalUser = { ...userData, theme: userData.theme || user?.theme || 'Dark' };
 
     // Sync with PostgreSQL
     if (finalUser.email) {
       try {
         setGlobalLoading({ active: true, message: "Syncing your profile...", subMessage: "Connecting to secure database" });
+
         await saveUserProfile(finalUser.email, finalUser);
 
         const h = await fetchHistory(finalUser.email);
@@ -184,6 +187,14 @@ const AppContent: React.FC = () => {
                 <Route
                   path="/result"
                   element={user ? <Result paper={currentPaper} /> : <Navigate to="/login" />}
+                />
+                <Route
+                  path="/test/:paperId"
+                  element={user ? <Test /> : <Navigate to="/login" />}
+                />
+                <Route
+                  path="/test-result/:attemptId"
+                  element={user ? <TestResult /> : <Navigate to="/login" />}
                 />
                 <Route
                   path="/history"

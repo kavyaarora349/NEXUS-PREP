@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'http://localhost:8001/api';
 
 export const loginUser = async (credentials: any) => {
     const res = await fetch(`${API_BASE}/auth/login`, {
@@ -26,6 +26,19 @@ export const registerUser = async (userData: any) => {
         throw new Error(error.error || 'Signup failed');
     }
     return res.json();
+};
+
+export const updatePassword = async (payload: any) => {
+    const res = await fetch(`${API_BASE}/auth/password`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+    });
+    const data = await res.json();
+    if (!res.ok) {
+        throw new Error(data.error || 'Failed to update password');
+    }
+    return data;
 };
 
 export const saveUserProfile = async (userId: string, profileData: any) => {
@@ -66,5 +79,34 @@ export const generatePaper = async (formData: FormData) => {
             'Content-Type': 'multipart/form-data',
         },
     });
+    return res.data;
+};
+
+// =====================================
+// SECURE TEST MODE APIs
+// =====================================
+
+export const startTest = async (payload: { user_id: string, paper_id: string, paper_json: any }) => {
+    const res = await axios.post(`${API_BASE}/test/start`, payload);
+    return res.data;
+};
+
+export const saveTestAnswer = async (payload: { attempt_id: number, answers: any[], selected_sets?: Record<number, 'A' | 'B' | null> }) => {
+    const res = await axios.post(`${API_BASE}/test/save-answer`, payload);
+    return res.data;
+};
+
+export const logTestEvent = async (payload: { user_id: string, paper_id: string, event_type: string }) => {
+    const res = await axios.post(`${API_BASE}/test/log-event`, payload);
+    return res.data;
+};
+
+export const submitTest = async (payload: { attempt_id: number, selected_sets?: Record<number, 'A' | 'B' | null>, strictness?: string }) => {
+    const res = await axios.post(`${API_BASE}/test/submit`, payload);
+    return res.data;
+};
+
+export const fetchTestResult = async (attemptId: string) => {
+    const res = await axios.get(`${API_BASE}/test/result/${attemptId}`);
     return res.data;
 };

@@ -1,0 +1,177 @@
+[
+  {
+    "feedback": "The definition of a data communication system is accurate and well-stated. The characteristics of Delivery, Accuracy, and Timeliness are explained very well with clear and relevant examples. However, the explanation for Jitter is incomplete. More importantly, the answer completely omits two significant parts of the question: the components of data communication systems and the discussion on different modes of data flow (Simplex, Half-duplex, Full-duplex). The marks awarded reflect the excellent quality of the answered portions, but significant deductions are made for the missing content.",
+    "max_marks": 10,
+    "marks_awarded": 7,
+    "student_answer": "A data communication system is a set of hardware and software components that enables the exchange of data between two or more devices through a transmission medium. It plays a vital role in computer networks, the internet, mobile communication, and digital systems.\n\nCharacteristics of Data Communication\n\nFor an effective data communication system, the following characteristics are essential:\n\n1. Delivery\n\nThe data must reach the correct destination device. If the message does not reach the intended receiver, communication is meaningless.\nExample: An email must reach the correct email address.\n\n2. Accuracy\n\nData should be delivered without errors. Any alteration during transmission can make the information useless.\nExample: A downloaded file should not be corrupted.\n\n3. Timeliness\n\nData must be delivered within an acceptable time frame, especially in real-time applications.\nExample: In video conferencing, delays can disturb communication.\n\n4. Jitter\n\nJitter refers to variation in the a",
+    "original_question": "Q1 [10M]: Set A: 1) Explain the characteristics and components of data communication systems with suitable examples. Discuss the different modes of data flow (Simplex, Half-duplex, Full-duplex)."
+  },
+  {
+    "feedback": "Question was answered but not evaluated by AI.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "A data communication system is a set of hardware and software components that enables the exchange of data between two or more devices through a transmission medium. It plays a vital role in computer networks, the internet, mobile communication, and digital systems.\n\nCharacteristics of Data Communication\n\nFor an effective data communication system, the following characteristics are essential:\n\n1. Delivery\n\nThe data must reach the correct destination device. If the message does not reach the intended receiver, communication is meaningless.\nExample: An email must reach the correct email address.\n\n2. Accuracy\n\nData should be delivered without errors. Any alteration during transmission can make the information useless.\nExample: A downloaded file should not be corrupted.\n\n3. Timeliness\n\nData must be delivered within an acceptable time frame, especially in real-time applications.\nExample: In video conferencing, delays can disturb communication.\n\n4. Jitter\n\nJitter refers to variation in the arrival time of packets. High jitter affects audio and video quality.\nExample: In online streaming, high jitter causes buffering and distortion.\n\nComponents of Data Communication System\n\nA data communication system consists of five main components:\n\n1. Sender (Source)\n\nThe device that sends the data.\nExample: Computer, smartphone, laptop.\n\n2. Message\n\nThe information being transmitted. It can be text, audio, video, images, or files.\n\n3. Transmission Medium\n\nThe physical path through which data travels.\nExample: Twisted pair cable, coaxial cable, fiber optic cable, radio waves (Wi-Fi).\n\n4. Receiver (Destination)\n\nThe device that receives the data.\nExample: Computer, mobile phone, server.\n\n5. Protocol\n\nA set of rules that governs data communication. It ensures proper formatting, transmission, and reception of data.\nExample: TCP/IP, HTTP, FTP.\n\nModes of Data Flow\n\nData flow defines the direction of communication between devices. There are three modes:\n\n1. Simplex Mode\n\nIn simplex mode, communication is one-way only. Data flows from sender to receiver, but not in reverse.\nExample: Keyboard to computer, television broadcasting.\n\n2. Half-Duplex Mode\n\nIn half-duplex mode, communication is two-way, but not simultaneous. Only one device can transmit at a time.\nExample: Walkie-talkie communication.\n\n3. Full-Duplex Mode\n\nIn full-duplex mode, communication is two-way and simultaneous. Both devices can send and receive data at the same time.\nExample: Telephone conversation, video calls.",
+    "original_question": "Set A: 1) Explain the characteristics and components of data communication systems with suitable examples. Discuss the different modes of data flow (Simplex, Half-duplex, Full-duplex)."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 2) Describe the OSI reference model. Explain the functions and responsibilities of each layer in detail with a neat diagram."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 5,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 3) Distinguish between Physical, Logical, and Port addresses in the context of the TCP/IP protocol suite, providing an example for each."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 4) Discuss the evolution of the Internet, highlighting key milestones and technologies such as ARPANET, TCP/IP, and the World Wide Web (WWW)."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 5) Explain the different types of network physical topologies (Mesh, Star, Bus, Ring, Hybrid) with their advantages and disadvantages for each."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 5,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 6) Briefly explain the three key elements of a protocol: Syntax, Semantics, and Timing."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 1) Explain the concept of a sine wave and its three key parameters: peak amplitude, frequency, and phase. Illustrate with diagrams. Calculate the period of a signal with a frequency of 500 Hz."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 2) Differentiate between Pulse Code Modulation (PCM) and Delta Modulation (DM) techniques for digitizing analog signals. Explain the three steps involved in PCM: Sampling, Quantization, and Binary encoding."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 5,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 3) Compare and contrast Asynchronous and Synchronous transmission modes, providing examples for their use."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 4) Define Nyquist bit rate and Shannon capacity. A noiseless 4 kHz channel transmits a signal with 8 signal levels. Calculate the maximum bit rate. A noisy channel has a bandwidth of 2000 Hz and an SNR of 100. Calculate its theoretical capacity."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 5) Explain various line coding schemes: Unipolar NRZ, Polar NRZ (NRZ-L, NRZ-I), Polar RZ, Manchester, and Differential Manchester. Use suitable diagrams for the bit pattern 10110."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 5,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 6) Describe Frequency Division Multiplexing (FDM) and Wavelength Division Multiplexing (WDM) with their primary applications."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 1) Explain the types of errors in data transmission (single-bit and burst error). With a suitable block diagram, describe the process of error detection using block coding. Provide an example of how a simple parity check code works for the dataword 1011."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 2) Describe the Cyclic Redundancy Check (CRC) mechanism for error detection. For the dataword 1010 and generator polynomial P(x) = x^3 + x + 1 (binary 1011), find the codeword at the sender and verify it at the receiver (assuming no error)."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 5,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 3) Explain the concept of 'Framing' in the Data Link Layer and distinguish between Fixed-Size and Variable-Size framing."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 4) Explain the traditional Internet Checksum algorithm used for error detection. Demonstrate how the sender computes the checksum and how the receiver verifies it using a message consisting of 16-bit words: 0x1234, 0xABCD, 0x00FF."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 5) Describe the Point-to-Point Protocol (PPP) frame format and discuss its key features and benefits in establishing direct connections. Illustrate its transition phases."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 5,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 6) Differentiate between Character-Oriented and Bit-Oriented framing protocols, highlighting their respective mechanisms for delimiters."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 1) Explain the ALOHA protocol in detail. Differentiate between Pure ALOHA and Slotted ALOHA with respect to their vulnerable times and throughput. A Pure ALOHA network transmits 200-bit frames on a shared channel of 200 kbps, producing 1000 frames per second. Calculate the throughput."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 2) Describe the CSMA/CD (Carrier Sense Multiple Access with Collision Detection) access method. Explain the procedure a station follows to transmit a frame using CSMA/CD, highlighting the collision detection mechanism."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 5,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set A: 3) Explain the concept of 'Token Passing' as a controlled access method in MAC protocols, including the roles of predecessor, successor, and the token."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 4) Explain the CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) access method used to avoid collisions in wireless networks. Discuss the three strategies employed by CSMA/CA for collision avoidance."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 10,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 5) Describe Code Division Multiple Access (CDMA). Explain how multiple stations can share the same channel simultaneously using different codes (chips), illustrating with an example of Walsh codes for a two-station network."
+  },
+  {
+    "feedback": "No answer provided for this question.",
+    "max_marks": 5,
+    "marks_awarded": 0,
+    "student_answer": "(blank)",
+    "original_question": "Set B: 6) Differentiate between Frequency Division Multiple Access (FDMA) and Time Division Multiple Access (TDMA) channelization protocols."
+  }
+]

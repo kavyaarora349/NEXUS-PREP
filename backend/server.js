@@ -1,12 +1,12 @@
 import express from 'express';
 import cors from 'cors';
-import pg from 'pg';
 import dotenv from 'dotenv';
 import bcrypt from 'bcrypt';
 import multer from 'multer';
 import { spawn } from 'child_process';
 import path from 'path';
 import fs from 'fs';
+import { pool } from './db.js';
 
 // Load environment variables from .env file
 dotenv.config();
@@ -18,22 +18,6 @@ const port = process.env.PORT || 8000;
 app.use(cors());
 app.use(express.json());
 
-// Initialize PostgreSQL connection pool
-const { Pool } = pg;
-const pool = new Pool({
-    connectionString: process.env.DATABASE_URL,
-    // Add ssl: { rejectUnauthorized: false } if connecting to a cloud database that requires it (e.g. Render, Supabase)
-});
-
-// Test the database connection
-pool.connect((err, client, release) => {
-    if (err) {
-        console.error('Error acquiring client', err.stack);
-    } else {
-        console.log('Successfully connected to the PostgreSQL database.');
-        release();
-    }
-});
 
 // Basic health check route
 app.get('/', (req, res) => {
@@ -61,6 +45,9 @@ const storage = multer.diskStorage({
     }
 });
 const upload = multer({ storage: storage });
+
+import testRoutes from './routes/test.js';
+app.use('/api/test', testRoutes);
 
 // ==========================================
 // API Endpoints
@@ -134,6 +121,47 @@ app.post('/api/auth/login', async (req, res) => {
     } catch (error) {
         console.error('Error in login:', error);
         res.status(500).json({ error: 'Internal server error during login' });
+    }
+});
+
+// PUT /api/auth/password: Securely update user password
+app.put('/api/auth/password', async (req, res) => {
+    try {
+        const { email, currentPassword, newPassword } = req.body;
+
+        if (!email || !currentPassword || !newPassword) {
+            return res.status(400).json({ error: 'Email, current password, and new password are required' });
+        }
+
+        // Fetch user from DB
+        const query = 'SELECT password FROM users WHERE email = $1';
+        const result = await pool.query(query, [email]);
+
+        if (result.rows.length === 0) {
+            return res.status(404).json({ error: 'User not found' });
+        }
+
+        const user = result.rows[0];
+
+        if (!user.password) {
+            return res.status(400).json({ error: 'No password set on this account. Please sign in via OAuth or contact support.' });
+        }
+
+        // Verify current password safely using bcrypt
+        const validPassword = await bcrypt.compare(currentPassword, user.password);
+        if (!validPassword) {
+            return res.status(401).json({ error: 'Incorrect current password' });
+        }
+
+        // Hash the new password and save it
+        const hashedNewPassword = await bcrypt.hash(newPassword, parseInt(process.env.BCRYPT_SALT_ROUNDS) || 10);
+        await pool.query('UPDATE users SET password = $1 WHERE email = $2', [hashedNewPassword, email]);
+
+        console.log(`[AUTH] Password updated successfully for: ${email}`);
+        res.status(200).json({ success: true, message: 'Password updated successfully' });
+    } catch (error) {
+        console.error('Error updating password:', error);
+        res.status(500).json({ error: 'Internal server error while updating password' });
     }
 });
 
@@ -272,21 +300,25 @@ app.put('/api/profile/:userId', async (req, res) => {
         }
 
         const query = `
-      INSERT INTO users (id, name, email, university, semester, theme)
-      VALUES ($1, $2, $3, $4, $5, COALESCE($6, 'Dark'))
-      ON CONFLICT (id) DO UPDATE 
+      UPDATE users 
       SET 
-        name = EXCLUDED.name,
-        email = EXCLUDED.email,
-        university = EXCLUDED.university,
-        semester = EXCLUDED.semester,
-        theme = EXCLUDED.theme
+        name = $1,
+        university = $2,
+        semester = $3,
+        theme = $4
+      WHERE email = $5
       RETURNING *;
     `;
 
-        const values = [userId, name, email, university, semester, theme];
+        const values = [name, university, semester, theme, email];
+        console.log(`[PROFILE PUT] Received update for ${email}:`, { name, university, semester, theme });
         const result = await pool.query(query, values);
 
+        if (result.rows.length === 0) {
+            return res.status(404).json({ error: 'User not found in database to update' });
+        }
+
+        console.log(`[PROFILE PUT] Database updated successfully for ${email}`);
         res.status(200).json(result.rows[0]);
     } catch (error) {
         console.error('Error upserting user profile:', error);

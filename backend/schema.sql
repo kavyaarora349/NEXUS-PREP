@@ -24,3 +24,24 @@ CREATE TABLE papers (
     full_json_data JSONB NOT NULL, -- Store the entire paper object as JSONB for flexible querying and storage
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Create test_attempts table
+CREATE TABLE test_attempts (
+    id SERIAL PRIMARY KEY,
+    user_id VARCHAR(255) REFERENCES users(id) ON DELETE CASCADE,
+    paper_id INTEGER REFERENCES papers(id) ON DELETE CASCADE,
+    answers JSONB, -- Will store an array of { question_text, answer_text, marks_awarded, feedback }
+    score INTEGER DEFAULT 0,
+    status VARCHAR(50) DEFAULT 'IN_PROGRESS', -- IN_PROGRESS, SUBMITTED, GRADED
+    started_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    submitted_at TIMESTAMP WITH TIME ZONE
+);
+
+-- Create test_events table for anti-cheating logs
+CREATE TABLE test_events (
+    id SERIAL PRIMARY KEY,
+    user_id VARCHAR(255) REFERENCES users(id) ON DELETE CASCADE,
+    paper_id INTEGER REFERENCES papers(id) ON DELETE CASCADE,
+    event_type VARCHAR(100) NOT NULL, -- e.g. TAB_SWITCH, BLUR, FULLSCREEN_EXIT
+    timestamp TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);

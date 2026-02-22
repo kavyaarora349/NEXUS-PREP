@@ -1,35 +1,44 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  User, 
-  Bell, 
-  Shield, 
-  Palette, 
-  Save, 
-  Smartphone, 
-  Mail, 
-  Lock, 
-  Eye, 
+import {
+  User,
+  Bell,
+  Shield,
+  Palette,
+  Save,
+  Smartphone,
+  Mail,
+  Lock,
+  Eye,
   EyeOff,
-  CheckCircle2
+  CheckCircle2,
+  Loader2
 } from 'lucide-react';
+import { updatePassword } from '../services/api';
 
 interface SettingsProps {
-  user: { name: string; university: string; semester: string; theme?: string };
-  onUpdateUser: (user: { name: string; university: string; semester: string; theme?: string }) => void;
+  user: { name: string; email?: string; university: string; semester: string; theme?: string };
+  onUpdateUser: (user: { name: string; email?: string; university: string; semester: string; theme?: string }) => void;
 }
 
 const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
   const [activeSection, setActiveSection] = useState('profile');
   const [saved, setSaved] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  
+
+  // Password Management State
+  const [currentPassword, setCurrentPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+  const [passStatus, setPassStatus] = useState<{ type: 'success' | 'error', msg: string } | null>(null);
+  const [isUpdatingPassword, setIsUpdatingPassword] = useState(false);
+
   const [formData, setFormData] = useState({
     name: user.name,
     university: user.university,
     semester: user.semester,
-    email: 'kavya@reva.edu.in',
+    email: user.email || 'kavya@reva.edu.in',
     notifications: {
       emailAlerts: true,
       paperReady: true,
@@ -45,13 +54,38 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
     // Pass current local choices back to global state
     onUpdateUser({
       name: formData.name,
+      email: formData.email, // THIS WAS MISSING!
       university: formData.university,
       semester: formData.semester,
       theme: formData.appearance.theme // Persist theme change
     });
-    
+
     setSaved(true);
     setTimeout(() => setSaved(false), 3000);
+  };
+
+  const handlePasswordUpdate = async () => {
+    setPassStatus(null);
+    if (!currentPassword || !newPassword || !confirmPassword) {
+      setPassStatus({ type: 'error', msg: 'Please fill in all password fields.' });
+      return;
+    }
+    if (newPassword !== confirmPassword) {
+      setPassStatus({ type: 'error', msg: 'New passwords do not match.' });
+      return;
+    }
+    setIsUpdatingPassword(true);
+    try {
+      await updatePassword({ email: formData.email, currentPassword, newPassword });
+      setPassStatus({ type: 'success', msg: 'Password updated successfully!' });
+      setCurrentPassword('');
+      setNewPassword('');
+      setConfirmPassword('');
+    } catch (err: any) {
+      setPassStatus({ type: 'error', msg: err.message || 'Failed to update password.' });
+    } finally {
+      setIsUpdatingPassword(false);
+    }
   };
 
   const sections = [
@@ -65,9 +99,9 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
     switch (activeSection) {
       case 'profile':
         return (
-          <motion.div 
-            initial={{ opacity: 0, x: 10 }} 
-            animate={{ opacity: 1, x: 0 }} 
+          <motion.div
+            initial={{ opacity: 0, x: 10 }}
+            animate={{ opacity: 1, x: 0 }}
             className="space-y-6"
           >
             <h3 className="text-xl font-bold flex items-center gap-2">
@@ -76,39 +110,39 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <label className="text-sm font-medium text-gray-500">Full Name</label>
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-indigo-500 outline-none transition-all" 
+                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
                 />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-medium text-gray-500">Email Address</label>
-                <input 
-                  type="email" 
+                <input
+                  type="email"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-indigo-500 outline-none transition-all" 
+                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
                 />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-medium text-gray-500">University</label>
-                <input 
-                  type="text" 
+                <input
+                  type="text"
                   value={formData.university}
                   onChange={(e) => setFormData({ ...formData, university: e.target.value })}
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-indigo-500 outline-none transition-all" 
+                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
                 />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-medium text-gray-500">Current Semester</label>
-                <select 
+                <select
                   value={formData.semester}
                   onChange={(e) => setFormData({ ...formData, semester: e.target.value })}
                   className="w-full bg-[#030712] border border-white/10 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
                 >
-                  {[1,2,3,4,5,6,7,8].map(n => <option key={n} value={n.toString()}>Semester {n}</option>)}
+                  {[1, 2, 3, 4, 5, 6, 7, 8].map(n => <option key={n} value={n.toString()}>Semester {n}</option>)}
                 </select>
               </div>
             </div>
@@ -116,9 +150,9 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
         );
       case 'notifications':
         return (
-          <motion.div 
-            initial={{ opacity: 0, x: 10 }} 
-            animate={{ opacity: 1, x: 0 }} 
+          <motion.div
+            initial={{ opacity: 0, x: 10 }}
+            animate={{ opacity: 1, x: 0 }}
             className="space-y-6"
           >
             <h3 className="text-xl font-bold flex items-center gap-2">
@@ -135,7 +169,7 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
                     <p className="font-semibold text-gray-200">{item.label}</p>
                     <p className="text-sm text-gray-500">{item.desc}</p>
                   </div>
-                  <button 
+                  <button
                     onClick={() => setFormData({
                       ...formData,
                       notifications: { ...formData.notifications, [item.id]: !formData.notifications[item.id as keyof typeof formData.notifications] }
@@ -151,9 +185,9 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
         );
       case 'security':
         return (
-          <motion.div 
-            initial={{ opacity: 0, x: 10 }} 
-            animate={{ opacity: 1, x: 0 }} 
+          <motion.div
+            initial={{ opacity: 0, x: 10 }}
+            animate={{ opacity: 1, x: 0 }}
             className="space-y-8"
           >
             <div className="space-y-6">
@@ -164,12 +198,14 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-gray-500">Current Password</label>
                   <div className="relative">
-                    <input 
-                      type={showPassword ? "text" : "password"} 
-                      className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 pr-10 outline-none" 
+                    <input
+                      type={showPassword ? "text" : "password"}
+                      value={currentPassword}
+                      onChange={(e) => setCurrentPassword(e.target.value)}
+                      className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 pr-10 outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
                       placeholder="••••••••"
                     />
-                    <button 
+                    <button
                       onClick={() => setShowPassword(!showPassword)}
                       className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-white"
                     >
@@ -180,12 +216,39 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-500">New Password</label>
-                    <input type="password" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 outline-none" />
+                    <input
+                      type="password"
+                      value={newPassword}
+                      onChange={(e) => setNewPassword(e.target.value)}
+                      className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
+                    />
                   </div>
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-500">Confirm New Password</label>
-                    <input type="password" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 outline-none" />
+                    <input
+                      type="password"
+                      value={confirmPassword}
+                      onChange={(e) => setConfirmPassword(e.target.value)}
+                      className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
+                    />
                   </div>
+                </div>
+
+                {passStatus && (
+                  <div className={`p-3 rounded-xl text-sm font-medium border ${passStatus.type === 'error' ? 'bg-red-500/10 border-red-500/20 text-red-400' : 'bg-green-500/10 border-green-500/20 text-green-400'}`}>
+                    {passStatus.msg}
+                  </div>
+                )}
+
+                <div className="flex justify-end pt-2">
+                  <button
+                    onClick={handlePasswordUpdate}
+                    disabled={isUpdatingPassword}
+                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl transition-all disabled:opacity-50 flex items-center gap-2"
+                  >
+                    {isUpdatingPassword ? <Loader2 className="w-4 h-4 animate-spin" /> : <Lock className="w-4 h-4" />}
+                    Update Password
+                  </button>
                 </div>
               </div>
             </div>
@@ -208,9 +271,9 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
         );
       case 'appearance':
         return (
-          <motion.div 
-            initial={{ opacity: 0, x: 10 }} 
-            animate={{ opacity: 1, x: 0 }} 
+          <motion.div
+            initial={{ opacity: 0, x: 10 }}
+            animate={{ opacity: 1, x: 0 }}
             className="space-y-8"
           >
             <div className="space-y-6">
@@ -219,7 +282,7 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 {['Light', 'Dark'].map((t) => (
-                  <button 
+                  <button
                     key={t}
                     onClick={() => {
                       setFormData({ ...formData, appearance: { ...formData.appearance, theme: t } });
@@ -245,7 +308,7 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
                     <p className="font-medium group-hover:text-indigo-400 transition-colors">PDF Style Template</p>
                     <p className="text-sm text-gray-500">Choose the institutional branding style for exports.</p>
                   </div>
-                  <select 
+                  <select
                     value={formData.appearance.pdfTemplate}
                     onChange={(e) => setFormData({ ...formData, appearance: { ...formData.appearance, pdfTemplate: e.target.value } })}
                     className="bg-[#030712] border border-white/10 rounded-lg px-3 py-1.5 text-sm outline-none"
@@ -265,7 +328,7 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
   };
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       className="max-w-4xl mx-auto space-y-8"
@@ -278,7 +341,7 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <aside className="md:col-span-1 space-y-1">
           {sections.map((s) => (
-            <button 
+            <button
               key={s.id}
               onClick={() => setActiveSection(s.id)}
               className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-semibold transition-all ${activeSection === s.id ? 'bg-white/10 text-white shadow-xl' : 'text-gray-400 hover:text-white hover:bg-white/5'}`}
@@ -301,9 +364,9 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
               <div className="flex items-center gap-2">
                 <AnimatePresence>
                   {saved && (
-                    <motion.div 
-                      initial={{ opacity: 0, y: 10 }} 
-                      animate={{ opacity: 1, y: 0 }} 
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0 }}
                       className="flex items-center gap-1.5 text-sm font-medium text-emerald-400 bg-emerald-500/10 px-3 py-1.5 rounded-full"
                     >
@@ -312,7 +375,7 @@ const Settings: React.FC<SettingsProps> = ({ user, onUpdateUser }) => {
                   )}
                 </AnimatePresence>
               </div>
-              <button 
+              <button
                 onClick={handleSave}
                 className="flex items-center gap-2 px-8 py-3 bg-white text-black font-bold rounded-2xl hover:bg-gray-200 transition-all active:scale-95 shadow-xl shadow-white/5"
               >

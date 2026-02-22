@@ -15,6 +15,32 @@ export const loginUser = async (credentials: any) => {
     return res.json();
 };
 
+export const loginWithGoogle = async (credential?: string, access_token?: string) => {
+    const res = await fetch(`${API_BASE}/auth/google`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(credential ? { credential } : { access_token }),
+    });
+    if (!res.ok) {
+        const error = await res.json();
+        throw new Error(error.error || 'Google Login failed');
+    }
+    return res.json();
+};
+
+export const loginWithGithub = async (code: string) => {
+    const res = await fetch(`${API_BASE}/auth/github`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code }),
+    });
+    if (!res.ok) {
+        const error = await res.json();
+        throw new Error(error.error || 'GitHub Login failed');
+    }
+    return res.json();
+};
+
 export const registerUser = async (userData: any) => {
     const res = await fetch(`${API_BASE}/auth/signup`, {
         method: 'POST',

@@ -2,8 +2,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { Sparkles, ArrowRight, User, School, GraduationCap, Mail, Lock } from 'lucide-react';
-import { loginUser, registerUser } from '../services/api';
+import { Sparkles, ArrowRight, User, School, GraduationCap, Mail, Lock, Loader2, Github } from 'lucide-react';
+import { loginUser, registerUser, loginWithGoogle, loginWithGithub } from '../services/api';
+import { useGoogleLogin } from '@react-oauth/google';
 
 interface LoginProps {
   onLogin: (user: { name: string; email: string; university: string; semester: string }) => void;
@@ -22,6 +23,60 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
   });
 
   const [error, setError] = useState<string | null>(null);
+  const [googleLoading, setGoogleLoading] = useState(false);
+  const [githubLoading, setGithubLoading] = useState(false);
+
+  React.useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const code = urlParams.get('code');
+    if (code) {
+      handleGithubSuccess(code);
+      // Clean up the URL so it doesn't try again on reload
+      window.history.replaceState({}, document.title, window.location.pathname);
+    }
+  }, []);
+
+  const handleGithubSuccess = async (code: string) => {
+    try {
+      setGithubLoading(true);
+      setError(null);
+      const user = await loginWithGithub(code);
+      onLogin({
+        email: user.email,
+        name: user.name,
+        university: user.university,
+        semester: user.semester
+      });
+      navigate('/dashboard');
+    } catch (err: any) {
+      setError(err.message || 'GitHub Login failed. Please try again.');
+    } finally {
+      setGithubLoading(false);
+    }
+  };
+
+  const loginGoogleCustom = useGoogleLogin({
+    onSuccess: async (tokenResponse) => {
+      try {
+        setGoogleLoading(true);
+        setError(null);
+        // Send the Google access token to our backend for verification
+        const user = await loginWithGoogle(undefined, tokenResponse.access_token);
+        onLogin({
+          email: user.email,
+          name: user.name,
+          university: user.university,
+          semester: user.semester
+        });
+        navigate('/dashboard');
+      } catch (err: any) {
+        setError(err.message || 'Google Login failed. Please try again.');
+      } finally {
+        setGoogleLoading(false);
+      }
+    },
+    onError: () => setError('Google Login popup failed or was closed.')
+  });
 
   const handleAuthSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -157,9 +212,39 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                   <div className="relative flex justify-center text-xs uppercase"><span className="bg-[#0b101c] px-2 text-gray-500">Or continue with</span></div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
-                  <button className="py-3 px-4 glass rounded-xl text-sm font-medium hover:bg-white/5 transition-colors">Google</button>
-                  <button className="py-3 px-4 glass rounded-xl text-sm font-medium hover:bg-white/5 transition-colors">Microsoft</button>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+                  <button
+                    type="button"
+                    onClick={() => loginGoogleCustom()}
+                    disabled={googleLoading}
+                    className="h-[40px] px-4 glass rounded-xl text-sm font-medium hover:bg-white/5 transition-colors border border-white/5 flex items-center justify-center gap-2 relative overflow-hidden"
+                  >
+                    {googleLoading && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-[#0b101c]/80 z-10 backdrop-blur-sm">
+                        <Loader2 className="w-5 h-5 text-indigo-400 animate-spin" />
+                      </div>
+                    )}
+                    <svg viewBox="0 0 24 24" className="w-4 h-4 text-white" fill="currentColor">
+                      <path d="M12.545,10.239v3.821h5.445c-0.712,2.315-2.647,3.972-5.445,3.972c-3.332,0-6.033-2.701-6.033-6.032s2.701-6.032,6.033-6.032c1.498,0,2.866,0.549,3.921,1.453l2.814-2.814C17.503,2.988,15.139,2,12.545,2C7.021,2,2.543,6.477,2.543,12s4.478,10,10.002,10c8.396,0,10.249-7.85,9.426-11.748L12.545,10.239z" />
+                    </svg>
+                    Google
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const clientId = import.meta.env.VITE_GITHUB_CLIENT_ID || 'Ov23lipfHjzQFeTqMUnJ';
+                      window.location.href = `https://github.com/login/oauth/authorize?client_id=${clientId}&scope=user:email`;
+                    }}
+                    disabled={githubLoading}
+                    className="h-[40px] px-4 glass rounded-xl text-sm font-medium hover:bg-white/5 transition-colors border border-white/5 flex items-center justify-center gap-2 relative overflow-hidden"
+                  >
+                    {githubLoading && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-[#0b101c]/80 z-10 backdrop-blur-sm">
+                        <Loader2 className="w-5 h-5 text-indigo-400 animate-spin" />
+                      </div>
+                    )}
+                    <Github className="w-4 h-4" /> GitHub
+                  </button>
                 </div>
               </motion.div>
             ) : (

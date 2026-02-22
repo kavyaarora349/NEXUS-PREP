@@ -7,12 +7,16 @@ import { spawn } from 'child_process';
 import path from 'path';
 import fs from 'fs';
 import { pool } from './db.js';
+import { OAuth2Client } from 'google-auth-library';
 
 // Load environment variables from .env file
 dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 8000;
+
+// Initialize Google OAuth Client
+const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
 // Enable CORS and JSON parsing
 app.use(cors());
@@ -162,6 +166,143 @@ app.put('/api/auth/password', async (req, res) => {
     } catch (error) {
         console.error('Error updating password:', error);
         res.status(500).json({ error: 'Internal server error while updating password' });
+    }
+});
+
+// POST /api/auth/google: Secure Google Login verification
+app.post('/api/auth/google', async (req, res) => {
+    try {
+        const { credential, access_token } = req.body;
+        if (!credential && !access_token) {
+            return res.status(400).json({ error: 'Google credential or access token is missing' });
+        }
+
+        let email, name;
+
+        if (credential) {
+            // 1a. Verify the ID token securely
+            const ticket = await googleClient.verifyIdToken({
+                idToken: credential,
+                audience: process.env.GOOGLE_CLIENT_ID,
+            });
+
+            const payload = ticket.getPayload();
+            if (!payload) {
+                return res.status(401).json({ error: 'Invalid Google token payload' });
+            }
+            email = payload.email;
+            name = payload.name;
+        } else {
+            // 1b. Or fetch profile using the Access Token
+            const response = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+                headers: { Authorization: `Bearer ${access_token}` }
+            });
+            const payload = await response.json();
+            if (!payload || !payload.email) {
+                return res.status(401).json({ error: 'Invalid Google access token payload' });
+            }
+            email = payload.email;
+            name = payload.name;
+        }
+
+        console.log(`[AUTH] Google Login attempt for: ${email}`);
+
+        // 2. Check if user exists, if not, create them (UPSERT)
+        // Since we don't have a password, we leave it null. The normal login route prevents null password logins.
+        const query = `
+            INSERT INTO users (email, name, university, semester, theme)
+            VALUES ($1, $2, 'REVA University', '1', 'Dark')
+            ON CONFLICT (email) DO UPDATE 
+            SET name = EXCLUDED.name
+            RETURNING *;
+        `;
+
+        const result = await pool.query(query, [email, name]);
+        const user = result.rows[0];
+
+        // 3. Return user data (excluding password)
+        const { password: userPassword, ...userData } = user;
+        res.json(userData);
+
+    } catch (error) {
+        console.error('[AUTH] Google login error:', error);
+        res.status(500).json({ error: 'Internal server error during Google login' });
+    }
+});
+
+// POST /api/auth/github: Secure GitHub Login verification
+app.post('/api/auth/github', async (req, res) => {
+    try {
+        const { code } = req.body;
+        if (!code) {
+            return res.status(400).json({ error: 'GitHub authorization code is missing' });
+        }
+
+        // 1. Exchange code for an access token
+        const tokenResponse = await fetch('https://github.com/login/oauth/access_token', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Accept: 'application/json',
+            },
+            body: JSON.stringify({
+                client_id: process.env.GITHUB_CLIENT_ID,
+                client_secret: process.env.GITHUB_CLIENT_SECRET,
+                code: code,
+            }),
+        });
+        const tokenData = await tokenResponse.json();
+
+        if (tokenData.error) {
+            return res.status(400).json({ error: tokenData.error_description || 'Invalid GitHub code' });
+        }
+
+        const accessToken = tokenData.access_token;
+
+        // 2. Fetch user profile from GitHub
+        const userResponse = await fetch('https://api.github.com/user', {
+            headers: { Authorization: `Bearer ${accessToken}` },
+        });
+        const githubUser = await userResponse.json();
+
+        // 3. Fetch user emails from GitHub (primary email is sometimes private)
+        const emailsResponse = await fetch('https://api.github.com/user/emails', {
+            headers: { Authorization: `Bearer ${accessToken}` },
+        });
+        const githubEmails = await emailsResponse.json();
+
+        // Find the primary, verified email
+        const primaryEmailObj = Array.isArray(githubEmails)
+            ? githubEmails.find(email => email.primary && email.verified) || githubEmails.find(email => email.verified) || githubEmails[0]
+            : null;
+
+        const email = primaryEmailObj?.email || githubUser.email;
+        if (!email) {
+            return res.status(400).json({ error: 'No validated email found on this GitHub account.' });
+        }
+
+        const name = githubUser.name || githubUser.login || 'GitHub User';
+        console.log(`[AUTH] GitHub Login attempt for: ${email}`);
+
+        // 4. UPSERT into Database
+        const query = `
+            INSERT INTO users (email, name, university, semester, theme)
+            VALUES ($1, $2, 'REVA University', '1', 'Dark')
+            ON CONFLICT (email) DO UPDATE 
+            SET name = EXCLUDED.name
+            RETURNING *;
+        `;
+
+        const result = await pool.query(query, [email, name]);
+        const user = result.rows[0];
+
+        // 5. Return user data (excluding password)
+        const { password: userPassword, ...userData } = user;
+        res.json(userData);
+
+    } catch (error) {
+        console.error('[AUTH] GitHub login error:', error);
+        res.status(500).json({ error: 'Internal server error during GitHub login' });
     }
 });
 

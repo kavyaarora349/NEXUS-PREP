@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { Sparkles, ArrowRight, User, School, GraduationCap, Mail, Lock, Loader2, Github } from 'lucide-react';
-import { loginUser, registerUser, loginWithGoogle, loginWithGithub } from '../services/api';
+import { Sparkles, ArrowRight, User, School, GraduationCap, Mail, Lock, Loader2, Github, KeyRound } from 'lucide-react';
+import { loginUser, registerUser, loginWithGoogle, loginWithGithub, sendPasswordResetOtp, resetPasswordWithOtp } from '../services/api';
 import { useGoogleLogin } from '@react-oauth/google';
 
 interface LoginProps {
@@ -12,19 +12,24 @@ interface LoginProps {
 
 const Login: React.FC<LoginProps> = ({ onLogin }) => {
   const navigate = useNavigate();
-  const [step, setStep] = useState<'auth' | 'profile'>('auth');
+  const [step, setStep] = useState<'auth' | 'profile' | 'forgot'>('auth');
   const [isLogin, setIsLogin] = useState<boolean>(true);
   const [formData, setFormData] = useState({
     email: '',
     password: '',
     name: '',
     university: 'REVA University',
-    semester: '1'
+    semester: '1',
+    otp: '',
+    newPassword: ''
   });
 
   const [error, setError] = useState<string | null>(null);
+  const [successMsg, setSuccessMsg] = useState<string | null>(null);
   const [googleLoading, setGoogleLoading] = useState(false);
   const [githubLoading, setGithubLoading] = useState(false);
+  const [otpSent, setOtpSent] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   React.useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -81,6 +86,8 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
   const handleAuthSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
+    setSuccessMsg(null);
+    setIsLoading(true);
     if (isLogin) {
       try {
         const user = await loginUser({ email: formData.email, password: formData.password });
@@ -93,9 +100,53 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
         navigate('/dashboard');
       } catch (err: any) {
         setError(err.message || 'Failed to sign in. Please check your password.');
+      } finally {
+        setIsLoading(false);
       }
     } else {
       setStep('profile');
+      setIsLoading(false);
+    }
+  };
+
+  const handleSendOtp = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    setSuccessMsg(null);
+    setIsLoading(true);
+    try {
+      await sendPasswordResetOtp(formData.email);
+      setSuccessMsg('OTP has been sent to your email.');
+      setOtpSent(true);
+    } catch (err: any) {
+      setError(err.message || 'Failed to send OTP.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleResetPassword = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    setSuccessMsg(null);
+    setIsLoading(true);
+    try {
+      await resetPasswordWithOtp({
+        email: formData.email,
+        otp: formData.otp,
+        newPassword: formData.newPassword
+      });
+      setSuccessMsg('Password reset successfully! You can now log in.');
+      setTimeout(() => {
+        setStep('auth');
+        setIsLogin(true);
+        setOtpSent(false);
+        setFormData(prev => ({ ...prev, password: '', otp: '', newPassword: '' }));
+      }, 2000);
+    } catch (err: any) {
+      setError(err.message || 'Failed to reset password.');
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -157,6 +208,11 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                     {error}
                   </motion.div>
                 )}
+                {successMsg && (
+                  <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 rounded-xl bg-green-500/10 border border-green-500/20 text-green-400 text-sm text-center">
+                    {successMsg}
+                  </motion.div>
+                )}
 
                 <form onSubmit={handleAuthSubmit} className="space-y-4">
                   <div className="space-y-2">
@@ -174,9 +230,24 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                   </div>
 
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
-                      <Lock className="w-4 h-4" /> Password
-                    </label>
+                    <div className="flex justify-between items-center">
+                      <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
+                        <Lock className="w-4 h-4" /> Password
+                      </label>
+                      {isLogin && (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setStep('forgot');
+                            setError(null);
+                            setSuccessMsg(null);
+                          }}
+                          className="text-xs text-indigo-400 hover:text-indigo-300 transition-colors"
+                        >
+                          Forgot password?
+                        </button>
+                      )}
+                    </div>
                     <input
                       required
                       type="password"
@@ -189,9 +260,11 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
 
                   <button
                     type="submit"
-                    className="w-full py-4 bg-white text-black font-bold rounded-2xl flex items-center justify-center gap-2 hover:bg-gray-200 transition-all active:scale-95 shadow-xl"
+                    disabled={isLoading}
+                    className="w-full py-4 bg-white text-black font-bold rounded-2xl flex items-center justify-center gap-2 hover:bg-gray-200 transition-all active:scale-95 shadow-xl disabled:opacity-50"
                   >
-                    {isLogin ? 'Sign In' : 'Sign Up'} <ArrowRight className="w-5 h-5" />
+                    {isLoading ? <Loader2 className="w-5 h-5 animate-spin" /> : (isLogin ? 'Sign In' : 'Sign Up')}
+                    {!isLoading && <ArrowRight className="w-5 h-5" />}
                   </button>
                 </form>
 
@@ -246,6 +319,104 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                     <Github className="w-4 h-4" /> GitHub
                   </button>
                 </div>
+              </motion.div>
+            ) : step === 'forgot' ? (
+              <motion.div
+                key="forgot"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                className="space-y-8"
+              >
+                <div className="text-center">
+                  <h2 className="text-3xl font-bold flex items-center justify-center gap-3">
+                    <KeyRound className="w-8 h-8 text-indigo-400" /> Reset Password
+                  </h2>
+                  <p className="text-gray-400 mt-2">
+                    {otpSent ? 'Enter the 6-digit code sent to your email.' : "We'll send a recovery code to your email."}
+                  </p>
+                </div>
+
+                {error && (
+                  <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-sm text-center">
+                    {error}
+                  </motion.div>
+                )}
+                {successMsg && (
+                  <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 rounded-xl bg-green-500/10 border border-green-500/20 text-green-400 text-sm text-center">
+                    {successMsg}
+                  </motion.div>
+                )}
+
+                <form onSubmit={otpSent ? handleResetPassword : handleSendOtp} className="space-y-5">
+                  <div className="space-y-2">
+                    <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
+                      <Mail className="w-4 h-4" /> Email address
+                    </label>
+                    <input
+                      required
+                      type="email"
+                      disabled={otpSent}
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 focus:ring-2 focus:ring-indigo-500 outline-none transition-all disabled:opacity-50"
+                      placeholder="name@reva.edu.in"
+                    />
+                  </div>
+
+                  {otpSent && (
+                    <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} className="space-y-5">
+                      <div className="space-y-2">
+                        <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
+                          <Lock className="w-4 h-4" /> 6-Digit OTP
+                        </label>
+                        <input
+                          required
+                          type="text"
+                          maxLength={6}
+                          value={formData.otp}
+                          onChange={(e) => setFormData({ ...formData, otp: e.target.value })}
+                          className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 text-center tracking-[0.5em] font-mono text-xl focus:ring-2 focus:ring-indigo-500 outline-none transition-all focus:tracking-[0.7em]"
+                          placeholder="000000"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
+                          <Lock className="w-4 h-4" /> New Password
+                        </label>
+                        <input
+                          required
+                          type="password"
+                          value={formData.newPassword}
+                          onChange={(e) => setFormData({ ...formData, newPassword: e.target.value })}
+                          className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
+                          placeholder="••••••••"
+                        />
+                      </div>
+                    </motion.div>
+                  )}
+
+                  <button
+                    type="submit"
+                    disabled={isLoading}
+                    className="w-full py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-2xl flex items-center justify-center gap-2 transition-all active:scale-95 shadow-xl shadow-indigo-600/20 disabled:opacity-50"
+                  >
+                    {isLoading ? <Loader2 className="w-5 h-5 animate-spin" /> : (otpSent ? 'Reset Password' : 'Send Code')}
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setStep('auth');
+                      setOtpSent(false);
+                      setError(null);
+                      setSuccessMsg(null);
+                    }}
+                    className="w-full py-4 bg-transparent text-gray-400 hover:text-white font-medium rounded-2xl flex items-center justify-center transition-all"
+                  >
+                    Back to login
+                  </button>
+                </form>
               </motion.div>
             ) : (
               <motion.div

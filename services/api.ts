@@ -54,6 +54,32 @@ export const registerUser = async (userData: any) => {
     return res.json();
 };
 
+export const sendPasswordResetOtp = async (email: string) => {
+    const res = await fetch(`${API_BASE}/auth/forgot-password`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+    });
+    const data = await res.json();
+    if (!res.ok) {
+        throw new Error(data.error || 'Failed to send OTP');
+    }
+    return data;
+};
+
+export const resetPasswordWithOtp = async (payload: { email: string; otp: string; newPassword: string }) => {
+    const res = await fetch(`${API_BASE}/auth/reset-password`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+    });
+    const data = await res.json();
+    if (!res.ok) {
+        throw new Error(data.error || 'Failed to reset password');
+    }
+    return data;
+};
+
 export const updatePassword = async (payload: any) => {
     const res = await fetch(`${API_BASE}/auth/password`, {
         method: 'PUT',

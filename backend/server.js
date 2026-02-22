@@ -8,6 +8,7 @@ import path from 'path';
 import fs from 'fs';
 import { pool } from './db.js';
 import { OAuth2Client } from 'google-auth-library';
+import nodemailer from 'nodemailer';
 
 // Load environment variables from .env file
 dotenv.config();
@@ -21,6 +22,15 @@ const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 // Enable CORS and JSON parsing
 app.use(cors());
 app.use(express.json());
+
+// Setup Nodemailer Transporter
+const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
+    }
+});
 
 
 // Basic health check route
@@ -306,6 +316,101 @@ app.post('/api/auth/github', async (req, res) => {
     }
 });
 
+// POST /api/auth/forgot-password: Generate OTP and send email
+app.post('/api/auth/forgot-password', async (req, res) => {
+    try {
+        const { email } = req.body;
+        if (!email) return res.status(400).json({ error: 'Email is required' });
+
+        // 1. Check if user exists
+        const userCheck = await pool.query('SELECT * FROM users WHERE email = $1', [email]);
+        if (userCheck.rows.length === 0) {
+            // We return generic success even if not found to prevent email enumeration
+            return res.status(200).json({ success: true, message: 'If an account exists, an OTP has been sent.' });
+        }
+
+        // 2. Generate 6-digit OTP and calculate expiration (+10 minutes)
+        const otp = Math.floor(100000 + Math.random() * 900000).toString();
+        const expiresAt = new Date(Date.now() + 10 * 60000); // 10 mins from now
+
+        // 3. Save OTP to DB
+        await pool.query(
+            'UPDATE users SET reset_otp = $1, reset_otp_expires = $2 WHERE email = $3',
+            [otp, expiresAt, email]
+        );
+
+        // 4. Send Email via Nodemailer
+        const mailOptions = {
+            from: `"PaperGen" <${process.env.EMAIL_USER}>`,
+            to: email,
+            subject: 'PaperGen Password Reset Code',
+            html: `
+                <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #f9f9f9; padding: 20px; border-radius: 10px;">
+                    <h2 style="color: #4f46e5; text-align: center;">Reset Your Password</h2>
+                    <p style="color: #333; font-size: 16px;">Hello,</p>
+                    <p style="color: #333; font-size: 16px;">We received a request to reset your PaperGen password. Use the following 6-digit code to proceed:</p>
+                    <div style="background-color: #fff; padding: 15px; text-align: center; border-radius: 8px; margin: 20px 0; border: 1px solid #ddd;">
+                        <span style="font-size: 32px; font-weight: bold; letter-spacing: 5px; color: #111;">${otp}</span>
+                    </div>
+                    <p style="color: #666; font-size: 14px; text-align: center;">This code will expire in 10 minutes.</p>
+                    <p style="color: #999; font-size: 12px; text-align: center; margin-top: 30px;">If you didn't request this, you can safely ignore this email.</p>
+                </div>
+            `
+        };
+
+        await transporter.sendMail(mailOptions);
+        console.log(`[AUTH] Sent password reset OTP to ${email}`);
+
+        res.status(200).json({ success: true, message: 'OTP sent successfully' });
+
+    } catch (error) {
+        console.error('[AUTH] Forgot password error:', error);
+        res.status(500).json({ error: 'Internal server error while sending OTP' });
+    }
+});
+
+// POST /api/auth/reset-password: Verify OTP and update password
+app.post('/api/auth/reset-password', async (req, res) => {
+    try {
+        const { email, otp, newPassword } = req.body;
+        if (!email || !otp || !newPassword) {
+            return res.status(400).json({ error: 'Missing required fields' });
+        }
+
+        // 1. Fetch user and verify OTP
+        const userCheck = await pool.query('SELECT * FROM users WHERE email = $1', [email]);
+        if (userCheck.rows.length === 0) {
+            return res.status(400).json({ error: 'Invalid request' });
+        }
+
+        const user = userCheck.rows[0];
+
+        if (!user.reset_otp || user.reset_otp !== otp) {
+            return res.status(400).json({ error: 'Invalid or incorrect OTP' });
+        }
+
+        if (new Date() > new Date(user.reset_otp_expires)) {
+            return res.status(400).json({ error: 'OTP has expired. Please request a new one.' });
+        }
+
+        // 2. Hash new password
+        const hashedNewPassword = await bcrypt.hash(newPassword, parseInt(process.env.BCRYPT_SALT_ROUNDS) || 10);
+
+        // 3. Update DB: Set new password and clear out OTP fields
+        await pool.query(
+            'UPDATE users SET password = $1, reset_otp = NULL, reset_otp_expires = NULL WHERE email = $2',
+            [hashedNewPassword, email]
+        );
+
+        console.log(`[AUTH] Password successfully reset via OTP for ${email}`);
+        res.status(200).json({ success: true, message: 'Password has been reset successfully' });
+
+    } catch (error) {
+        console.error('[AUTH] Reset password error:', error);
+        res.status(500).json({ error: 'Internal server error during password reset' });
+    }
+});
+
 // POST /api/generate-paper: AI Generation via Python pipeline
 app.post('/api/generate-paper', upload.array('notes', 10), async (req, res) => {
     try {
@@ -519,3 +624,5 @@ app.listen(port, () => {
         console.warn('⚠️  DATABASE_URL environment variable is not set!');
     }
 });
+
+// Trigger nodemon restart after env fix

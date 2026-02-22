@@ -1,0 +1,74 @@
+{
+  "PAPERS": [
+    {
+      "column_name": "id",
+      "data_type": "integer"
+    },
+    {
+      "column_name": "user_id",
+      "data_type": "character varying"
+    },
+    {
+      "column_name": "subject",
+      "data_type": "character varying"
+    },
+    {
+      "column_name": "semester",
+      "data_type": "character varying"
+    },
+    {
+      "column_name": "student_name",
+      "data_type": "character varying"
+    },
+    {
+      "column_name": "full_json_data",
+      "data_type": "jsonb"
+    },
+    {
+      "column_name": "created_at",
+      "data_type": "timestamp with time zone"
+    }
+  ],
+  "TEST_ATTEMPTS": [
+    {
+      "column_name": "id",
+      "data_type": "integer"
+    },
+    {
+      "column_name": "user_id",
+      "data_type": "character varying"
+    },
+    {
+      "column_name": "paper_id",
+      "data_type": "character varying"
+    },
+    {
+      "column_name": "paper_json",
+      "data_type": "jsonb"
+    },
+    {
+      "column_name": "answers",
+      "data_type": "jsonb"
+    },
+    {
+      "column_name": "selected_sets",
+      "data_type": "jsonb"
+    },
+    {
+      "column_name": "score",
+      "data_type": "integer"
+    },
+    {
+      "column_name": "status",
+      "data_type": "character varying"
+    },
+    {
+      "column_name": "started_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "column_name": "submitted_at",
+      "data_type": "timestamp with time zone"
+    }
+  ]
+}

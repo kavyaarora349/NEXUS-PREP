@@ -1,15 +1,16 @@
 
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { 
-  LayoutDashboard, 
-  FilePlus, 
-  History, 
-  Settings, 
+import {
+  LayoutDashboard,
+  FilePlus,
+  History,
+  Settings,
   Sparkles,
   ChevronLeft,
   Menu,
-  LogOut
+  LogOut,
+  BarChart2
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -25,6 +26,7 @@ const Sidebar: React.FC<SidebarProps> = ({ user, onLogout }) => {
     { icon: LayoutDashboard, label: 'Dashboard', path: '/dashboard' },
     { icon: FilePlus, label: 'Generate Paper', path: '/generate' },
     { icon: History, label: 'History', path: '/history' },
+    { icon: BarChart2, label: 'Analytics', path: '/analytics' },
     { icon: Settings, label: 'Settings', path: '/settings' },
   ];
 
@@ -32,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ user, onLogout }) => {
     <>
       {/* Mobile Toggle */}
       <div className="md:hidden fixed top-4 left-4 z-50">
-        <button 
+        <button
           onClick={() => setIsOpen(!isOpen)}
           className="p-2 glass rounded-lg"
         >
@@ -40,7 +42,7 @@ const Sidebar: React.FC<SidebarProps> = ({ user, onLogout }) => {
         </button>
       </div>
 
-      <motion.aside 
+      <motion.aside
         initial={false}
         animate={{ width: isOpen ? '280px' : '80px' }}
         className={`fixed md:relative h-full z-40 bg-[#070b14] border-r border-white/5 flex flex-col transition-all duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}
@@ -63,8 +65,8 @@ const Sidebar: React.FC<SidebarProps> = ({ user, onLogout }) => {
               to={item.path}
               className={({ isActive }) => `
                 flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all group
-                ${isActive 
-                  ? 'bg-white/10 text-white shadow-lg' 
+                ${isActive
+                  ? 'bg-white/10 text-white shadow-lg'
                   : 'text-gray-400 hover:text-white hover:bg-white/5'}
               `}
             >
@@ -86,8 +88,8 @@ const Sidebar: React.FC<SidebarProps> = ({ user, onLogout }) => {
               </div>
             )}
           </div>
-          
-          <button 
+
+          <button
             onClick={onLogout}
             className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all text-red-400 hover:bg-red-500/10 ${!isOpen && 'justify-center'}`}
           >

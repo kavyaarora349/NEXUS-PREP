@@ -1,0 +1,329 @@
+{
+  "id": 1,
+  "user_id": "23020102810@reva.edu.in",
+  "paper_id": "GEN-BIGDATAANALYTICS-5",
+  "paper_json": {
+    "id": "GEN-BIGDATAANALYTICS-5",
+    "date": "TBD",
+    "course": "B.Tech",
+    "subject": "big data analytics",
+    "maxMarks": 100,
+    "sections": [
+      {
+        "name": "UNIT 1",
+        "questions": [
+          {
+            "text": "Set A: 1) Explain the core components of Hadoop, HDFS and YARN, detailing their roles and interactions in a Big Data cluster. Illustrate the anatomy of an HDFS write operation with a diagram.",
+            "marks": 10
+          },
+          {
+            "text": "Set A: 2) Differentiate between Hadoop MapReduce and Apache Spark based on processing speed, latency, fault tolerance, and typical use cases. Explain how Spark achieves higher performance compared to Hadoop.",
+            "marks": 10
+          },
+          {
+            "text": "Set A: 3) Describe the concept of 'Data Locality' in Hadoop and explain its significance in Big Data processing.",
+            "marks": 5
+          },
+          {
+            "text": "OR",
+            "marks": 0
+          },
+          {
+            "text": "Set B: 4) Discuss the evolution of Big Data leading to the development of Hadoop and Spark. Detail the key contributions of Google's whitepapers and Doug Cutting to the Hadoop project.",
+            "marks": 10
+          },
+          {
+            "text": "Set B: 5) Explain the functional programming constructs in Python, specifically focusing on Higher-Order Functions (map(), filter(), reduce()) and Anonymous Functions (lambda). Provide a Python example for each.",
+            "marks": 10
+          },
+          {
+            "text": "Set B: 6) Compare and contrast JSON and Pickle for Python object serialization, highlighting their respective advantages and disadvantages.",
+            "marks": 5
+          }
+        ],
+        "instructions": "Answer ONE full set (Set A OR Set B)"
+      },
+      {
+        "name": "UNIT 2",
+        "questions": [
+          {
+            "text": "Set A: 1) Explain the fundamental difference between RDD Transformations and Actions in Spark. Provide at least three examples for each, stating whether they are narrow or wide transformations, or specific actions.",
+            "marks": 10
+          },
+          {
+            "text": "Set A: 2) Describe the architecture of a Spark application, explaining the roles of the Driver Program, Cluster Manager, Executors, and Tasks. Illustrate how an RDD is processed across these components.",
+            "marks": 10
+          },
+          {
+            "text": "Set A: 3) What are Spark Closures? Explain their significance and potential issues when working with Spark RDDs.",
+            "marks": 5
+          },
+          {
+            "text": "OR",
+            "marks": 0
+          },
+          {
+            "text": "Set B: 4) Discuss the concept of Resilient Distributed Datasets (RDDs) as the primary data abstraction in Spark. Elaborate on their key characteristics (Resilient, Distributed, Dataset).",
+            "marks": 10
+          },
+          {
+            "text": "Set B: 5) Explain the use of shared variables in Spark, differentiating between Broadcast Variables and Accumulators. Provide a use case for each in a Spark application.",
+            "marks": 10
+          },
+          {
+            "text": "Set B: 6) Write a PySpark code snippet to:\n  a) Create an RDD from a list of numbers (e.g., `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`).\n  b) Filter out even numbers.\n  c) Multiply the remaining odd numbers by 10.\n  d) Collect and print the final RDD elements.",
+            "marks": 5
+          }
+        ],
+        "instructions": "Answer ONE full set (Set A OR Set B)"
+      },
+      {
+        "name": "UNIT 3",
+        "questions": [
+          {
+            "text": "Set A: 1) Explain why Spark DataFrames are preferred over RDDs for structured data processing. Discuss the key features and advantages of DataFrames, including schema inference and optimization.",
+            "marks": 10
+          },
+          {
+            "text": "Set A: 2) Describe how to perform common data manipulation operations using Spark DataFrames. Provide PySpark code examples for selecting columns, filtering rows, and grouping with aggregation (e.g., sum, count).",
+            "marks": 10
+          },
+          {
+            "text": "Set A: 3) Briefly explain the role of `SparkSession` in Spark 2.x and later versions. How does it unify different Spark functionalities?",
+            "marks": 5
+          },
+          {
+            "text": "OR",
+            "marks": 0
+          },
+          {
+            "text": "Set B: 4) Discuss various data sources that Spark SQL can connect to and process (e.g., Parquet, CSV, JSON, JDBC). Explain the process of reading and writing data in at least two different formats with code examples.",
+            "marks": 10
+          },
+          {
+            "text": "Set B: 5) Explain the concept of User-Defined Functions (UDFs) in Spark SQL. Describe how to create and register a UDF, and provide a PySpark example demonstrating its usage in a DataFrame operation.",
+            "marks": 10
+          },
+          {
+            "text": "Set B: 6) Differentiate between a \"DenseVector\" and a \"SparseVector\" in the context of Spark ML, and explain when each would be ideally used.",
+            "marks": 5
+          }
+        ],
+        "instructions": "Answer ONE full set (Set A OR Set B)"
+      },
+      {
+        "name": "UNIT 4",
+        "questions": [
+          {
+            "text": "Set A: 1) Explain the `pipe()` function in Spark for processing RDDs with external programs. Discuss the reasons for using it and highlight potential issues that might arise. Provide a concise Python example demonstrating its usage.",
+            "marks": 10
+          },
+          {
+            "text": "Set A: 2) Discuss various strategies for optimizing Spark applications. Focus on \"Filter Early, Filter Often,\" \"Optimizing Associative Operations,\" and \"Avoiding Inefficient Partitioning.\" Provide examples for each.",
+            "marks": 10
+          },
+          {
+            "text": "Set A: 3) Describe two different methods for data sampling in Spark RDDs using the `sample()` and `takeSample()` functions, explaining their key differences and use cases.",
+            "marks": 5
+          },
+          {
+            "text": "OR",
+            "marks": 0
+          },
+          {
+            "text": "Set B: 4) Compare and contrast Spark MLlib and Spark ML libraries for machine learning. Choose one classification algorithm (e.g., Decision Trees) and explain its implementation using either MLlib or ML, outlining the required data format.",
+            "marks": 10
+          },
+          {
+            "text": "Set B: 5) Explain the three primary techniques used in Machine Learning: Classification, Collaborative Filtering, and Clustering. Provide a real-world example for each technique.",
+            "marks": 10
+          },
+          {
+            "text": "Set B: 6) What are Spark ML Pipelines? Briefly explain the role of Transformers and Estimators within a pipeline.",
+            "marks": 5
+          }
+        ],
+        "instructions": "Answer ONE full set (Set A OR Set B)"
+      }
+    ],
+    "semester": "5",
+    "university": "REVA UNIVERSITY",
+    "studentName": "Student",
+    "timeAllowed": "3 Hours"
+  },
+  "answers": [
+    {
+      "feedback": "AI evaluation was unavailable. Your answers were saved. Please contact your instructor for manual grading.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "jbknknk",
+      "original_question": "Set A: 1) Explain the core components of Hadoop, HDFS and YARN, detailing their roles and interactions in a Big Data cluster. Illustrate the anatomy of an HDFS write operation with a diagram."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 2) Differentiate between Hadoop MapReduce and Apache Spark based on processing speed, latency, fault tolerance, and typical use cases. Explain how Spark achieves higher performance compared to Hadoop."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 5,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 3) Describe the concept of 'Data Locality' in Hadoop and explain its significance in Big Data processing."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 4) Discuss the evolution of Big Data leading to the development of Hadoop and Spark. Detail the key contributions of Google's whitepapers and Doug Cutting to the Hadoop project."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 5) Explain the functional programming constructs in Python, specifically focusing on Higher-Order Functions (map(), filter(), reduce()) and Anonymous Functions (lambda). Provide a Python example for each."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 5,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 6) Compare and contrast JSON and Pickle for Python object serialization, highlighting their respective advantages and disadvantages."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 1) Explain the fundamental difference between RDD Transformations and Actions in Spark. Provide at least three examples for each, stating whether they are narrow or wide transformations, or specific actions."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 2) Describe the architecture of a Spark application, explaining the roles of the Driver Program, Cluster Manager, Executors, and Tasks. Illustrate how an RDD is processed across these components."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 5,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 3) What are Spark Closures? Explain their significance and potential issues when working with Spark RDDs."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 4) Discuss the concept of Resilient Distributed Datasets (RDDs) as the primary data abstraction in Spark. Elaborate on their key characteristics (Resilient, Distributed, Dataset)."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 5) Explain the use of shared variables in Spark, differentiating between Broadcast Variables and Accumulators. Provide a use case for each in a Spark application."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 5,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 6) Write a PySpark code snippet to:\n  a) Create an RDD from a list of numbers (e.g., `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`).\n  b) Filter out even numbers.\n  c) Multiply the remaining odd numbers by 10.\n  d) Collect and print the final RDD elements."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 1) Explain why Spark DataFrames are preferred over RDDs for structured data processing. Discuss the key features and advantages of DataFrames, including schema inference and optimization."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 2) Describe how to perform common data manipulation operations using Spark DataFrames. Provide PySpark code examples for selecting columns, filtering rows, and grouping with aggregation (e.g., sum, count)."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 5,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 3) Briefly explain the role of `SparkSession` in Spark 2.x and later versions. How does it unify different Spark functionalities?"
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 4) Discuss various data sources that Spark SQL can connect to and process (e.g., Parquet, CSV, JSON, JDBC). Explain the process of reading and writing data in at least two different formats with code examples."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 5) Explain the concept of User-Defined Functions (UDFs) in Spark SQL. Describe how to create and register a UDF, and provide a PySpark example demonstrating its usage in a DataFrame operation."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 5,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 6) Differentiate between a \"DenseVector\" and a \"SparseVector\" in the context of Spark ML, and explain when each would be ideally used."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 1) Explain the `pipe()` function in Spark for processing RDDs with external programs. Discuss the reasons for using it and highlight potential issues that might arise. Provide a concise Python example demonstrating its usage."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 2) Discuss various strategies for optimizing Spark applications. Focus on \"Filter Early, Filter Often,\" \"Optimizing Associative Operations,\" and \"Avoiding Inefficient Partitioning.\" Provide examples for each."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 5,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set A: 3) Describe two different methods for data sampling in Spark RDDs using the `sample()` and `takeSample()` functions, explaining their key differences and use cases."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 4) Compare and contrast Spark MLlib and Spark ML libraries for machine learning. Choose one classification algorithm (e.g., Decision Trees) and explain its implementation using either MLlib or ML, outlining the required data format."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 10,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 5) Explain the three primary techniques used in Machine Learning: Classification, Collaborative Filtering, and Clustering. Provide a real-world example for each technique."
+    },
+    {
+      "feedback": "No answer provided for this question.",
+      "max_marks": 5,
+      "marks_awarded": 0,
+      "student_answer": "(blank)",
+      "original_question": "Set B: 6) What are Spark ML Pipelines? Briefly explain the role of Transformers and Estimators within a pipeline."
+    }
+  ],
+  "selected_sets": {},
+  "score": 0,
+  "status": "GRADED",
+  "started_at": "2026-02-22T14:32:36.441Z",
+  "submitted_at": "2026-02-22T14:32:42.362Z"
+}

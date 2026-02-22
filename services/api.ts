@@ -162,3 +162,11 @@ export const fetchTestResult = async (attemptId: string) => {
     const res = await axios.get(`${API_BASE}/test/result/${attemptId}`);
     return res.data;
 };
+
+export const fetchAnalytics = async (email: string) => {
+    const res = await fetch(`${API_BASE}/analytics?userId=${encodeURIComponent(email)}`);
+    if (!res.ok) {
+        throw new Error('Failed to fetch analytics data');
+    }
+    return res.json();
+};

@@ -1,0 +1,2 @@
+Q1 SUCCESS: [{"total_tests":"0","avg_score":null,"highest_score":null}]
+DB ERROR 2: operator does not exist: character varying = integer

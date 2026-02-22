@@ -11,6 +11,7 @@ import Result from './pages/Result';
 import History from './pages/History';
 import Settings from './pages/Settings';
 import Login from './pages/Login';
+import Analytics from './pages/Analytics';
 import Test from './pages/Test';
 import TestResult from './pages/TestResult';
 
@@ -203,6 +204,10 @@ const AppContent: React.FC = () => {
                 <Route
                   path="/settings"
                   element={user ? <Settings user={user} onUpdateUser={login} /> : <Navigate to="/login" />}
+                />
+                <Route
+                  path="/analytics"
+                  element={user ? <Analytics user={user} /> : <Navigate to="/login" />}
                 />
               </Routes>
             </motion.div>

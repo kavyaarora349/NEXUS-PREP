@@ -32,6 +32,9 @@ const transporter = nodemailer.createTransport({
     }
 });
 
+// Import Analytics Route
+import analyticsRoutes from './routes/analytics.js';
+app.use('/api/analytics', analyticsRoutes);
 
 // Basic health check route
 app.get('/', (req, res) => {

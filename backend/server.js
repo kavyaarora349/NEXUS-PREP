@@ -463,6 +463,14 @@ app.post('/api/generate-paper', upload.array('notes', 10), async (req, res) => {
 
             if (code !== 0) {
                 console.error(`[GENERATOR] Python process exited with code ${code}`);
+                try {
+                    const parsed = JSON.parse(outputData.trim());
+                    if (parsed.error) {
+                        return res.status(500).json({ success: false, error: parsed.error });
+                    }
+                } catch (e) {
+                    // Fallback if not parsable JSON error
+                }
                 return res.status(500).json({ success: false, error: 'AI Pipeline failed during execution. See server logs.' });
             }
 

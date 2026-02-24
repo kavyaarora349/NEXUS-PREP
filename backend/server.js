@@ -344,14 +344,14 @@ app.post('/api/auth/forgot-password', async (req, res) => {
 
         // 4. Send Email via Nodemailer
         const mailOptions = {
-            from: `"PaperGen" <${process.env.EMAIL_USER}>`,
+            from: `"nexusprep" <${process.env.EMAIL_USER}>`,
             to: email,
-            subject: 'PaperGen Password Reset Code',
+            subject: 'nexusprep Password Reset Code',
             html: `
                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #f9f9f9; padding: 20px; border-radius: 10px;">
                     <h2 style="color: #4f46e5; text-align: center;">Reset Your Password</h2>
                     <p style="color: #333; font-size: 16px;">Hello,</p>
-                    <p style="color: #333; font-size: 16px;">We received a request to reset your PaperGen password. Use the following 6-digit code to proceed:</p>
+                    <p style="color: #333; font-size: 16px;">We received a request to reset your nexusprep password. Use the following 6-digit code to proceed:</p>
                     <div style="background-color: #fff; padding: 15px; text-align: center; border-radius: 8px; margin: 20px 0; border: 1px solid #ddd;">
                         <span style="font-size: 32px; font-weight: bold; letter-spacing: 5px; color: #111;">${otp}</span>
                     </div>

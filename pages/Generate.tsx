@@ -15,7 +15,7 @@ import { QuestionPaper } from '../types';
 // Mock simple useAuth if context isn't available in scope. 
 // Assuming user ID needs to be pulled from local storage based on earlier login setup.
 const getUserId = () => {
-  const userStr = localStorage.getItem('papergen_user');
+  const userStr = localStorage.getItem('nexusprep_user');
   if (userStr) {
     try { return JSON.parse(userStr).email; } catch (e) { return null; }
   }
@@ -23,11 +23,11 @@ const getUserId = () => {
 }
 
 interface GenerateProps {
-  onPaperGenerated: (paper: QuestionPaper) => void;
+  onnexuspreperated: (paper: QuestionPaper) => void;
   setGlobalLoading: (loading: { active: boolean; message: string; subMessage: string }) => void;
 }
 
-const Generate: React.FC<GenerateProps> = ({ onPaperGenerated, setGlobalLoading }) => {
+const Generate: React.FC<GenerateProps> = ({ onnexuspreperated, setGlobalLoading }) => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     subject: '',
@@ -104,7 +104,7 @@ const Generate: React.FC<GenerateProps> = ({ onPaperGenerated, setGlobalLoading 
           parsedPaper = result.paper;
         }
 
-        onPaperGenerated(parsedPaper);
+        onnexuspreperated(parsedPaper);
         setGlobalLoading({ active: false, message: "", subMessage: "" });
 
         setTimeout(() => {

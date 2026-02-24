@@ -174,14 +174,14 @@ const Landing: React.FC = () => {
       <footer className="py-12 px-6 border-t border-white/5 text-center text-gray-500">
         <div className="flex items-center justify-center gap-2 mb-4">
           <Sparkles className="w-5 h-5" />
-          <span className="font-bold text-white">PaperGen AI</span>
+          <span className="font-bold text-white">Nexus Prep</span>
         </div>
         <div className="flex justify-center gap-8 mb-8 text-sm">
            <a href="#" className="hover:text-white transition-colors">Privacy</a>
            <a href="#" className="hover:text-white transition-colors">Terms</a>
            <a href="#" className="hover:text-white transition-colors">Cookie Policy</a>
         </div>
-        <p>&copy; 2024 PaperGen AI. Built for REVA University Students.</p>
+        <p>&copy; 2024 Nexus Prep. Built for REVA University Students.</p>
       </footer>
     </div>
   );

@@ -68,7 +68,7 @@ const AppContent: React.FC = () => {
     const savedHistory = localStorage.getItem('paper_history');
     if (savedHistory) setHistory(JSON.parse(savedHistory));
 
-    const savedUser = localStorage.getItem('papergen_user');
+    const savedUser = localStorage.getItem('nexusprep_user');
     if (savedUser) {
       const parsedUser = JSON.parse(savedUser);
       setUser(parsedUser);
@@ -102,14 +102,14 @@ const AppContent: React.FC = () => {
     }
 
     setUser(finalUser);
-    localStorage.setItem('papergen_user', JSON.stringify(finalUser));
+    localStorage.setItem('nexusprep_user', JSON.stringify(finalUser));
     document.body.className = `theme-${finalUser.theme}`;
   };
 
   const logout = () => {
     setUser(null);
     setHistory([]);
-    localStorage.removeItem('papergen_user');
+    localStorage.removeItem('nexusprep_user');
     localStorage.removeItem('paper_history');
     document.body.className = 'theme-Dark';
   };
@@ -180,7 +180,7 @@ const AppContent: React.FC = () => {
                 />
                 <Route
                   path="/generate"
-                  element={user ? <Generate setGlobalLoading={setGlobalLoading} onPaperGenerated={(paper) => {
+                  element={user ? <Generate setGlobalLoading={setGlobalLoading} onnexuspreperated={(paper) => {
                     setCurrentPaper(paper);
                     addToHistory(paper);
                   }} /> : <Navigate to="/login" />}

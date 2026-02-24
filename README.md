@@ -1,6 +1,6 @@
-# PaperGen AI 🎓✨
+# Nexus Prep 🎓✨
 
-PaperGen AI is a full-stack, AI-powered platform designed specifically for students to effortlessly generate, take, and evaluate university-level question papers based on their own uploaded PDF notes and study materials. 
+Nexus Prep is a full-stack, AI-powered platform designed specifically for students to effortlessly generate, take, and evaluate university-level question papers based on their own uploaded PDF notes and study materials. 
 
 Built with a specialized focus on **REVA University's Unit/Set exam patterns**, this platform uses Google's Gemini 2.5 AI SDK to intelligently analyze study material and generate rigorous, structurally accurate exam papers.
 
@@ -48,8 +48,8 @@ Built with a specialized focus on **REVA University's Unit/Set exam patterns**, 
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/kavyaarora349/papergen.git
-cd papergen
+git clone https://github.com/kavyaarora349/nexusprep.git
+cd nexusprep
 
 # Install Frontend Dependencies
 npm install
@@ -66,7 +66,7 @@ pip install -r ../requirements.txt
 
 Create a `.env` file inside the `backend/` directory by looking at `backend/.env.example`. You will need:
 ```env
-DATABASE_URL=postgresql://user:password@localhost:5432/papergen_db
+DATABASE_URL=postgresql://user:password@localhost:5432/nexusprep_db
 PORT=8001
 GEMINI_API_KEY=your_gemini_api_key_here
 ```

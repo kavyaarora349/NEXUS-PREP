@@ -1,5 +1,5 @@
 {
-    "name": "papergen-ai-backend",
+    "name": "nexusprep-ai-backend",
     "version": "1.0.0",
     "description": "Backend for Question Paper Generator App",
     "main": "server.js",

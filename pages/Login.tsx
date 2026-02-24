@@ -204,7 +204,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
               >
                 <div className="text-center">
                   <h2 className="text-3xl font-bold">{isLogin ? 'Welcome back' : 'Create an account'}</h2>
-                  <p className="text-gray-400 mt-2">{isLogin ? 'Sign in to your PaperGen account' : 'Join PaperGen to start generating papers'}</p>
+                  <p className="text-gray-400 mt-2">{isLogin ? 'Sign in to your nexusprep account' : 'Join nexusprep to start generating papers'}</p>
                 </div>
 
                 {error && (

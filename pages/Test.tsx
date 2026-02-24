@@ -45,7 +45,7 @@ const Test: React.FC = () => {
         const initTest = async () => {
             try {
                 // For demo purposes, we usually rely on localStorage
-                const rawUser = localStorage.getItem('papergen_user');
+                const rawUser = localStorage.getItem('nexusprep_user');
                 if (!rawUser) { navigate('/login'); return; }
                 const user = JSON.parse(rawUser);
 
@@ -106,7 +106,7 @@ const Test: React.FC = () => {
 
         const trackEvent = async (type: string) => {
             if (!isTrackingRef.current) return;
-            const rawUser = localStorage.getItem('papergen_user');
+            const rawUser = localStorage.getItem('nexusprep_user');
             if (!rawUser) return;
             const user = JSON.parse(rawUser);
             const paperIdStr = String(paper?.id ?? 'unknown');

@@ -53,7 +53,7 @@ const Sidebar: React.FC<SidebarProps> = ({ user, onLogout }) => {
               <Sparkles className="w-5 h-5 text-white" />
             </div>
             {isOpen && (
-              <span className="text-lg font-bold whitespace-nowrap">PaperGen AI</span>
+              <span className="text-lg font-bold whitespace-nowrap">Nexus Prep</span>
             )}
           </Link>
         </div>

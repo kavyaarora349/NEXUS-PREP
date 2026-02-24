@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ user, onLogout }) => {
             <Sparkles className="w-6 h-6 text-white" />
           </div>
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-            PaperGen AI
+            Nexus Prep
           </span>
         </Link>
         

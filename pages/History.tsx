@@ -20,7 +20,7 @@ const History: React.FC<HistoryProps> = ({ onSelectPaper }) => {
 
   useEffect(() => {
     const loadData = async () => {
-      const userStr = localStorage.getItem('papergen_user');
+      const userStr = localStorage.getItem('nexusprep_user');
       if (userStr) {
         try {
           const user = JSON.parse(userStr);

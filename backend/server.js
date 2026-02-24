@@ -414,6 +414,69 @@ app.post('/api/auth/reset-password', async (req, res) => {
     }
 });
 
+// ==========================================
+// User Data APIs (Profile & History)
+// ==========================================
+
+// PUT /api/profile/:userId: Update user profile
+app.put('/api/profile/:userId', async (req, res) => {
+    try {
+        const { userId } = req.params;
+        const { name, university, semester, theme } = req.body;
+
+        const query = `
+            UPDATE users 
+            SET name = COALESCE($1, name), 
+                university = COALESCE($2, university), 
+                semester = COALESCE($3, semester), 
+                theme = COALESCE($4, theme)
+            WHERE email = $5 
+            RETURNING *;
+        `;
+        const result = await pool.query(query, [name, university, semester, theme, userId]);
+        if (result.rows.length === 0) {
+            return res.status(404).json({ error: 'User not found' });
+        }
+        const user = result.rows[0];
+        delete user.password;
+        res.status(200).json(user);
+    } catch (error) {
+        console.error('Error updating profile:', error);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+});
+
+// GET /api/papers/:userId: Get all generated papers for a user
+app.get('/api/papers/:userId', async (req, res) => {
+    try {
+        const { userId } = req.params;
+        const query = 'SELECT * FROM papers WHERE user_id = $1 ORDER BY created_at DESC';
+        const result = await pool.query(query, [userId]);
+        res.status(200).json(result.rows);
+    } catch (error) {
+        console.error('Error fetching papers:', error);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+});
+
+// POST /api/papers: Backup save a paper from frontend
+app.post('/api/papers', async (req, res) => {
+    try {
+        const { user_id, subject, semester, student_name, full_json_data } = req.body;
+        const query = `
+            INSERT INTO papers (user_id, subject, semester, student_name, full_json_data)
+            VALUES ($1, $2, $3, $4, $5)
+            RETURNING *;
+        `;
+        const values = [user_id, subject, semester ? semester.toString() : '1', student_name || 'Student', JSON.stringify(full_json_data)];
+        const result = await pool.query(query, values);
+        res.status(201).json(result.rows[0]);
+    } catch (error) {
+        console.error('Error saving paper:', error);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+});
+
 // POST /api/generate-paper: AI Generation via Python pipeline
 app.post('/api/generate-paper', upload.array('notes', 10), async (req, res) => {
     try {

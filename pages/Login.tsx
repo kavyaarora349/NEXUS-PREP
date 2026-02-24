@@ -12,11 +12,12 @@ interface LoginProps {
 
 const Login: React.FC<LoginProps> = ({ onLogin }) => {
   const navigate = useNavigate();
-  const [step, setStep] = useState<'auth' | 'profile' | 'forgot'>('auth');
+  const [step, setStep] = useState<'auth' | 'forgot'>('auth');
   const [isLogin, setIsLogin] = useState<boolean>(true);
   const [formData, setFormData] = useState({
     email: '',
     password: '',
+    confirmPassword: '',
     name: '',
     university: 'REVA University',
     semester: '1',
@@ -88,6 +89,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
     setError(null);
     setSuccessMsg(null);
     setIsLoading(true);
+
     if (isLogin) {
       try {
         const user = await loginUser({ email: formData.email, password: formData.password });
@@ -104,8 +106,31 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
         setIsLoading(false);
       }
     } else {
-      setStep('profile');
-      setIsLoading(false);
+      if (formData.password !== formData.confirmPassword) {
+        setError('Passwords do not match');
+        setIsLoading(false);
+        return;
+      }
+      try {
+        const user = await registerUser({
+          email: formData.email,
+          password: formData.password,
+          name: formData.name || 'Student',
+          university: formData.university,
+          semester: formData.semester
+        });
+        await onLogin({
+          email: user.email,
+          name: user.name,
+          university: user.university,
+          semester: user.semester
+        });
+        navigate('/dashboard');
+      } catch (err: any) {
+        setError(err.message || 'Failed to create account.');
+      } finally {
+        setIsLoading(false);
+      }
     }
   };
 
@@ -150,28 +175,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
     }
   };
 
-  const handleProfileSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setError(null);
-    try {
-      const user = await registerUser({
-        email: formData.email,
-        password: formData.password,
-        name: formData.name || 'Student',
-        university: formData.university,
-        semester: formData.semester
-      });
-      onLogin({
-        email: user.email,
-        name: user.name,
-        university: user.university,
-        semester: user.semester
-      });
-      navigate('/dashboard');
-    } catch (err: any) {
-      setError(err.message || 'Failed to create account.');
-    }
-  };
+
 
   return (
     <div className="relative min-h-[calc(100vh-80px)] flex items-center justify-center p-6 overflow-hidden">
@@ -215,6 +219,21 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                 )}
 
                 <form onSubmit={handleAuthSubmit} className="space-y-4">
+                  {!isLogin && (
+                    <div className="space-y-2">
+                      <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
+                        <User className="w-4 h-4" /> Full Name
+                      </label>
+                      <input
+                        required
+                        type="text"
+                        value={formData.name}
+                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                        className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
+                        placeholder="John Doe"
+                      />
+                    </div>
+                  )}
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
                       <Mail className="w-4 h-4" /> Email address
@@ -257,6 +276,53 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                       placeholder="••••••••"
                     />
                   </div>
+
+                  {!isLogin && (
+                    <>
+                      <div className="space-y-2">
+                        <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
+                          <Lock className="w-4 h-4" /> Confirm Password
+                        </label>
+                        <input
+                          required
+                          type="password"
+                          value={formData.confirmPassword}
+                          onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
+                          className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
+                          placeholder="••••••••"
+                        />
+                      </div>
+
+                      <div className="space-y-2">
+                        <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
+                          <School className="w-4 h-4" /> University
+                        </label>
+                        <input
+                          required
+                          type="text"
+                          value={formData.university}
+                          onChange={(e) => setFormData({ ...formData, university: e.target.value })}
+                          className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
+                          placeholder="REVA University"
+                        />
+                      </div>
+
+                      <div className="space-y-2">
+                        <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
+                          <GraduationCap className="w-4 h-4" /> Current Semester
+                        </label>
+                        <select
+                          value={formData.semester}
+                          onChange={(e) => setFormData({ ...formData, semester: e.target.value })}
+                          className="w-full bg-[#0b101c] border border-white/10 rounded-2xl px-5 py-4 focus:ring-2 focus:ring-indigo-500 outline-none transition-all appearance-none"
+                        >
+                          {[1, 2, 3, 4, 5, 6, 7, 8].map(s => (
+                            <option key={s} value={s.toString()}>Semester {s}</option>
+                          ))}
+                        </select>
+                      </div>
+                    </>
+                  )}
 
                   <button
                     type="submit"
@@ -320,7 +386,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                   </button>
                 </div>
               </motion.div>
-            ) : step === 'forgot' ? (
+            ) : (
               <motion.div
                 key="forgot"
                 initial={{ opacity: 0, x: 20 }}
@@ -417,84 +483,6 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                     Back to login
                   </button>
                 </form>
-              </motion.div>
-            ) : (
-              <motion.div
-                key="profile"
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                className="space-y-8"
-              >
-                <div className="text-center">
-                  <h2 className="text-3xl font-bold">Complete Profile</h2>
-                  <p className="text-gray-400 mt-2">Help us personalize your papers</p>
-                </div>
-
-                {error && (
-                  <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-sm text-center">
-                    {error}
-                  </motion.div>
-                )}
-
-                <form onSubmit={handleProfileSubmit} className="space-y-4">
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
-                      <User className="w-4 h-4" /> Full Name
-                    </label>
-                    <input
-                      required
-                      type="text"
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
-                      placeholder="Kavya S."
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
-                      <School className="w-4 h-4" /> University
-                    </label>
-                    <input
-                      required
-                      type="text"
-                      value={formData.university}
-                      onChange={(e) => setFormData({ ...formData, university: e.target.value })}
-                      className="w-full bg-white/5 border border-white/10 rounded-2xl px-5 py-4 focus:ring-2 focus:ring-indigo-500 outline-none transition-all"
-                      placeholder="REVA University"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-400 flex items-center gap-2">
-                      <GraduationCap className="w-4 h-4" /> Current Semester
-                    </label>
-                    <select
-                      value={formData.semester}
-                      onChange={(e) => setFormData({ ...formData, semester: e.target.value })}
-                      className="w-full bg-[#0b101c] border border-white/10 rounded-2xl px-5 py-4 focus:ring-2 focus:ring-indigo-500 outline-none transition-all appearance-none"
-                    >
-                      {[1, 2, 3, 4, 5, 6, 7, 8].map(s => (
-                        <option key={s} value={s.toString()}>Semester {s}</option>
-                      ))}
-                    </select>
-                  </div>
-
-                  <button
-                    type="submit"
-                    className="w-full py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold rounded-2xl flex items-center justify-center gap-2 hover:opacity-90 transition-all active:scale-95 shadow-xl shadow-indigo-600/20"
-                  >
-                    Finish Setup <Sparkles className="w-5 h-5" />
-                  </button>
-                </form>
-
-                <button
-                  onClick={() => setStep('auth')}
-                  className="w-full text-center text-sm text-gray-500 hover:text-white transition-colors"
-                >
-                  Back to login
-                </button>
               </motion.div>
             )}
           </AnimatePresence>

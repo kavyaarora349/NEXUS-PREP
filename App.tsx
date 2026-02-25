@@ -171,7 +171,7 @@ const AppContent: React.FC = () => {
             >
               <Routes location={location}>
                 <Route path="/" element={<Landing />} />
-                <Route path="/login" element={<Login onLogin={login} />} />
+                <Route path="/login" element={user ? <Navigate to="/dashboard" replace /> : <Login onLogin={login} />} />
 
                 {/* Protected Routes */}
                 <Route

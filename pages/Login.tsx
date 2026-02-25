@@ -53,7 +53,6 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
         university: user.university,
         semester: user.semester
       });
-      navigate('/dashboard');
     } catch (err: any) {
       setError(err.message || 'GitHub Login failed. Please try again.');
     } finally {
@@ -74,7 +73,6 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
           university: user.university,
           semester: user.semester
         });
-        navigate('/dashboard');
       } catch (err: any) {
         setError(err.message || 'Google Login failed. Please try again.');
       } finally {
@@ -99,7 +97,6 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
           university: user.university,
           semester: user.semester
         });
-        navigate('/dashboard');
       } catch (err: any) {
         setError(err.message || 'Failed to sign in. Please check your password.');
       } finally {
@@ -125,7 +122,6 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
           university: user.university,
           semester: user.semester
         });
-        navigate('/dashboard');
       } catch (err: any) {
         setError(err.message || 'Failed to create account.');
       } finally {

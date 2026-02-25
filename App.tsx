@@ -79,31 +79,38 @@ const AppContent: React.FC = () => {
   }, []);
 
   const login = async (userData: UserProfile) => {
-    let finalUser = { ...userData, theme: userData.theme || user?.theme || 'Dark' };
+    try {
+      let finalUser = { ...userData, theme: userData.theme || user?.theme || 'Dark' };
 
-    // Sync with PostgreSQL
-    if (finalUser.email) {
-      try {
-        setGlobalLoading({ active: true, message: "Syncing your profile...", subMessage: "Connecting to secure database" });
+      // Sync with PostgreSQL
+      if (finalUser.email) {
+        try {
+          setGlobalLoading({ active: true, message: "Syncing your profile...", subMessage: "Connecting to secure database" });
 
-        await saveUserProfile(finalUser.email, finalUser);
+          await saveUserProfile(finalUser.email, finalUser);
 
-        const h = await fetchHistory(finalUser.email);
-        if (Array.isArray(h) && h.length > 0) {
-          const parsedHistory = h.map((row: any) => typeof row.full_json_data === 'string' ? JSON.parse(row.full_json_data) : row.full_json_data);
-          setHistory(parsedHistory);
-          localStorage.setItem('paper_history', JSON.stringify(parsedHistory));
+          const h = await fetchHistory(finalUser.email);
+          if (Array.isArray(h) && h.length > 0) {
+            const parsedHistory = h.map((row: any) => typeof row.full_json_data === 'string' ? JSON.parse(row.full_json_data) : row.full_json_data);
+            setHistory(parsedHistory);
+            localStorage.setItem('paper_history', JSON.stringify(parsedHistory));
+          }
+        } catch (err) {
+          console.error("Database sync failed:", err);
+        } finally {
+          setGlobalLoading({ active: false, message: "", subMessage: "" });
         }
-      } catch (err) {
-        console.error("Database sync failed:", err);
-      } finally {
-        setGlobalLoading({ active: false, message: "", subMessage: "" });
       }
-    }
 
-    setUser(finalUser);
-    localStorage.setItem('nexusprep_user', JSON.stringify(finalUser));
-    document.body.className = `theme-${finalUser.theme}`;
+      setUser(finalUser);
+      localStorage.setItem('nexusprep_user', JSON.stringify(finalUser));
+      document.body.className = `theme-${finalUser.theme}`;
+    } catch (err) {
+      console.error("Unexpected error in login handler:", err);
+      // Ensure we don't leave the loading spinner active globally
+      setGlobalLoading({ active: false, message: "", subMessage: "" });
+      throw err; // Re-throw so Login.tsx can catch and show the error text
+    }
   };
 
   const logout = () => {

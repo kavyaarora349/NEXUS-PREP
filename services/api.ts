@@ -101,7 +101,11 @@ export const saveUserProfile = async (userId: string, profileData: any) => {
         body: JSON.stringify(profileData),
     });
     if (!res.ok) throw new Error('Failed to save profile');
-    return res.json();
+    try {
+        return await res.json();
+    } catch (e) {
+        return null;
+    }
 };
 
 export const fetchUserProfile = async (userId: string) => {
@@ -122,8 +126,15 @@ export const savePaper = async (paperData: any) => {
 
 export const fetchHistory = async (userId: string) => {
     const res = await fetch(`${API_BASE}/papers/${userId}`);
-    if (!res.ok) throw new Error('Failed to fetch history');
-    return res.json();
+    if (!res.ok) {
+        if (res.status === 404) return []; // New users have no history
+        throw new Error('Failed to fetch history');
+    }
+    try {
+        return await res.json();
+    } catch (e) {
+        return [];
+    }
 };
 
 export const generatePaper = async (formData: FormData) => {

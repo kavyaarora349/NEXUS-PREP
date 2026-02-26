@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -22,7 +21,7 @@ import GlobalLoader from './components/GlobalLoader';
 
 // Types
 import { QuestionPaper } from './types';
-import { saveUserProfile, fetchUserProfile, fetchHistory, savePaper } from './services/api';
+import { saveUserProfile, fetchUserProfile, fetchHistory, savePaper, startKeepAlive, stopKeepAlive } from './services/api';
 
 interface UserProfile {
   name: string;
@@ -76,6 +75,14 @@ const AppContent: React.FC = () => {
         document.body.className = `theme-${parsedUser.theme}`;
       }
     }
+
+    // Start keep-alive to prevent cold start on Render
+    startKeepAlive();
+
+    // Cleanup on unmount
+    return () => {
+      stopKeepAlive();
+    };
   }, []);
 
   const login = async (userData: UserProfile) => {
@@ -187,7 +194,7 @@ const AppContent: React.FC = () => {
                 />
                 <Route
                   path="/generate"
-                  element={user ? <Generate setGlobalLoading={setGlobalLoading} onnexuspreperated={(paper) => {
+                  element={user ? <Generate setGlobalLoading={setGlobalLoading} onPaperGenerated={(paper) => {
                     setCurrentPaper(paper);
                     addToHistory(paper);
                   }} /> : <Navigate to="/login" />}

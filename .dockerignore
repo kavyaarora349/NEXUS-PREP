@@ -1,9 +1,0 @@
-node_modules
-backend/node_modules
-.env
-.env.local
-.git
-.github
-dist
-input_pdfs
-backend/uploads

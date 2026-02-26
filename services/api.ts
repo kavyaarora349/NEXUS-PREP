@@ -127,7 +127,7 @@ export const savePaper = async (paperData: any) => {
 export const fetchHistory = async (userId: string) => {
     const res = await fetch(`${API_BASE}/papers/${userId}`);
     if (!res.ok) {
-        if (res.status === 404) return []; // New users have no history
+        if (res.status === 404) return [];
         throw new Error('Failed to fetch history');
     }
     try {
@@ -145,10 +145,6 @@ export const generatePaper = async (formData: FormData) => {
     });
     return res.data;
 };
-
-// =====================================
-// SECURE TEST MODE APIs
-// =====================================
 
 export const startTest = async (payload: { user_id: string, paper_id: string, paper_json: any }) => {
     const res = await axios.post(`${API_BASE}/test/start`, payload);
@@ -181,4 +177,58 @@ export const fetchAnalytics = async (email: string) => {
         throw new Error('Failed to fetch analytics data');
     }
     return res.json();
+};
+
+// =====================================
+// WARMUP / KEEP-ALIVE FUNCTIONS
+// =====================================
+
+export const warmupServer = async () => {
+    try {
+        const res = await fetch(`${API_BASE}/warmup`, {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' },
+        });
+        const data = await res.json();
+        console.log('[WARMUP] Server warmed up:', data);
+        return data;
+    } catch (error) {
+        console.error('[WARMUP] Failed to warm up server:', error);
+        return null;
+    }
+};
+
+export const checkServerHealth = async () => {
+    try {
+        const res = await fetch(`${API_BASE}/health`, {
+            method: 'GET',
+            headers: { 'Content-Type': 'application/json' },
+        });
+        const data = await res.json();
+        return data;
+    } catch (error) {
+        console.error('[HEALTH] Failed to check server health:', error);
+        return null;
+    }
+};
+
+let keepAliveInterval: ReturnType<typeof setInterval> | null = null;
+
+export const startKeepAlive = (intervalMs: number = 5 * 60 * 1000) => {
+    if (keepAliveInterval) {
+        clearInterval(keepAliveInterval);
+    }
+    warmupServer();
+    keepAliveInterval = setInterval(() => {
+        warmupServer();
+    }, intervalMs);
+    console.log('[KEEP-ALIVE] Started periodic warmup');
+};
+
+export const stopKeepAlive = () => {
+    if (keepAliveInterval) {
+        clearInterval(keepAliveInterval);
+        keepAliveInterval = null;
+        console.log('[KEEP-ALIVE] Stopped periodic warmup');
+    }
 };

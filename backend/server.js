@@ -6,7 +6,7 @@ import multer from 'multer';
 import { spawn } from 'child_process';
 import path from 'path';
 import fs from 'fs';
-import { pool } from './db.js';
+import { pool, warmupDatabase, startDatabaseKeepAlive } from './db.js';
 import { OAuth2Client } from 'google-auth-library';
 import nodemailer from 'nodemailer';
 
@@ -39,6 +39,47 @@ app.use('/api/analytics', analyticsRoutes);
 // Basic health check route
 app.get('/', (req, res) => {
     res.json({ message: 'Question Paper Generator API is running' });
+});
+
+// Health check endpoint for Render and monitoring
+app.get('/api/health', async (req, res) => {
+    try {
+        // Test database connection
+        const dbStart = Date.now();
+        await pool.query('SELECT 1');
+        const dbLatency = Date.now() - dbStart;
+        
+        res.json({ 
+            status: 'healthy', 
+            timestamp: new Date().toISOString(),
+            database: { connected: true, latency_ms: dbLatency }
+        });
+    } catch (error) {
+        res.status(503).json({ 
+            status: 'unhealthy', 
+            error: error.message,
+            timestamp: new Date().toISOString()
+        });
+    }
+});
+
+// Warmup endpoint to wake up the service and prepare for requests
+app.get('/api/warmup', async (req, res) => {
+    try {
+        // Pre-warm database connection
+        await pool.query('SELECT 1');
+        
+        res.json({ 
+            success: true, 
+            message: 'Service warmed up and ready',
+            timestamp: new Date().toISOString()
+        });
+    } catch (error) {
+        res.status(500).json({ 
+            success: false, 
+            error: error.message 
+        });
+    }
 });
 
 // ==========================================
@@ -692,11 +733,18 @@ app.get('/api/papers/:user_id', async (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
+app.listen(port, async () => {
     console.log(`Server is running on http://localhost:${port}`);
     if (!process.env.DATABASE_URL) {
         console.warn('⚠️  DATABASE_URL environment variable is not set!');
     }
+    
+    // Warm up database on server start
+    await warmupDatabase();
+    
+    // Start database keep-alive to prevent connection timeout
+    startDatabaseKeepAlive();
+    console.log('[SERVER] Database keep-alive started');
 });
 
 // Trigger nodemon restart after env fix

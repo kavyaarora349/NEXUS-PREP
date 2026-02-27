@@ -23,11 +23,11 @@ const getUserId = () => {
 }
 
 interface GenerateProps {
-  onnexuspreperated: (paper: QuestionPaper) => void;
+  onPaperGenerated: (paper: QuestionPaper) => void;
   setGlobalLoading: (loading: { active: boolean; message: string; subMessage: string }) => void;
 }
 
-const Generate: React.FC<GenerateProps> = ({ onnexuspreperated, setGlobalLoading }) => {
+const Generate: React.FC<GenerateProps> = ({ onPaperGenerated, setGlobalLoading }) => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     subject: '',
@@ -104,7 +104,7 @@ const Generate: React.FC<GenerateProps> = ({ onnexuspreperated, setGlobalLoading
           parsedPaper = result.paper;
         }
 
-        onnexuspreperated(parsedPaper);
+        onPaperGenerated(parsedPaper);
         setGlobalLoading({ active: false, message: "", subMessage: "" });
 
         setTimeout(() => {
